@@ -1,0 +1,11 @@
+Thanks, I just had a look and they look good in general but I usually don't use so many nodes.
+
+The thing to keep in mind is that the route nodes are used for 2 proposes: unit spawning and patrol routes. Each alien unit controlled by the AI can have several modes: patrol, engage, flee, take cover, etc. Patrol is used when there are no XCOM units detected by the unit and the nodes connections with one another define the routes following during the patrols. But when the AI engages in combat the routes are not used anymore, so at the beginning the routes followed by the aliens are very important but once you start engaging the aliens they are used less and less.
+
+The AI is also fairly competent in finding a path to move an alien from node A to B even if they are 10 squares away, so it doesn't need a lot of nodes, as long as they are properly connected. But the most important is to consider the position of the alien unit when it reaches a certain node: which direction will it be facing and what areas can it see. And if it reaches that position and finds an enemy unit it will switch to engage mode, where the routes will not be used anymore. 
+
+
+
+The main thing that can happen is that an alien will spend most time moving inside a 10x10 mapblock rather than going to adjacent map blocks. This behavior can actually be desirable but there's an easy way to achieve this, which is the Flag field: the higher the number the most likely the alien is to choose going to that node when patrolling.
+
+Also, the reason why the route system was designed without the need for so many nodes also has to do with the limitations of the original game. The game engine could only load 256 route nodes, and if you consider a 50x50 battlescape, then on average each 10x10 map block can have up to 5 nodes. 

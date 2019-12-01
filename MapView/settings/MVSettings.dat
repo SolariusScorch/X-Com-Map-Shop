@@ -1,0 +1,68 @@
+MainWindow
+{
+	Animation:False
+	Doors:False
+	SaveWindowPositions:True
+	UseGrid:True
+	GridColor:175,69,100,129
+	GridLineColor:255,0,0,0
+	GridLineWidth:1
+	SelectGrayscale:True
+	Window-TileView:True
+	Window--:True
+	Window-TopView:False
+	Window-RouteView:False
+	Window-Top&RouteView:True
+	Window-Console:False
+}
+TopView
+{
+	GroundColor:Orange
+	NorthColor:Red
+	WestColor:Red
+	ContentColor:Green
+	NorthWidth:4
+	WestWidth:4
+	SelectColor:Black
+	SelectWidth:2
+	GridColor:Black
+	GridWidth:1
+	MouseWidth:2
+	MouseColor:Blue
+	SelectTileColor:LightBlue
+	DiamondMinHeight:4
+}
+RmpView
+{
+	UnselectedLinkColor:255,255,0,0
+	UnselectedLinkWidth:2
+	SelectedLinkColor:255,0,0,255
+	SelectedLinkWidth:2
+	WallColor:255,0,0,0
+	WallWidth:4
+	GridLineColor:255,0,0,0
+	GridLineWidth:1
+	SelectedNodeColor:Blue
+	SpawnNodeColor:GreenYellow
+	UnselectedNodeColor:Green
+	ContentTiles:DarkGray
+}
+TileView
+{
+	Tile:Cornsilk
+	StartPoint:Lavender
+	IonBeamAccel:DarkRed
+	DestroyObjective:Fuchsia
+	MagneticNav:Aqua
+	AlienCryo:DarkOrange
+	AlienClon:DeepPink
+	AlienLearn:LightBlue
+	AlienImplant:Lime
+	Unknown9:LightGreen
+	AlienPlastics:MediumPurple
+	ExamRoom:LightCoral
+	DeadTile:LightCyan
+	EndPoint:Yellow
+	MustDestroy:Blue
+	VolutarMcdEditorPath:
+}

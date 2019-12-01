@@ -1,0 +1,89 @@
+; paths to game folders
+xcom1path ufo
+xcom2path tftd
+
+; xcom1path_ or xcom2path_ is alternative path for COMPARISON mode
+; (changes in mcd data will be highlighed with red)
+;xcom1path_ ufo2
+
+; mcd struct
+; mcde [index] [type] [name] | [hint]
+; <types> are byte, sbyte (signed); 
+; <name> with * will update visuals on change
+mcd 30 byte UFO_Door | If 1, the tile slides open like UFO doors and doors in XCOM bases. It stays at frame 0 until someone walks through, at which point it animates once, making the sliding door sound, and turns into the terrain type indicated by "Alt_MCD". At the end of turn each "Alt_MCD" of sliding type will be turned back to this tile.
+mcd 31 byte Stop_LOS | If 1, it is not possible to see through this tile.\nIf 0, the tile is see through.
+mcd 32 byte No_Floor | If 1, a non-flying unit moving onto this tile will fall through.\nIf 0, units can stand on it.
+mcd 33 byte Big_Wall | If non-zero: when used as an object, this will behave as a wall of the following type:\n1=big block, 2=diagonal | wall, 3=diagonal -- wall, 4=west wall, 5=north wall, 6=east wall, 7=south wall, 8=south and east wall, 9=north and west wall.
+mcd 34 byte Gravlift | If 1, any unit can move up or down while on this tile, whether they can fly or not.
+mcd 35 byte Door | If 1, this is a swinging door. Will switch to the Alt_MCD when "Opened". Makes the normal door opening sound.
+mcd 36 byte Block_Fire | If 1, this tile does not allow fire to pass
+mcd 37 byte Block_Smoke | If 1, this tile does not allow smoke to pass.
+mcd 39 byte TU_Walk | The number of TUs required to pass through the block when walking.\nIf 255, it's impassable for walking units.
+mcd 40 byte TU_Slide | The number of TUs required for things which slide to pass through.\nIf 255, it's impassable for sliding units.
+mcd 41 byte TU_Fly | The number of TUs required for flying things to pass through.\nIf 255, it's impassable for flying units.
+mcd 42 byte Armor | The amount of damage which the block can resist before switching to the "Die_MCD" reference.
+mcd 43 byte HE_Block | How well the tile blocks explosions: note, this is similar to a damage resistance value in that it reduces incoming damage by this much before being compared to the Armor value.
+mcd 44 byte Die_MCD | When enough damage is done to overwhelm the "Armor", tile is changed to destroyed mapcode "Die_MCD".\n0 - means it will be simply removed (or replaced with the "scorched earth" tile if it is on the ground floor).
+mcd 45 byte Fireproof | How resistant to fire this element is. The higher, the harder it is to inflame.
+mcd 46 byte Alt_MCD | If "Door" or "UFO_Door" is set - when a unit walks through the tile (as a wall), swap to the element referenced here.
+mcd 48 sbyte Terrain_Level | Units and objects on this are shifted this many pixels vertically (negative value -> up, positive -> down).
+mcd 49 sbyte PCK_Level* | Tile is shifted by this many pixels up when the PCK is drawn (negative -> up, positive -> down)\nNOTE: Changing this value immediately affects appearance
+mcd 51 byte Light_Block | The amount of light which is blocked by the tile (currently unused).0-15
+mcd 52 byte Footstep_Sound | The sound effect type which is used for units walking on this tile.\nUFO:EU\n1=Metal, 2=Normal (Wood, Grass, Dirt), 4=Water, 5=Sand (Desert), 6=Martian(DOS)/Snow(CE) 7=Snow(DOS)\nTFTD:\n0=Tiling, 1=Wood/Ground, 2=Stone/Coral, 3=Organic, 4=Metal, 5=Sand
+mcd 53 byte Tile_Type | The type of tile:\n0 = Floor, 1 = West wall, 2 = North wall, 3 = Object
+mcd 54 byte HE_Type | 0 - ordinary high explosive\n1 - tile explodes as a smoke (no damage)\n5 - incendiary explosion\n6 - stun damage
+mcd 55 byte HE_Strength | When the tile is destroyed, it produces an explosion of this strength of a type determined by "HE_Type".
+mcd 56 byte Smoke_Block | How well it blocks smoke
+mcd 57 byte Fuel | The number of turns that tile will burn
+mcd 58 byte Light_Source | The higher it is the more light it produces, 0-15
+mcd 59 byte Target_Type | 0=nothing special, 1=X-COM Entry, 2=UFO PowerSource, 3=UFO Navigation, 4=UFO Construction, 5=Alien Food/Cryogenics, 6=Alien Reproduction/Cloning, 7-Alien Entertainment/Learning Arrays, 8=Alien Surgery/Implanter, 9=Examination Room, 10=Alien Alloys/Plastics, 11=Alien Habitat/Re-animation, 12=Damaged UFO Tile, 13=Exit Point, 14=Alien Brain/T'Leth Support
+mcd 60 byte Xcom_Base | X-Com base flag - point of alien attention in Base defense mission. After every X-Com special tile destroyed - module assumed destroyed too
+
+
+;1 = top line, 2 = left line, 3 = both left AND top
+boxpat 00000000 00000000 00000000 00000000
+boxpat 00000000 00000032 22100000 00000000
+boxpat 00000000 00003200 00221000 00000000
+boxpat 00000000 00320000 00002210 00000000
+boxpat 00000000 32000000 00000022 10000000
+boxpat 00000032 00000000 00000000 22100000
+boxpat 00003200 00000000 00000000 00221000
+boxpat 00320000 00000000 00000000 00002210
+
+boxpat 32000000 00000000 00000000 00000022
+boxpat 22100000 00000000 00000000 00000032
+boxpat 00221000 00000000 00000000 00003200
+boxpat 00002210 00000000 00000000 00320000
+boxpat 00000022 10000000 00000000 32000000
+boxpat 00000000 22100000 00000032 00000000
+boxpat 00000000 00221000 00003200 00000000
+boxpat 00000000 00002210 00320000 00000000
+
+boxpat 00000000 00000022 32000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000000 10000000 00000000
+
+boxpat 00000000 00000000 10000000 00000000
+boxpat 00000000 00000032 32100000 00000000
+boxpat 00000000 00003200 10221000 00000000
+boxpat 00000000 00320000 10002210 00000000
+boxpat 00000000 32000000 10000022 10000000
+boxpat 00000032 00000000 10000000 22100000
+boxpat 00003200 00000000 10000000 00221000
+boxpat 00320000 00000000 10000000 00002210
+
+boxpat 32000000 00000000 10000000 00000022
+boxpat 22100000 00000000 10000000 00000032
+boxpat 00221000 00000000 10000000 00003200
+boxpat 00002210 00000000 10000000 00320000
+boxpat 00000022 10000000 10000000 32000000
+boxpat 00000000 22100000 10000032 00000000
+boxpat 00000000 00221000 10003200 00000000
+boxpat 00000000 00002210 10320000 00000000
+
+boxpat 00000000 00000022 22000000 00000000

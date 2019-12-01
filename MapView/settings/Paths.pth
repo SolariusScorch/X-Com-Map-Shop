@@ -1,0 +1,6 @@
+${tftd}:D:\ufa_zapasowa\XComTFTD
+${ufo}:D:\ufa_zapasowa\UFO
+mapdata:D:\ufa_zapasowa\MapView\settings\MapEdit.dat
+images:D:\ufa_zapasowa\MapView\settings\Images.dat
+useBlanks:false
+cursor:${tftd}\UFOGRAPH

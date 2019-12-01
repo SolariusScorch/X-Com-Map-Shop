@@ -1,0 +1,3212 @@
+${varPath2}:D:\ufa_zapasowa\MapView\BLANKS\TFTD\
+${varPath1}:D:\ufa_zapasowa\XComTFTD\ROUTES\
+${varPath5}:D:\ufa_zapasowa\MapView\BLANKS\UFO\
+${varPath3}:D:\ufa_zapasowa\UFO\MAPS\
+${varPath4}:D:\ufa_zapasowa\UFO\ROUTES\
+${varPath0}:D:\ufa_zapasowa\XComTFTD\MAPS\
+Tileset:TFTD - Terrain
+	type:1
+	rootpath:${varPath0}
+	rmpPath:${varPath1}
+	blankPath:${varPath2}
+	palette:tftd-battle
+	files:Alien Artifact Site 1
+
+		${varDeps6}:SAND ROCKS WEEDS PYRAMID UFOBITS
+		ALART09:${varDeps6}
+		ALART04:${varDeps6}
+		ALART10:${varDeps6}
+		ALART00:${varDeps6}
+		ALART01:${varDeps6}
+		ALART02:${varDeps6}
+		ALART03:${varDeps6}
+		ALART11:${varDeps6}
+		ALART05:${varDeps6}
+		ALART06:${varDeps6}
+		ALART07:${varDeps6}
+		ALART08:${varDeps6}
+	end
+	files:alship
+
+		${varDeps7}:GRUNGE1 GRUNGE2 GRUNGE3 GRUNGE4 UFOBITS
+		ALSHIP00:${varDeps7}
+		ALSHIP01:${varDeps7}
+		ALSHIP02:${varDeps7}
+		ALSHIP03:${varDeps7}
+		ALSHIP04:${varDeps7}
+		ALSHIP05:${varDeps7}
+		ALSHIP06:${varDeps7}
+		ALSHIP07:${varDeps7}
+		ALSHIP08:${varDeps7}
+		ALSHIP09:${varDeps7}
+		ALSHIP10:${varDeps7}
+		ALSHIP11:${varDeps7}
+		ALSHIP12:${varDeps7}
+		ALSHIP13:${varDeps7}
+		ALSHIP14:${varDeps7}
+		ALSHIP15:${varDeps7}
+		ALSHIP16:${varDeps7}
+		ALSHIP17:${varDeps7}
+	end
+	files:Atlantis
+
+		${varDeps8}:SAND ATLANTIS UFOBITS
+		ATLAN01:${varDeps8}
+		ATLAN02:${varDeps8}
+		ATLAN03:${varDeps8}
+		ATLAN06:${varDeps8}
+		ATLAN07:${varDeps8}
+		ATLAN11:${varDeps8}
+		ATLAN09:${varDeps8}
+		ATLAN12:${varDeps8}
+		ATLAN04:${varDeps8}
+		ATLAN05:${varDeps8}
+		ATLAN10:${varDeps8}
+		ATLAN08:${varDeps8}
+		ATLAN00:${varDeps8}
+	end
+	files:Coral
+
+		${varDeps9}:SAND WEEDS CORAL ROCKS UFOBITS
+		CORAL12:${varDeps9}
+		CORAL09:${varDeps9}
+		CORAL08:${varDeps9}
+		CORAL01:${varDeps9}
+		CORAL00:${varDeps9}
+		CORAL03:${varDeps9}
+		CORAL02:${varDeps9}
+		CORAL05:${varDeps9}
+		CORAL04:${varDeps9}
+		CORAL07:${varDeps9}
+		CORAL06:${varDeps9}
+		CORAL10:${varDeps9}
+		CORAL11:${varDeps9}
+	end
+	files:Sunken Galleon
+
+		${varDeps10}:SAND ROCKS ASUNK UFOBITS
+		GAL01:${varDeps10}
+		GAL02:${varDeps10}
+		GAL03:${varDeps10}
+		GAL04:${varDeps10}
+		GAL05:${varDeps10}
+		GAL06:${varDeps10}
+		GAL07:${varDeps10}
+		GAL08:${varDeps10}
+		GAL09:${varDeps10}
+		GAL11:${varDeps10}
+		GAL10:${varDeps10}
+		GAL13:${varDeps10}
+		GAL12:${varDeps10}
+		GAL15:${varDeps10}
+		GAL14:${varDeps10}
+		GAL16:${varDeps10}
+	end
+	files:Mayan Temple
+
+		${varDeps11}:SAND MU UFOBITS
+		MU02:${varDeps11}
+		MU03:${varDeps11}
+		MU00:${varDeps11}
+		MU01:${varDeps11}
+		MU13:${varDeps11}
+		MU12:${varDeps11}
+		MU11:${varDeps11}
+		MU10:${varDeps11}
+		MU08:${varDeps11}
+		MU14:${varDeps11}
+		MU09:${varDeps11}
+		MU06:${varDeps11}
+		MU07:${varDeps11}
+		MU04:${varDeps11}
+		MU05:${varDeps11}
+	end
+	files:Underwater Research Facility
+
+		${varDeps12}:SAND PIPES UFOBITS
+		PIPES10:${varDeps12}
+		PIPES11:${varDeps12}
+		PIPES00:${varDeps12}
+		PIPES05:${varDeps12}
+		PIPES04:${varDeps12}
+		PIPES07:${varDeps12}
+		PIPES06:${varDeps12}
+		PIPES01:${varDeps12}
+		PIPES03:${varDeps12}
+		PIPES02:${varDeps12}
+		PIPES08:${varDeps12}
+		PIPES09:${varDeps12}
+	end
+	files:Seabed
+
+		${varDeps13}:SAND ROCKS WEEDS DEBRIS UFOBITS
+		SEABED00:${varDeps13}
+		SEABED01:${varDeps13}
+		SEABED10:${varDeps13}
+		SEABED08:${varDeps13}
+		SEABED09:${varDeps13}
+		SEABED06:${varDeps13}
+		SEABED07:${varDeps13}
+		SEABED04:${varDeps13}
+		SEABED05:${varDeps13}
+		SEABED02:${varDeps13}
+		SEABED03:${varDeps13}
+		SEABED11:${varDeps13}
+		SEABED12:${varDeps13}
+	end
+	files:Volcano
+
+		${varDeps14}:SAND VOLC
+		VOLC04:${varDeps14}
+		VOLC05:${varDeps14}
+		VOLC06:${varDeps14}
+		VOLC07:${varDeps14}
+		VOLC00:${varDeps14}
+		VOLC01:${varDeps14}
+		VOLC02:${varDeps14}
+		VOLC03:${varDeps14}
+		VOLC10:${varDeps14}
+		VOLC11:${varDeps14}
+		VOLC08:${varDeps14}
+		VOLC09:${varDeps14}
+	end
+	files:T'leth Level 2
+
+		${varDeps17}:ORGANIC1 ORGANIC2 ORGANIC3 PSYNOM
+		LEVEL08:${varDeps17}
+		LEVEL09:${varDeps17}
+		LEVEL04:${varDeps17}
+		LEVEL05:${varDeps17}
+		LEVEL06:${varDeps17}
+		LEVEL07:${varDeps17}
+		LEVEL01:${varDeps17}
+		LEVEL02:${varDeps17}
+		LEVEL03:${varDeps17}
+	end
+	files:T'leth Level 3
+
+		${varDeps15}:CRYPT1 CRYPT2 CRYPT3 CRYPT4
+		CRYPT06:${varDeps15}
+		CRYPT07:${varDeps15}
+		CRYPT04:${varDeps15}
+		CRYPT05:${varDeps15}
+		CRYPT02:${varDeps15}
+		CRYPT03:${varDeps15}
+		CRYPT01:${varDeps15}
+		CRYPT08:${varDeps15}
+		CRYPT09:${varDeps15}
+	end
+	files:Alien Base Level 1
+
+		${varDeps16}:SAND UEXT2 UEXT3 ORGANIC1 ENTRY
+		ENTRY02:${varDeps16}
+		ENTRY03:${varDeps16}
+		ENTRY01:${varDeps16}
+		ENTRY00:${varDeps16}
+		ENTRY08:${varDeps16}
+		ENTRY06:${varDeps16}
+		ENTRY07:${varDeps16}
+		ENTRY04:${varDeps16}
+		ENTRY05:${varDeps16}
+	end
+	files:Sunken Cargo Ship
+
+		${varDeps18}:SAND MSUNK1 MSUNK2 UFOBITS
+		MSUNK10:${varDeps18}
+		MSUNK13:${varDeps18}
+		MSUNK12:${varDeps18}
+		MSUNK04:${varDeps18}
+		MSUNK05:${varDeps18}
+		MSUNK06:${varDeps18}
+		MSUNK07:${varDeps18}
+		MSUNK00:${varDeps18}
+		MSUNK01:${varDeps18}
+		MSUNK02:${varDeps18}
+		MSUNK03:${varDeps18}
+		MSUNK08:${varDeps18}
+		MSUNK09:${varDeps18}
+		MSUNK11:${varDeps18}
+	end
+	files:Alien Base Level 2
+
+		${varDeps19}:ORGANIC1 ORGANIC2 ORGANIC3 PSYNOM
+		A_BASE01:${varDeps19}
+		A_BASE14:${varDeps19}
+		A_BASE15:${varDeps19}
+		A_BASE00:${varDeps19}
+		A_BASE10:${varDeps19}
+		A_BASE11:${varDeps19}
+		A_BASE12:${varDeps19}
+		A_BASE13:${varDeps19}
+		A_BASE03:${varDeps19}
+		A_BASE02:${varDeps19}
+		A_BASE05:${varDeps19}
+		A_BASE04:${varDeps19}
+		A_BASE07:${varDeps19}
+		A_BASE06:${varDeps19}
+		A_BASE09:${varDeps19}
+		A_BASE08:${varDeps19}
+	end
+	files:Cargo Ship Terror Site
+
+		${varDeps20}:SEA CARGO1 CARGO2 XBITS CARGO3
+		CARGO02:${varDeps20}
+		CARGO00:${varDeps20}
+		CARGO01:${varDeps20}
+	end
+	files:Alien Artifact Site 2
+
+		${varDeps21}:GRUNGE1 GRUNGE2 GRUNGE3 GRUNGE4 GRUNGE5 UFOBITS
+		GRUNGE16:${varDeps21}
+		GRUNGE02:${varDeps21}
+		GRUNGE03:${varDeps21}
+		GRUNGE00:${varDeps21}
+		GRUNGE01:${varDeps21}
+		GRUNGE06:${varDeps21}
+		GRUNGE07:${varDeps21}
+		GRUNGE04:${varDeps21}
+		GRUNGE05:${varDeps21}
+		GRUNGE15:${varDeps21}
+		GRUNGE14:${varDeps21}
+		GRUNGE13:${varDeps21}
+		GRUNGE12:${varDeps21}
+		GRUNGE11:${varDeps21}
+		GRUNGE10:${varDeps21}
+		GRUNGE08:${varDeps21}
+		GRUNGE09:${varDeps21}
+	end
+	files:Island Terror Site
+
+		${varDeps22}:SEA ISLAND1 ISLAND2 ISLAND3
+		ISLAND12:${varDeps22}
+		ISLAND13:${varDeps22}
+		ISLAND10:${varDeps22}
+		ISLAND11:${varDeps22}
+		ISLAND14:${varDeps22}
+		ISLAND07:${varDeps22}
+		ISLAND06:${varDeps22}
+		ISLAND05:${varDeps22}
+		ISLAND04:${varDeps22}
+		ISLAND03:${varDeps22}
+		ISLAND02:${varDeps22}
+		ISLAND01:${varDeps22}
+		ISLAND00:${varDeps22}
+		ISLAND09:${varDeps22}
+		ISLAND08:${varDeps22}
+	end
+	files:Cruise Ship 2 Terror Site
+
+		${varDeps23}:SEA LINERA LINERB LINERC LINERD DECKC
+		LINERB02:${varDeps23}
+		LINERB03:${varDeps23}
+	end
+	files:Cruise Ship 1 Terror Site
+
+		${varDeps24}:DECKC LINERA LINERB LINERC LINERD DECKC
+		LINERT02:${varDeps24}
+		LINERT00:${varDeps24}
+		LINERT01:${varDeps24}
+	end
+	files:Sunken Plane
+
+		${varDeps25}:SAND SUNKENPLANE UFOBITS
+		SUNKENPLANE13:${varDeps25}
+		SUNKENPLANE20:${varDeps25}
+		SUNKENPLANE05:${varDeps25}
+		SUNKENPLANE08:${varDeps25}
+		SUNKENPLANE09:${varDeps25}
+		SUNKENPLANE19:${varDeps25}
+		SUNKENPLANE06:${varDeps25}
+		SUNKENPLANE04:${varDeps25}
+		SUNKENPLANE07:${varDeps25}
+		SUNKENPLANE00:${varDeps25}
+		SUNKENPLANE14:${varDeps25}
+		SUNKENPLANE17:${varDeps25}
+		SUNKENPLANE01:${varDeps25}
+		SUNKENPLANE02:${varDeps25}
+		SUNKENPLANE03:${varDeps25}
+		SUNKENPLANE16:${varDeps25}
+		SUNKENPLANE11:${varDeps25}
+		SUNKENPLANE10:${varDeps25}
+		SUNKENPLANE18:${varDeps25}
+		SUNKENPLANE12:${varDeps25}
+		SUNKENPLANE15:${varDeps25}
+	end
+	files:Port Terror Site
+
+		${varDeps26}:SEA PORT01 PORT02
+		PORT12:${varDeps26}
+		PORT13:${varDeps26}
+		PORT10:${varDeps26}
+		PORT02:${varDeps26}
+		PORT01:${varDeps26}
+		PORT17:${varDeps26}
+		PORT07:${varDeps26}
+		PORT06:${varDeps26}
+		PORT05:${varDeps26}
+		PORT04:${varDeps26}
+		PORT18:${varDeps26}
+		PORT19:${varDeps26}
+		PORT09:${varDeps26}
+		PORT08:${varDeps26}
+		PORT20:${varDeps26}
+		PORT11:${varDeps26}
+		PORT16:${varDeps26}
+		PORT03:${varDeps26}
+		PORT14:${varDeps26}
+		PORT15:${varDeps26}
+		PORT00:${varDeps26}
+	end
+	files:X-Com Underwater Base
+
+		${varDeps27}:XBASES01 XBASES02 XBASES03 XBASES04 XBASES05 XBITS
+		XBASES00:${varDeps27}
+		XBASES01:${varDeps27}
+		XBASES02:${varDeps27}
+		XBASES03:${varDeps27}
+		XBASES04:${varDeps27}
+		XBASES05:${varDeps27}
+		XBASES06:${varDeps27}
+		XBASES07:${varDeps27}
+		XBASES00:${varDeps27}
+		XBASES01:${varDeps27}
+		XBASES02:${varDeps27}
+		XBASES03:${varDeps27}
+		XBASES08:${varDeps27}
+		XBASES09:${varDeps27}
+		XBASES10:${varDeps27}
+		XBASES11:${varDeps27}
+		XBASES12:${varDeps27}
+		XBASES13:${varDeps27}
+		XBASES14:${varDeps27}
+		XBASES15:${varDeps27}
+		XBASES16:${varDeps27}
+		XBASES17:${varDeps27}
+		XBASES18:${varDeps27}
+		XBASES19:${varDeps27}
+		XBASES20:${varDeps27}
+	end
+	files:BL
+
+		${varDeps29}:CRYPT1 CRYPT2 CRYPT13 CRYPT14 UFOBITS
+		BL00:${varDeps29}
+		BL01:${varDeps29}
+		BL02:${varDeps29}
+		BL03:${varDeps29}
+		BL04:${varDeps29}
+	end
+end
+
+Tileset:TFTD - Ships
+	type:1
+	rootpath:${varPath0}
+	rmpPath:${varPath1}
+	blankPath:${varPath2}
+	palette:tftd-battle
+	files:Alien
+
+		${varDeps28}:UEXT2 UEXT3 UINT1 UINT2 UINT3
+		UFO06:${varDeps28}
+		UFO07:${varDeps28}
+		UFO04:${varDeps28}
+		UFO05:${varDeps28}
+		UFO02:${varDeps28}
+		UFO03:${varDeps28}
+		UFO01:${varDeps28}
+		UFO08:${varDeps28}
+	end
+	files:XCom
+		HAMMER:HAMMER
+		LEVIATH:LEVIATH
+		TRITON:TRITON
+	end
+end
+
+Tileset:UFO - Terrain
+	type:1
+	rootpath:${varPath3}
+	rmpPath:${varPath4}
+	blankPath:${varPath5}
+	palette:ufo-battle
+	files:Jungle
+
+		${varDeps32}:JUNGLE
+		JUNGLE00:${varDeps32}
+		JUNGLE01:${varDeps32}
+		JUNGLE02:${varDeps32}
+		JUNGLE03:${varDeps32}
+		JUNGLE04:${varDeps32}
+		JUNGLE05:${varDeps32}
+		JUNGLE06:${varDeps32}
+		JUNGLE07:${varDeps32}
+		JUNGLE08:${varDeps32}
+		JUNGLE09:${varDeps32}
+		JUNGLE10:${varDeps32}
+		JUNGLE11:${varDeps32}
+		JUNGLE12:${varDeps32}
+		JUNGLE13:${varDeps32}
+		JUNGLE14:${varDeps32}
+	end
+	files:Farm
+
+		${varDeps33}:CULTIVAT BARN CULTMACHINES
+		CULTA00:${varDeps33}
+		CULTA01:${varDeps33}
+		CULTA02:${varDeps33}
+		CULTA03:${varDeps33}
+		CULTA04:${varDeps33}
+		CULTA05:${varDeps33}
+		CULTA06:${varDeps33}
+		CULTA07:${varDeps33}
+		CULTA08:${varDeps33}
+		CULTA09:${varDeps33}
+		CULTA10:${varDeps33}
+		CULTA11:${varDeps33}
+		CULTA12:${varDeps33}
+		CULTA13:${varDeps33}
+		CULTA14:${varDeps33}
+		CULTA15:${varDeps33}
+		CULTA16:${varDeps33}
+		CULTA17:${varDeps33}
+		CULTA18:${varDeps33}
+		CULTASOL00:${varDeps33}
+		CULTASOL01:${varDeps33}
+		CULTASOL02:${varDeps33}
+		CULTACIV00:${varDeps33}
+		CULTACIV01:${varDeps33}
+		CULT_NEW00:${varDeps33}
+		CULT_NEW01:${varDeps33}
+		CULT_NEW02:${varDeps33}
+		CULT_NEW03:${varDeps33}
+		CULT_NEW04:${varDeps33}
+		CULT_NEW05:${varDeps33}
+		CULT_NEW06:${varDeps33}
+		CULT_NEW07:${varDeps33}
+		CULT_NEW08:${varDeps33}
+		CULT_NEW09:${varDeps33}
+		CULT_NEW10:${varDeps33}
+		CULT_NEW11:${varDeps33}
+		CULT_NEW12:${varDeps33}
+		CULT_NEW13:${varDeps33}
+		CULT_NEW14:${varDeps33}
+		CULT_NEW15:${varDeps33}
+		CULT_NEW16:${varDeps33}
+		CULT_NEW17:${varDeps33}
+		CULT_NEW18:${varDeps33}
+		CULTAFARM00:${varDeps33}
+		CULTAFARM01:${varDeps33}
+		CULTAFARM02:${varDeps33}
+		CULTAFARM03:${varDeps33}
+		CULTAFARM04:${varDeps33}
+		CULTAFARM05:${varDeps33}
+		CULTAFARM06:${varDeps33}
+		CULTAFARM07:${varDeps33}
+		CULTAFARM08:${varDeps33}
+		CULTAFARM09:${varDeps33}
+		CULTAFARM10:${varDeps33}
+		CULTAFARM11:${varDeps33}
+		CULTAFARM12:${varDeps33}
+		CULTAFARM13:${varDeps33}
+		CULTAFARM14:${varDeps33}
+		CULTAFARM15:${varDeps33}
+		CULTAFARM16:${varDeps33}
+		CULTAFARM17:${varDeps33}
+		CULTAFARM18:${varDeps33}
+		CULTAFARM19:${varDeps33}
+		CULTAFARM20:${varDeps33}
+		CULTAFARM21:${varDeps33}
+		CULTAFARM22:${varDeps33}
+		CULTABIG01:${varDeps33}
+		CULTABIG02:${varDeps33}
+		CULTABIG03:${varDeps33}
+		CULTABIG04:${varDeps33}
+		CULTABIG05:${varDeps33}
+		CULTABIG06:${varDeps33}
+		CULTABIG07:${varDeps33}
+		CULTABIG08:${varDeps33}
+		CULT_FINNIK00:${varDeps33}
+	end
+	files:Forest
+
+		${varDeps34}:FOREST FORESTBITS
+		FOREST00:${varDeps34}
+		FOREST01:${varDeps34}
+		FOREST02:${varDeps34}
+		FOREST03:${varDeps34}
+		FOREST04:${varDeps34}
+		FOREST05:${varDeps34}
+		FOREST06:${varDeps34}
+		FOREST07:${varDeps34}
+		FOREST08:${varDeps34}
+		FOREST09:${varDeps34}
+		FOREST10:${varDeps34}
+		FOREST11:${varDeps34}
+		SOLFOREST12:${varDeps34}
+		SOLFOREST13:${varDeps34}
+		SOLFOREST14:${varDeps34}
+		SOLFOREST15:${varDeps34}
+		SOLFOREST16:${varDeps34}
+		SOLFOREST17:${varDeps34}
+		FINNIKFOREST00:${varDeps34}
+		FINNIKFOREST01:${varDeps34}
+		FINNIKFOREST02:${varDeps34}
+		FINNIKFOREST03:${varDeps34}
+		FINNIKFOREST04:${varDeps34}
+		FINNIKFOREST05:${varDeps34}
+		FINNIKFOREST06:${varDeps34}
+		CIVFOREST00:${varDeps34}
+		CIVFOREST01:${varDeps34}
+		CIVFOREST02:${varDeps34}
+		CIVFOREST03:${varDeps34}
+	end
+	files:Forest Mountain
+
+		${varDeps66}:TAIGAMOUNT TAIGAFOREST TAIGAMOUNTBITS
+		FORESTMOUNT00:${varDeps66}
+		FORESTMOUNT01:${varDeps66}
+		FORESTMOUNT02:${varDeps66}
+		FORESTMOUNT03:${varDeps66}
+		FORESTMOUNT04:${varDeps66}
+		FORESTMOUNT05:${varDeps66}
+		FORESTMOUNT06:${varDeps66}
+		FORESTMOUNT07:${varDeps66}
+		FORESTMOUNT08:${varDeps66}
+		FORESTMOUNT09:${varDeps66}
+		FORESTMOUNT10:${varDeps66}
+		FORESTMOUNT11:${varDeps66}
+		FORESTMOUNT12:${varDeps66}
+		FORESTMOUNT13:${varDeps66}
+		FORESTMOUNT14:${varDeps66}
+		FORESTMOUNT15:${varDeps66}
+		FORESTMOUNT16:${varDeps66}
+		FORESTMOUNT17:${varDeps66}
+		FORESTMOUNT18:${varDeps66}
+		FORESTMOUNT19:${varDeps66}
+		FORESTMOUNT20:${varDeps66}
+		FORESTMOUNT21:${varDeps66}
+		FORESTMOUNT22:${varDeps66}
+		FORESTMOUNT23:${varDeps66}
+		FORESTMOUNT24:${varDeps66}
+		FORESTMOUNT25:${varDeps66}
+		FORESTMOUNT26:${varDeps66}
+		FORESTMOUNT27:${varDeps66}
+		FORESTMOUNT28:${varDeps66}
+		FORESTMOUNT29:${varDeps66}
+		FORESTMOUNT30:${varDeps66}
+	end
+	files:Siberia
+
+		${varDeps67}:POLAR SIBERIABASE SIBERIA XOPSUFOCLONES
+		SIBERIABASE00:${varDeps67}
+		SIBERIABASE01:${varDeps67}
+		SIBERIABASE02:${varDeps67}
+		SIBERIABASE03:${varDeps67}
+		SIBERIABASE04:${varDeps67}
+		SIBERIABASE05:${varDeps67}
+		SIBERIABASE06:${varDeps67}
+		SIBERIABASE07:${varDeps67}
+		SIBERIABASE08:${varDeps67}
+		SIBERIABASE09:${varDeps67}
+		SIBERIABASE10:${varDeps67}
+		SIBERIABASE11:${varDeps67}
+		SIBERIABASE12:${varDeps67}
+		SIBERIABASE13:${varDeps67}
+		SIBERIABASE14:${varDeps67}
+		SIBERIABASE15:${varDeps67}
+		SIBERIABASE16:${varDeps67}
+		SIBERIABASE17:${varDeps67}
+		SIBERIABASE18:${varDeps67}
+		SIBERIABASE19:${varDeps67}
+		SIBERIABASE20:${varDeps67}
+		SIBERIABASE21:${varDeps67}
+		SIBERIABASE22:${varDeps67}
+		SIBERIABASE23:${varDeps67}
+		SIBERIABASE24:${varDeps67}
+		SIBERIABASE25:${varDeps67}
+		SIBERIABASE26:${varDeps67}
+		SIBERIABASE27:${varDeps67}
+		SIBERIABASE28:${varDeps67}
+		SIBERIABASE29:${varDeps67}
+		SIBERIABASE30:${varDeps67}
+		SIBERIABASE31:${varDeps67}
+		SIBERIABASE32:${varDeps67}
+		SIBERIABASE33:${varDeps67}
+		SIBERIABASE34:${varDeps67}
+		SIBERIABASE35:${varDeps67}
+		SIBERIABASE36:${varDeps67}
+		SIBERIABASE37:${varDeps67}
+		SIBERIABASE38:${varDeps67}
+		SIBERIABASE39:${varDeps67}
+		SIBERIABASE40:${varDeps67}
+		SIBERIABASE41:${varDeps67}
+		SIBERIABASE42:${varDeps67}
+		SIBERIABASE43:${varDeps67}
+		SIBERIABASE44:${varDeps67}
+		SIBERIABASE45:${varDeps67}
+		SIBERIABASE46:${varDeps67}
+	end
+	files:White Base
+
+		${varDeps68}:WHITEBASES01 WHITEBASES02 WHITEBASES03 WHITEBASES04 WHITEBASES05 WHITEBITS
+		WHITEBASE_00:${varDeps68}
+		WHITEBASE_01:${varDeps68}
+		WHITEBASE_02:${varDeps68}
+		WHITEBASE_03:${varDeps68}
+		WHITEBASE_04:${varDeps68}
+		WHITEBASE_05:${varDeps68}
+		WHITEBASE_06:${varDeps68}
+		WHITEBASE_07:${varDeps68}
+		WHITEBASE_08:${varDeps68}
+		WHITEBASE_09:${varDeps68}
+		WHITEBASE_10:${varDeps68}
+		WHITEBASE_11:${varDeps68}
+		WHITEBASE_12:${varDeps68}
+		WHITEBASE_13:${varDeps68}
+		WHITEBASE_14:${varDeps68}
+		WHITEBASE_15:${varDeps68}
+		WHITEBASE_16:${varDeps68}
+		WHITEBASE_17:${varDeps68}
+		WHITEBASE_18:${varDeps68}
+	end
+	files:Asylum
+
+		${varDeps35}:ASYLUM_WALL
+		ASYLUM_FENCE_W00:${varDeps35}
+		ASYLUM_FENCE_W01:${varDeps35}
+		ASYLUM_FENCE_W02:${varDeps35}
+		ASYLUM_FENCE_W03:${varDeps35}
+		ASYLUM_FENCE_E00:${varDeps35}
+		ASYLUM_FENCE_E01:${varDeps35}
+		ASYLUM_FENCE_E02:${varDeps35}
+		ASYLUM_FENCE_E03:${varDeps35}
+		ASYLUM_FENCE_N00:${varDeps35}
+		ASYLUM_FENCE_N01:${varDeps35}
+		ASYLUM_FENCE_N02:${varDeps35}
+		ASYLUM_FENCE_N03:${varDeps35}
+		ASYLUM_FENCE_N04:${varDeps35}
+		ASYLUM_FENCE_S00:${varDeps35}
+		ASYLUM_FENCE_S01:${varDeps35}
+		ASYLUM_FENCE_S02:${varDeps35}
+		ASYLUM_FENCE_SE00:${varDeps35}
+		ASYLUM_FENCE_SW00:${varDeps35}
+		ASYLUM_FENCE_NE00:${varDeps35}
+		ASYLUM_FENCE_NW00:${varDeps35}
+		ASYLUM_FENCE_NW01:${varDeps35}
+		ASYLUM_FENCE_S_GATE00:${varDeps35}
+	end
+	files:Alien Base Expanded
+
+		${varDeps55}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_BITS U_FLOOR
+		UBASE_00:${varDeps55}
+		UBASE_00b:${varDeps55}
+		UBASE_00c:${varDeps55}
+		UBASE_00d:${varDeps55}
+		UBASE_00e:${varDeps55}
+		UBASE_01:${varDeps55}
+		UBASE_01b:${varDeps55}
+		UBASE_01c:${varDeps55}
+		UBASE_02:${varDeps55}
+		UBASE_02b:${varDeps55}
+		UBASE_02c:${varDeps55}
+		UBASE_03:${varDeps55}
+		UBASE_03b:${varDeps55}
+		UBASE_04:${varDeps55}
+		UBASE_04b:${varDeps55}
+		UBASE_04c:${varDeps55}
+		UBASE_04d:${varDeps55}
+		UBASE_04e:${varDeps55}
+		UBASE_04f:${varDeps55}
+		UBASE_04g:${varDeps55}
+		UBASE_04h:${varDeps55}
+		UBASE_04i:${varDeps55}
+		UBASE_05:${varDeps55}
+		UBASE_05b:${varDeps55}
+		UBASE_06:${varDeps55}
+		UBASE_06b:${varDeps55}
+		UBASE_06c:${varDeps55}
+		UBASE_06d:${varDeps55}
+		UBASE_07:${varDeps55}
+		UBASE_07b:${varDeps55}
+		UBASE_07c:${varDeps55}
+		UBASE_08:${varDeps55}
+		UBASE_08b:${varDeps55}
+		UBASE_09:${varDeps55}
+		UBASE_09b:${varDeps55}
+		UBASE_09c:${varDeps55}
+		UBASE_10:${varDeps55}
+		UBASE_11:${varDeps55}
+		UBASE_11b:${varDeps55}
+		UBASE_12:${varDeps55}
+		UBASE_12b:${varDeps55}
+		UBASE_12c:${varDeps55}
+		UBASE_13:${varDeps55}
+		UBASE_14:${varDeps55}
+		UBASE_14b:${varDeps55}
+		UBASE_15:${varDeps55}
+		UBASE_16:${varDeps55}
+		UBASE_16b:${varDeps55}
+		UBASE_17:${varDeps55}
+		UBASE_17b:${varDeps55}
+		UBASE_18:${varDeps55}
+		UBASE_19:${varDeps55}
+		UBASE_20:${varDeps55}
+		UBASE_21:${varDeps55}
+		UBASE_22:${varDeps55}
+		UBASE_23:${varDeps55}
+		UBASE_24:${varDeps55}
+		UBASE_25:${varDeps55}
+		UBASE_26:${varDeps55}
+		UBASE_27:${varDeps55}
+		UBASE_28:${varDeps55}
+		UBASE_29:${varDeps55}
+		UBASE_30:${varDeps55}
+		UBASE_31:${varDeps55}
+		UBASE_32:${varDeps55}
+		UBASE_33:${varDeps55}
+		UBASE_34:${varDeps55}
+		UBASE_35:${varDeps55}
+		UBASE_36:${varDeps55}
+		UBASE_37:${varDeps55}
+		UBASE_38:${varDeps55}
+		UBASE_39:${varDeps55}
+		UBASE_40:${varDeps55}
+		UBASE_41:${varDeps55}
+		UBASE_42:${varDeps55}
+		UBASE_43:${varDeps55}
+		UBASE_44:${varDeps55}
+		UBASE_45:${varDeps55}
+		UBASE_46:${varDeps55}
+		UBASE_47:${varDeps55}
+		UBASE_SOL_00:${varDeps55}
+		UBASE_SOL_01:${varDeps55}
+		UBASE_SOL_02:${varDeps55}
+		UBASE_SOL_03:${varDeps55}
+		UBASE_SOL_04:${varDeps55}
+		UBASE_SOL_05:${varDeps55}
+		CIV_UBASE_00:${varDeps55}
+		CIV_UBASE_02:${varDeps55}
+		CIV_UBASE_06:${varDeps55}
+		CIV_UBASE_07:${varDeps55}
+		CIV_UBASE_10:${varDeps55}
+		CIV_UBASE_100:${varDeps55}
+		HANGAR_UPPER_CHAMBER_0:${varDeps55}
+		ENTER_CHAMBER_00:${varDeps55}
+		ENTER_CHAMBER_01:${varDeps55}
+		CEREBRAL_CHAMBER:${varDeps55}
+		CEREBRAL_CHAMBER_1:${varDeps55}
+		CEREBRAL_CHAMBER_2:${varDeps55}
+		UBASE_FILL_20x20:${varDeps55}
+		UBASE_FILL_10x10:${varDeps55}
+	end
+	files:Alien Tunnels
+
+		${varDeps129}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_PIPES U_FACILITY
+#		${varDeps129}:DOOM_BASE DOOM_WALL02 DOOM_PODS BRAIN DOOM_BASE2 DOOM_FRN U_EXT02 DOOM_PIPES DOOM_FACILITY
+		UTUNNEL_00:${varDeps129} # Entry
+		UTUNNEL_01:${varDeps129}
+		UTUNNEL_02:${varDeps129}
+		UTUNNEL_03:${varDeps129}
+		UTUNNEL_04:${varDeps129}
+		UTUNNEL_05:${varDeps129}
+		UTUNNEL_06:${varDeps129}
+		UTUNNEL_07:${varDeps129}
+		UTUNNEL_08:${varDeps129}
+		UTUNNEL_20:${varDeps129} # Exit
+	end
+	files:Industrial
+
+		${varDeps57}:PORTROADS PORTURBITS ROADS URBITS
+		INDUSTRIALURBAN00:${varDeps57}
+		INDUSTRIALURBAN01:${varDeps57}
+		INDUSTRIALURBAN02:${varDeps57}
+		INDUSTRIALURBAN03:${varDeps57}
+		INDUSTRIALURBAN04:${varDeps57}
+		INDUSTRIALURBAN05:${varDeps57}
+		INDUSTRIALURBAN06:${varDeps57}
+		INDUSTRIALURBAN07:${varDeps57}
+		INDUSTRIALURBAN08:${varDeps57}
+		INDUSTRIALURBAN09:${varDeps57}
+		INDUSTRIALURBAN10:${varDeps57}
+		INDUSTRIALURBAN11:${varDeps57}
+		INDUSTRIALURBAN12:${varDeps57}
+		INDUSTRIALURBAN13:${varDeps57}
+		INDUSTRIALURBAN14:${varDeps57}
+		INDUSTRIALURBAN15:${varDeps57}
+		INDUSTRIALURBAN16:${varDeps57}
+		INDUSTRIALURBAN17:${varDeps57}
+	end
+	files:Port Urban
+
+		${varDeps58}:PORTROADS PORTURBITS
+		PORTURBAN00:${varDeps58}
+		PORTURBAN01:${varDeps58}
+		PORTURBAN02:${varDeps58}
+		PORTURBAN03:${varDeps58}
+		PORTURBAN04:${varDeps58}
+		PORTURBAN05:${varDeps58}
+		PORTURBAN06:${varDeps58}
+		PORTURBAN07:${varDeps58}
+		PORTURBAN08:${varDeps58}
+		PORTURBAN09:${varDeps58}
+		PORTURBAN10:${varDeps58}
+		PORTURBAN11:${varDeps58}
+		PORTURBAN12:${varDeps58}
+		PORTURBAN13:${varDeps58}
+		PORTURBAN14:${varDeps58}
+		PORTURBAN15:${varDeps58}
+		PORTURBAN16:${varDeps58}
+		PORTURBAN17:${varDeps58}
+		PORTURBAN18:${varDeps58}
+		PORTURBAN19:${varDeps58}
+		PORTURBAN20:${varDeps58}
+		PORTURBAN21:${varDeps58}
+		PORTURBAN22:${varDeps58}
+	end
+	files:Urban Terror
+
+		${varDeps54}:ROADS URBITS URBAN FRNITURE MADDECOR
+		URBAN00:${varDeps54}
+		URBAN01:${varDeps54}
+		URBAN02:${varDeps54}
+		URBAN03:${varDeps54}
+		URBAN04:${varDeps54}
+		URBAN05:${varDeps54}
+		URBAN06:${varDeps54}
+		URBAN07:${varDeps54}
+		URBAN08:${varDeps54}
+		URBAN09:${varDeps54}
+		MADURBAN10:${varDeps54}
+		MADURBAN11:${varDeps54}
+		MADURBAN12:${varDeps54}
+		MADURBAN13:${varDeps54}
+		URBAN14:${varDeps54}
+		URBAN15:${varDeps54}
+		URBAN16:${varDeps54}
+		URBAN17:${varDeps54}
+		URBAN18:${varDeps54}
+		MADURBAN19:${varDeps54}
+		MADURBAN20:${varDeps54}
+		MADURBAN21:${varDeps54}
+		MADURBAN22:${varDeps54}
+		MADURBAN23:${varDeps54}
+		MADURBAN24:${varDeps54}
+		MADURBAN25:${varDeps54}
+		MADURBAN26:${varDeps54}
+		MADURBAN27:${varDeps54}
+		MADURBAN28:${varDeps54}
+		MADURBAN29:${varDeps54}
+		MADURBAN30:${varDeps54}
+		MADURBAN31:${varDeps54}
+		MADURBAN32:${varDeps54}
+		MADURBAN33:${varDeps54}
+		MADURBAN34:${varDeps54}
+		MADURBAN35:${varDeps54}
+		MADURBAN36:${varDeps54}
+		MADURBAN37:${varDeps54}
+		MADURBAN38:${varDeps54}
+		SOLBAN39:${varDeps54}
+		SOLBAN40:${varDeps54}
+		CIVURBAN41:${varDeps54}
+		CIVURBAN42:${varDeps54}
+		CIVURBAN43:${varDeps54}
+		CIVURBAN44:${varDeps54}
+		CIVURBAN45:${varDeps54}
+		CIVURBAN46:${varDeps54}
+		CIVURBAN47:${varDeps54}
+		CIVURBAN48:${varDeps54}
+		CIVURBAN49:${varDeps54}
+		CIVURBAN50:${varDeps54}
+		CIVURBAN51:${varDeps54}
+		EXPANDEDTERROR00:${varDeps54}
+		EXPANDEDTERROR01:${varDeps54}
+		EXPANDEDTERROR02:${varDeps54}
+		EXPANDEDTERROR03:${varDeps54}
+		EXPANDEDTERROR04:${varDeps54}
+		EXPANDEDTERROR05:${varDeps54}
+		EXPANDEDTERROR06:${varDeps54}
+		EXPANDEDTERROR07:${varDeps54}
+		EXPANDEDTERROR08:${varDeps54}
+		EXPANDEDTERROR09:${varDeps54}
+		EXPANDEDTERROR10:${varDeps54}
+		EXPANDEDTERROR11:${varDeps54}
+		EXPANDEDTERROR12:${varDeps54}
+		EXPANDEDTERROR13:${varDeps54}
+		EXPANDEDTERROR14:${varDeps54}
+		EXPANDEDTERROR15:${varDeps54}
+		EXPANDEDTERROR16:${varDeps54}
+		EXPANDEDTERROR17:${varDeps54}
+		EXPANDEDTERROR18:${varDeps54}
+		EXPANDEDTERROR19:${varDeps54}
+		EXPANDEDTERROR20:${varDeps54}
+		EXPANDEDTERROR22:${varDeps54}
+		EXPANDEDTERROR22:${varDeps54}
+		EXPANDEDTERROR22:${varDeps54}
+		EXPANDEDTERROR23:${varDeps54}
+		EXPANDEDTERROR24:${varDeps54}
+		EXPANDEDTERROR25:${varDeps54}
+		EXPANDEDTERROR26:${varDeps54}
+		URBANAMUYS00:${varDeps54}
+	end
+	files:Village
+
+		${varDeps56}:VILROADS VILBITS VILBAN VILFRNITURE
+		VILBAN00:${varDeps56}
+		VILBAN01:${varDeps56}
+		VILBAN02:${varDeps56}
+		VILBAN03:${varDeps56}
+		VILBAN04:${varDeps56}
+		VILBAN05:${varDeps56}
+		VILBAN06:${varDeps56}
+		VILBAN07:${varDeps56}
+		VILBAN08:${varDeps56}
+		VILBAN09:${varDeps56}
+		VILBAN10:${varDeps56}
+		VILBAN11:${varDeps56}
+		VILBAN12:${varDeps56}
+		VILBAN13:${varDeps56}
+		VILBAN14:${varDeps56}
+		VILBAN15:${varDeps56}
+		VILBAN16:${varDeps56}
+		VILBAN17:${varDeps56}
+		VILBAN18:${varDeps56}
+		VILBAN19:${varDeps56}
+		VILBAN20:${varDeps56}
+		VILBAN21:${varDeps56}
+		VILBAN22:${varDeps56}
+		VILBAN23:${varDeps56}
+		VILBAN24:${varDeps56}
+		VILBAN25:${varDeps56}
+		VILBAN26:${varDeps56}
+		VILBAN30:${varDeps56}
+		VILBAN31:${varDeps56}
+		VILBAN32:${varDeps56}
+		VILBAN33:${varDeps56}
+		VILBAN34:${varDeps56}
+		VILBAN35:${varDeps56}
+		VILBAN36:${varDeps56}
+		VILBAN37:${varDeps56}
+		VILBAN40:${varDeps56}
+		VILBAN50:${varDeps56}
+		VILBAN51:${varDeps56}
+		VILBAN52:${varDeps56}
+		VILBAN53:${varDeps56}
+		VILBAN54:${varDeps56}
+		VILBAN55:${varDeps56}
+		VILBAN56:${varDeps56}
+		VILBAN57:${varDeps56}
+	end
+	files:Desert
+
+		${varDeps38}:DESERT DESERTBITS
+		DESERT00:${varDeps38}
+		DESERT01:${varDeps38}
+		DESERT02:${varDeps38}
+		DESERT03:${varDeps38}
+		DESERT04:${varDeps38}
+		DESERT05:${varDeps38}
+		DESERT06:${varDeps38}
+		DESERT07:${varDeps38}
+		DESERT08:${varDeps38}
+		DESERT09:${varDeps38}
+		DESERT10:${varDeps38}
+		DESERT11:${varDeps38}
+		DESERT12:${varDeps38}
+		DESERT13:${varDeps38}
+		DESERT14:${varDeps38}
+		DESERT15:${varDeps38}
+		DESERT16:${varDeps38}
+		DESERT17:${varDeps38}
+	end
+	files:Mountain
+
+		${varDeps39}:MOUNT
+		MOUNT00:${varDeps39}
+		MOUNT01:${varDeps39}
+		MOUNT02:${varDeps39}
+		MOUNT03:${varDeps39}
+		MOUNT04:${varDeps39}
+		MOUNT05:${varDeps39}
+		MOUNT06:${varDeps39}
+		MOUNT07:${varDeps39}
+		MOUNT08:${varDeps39}
+		MOUNT09:${varDeps39}
+		MOUNT10:${varDeps39}
+		MOUNT11:${varDeps39}
+		MOUNT12:${varDeps39}
+	end
+	files:Arctic
+
+		${varDeps40}:POLAR
+		POLAR00:${varDeps40}
+		POLAR01:${varDeps40}
+		POLAR02:${varDeps40}
+		POLAR03:${varDeps40}
+		POLAR04:${varDeps40}
+		POLAR05:${varDeps40}
+		POLAR06:${varDeps40}
+		POLAR07:${varDeps40}
+		POLAR08:${varDeps40}
+		POLAR09:${varDeps40}
+		POLAR10:${varDeps40}
+		POLAR11:${varDeps40}
+		POLAR12:${varDeps40}
+		POLAR13:${varDeps40}
+		POLAR14:${varDeps40}
+		POLAR15:${varDeps40}
+		POLAR16:${varDeps40}
+		POLAR17:${varDeps40}
+	end
+	files:Forest Swamp
+
+		${varDeps92}:FOREST FORESTSWAMP
+		FORESTSWAMP00:${varDeps92}
+		FORESTSWAMP01:${varDeps92}
+		FORESTSWAMP02:${varDeps92}
+		FORESTSWAMP03:${varDeps92}
+		FORESTSWAMP04:${varDeps92}
+		FORESTSWAMP05:${varDeps92}
+		FORESTSWAMP06:${varDeps92}
+		FORESTSWAMP07:${varDeps92}
+		FORESTSWAMP08:${varDeps92}
+		FORESTSWAMP09:${varDeps92}
+		FORESTSWAMP10:${varDeps92}
+		FORESTSWAMP11:${varDeps92}
+		FORESTSWAMP12:${varDeps92}
+		FORESTSWAMP13:${varDeps92}
+		FORESTSWAMP14:${varDeps92}
+		FORESTSWAMP15:${varDeps92}
+		FORESTSWAMP16:${varDeps92}
+		FORESTSWAMP17:${varDeps92}
+		FORESTSWAMP18:${varDeps92}
+		FORESTSWAMP19:${varDeps92}
+		FORESTSWAMP20:${varDeps92}
+		FORESTPOLARDIO01:${varDeps92}
+		FORESTPOLARDIO02:${varDeps92}
+		FORESTPOLARDIO03:${varDeps92}
+	end
+	files:Cydonia
+
+		${varDeps41}:MARS U_WALL02
+		MARS00:${varDeps41}
+		MARS01:${varDeps41}
+		MARS02:${varDeps41}
+		MARS03:${varDeps41}
+		MARS04:${varDeps41}
+		MARS05:${varDeps41}
+		MARS06:${varDeps41}
+		MARS07:${varDeps41}
+		MARS08:${varDeps41}
+		MARS09:${varDeps41}
+		MARS10:${varDeps41}
+	end
+	files:Reptoid Cydonia
+
+		${varDeps120}:REP_MARS REP_WALL02
+		MARS00:${varDeps120}
+		MARS01:${varDeps120}
+		MARS02:${varDeps120}
+		MARS03:${varDeps120}
+		MARS04:${varDeps120}
+		MARS05:${varDeps120}
+		MARS06:${varDeps120}
+		MARS07:${varDeps120}
+		MARS08:${varDeps120}
+		MARS09:${varDeps120}
+		MARS10:${varDeps120}
+		REPTIBUNKER00:${varDeps120}
+	end
+	files:Railyard
+
+		${varDeps42}:PORTROADS PORTURBITS ROADS URBITS FRNITURE
+		RAILYARDURBAN00:${varDeps42}
+		RAILYARDURBAN01:${varDeps42}
+		RAILYARDURBAN02:${varDeps42}
+		RAILYARDURBAN03:${varDeps42}
+		RAILYARDURBAN04:${varDeps42}
+		RAILYARDURBAN05:${varDeps42}
+		RAILYARDURBAN06:${varDeps42}
+		RAILYARDURBAN07:${varDeps42}
+		RAILYARDURBAN08:${varDeps42}
+		RAILYARDURBAN09:${varDeps42}
+		RAILYARDURBAN10:${varDeps42}
+		RAILYARDURBAN11:${varDeps42}
+		RAILYARDURBAN12:${varDeps42}
+		RAILYARDURBAN13:${varDeps42}
+		RAILYARDURBAN14:${varDeps42}
+		RAILYARDURBAN15:${varDeps42}
+		RAILYARDURBAN16:${varDeps42}
+		RAILYARDURBAN17:${varDeps42}
+		RAILYARDURBAN18:${varDeps42}
+		RAILYARDURBAN19:${varDeps42}
+		RAILYARDURBAN20:${varDeps42}
+		RAILYARDURBAN21:${varDeps42}
+		RAILYARDURBAN22:${varDeps42}
+		RAILYARDURBAN23:${varDeps42}
+		RAILYARDURBAN24:${varDeps42}
+		RAILYARDURBAN25:${varDeps42}
+		RAILYARDURBAN26:${varDeps42}
+		RAILYARDURBAN27:${varDeps42}
+		RAILYARDURBAN28:${varDeps42}
+	end
+	files:Dawn City
+
+		${varDeps43}:DAWNROADS DAWNURBITS DAWNURBAN DAWNFRNITURE DAWNDECOR
+		DAWNURBAN00:${varDeps43}
+		DAWNURBAN01:${varDeps43}
+		DAWNURBAN02:${varDeps43}
+		DAWNURBAN03:${varDeps43}
+		DAWNURBAN04:${varDeps43}
+		DAWNURBAN05:${varDeps43}
+		DAWNURBAN06:${varDeps43}
+		DAWNURBAN07:${varDeps43}
+		DAWNURBAN08:${varDeps43}
+		DAWNURBAN09:${varDeps43}
+		DAWNURBAN10:${varDeps43}
+		DAWNURBAN11:${varDeps43}
+		DAWNURBAN12:${varDeps43}
+		DAWNURBAN13:${varDeps43}
+		DAWNURBAN14:${varDeps43}
+		DAWNURBAN15:${varDeps43}
+		DAWNURBAN16:${varDeps43}
+		DAWNURBAN17:${varDeps43}
+		DAWNURBAN18:${varDeps43}
+		DAWNURBAN19:${varDeps43}
+		DAWNURBAN20:${varDeps43}
+		DAWNURBAN21:${varDeps43}
+		DAWNURBAN22:${varDeps43}
+		DAWNURBAN23:${varDeps43}
+		DAWNURBAN24:${varDeps43}
+		DAWNURBAN25:${varDeps43}
+		DAWNURBAN26:${varDeps43}
+		DAWNURBAN27:${varDeps43}
+		DAWNURBAN28:${varDeps43}
+		DAWNURBAN29:${varDeps43}
+		DAWNURBAN30:${varDeps43}
+		DAWNURBAN31:${varDeps43}
+		DAWNURBAN32:${varDeps43}
+		DAWNURBAN33:${varDeps43}
+		DAWNURBAN34:${varDeps43}
+		DAWNURBAN35:${varDeps43}
+		DAWNURBAN36:${varDeps43}
+		DAWNURBAN37:${varDeps43}
+		DAWNURBAN38:${varDeps43}
+		DAWNURBAN39:${varDeps43}
+		DAWNURBAN40:${varDeps43}
+		DAWNURBAN41:${varDeps43}
+		DAWNURBAN42:${varDeps43}
+		DAWNURBAN43:${varDeps43}
+		DAWNURBAN44:${varDeps43}
+		DAWNURBAN45:${varDeps43}
+		DAWNURBAN46:${varDeps43}
+		DAWNURBAN47:${varDeps43}
+		DAWNURBAN48:${varDeps43}
+		DAWNURBAN49:${varDeps43}
+		DAWNURBAN50:${varDeps43}
+		DAWNURBAN51:${varDeps43}
+		DAWNURBAN52:${varDeps43}
+		DAWNURBAN53:${varDeps43}
+		DAWNURBAN54:${varDeps43}
+		DAWNURBAN55:${varDeps43}
+		DAWNURBAN56:${varDeps43}
+		DAWNURBAN57:${varDeps43}
+		DAWNURBAN58:${varDeps43}
+		DAWNURBAN59:${varDeps43}
+		DAWNURBAN60:${varDeps43}
+		DAWNURBAN61:${varDeps43}
+		DAWNURBAN62:${varDeps43}
+		DAWNURBAN63:${varDeps43}
+		DAWNURBAN64:${varDeps43}
+		DAWNURBAN65:${varDeps43}
+		DAWNURBAN66:${varDeps43}
+		DAWNURBAN67:${varDeps43}
+		DAWNURBAN68:${varDeps43}
+		DAWNCITYF00:${varDeps43}
+	end
+	files:X-Com Base Expanded
+
+		${varDeps44}:XBASE1 XBASE2 XCOMWALL XCOMBITS
+		XBASE_00:${varDeps44}
+		XBASE_01:${varDeps44}
+		XBASE_02:${varDeps44}
+		XBASE_03:${varDeps44}
+		XBASE_04:${varDeps44}
+		XBASE_05:${varDeps44}
+		XBASE_05:${varDeps44}
+		XBASE_07:${varDeps44}
+		XBASE_08:${varDeps44}
+		XBASE_09:${varDeps44}
+		XBASE_10:${varDeps44}
+		XBASE_11:${varDeps44}
+		XBASE_12:${varDeps44}
+		XBASE_13:${varDeps44}
+		XBASE_14:${varDeps44}
+		XBASE_15:${varDeps44}
+		XBASE_16:${varDeps44}
+		XBASE_17:${varDeps44}
+		XBASE_18:${varDeps44}
+		XBASE_19:${varDeps44}
+		XBASE_20:${varDeps44}
+		XBASS_01:${varDeps44}
+		XBASS_02:${varDeps44}
+		XBASS_03:${varDeps44}
+		XBASS_04:${varDeps44}
+		XBASS_05:${varDeps44}
+		XBASS_06:${varDeps44}
+		XBASS_07:${varDeps44}
+		XBASS_08:${varDeps44}
+		XBASS_09:${varDeps44}
+		XBASS_10:${varDeps44}
+		XBASS_11:${varDeps44}
+		XBASS_12:${varDeps44}
+		XBASS_13:${varDeps44}
+		XBASS_14:${varDeps44}
+		XBASS_15:${varDeps44}
+		XBASS_16:${varDeps44}
+		XBASS_17:${varDeps44}
+		XBASS_18:${varDeps44}
+		XBASS_19:${varDeps44}
+		XBASS_20:${varDeps44}
+		XBASS_21:${varDeps44}
+		XBASS_22:${varDeps44}
+		XBASS_23:${varDeps44}
+		XBASS_24:${varDeps44}
+		XBASS_25:${varDeps44}
+		XBASS_26:${varDeps44}
+		XBASS_27:${varDeps44}
+		XBASS_28:${varDeps44}
+		XBASS_29:${varDeps44}
+		XBASS_30:${varDeps44}
+		XBASS_31:${varDeps44}
+		XBASS_32:${varDeps44}
+		XBASS_33:${varDeps44}
+		XBASS_34:${varDeps44}
+		XBASS_35:${varDeps44}
+		XBASS_36:${varDeps44}
+		XBASS_37:${varDeps44}
+		XBASS_38:${varDeps44}
+		XBASS_39:${varDeps44}
+		XBASS_40:${varDeps44}
+		XBASS_41:${varDeps44}
+	end
+	files:Pirate Base
+
+		${varDeps65}:XB1BR XB2BR XB3BITZ2 XB3BITZ1 XB3BITZ3
+		XBR_00:${varDeps65}
+		XBR_01:${varDeps65}
+		XBR_02:${varDeps65}
+		XBR_03:${varDeps65}
+		XBR_04:${varDeps65}
+		XBR_05:${varDeps65}
+		XBR_06:${varDeps65}
+		XBR_07:${varDeps65}
+		XBR_08:${varDeps65}
+		XBR_09:${varDeps65}
+		XBR_10:${varDeps65}
+		XBR_11:${varDeps65}
+		XBR_12:${varDeps65}
+		XBR_13:${varDeps65}
+		XBR_14:${varDeps65}
+		XBR_15:${varDeps65}
+		XBR_16:${varDeps65}
+		XBR_17:${varDeps65}
+		XBR_18:${varDeps65}
+		XBR_19:${varDeps65}
+		XBR_20:${varDeps65}
+		XBR_21:${varDeps65}
+		XBR_22:${varDeps65}
+		XBR_23:${varDeps65}
+		XBR_24:${varDeps65}
+		XBR_25:${varDeps65}
+		XBR_26:${varDeps65}
+		XBR_27:${varDeps65}
+		XBR_28:${varDeps65}
+		XBR_29:${varDeps65}
+		XBR_30:${varDeps65}
+		XBR_31:${varDeps65}
+		XBR_32:${varDeps65}
+		XBR_33:${varDeps65}
+		XBR_34:${varDeps65}
+		XBR_35:${varDeps65}
+		XBR_36:${varDeps65}
+		XBR_37:${varDeps65}
+		XBR_38:${varDeps65}
+		XBR_39:${varDeps65}
+		XBR_40:${varDeps65}
+		XBR_41:${varDeps65}
+		XBR_42:${varDeps65}
+		XBR_43:${varDeps65}
+		XBR_44:${varDeps65}
+		XBR_45:${varDeps65}
+		XBR_46:${varDeps65}
+		XBR_47:${varDeps65}
+		XBR_48:${varDeps65}
+		XBR_49:${varDeps65}
+		XBR_50:${varDeps65}
+		XBR_51:${varDeps65}
+		XBR_52:${varDeps65}
+		XBR_53:${varDeps65}
+		XBR_54:${varDeps65}
+		XBR_55:${varDeps65}
+		XBR_56:${varDeps65}
+		XBR_57:${varDeps65}
+		XBR_58:${varDeps65}
+		XBR_59:${varDeps65}
+		XBR_60:${varDeps65}
+		XBR_61:${varDeps65}
+		XBR_62:${varDeps65}
+	end
+	files:Commercial
+
+		${varDeps45}:COMROADS COMBITS COMMERCE COMFRN COMDECOR
+		COMRCURBAN00:${varDeps45}
+		COMRCURBAN01:${varDeps45}
+		COMRCURBAN02:${varDeps45}
+		COMRCURBAN03:${varDeps45}
+		COMRCURBAN04:${varDeps45}
+		COMRCURBAN05:${varDeps45}
+		COMRCURBAN06:${varDeps45}
+		COMRCURBAN07:${varDeps45}
+		COMRCURBAN08:${varDeps45}
+		COMRCURBAN09:${varDeps45}
+		COMRCURBAN10:${varDeps45}
+		COMRCURBAN11:${varDeps45}
+		COMRCURBAN12:${varDeps45}
+		COMRCURBAN13:${varDeps45}
+		COMRCURBAN14:${varDeps45}
+		COMRCURBAN15:${varDeps45}
+		COMRCURBAN16:${varDeps45}
+		COMRCURBAN17:${varDeps45}
+		COMRCURBAN18:${varDeps45}
+		COMRCURBAN19:${varDeps45}
+		COMRCURBAN20:${varDeps45}
+		COMRCURBAN21:${varDeps45}
+		COMRCURBAN22:${varDeps45}
+		COMRCURBAN23:${varDeps45}
+		COMRCURBAN24:${varDeps45}
+		COMRCURBAN25:${varDeps45}
+		COMRCURBAN26:${varDeps45}
+		COMRCURBAN27:${varDeps45}
+	end
+	files:Alien Colony
+
+		${varDeps70}:COLONYA COLONYB TUNDRAFOREST
+		ALIENCOLONY00:${varDeps70}
+		ALIENCOLONY01:${varDeps70}
+		ALIENCOLONY02:${varDeps70}
+		ALIENCOLONY03:${varDeps70}
+		ALIENCOLONY04:${varDeps70}
+		ALIENCOLONY05:${varDeps70}
+		ALIENCOLONY06:${varDeps70}
+		ALIENCOLONY07:${varDeps70}
+		ALIENCOLONY08:${varDeps70}
+		ALIENCOLONY09:${varDeps70}
+		ALIENCOLONY10:${varDeps70}
+		ALIENCOLONY11:${varDeps70}
+		ALIENCOLONY12:${varDeps70}
+		ALIENCOLONY13:${varDeps70}
+		ALIENCOLONY14:${varDeps70}
+		ALIENCOLONY15:${varDeps70}
+		ALIENCOLONY16:${varDeps70}
+		ALIENCOLONY17:${varDeps70}
+		ALIENCOLONY18:${varDeps70}
+		ALIENCOLONY19:${varDeps70}
+		ALIENCOLONY20:${varDeps70}
+		ALIENCOLONY21:${varDeps70}
+		ALIENCOLONY22:${varDeps70}
+		ALIENCOLONY23:${varDeps70}
+		ALIENCOLONY24:${varDeps70}
+		ALIENCOLONY25:${varDeps70}
+	end
+	files:Military
+
+		${varDeps48}:BASEROAD BASEBITS BASE BASEFRN
+		MBASE00:${varDeps48}
+		MBASE01:${varDeps48}
+		MBASE02:${varDeps48}
+		MBASE03:${varDeps48}
+		MBASE04:${varDeps48}
+		MBASE05:${varDeps48}
+		MBASE06:${varDeps48}
+		MBASE07:${varDeps48}
+		MBASE08:${varDeps48}
+		MBASE09:${varDeps48}
+		MBASE10:${varDeps48}
+		MBASE14:${varDeps48}
+		MBASE15:${varDeps48}
+		MBASE16:${varDeps48}
+		MBASE17:${varDeps48}
+		MBASE18:${varDeps48}
+	end
+	files:Complex Urban
+
+		${varDeps72}:AREA51_A3 AREA51_B2 AREA51_C2 AREA51_D4
+		COMPLEXURBAN00:${varDeps72}
+		COMPLEXURBAN01:${varDeps72}
+		COMPLEXURBAN02:${varDeps72}
+		COMPLEXURBAN03:${varDeps72}
+		COMPLEXURBAN04:${varDeps72}
+		COMPLEXURBAN05:${varDeps72}
+		COMPLEXURBAN06:${varDeps72}
+		COMPLEXURBAN07:${varDeps72}
+		COMPLEXURBAN08:${varDeps72}
+		COMPLEXURBAN09:${varDeps72}
+		COMPLEXURBAN10:${varDeps72}
+		COMPLEXURBAN11:${varDeps72}
+		COMPLEXURBAN12:${varDeps72}
+		COMPLEXURBAN13:${varDeps72}
+		COMPLEXURBAN14:${varDeps72}
+		COMPLEXURBAN15:${varDeps72}
+		COMPLEXURBAN16:${varDeps72}
+		COMPLEXURBAN17:${varDeps72}
+		COMPLEXURBAN18:${varDeps72}
+		COMPLEXURBAN19:${varDeps72}
+		COMPLEXURBAN20:${varDeps72}
+		COMPLEXURBAN21:${varDeps72}
+		COMPLEXURBAN22:${varDeps72}
+		COMPLEXURBAN23:${varDeps72}
+		COMPLEXURBAN24:${varDeps72}
+		COMPLEXURBAN25:${varDeps72}
+		COMPLEXURBAN26:${varDeps72}
+		COMPLEXURBAN27:${varDeps72}
+		COMPLEXURBAN28:${varDeps72}
+		COMPLEXURBAN29:${varDeps72}
+		COMPLEXURBAN30:${varDeps72}
+		COMPLEXURBAN31:${varDeps72}
+		COMPLEXURBAN32:${varDeps72}
+		COMPLEXURBAN33:${varDeps72}
+		COMPLEXURBAN34:${varDeps72}
+	end
+	files:Hive
+
+		${varDeps71}:HIVEA HIVEB HIVEC XCOMEXIT
+		HIVE00:${varDeps71}
+		HIVE01:${varDeps71}
+		HIVE02:${varDeps71}
+		HIVE03:${varDeps71}
+		HIVE04:${varDeps71}
+		HIVE05:${varDeps71}
+		HIVE06:${varDeps71}
+		HIVE07:${varDeps71}
+		HIVE08:${varDeps71}
+		HIVE09:${varDeps71}
+		HIVE10:${varDeps71}
+		HIVE11:${varDeps71}
+		HIVE12:${varDeps71}
+		HIVE13:${varDeps71}
+		HIVE14:${varDeps71}
+		HIVE15:${varDeps71}
+		HIVE16:${varDeps71} # X-Com Entry
+		HIVE17:${varDeps71} # X-Com Exit
+	end
+
+	files:Area 51
+
+		${varDeps69}:AREA51W AREA51X AREA51Y AREA51Z
+		AREA51LZ:${varDeps69}
+		AREA51BASELZW:${varDeps69}
+		AREA51BASELZN:${varDeps69}
+		AREA51BASELZ:${varDeps69}
+		AREA51BASE00:${varDeps69}
+		AREA51BASE01:${varDeps69}
+		AREA51BASE02:${varDeps69}
+		AREA51BASE03:${varDeps69}
+		AREA51BASE04:${varDeps69}
+		AREA51BASE05:${varDeps69}
+		AREA51BASE06:${varDeps69}
+		AREA51BASE07:${varDeps69}
+		AREA51BASE08:${varDeps69}
+		AREA51BASE09:${varDeps69}
+		AREA51BASE10:${varDeps69}
+		AREA51BASE11:${varDeps69}
+		AREA51BASE12:${varDeps69}
+		AREA51BASE13:${varDeps69}
+		AREA51BASE14:${varDeps69}
+		AREA51BASE15:${varDeps69}
+		AREA51BASE16:${varDeps69}
+		AREA51BASE17:${varDeps69}
+		AREA51BASE18:${varDeps69}
+		AREA51BASE19:${varDeps69}
+		AREA51BASE20:${varDeps69}
+		AREA51BASE21:${varDeps69}
+		AREA51BASE22:${varDeps69}
+		AREA51BASE23:${varDeps69}
+		AREA51BASE24:${varDeps69}
+		AREA51BASE25:${varDeps69}
+		AREA51BASE26:${varDeps69}
+		AREA51BASE27:${varDeps69}
+		AREA51BASE28:${varDeps69}
+		AREA51BASE29:${varDeps69}
+		AREA51BASE30:${varDeps69}
+		AREA51BASE31:${varDeps69}
+		AREA51BASE32:${varDeps69}
+		AREA51BASE33:${varDeps69}
+		AREA51BASE34:${varDeps69}
+		AREA51BASE35:${varDeps69}
+		AREA51BASE36:${varDeps69}
+		AREA51BASE37:${varDeps69}
+		AREA51BASE38:${varDeps69}
+		AREA51BASE39:${varDeps69}
+		AREA51BASE40:${varDeps69}
+		AREA51BASE41:${varDeps69}
+		AREA51BASE42:${varDeps69}
+		AREA51BASE43:${varDeps69}
+		AREA51BASE44:${varDeps69}
+		AREA51BASE45:${varDeps69}
+		AREA51BASE46:${varDeps69}
+		AREA51BASE47:${varDeps69}
+		AREA51BASE48:${varDeps69}
+		AREA51BASE49:${varDeps69}
+		AREA51BASE50:${varDeps69}
+		AREA51BASE51:${varDeps69}
+		AREA51BASE52:${varDeps69}
+		AREA51BASE53:${varDeps69}
+		AREA51BASE54:${varDeps69}
+		AREA51BASE55:${varDeps69}
+		AREA51BASE56:${varDeps69}
+		AREA51BASE57:${varDeps69}
+		AREA51BASE58:${varDeps69}
+		AREA51BASE59:${varDeps69}
+		AREA51BASE60:${varDeps69}
+		AREA51BASE61:${varDeps69}
+		AREA51BASE62:${varDeps69}
+		AREA51BASE63:${varDeps69}
+		AREA51BASE64:${varDeps69}
+		AREA51BASE65:${varDeps69}
+		AREA51BASE66:${varDeps69}
+		AREA51BASE67:${varDeps69}
+		AREA51BASE68:${varDeps69}
+		AREA51BASE69:${varDeps69}
+		AREA51BASE70:${varDeps69}
+		AREA51BASE71:${varDeps69}
+		AREA51BASE72:${varDeps69}
+		AREA51BASE73:${varDeps69}
+		AREA51BASE74:${varDeps69}
+		AREA51BASE75:${varDeps69}
+		AREA51BASE76:${varDeps69}
+		AREA51BASE77:${varDeps69}
+		AREA51BASE78:${varDeps69}
+		AREA51BASE79:${varDeps69}
+		AREA51BASE80:${varDeps69}
+		AREA51BASE81:${varDeps69}
+		AREA51BASE82:${varDeps69}
+		AREA51BASE83:${varDeps69}
+		AREA51BASE84:${varDeps69}
+		AREA51BASE85:${varDeps69}
+		AREA51BASE86:${varDeps69}
+		AREA51BASE87:${varDeps69}
+		AREA51BASE88:${varDeps69}
+		AREA51BASE89:${varDeps69}
+		AREA51BASE90:${varDeps69}
+		AREA51BASE91:${varDeps69}
+		AREA51BASE92:${varDeps69}
+		AREA51BASE93:${varDeps69}
+		AREA51BASE94:${varDeps69}
+		AREA51BASE95:${varDeps69}
+		AREA51BASE96:${varDeps69}
+		AREA51BASE97:${varDeps69}
+		AREA51BASE98:${varDeps69}
+		AREA51BASE99:${varDeps69}
+		AREA51BASE100:${varDeps69}
+		AREA51BASE101:${varDeps69}
+		AREA51BASE102:${varDeps69}
+		AREA51BASE103:${varDeps69}
+		AREA51BASE104:${varDeps69}
+		AREA51BASE105:${varDeps69}
+		AREA51BASE106:${varDeps69}
+		AREA51BASE107:${varDeps69}
+		AREA51BASE108:${varDeps69}
+		AREA51BASE109:${varDeps69}
+		AREA51BASE110:${varDeps69}
+		AREA51BASE111:${varDeps69}
+		AREA51BASE112:${varDeps69}
+		AREA51BASE113:${varDeps69}
+		AREA51BASE114:${varDeps69}
+		AREA51BASE115:${varDeps69}
+		AREA51BASE116:${varDeps69}
+		AREA51BASE117:${varDeps69}
+		AREA51BASE118:${varDeps69}
+		AREA51BASE119:${varDeps69}
+		AREA51BASE120:${varDeps69}
+		AREA51BASE121:${varDeps69}
+		AREA51BASE122:${varDeps69}
+		AREA51BASE123:${varDeps69}
+		AREA51BASE124:${varDeps69}
+		AREA51BASE125:${varDeps69}
+		AREA51BASE126:${varDeps69}
+		AREA51BASE127:${varDeps69}
+		AREA51BASE128:${varDeps69}
+		AREA51BASE129:${varDeps69}
+		AREA51BASE130:${varDeps69}
+		AREA51BASE131:${varDeps69}
+		AREA51BASE132:${varDeps69}
+		AREA51BASE133:${varDeps69}
+		AREA51BASE134:${varDeps69}
+		AREA51BASE135:${varDeps69}
+		AREA51BASE136:${varDeps69}
+		AREA51BASE137:${varDeps69}
+		AREA51BASE138:${varDeps69}
+		AREA51BASE139:${varDeps69}
+		AREA51BASE140:${varDeps69}
+		AREA51BASE141:${varDeps69}
+		AREA51BASE142:${varDeps69}
+		AREA51BASE143:${varDeps69}
+		AREA51BASE144:${varDeps69}
+		AREA51BASE145:${varDeps69}
+		AREA51BASE146:${varDeps69}
+		AREA51BASE147:${varDeps69}
+		AREA51BASE148:${varDeps69}
+		AREA51BASE149:${varDeps69}
+		AREA51BASE150:${varDeps69}
+		AREA51BASE151:${varDeps69}
+		AREA51BASE152:${varDeps69}
+		AREA51BASE153:${varDeps69}
+		AREA51BASE154:${varDeps69}
+		AREA51BASE155:${varDeps69}
+		AREA51BASE156:${varDeps69}
+		AREA51BASE157:${varDeps69}
+		AREA51BASE158:${varDeps69}
+		AREA51BASE159:${varDeps69}
+		AREA51BASE160:${varDeps69}
+		AREA51BASE161:${varDeps69}
+		AREA51BASE162:${varDeps69}
+		AREA51BASE163:${varDeps69}
+		AREA51BASE164:${varDeps69}
+		AREA51BASE165:${varDeps69}
+		AREA51BASE166:${varDeps69}
+		AREA51BASE167:${varDeps69}
+		AREA51BASE168:${varDeps69}
+		AREA51BASE169:${varDeps69}
+		AREA51BASE170:${varDeps69}
+		AREA51BASE171:${varDeps69}
+		AREA51BASE172:${varDeps69}
+		AREA51BASE173:${varDeps69}
+		AREA51BASE174:${varDeps69}
+		AREA51BASE175:${varDeps69}
+		AREA51BASE176:${varDeps69}
+		AREA51BASE177:${varDeps69}
+		AREA51BASE178:${varDeps69}
+		AREA51BASE179:${varDeps69}
+		AREA51BASE180:${varDeps69}
+		AREA51BASE181:${varDeps69}
+		AREA51BASE182:${varDeps69}
+		AREA51BASE183:${varDeps69}
+		AREA51BASE184:${varDeps69}
+		AREA51BASE185:${varDeps69}
+		AREA51BASE186:${varDeps69}
+		AREA51BASE187:${varDeps69}
+		AREA51BASE188:${varDeps69}
+		AREA51BASE189:${varDeps69}
+		AREA51BASE190:${varDeps69}
+		AREA51BASE191:${varDeps69}
+		AREA51BASE192:${varDeps69}
+		AREA51BASE193:${varDeps69}
+		AREA51BASE194:${varDeps69}
+		AREA51BASE195:${varDeps69}
+		AREA51BASE196:${varDeps69}
+		AREA51BASE197:${varDeps69}
+		AREA51BASE198:${varDeps69}
+		AREA51BASE199:${varDeps69}
+		AREA51BASE200:${varDeps69}
+		AREA51BASE201:${varDeps69}
+		AREA51BASE202:${varDeps69}
+		AREA51BASE203:${varDeps69}
+		AREA51BASE204:${varDeps69}
+		AREA51BASE205:${varDeps69}
+		AREA51BASE206:${varDeps69}
+		AREA51BASE207:${varDeps69}
+		AREA51BASE208:${varDeps69}
+		AREA51BASE209:${varDeps69}
+		AREA51BASE210:${varDeps69}
+		AREA51BASE211:${varDeps69}
+		AREA51BASE212:${varDeps69}
+		AREA51BASE213:${varDeps69}
+		AREA51BASE214:${varDeps69}
+		AREA51BASE215:${varDeps69}
+		AREA51BASE216:${varDeps69}
+	end
+
+	files:Seabed
+
+		${varDeps76}:SEASAND SEAROCKS SEAWEEDS SEADEBRIS USOBITS SEANOM
+		SEABED00:${varDeps76}
+		SEABED01:${varDeps76}
+		SEABED02:${varDeps76}
+		SEABED03:${varDeps76}
+		SEABED04:${varDeps76}
+		SEABED05:${varDeps76}
+		SEABED06:${varDeps76}
+		SEABED07:${varDeps76}
+		SEABED08:${varDeps76}
+		SEABED09:${varDeps76}
+		SEABED10:${varDeps76}
+		SEABED11:${varDeps76}
+		SEABED12:${varDeps76}
+		SEABED13:${varDeps76}
+	end
+
+	files:Underwater City
+		${varDeps79}:USOEXT2 USOEXT3 SEAORGANIC1 SEAORGANIC2 SEAORGANIC3 SEASAND SEAWEEDS SEAROCKS SEANOM
+		UCITY00:${varDeps79}
+		UCITY01:${varDeps79}
+		UCITY02:${varDeps79}
+		UCITY03:${varDeps79}
+		UCITY04:${varDeps79}
+		UCITY05:${varDeps79}
+		UCITY06:${varDeps79}
+		UCITY07:${varDeps79}
+		UCITY08:${varDeps79}
+		UCITY09:${varDeps79}
+		UCITY10:${varDeps79}
+		UCITY11:${varDeps79}
+		UCITY12:${varDeps79}
+		UCITY13:${varDeps79}
+		UCITY14:${varDeps79}
+	end
+
+	files:Native Urban
+		${varDeps80}:JUNGLE BARN FRNITURE URBITS CULTIVAT
+		URBANJUNK00:${varDeps80}
+		URBANJUNK01:${varDeps80}
+		URBANJUNK02:${varDeps80}
+		URBANJUNK03:${varDeps80}
+		URBANJUNK04:${varDeps80}
+		URBANJUNK05:${varDeps80}
+		URBANJUNK06:${varDeps80}
+		URBANJUNK07:${varDeps80}
+		URBANJUNK08:${varDeps80}
+		URBANJUNK09:${varDeps80}
+		URBANJUNK10:${varDeps80}
+		URBANJUNK11:${varDeps80}
+		URBANJUNK12:${varDeps80}
+		URBANJUNK13:${varDeps80}
+		URBANJUNK14:${varDeps80}
+		URBANJUNK15:${varDeps80}
+		URBANJUNK16:${varDeps80}
+		URBANJUNK17:${varDeps80}
+		URBANJUNK18:${varDeps80}
+		URBANJUNK19:${varDeps80}
+		URBANJUNK20:${varDeps80}
+		URBANJUNK21:${varDeps80}
+		URBANJUNK22:${varDeps80}
+		URBANJUNK23:${varDeps80}
+		URBANJUNK24:${varDeps80}
+		URBANJUNK25:${varDeps80}
+		URBANJUNK26:${varDeps80}
+		URBANJUNK27:${varDeps80}
+		URBANJUNK28:${varDeps80}
+		URBANJUNK29:${varDeps80}
+		URBANJUNK30:${varDeps80}
+		URBANJUNK31:${varDeps80}
+		URBANJUNK32:${varDeps80}
+		URBANJUNK33:${varDeps80}
+		URBANJUNK34:${varDeps80}
+		URBANJUNK35:${varDeps80}
+		URBANJUNK36:${varDeps80}
+		URBANJUNK37:${varDeps80}
+		URBANJUNK38:${varDeps80}
+		URBANJUNK39:${varDeps80}
+		URBANJUNK40:${varDeps80}
+		URBANJUNK41:${varDeps80}
+		URBANJUNK42:${varDeps80}
+		URBANJUNK43:${varDeps80}
+		URBANJUNK44:${varDeps80}
+		URBANJUNK45:${varDeps80}
+		URBANJUNK46:${varDeps80}
+		URBANJUNKDIO_00:${varDeps80}
+		URBANJUNK_ROAD_00a:${varDeps80}
+		URBANJUNK_ROAD_00b:${varDeps80}
+		URBANJUNK_ROAD_00c:${varDeps80}
+		URBANJUNK_ROAD_00d:${varDeps80}
+		URBANJUNK_ROAD_01a:${varDeps80}
+		URBANJUNK_ROAD_01b:${varDeps80}
+		URBANJUNK_ROAD_01c:${varDeps80}
+		URBANJUNK_ROAD_01d:${varDeps80}
+		URBANJUNK_ROAD_02:${varDeps80}
+	end
+
+	files:Tasoth Factory
+		${varDeps81}:GRUNGE1 GRUNGE2 GRUNGE3 GRUNGE4 GRUNGE5 USOBITS
+		GRUNGE00:${varDeps81}
+		GRUNGE01:${varDeps81}
+		GRUNGE02:${varDeps81}
+		GRUNGE03:${varDeps81}
+		GRUNGE04:${varDeps81}
+		GRUNGE05:${varDeps81}
+		GRUNGE06:${varDeps81}
+		GRUNGE07:${varDeps81}
+		GRUNGE08:${varDeps81}
+		GRUNGE09:${varDeps81}
+		GRUNGE10:${varDeps81}
+		GRUNGE11:${varDeps81}
+		GRUNGE12:${varDeps81}
+		GRUNGE13:${varDeps81}
+		GRUNGE14:${varDeps81}
+		GRUNGE15:${varDeps81}
+		GRUNGE16:${varDeps81}
+	end
+	files:Temple of Sirius
+		${varDeps82}:CULTAN CULTBITS LIFTER DOORS1 DOORSSEC
+		CBASE_00:${varDeps82}
+		CBASE_01:${varDeps82}
+		CBASE_02:${varDeps82}
+		CBASE_03:${varDeps82}
+		CBASE_04:${varDeps82}
+		CBASE_05:${varDeps82}
+		CBASE_06:${varDeps82}
+		CBASE_07:${varDeps82}
+		CBASE_08:${varDeps82}
+		CBASE_09:${varDeps82}
+		CBASE_10:${varDeps82}
+		CBASE_11:${varDeps82}
+		CBASE_12:${varDeps82}
+		CBASE_13:${varDeps82}
+		CBASE_14:${varDeps82}
+		CBASE_15:${varDeps82}
+	end
+
+	files:Warehouse
+		${varDeps83}:CYBERWAREAN CYBERWAREBITS CRATES LIFTER DOORS1 DOORSSEC CYBERPIPES SPECIALTYPE COMPUTERS ALIEN_EGGS
+		WARE_00:${varDeps83}
+		WARE_01:${varDeps83}
+		WARE_02:${varDeps83}
+		WARE_03:${varDeps83}
+		WARE_04:${varDeps83}
+		WARE_05:${varDeps83}
+		WARE_06:${varDeps83}
+		WARE_07:${varDeps83}
+		WARE_08:${varDeps83}
+		WARE_09:${varDeps83}
+		WARE_10:${varDeps83}
+		WARE_11:${varDeps83}
+		WARE_12:${varDeps83}
+		WARE_13:${varDeps83}
+		WARE_14:${varDeps83}
+		WARE_15:${varDeps83}
+		WARE_16:${varDeps83}
+	end
+
+	files:Sewers
+		${varDeps84}:CYBERWAREAN CYBERWAREBITS CRATES DOORS1 DOORSSEC CYBERPIPES COMPUTERS
+# 2x2 tiles
+		CYBERWEB_00:${varDeps84}
+		CYBERWEB_01:${varDeps84}
+		CYBERWEB_02:${varDeps84}
+		CYBERWEB_03:${varDeps84}
+		CYBERWEB_04:${varDeps84}
+# NS channels
+		CYBERWEB_05:${varDeps84}
+		CYBERWEB_06:${varDeps84}
+		CYBERWEB_07:${varDeps84}
+		CYBERWEB_08:${varDeps84}
+		CYBERWEB_09:${varDeps84}
+		CYBERWEB_10:${varDeps84}
+		CYBERWEB_11:${varDeps84}
+		CYBERWEB_12:${varDeps84}
+		CYBERWEB_13:${varDeps84}
+		CYBERWEB_14:${varDeps84}
+		CYBERWEB_15:${varDeps84}
+		CYBERWEB_16:${varDeps84}
+		CYBERWEB_17:${varDeps84}
+# EW channels
+		CYBERWEB_18:${varDeps84}
+		CYBERWEB_19:${varDeps84}
+		CYBERWEB_20:${varDeps84}
+		CYBERWEB_21:${varDeps84}
+		CYBERWEB_22:${varDeps84}
+		CYBERWEB_23:${varDeps84}
+		CYBERWEB_24:${varDeps84}
+		CYBERWEB_25:${varDeps84}
+		CYBERWEB_26:${varDeps84}
+# channel crossroads
+		CYBERWEB_27:${varDeps84}
+# lair
+		CYBERWEB_28:${varDeps84}
+# X-Com entry
+		CYBERWEB_29:${varDeps84}
+# fill
+		CYBERWEB_30:${varDeps84}
+		CYBERWEB_31:${varDeps84}
+		CYBERWEB_32:${varDeps84}
+		CYBERWEB_33:${varDeps84}
+		CYBERWEB_34:${varDeps84}
+		CYBERWEB_35:${varDeps84}
+		CYBERWEB_36:${varDeps84}
+	end
+
+	files:Caves
+		${varDeps85}:CAVEBLACK
+# 2x2 tiles
+		CAVES_00:${varDeps85}
+		CAVES_00A:${varDeps85}
+		CAVES_00B:${varDeps85}
+		CAVES_00C:${varDeps85}
+		CAVES_01:${varDeps85}
+		CAVES_02:${varDeps85}
+		CAVES_03:${varDeps85}
+		CAVES_04:${varDeps85}
+		CAVES_05:${varDeps85}
+		CAVES_06:${varDeps85}
+		CAVESDIO_01:${varDeps85}
+		CAVESDIO_02:${varDeps85}
+		CAVESDIO_03:${varDeps85}
+		CAVESDIO_04:${varDeps85}
+		CAVESDIO_05:${varDeps85}
+		CAVES_fragment:${varDeps85}
+		CAVES_template:${varDeps85}
+	end
+
+	files:Caves - Lab
+		${varDeps85}:CAVEBLACK
+		CAVESLAB_00:${varDeps85}
+		CAVESLAB_00A:${varDeps85}
+		CAVESLAB_00B:${varDeps85}
+		CAVESLAB_00C:${varDeps85}
+		CAVESLAB_01:${varDeps85}
+		CAVESLAB_02:${varDeps85}
+		CAVESLAB_03:${varDeps85}
+		CAVESLAB_04:${varDeps85}
+		CAVESLAB_05:${varDeps85}
+		CAVESLAB_06:${varDeps85}
+		CAVESLABDIO_01:${varDeps85}
+		CAVESLABDIO_02:${varDeps85}
+		CAVESLABDIO_03:${varDeps85}
+		CAVESLABDIO_04:${varDeps85}
+		CAVESLABDIO_05:${varDeps85}
+	end
+
+	files:CavesBase Transition
+		${varDeps105}:CAVEBLACK U_BASE U_WALL02
+		CAVES_UBASE_WEST_template:${varDeps105}
+		CAVES_UBASE_NORTH_template:${varDeps105}
+		CAVES_UBASE_BOTH_template:${varDeps105}
+		CAVES_UBASE_NORTH_00:${varDeps105}
+		CAVES_UBASE_NORTH_01:${varDeps105}
+		CAVES_UBASE_WEST_00:${varDeps105}
+		CAVES_UBASE_BOTH_00:${varDeps105}
+	end
+
+	files:Sietch
+		${varDeps88}:FBASE1 SIETCH DESERT2
+		FBASE_00:${varDeps88}
+		FBASE_01:${varDeps88}
+		FBASE_02:${varDeps88}
+		FBASE_03:${varDeps88}
+		FBASE_04:${varDeps88}
+		FBASE_05:${varDeps88}
+		FBASE_06:${varDeps88}
+		FBASE_07:${varDeps88}
+		FBASE_08:${varDeps88}
+		FBASE_09:${varDeps88}
+		FBASE_10:${varDeps88}
+		FBASE_11:${varDeps88}
+		FBASE_12:${varDeps88}
+		FBASE_13:${varDeps88}
+		FBASE_14:${varDeps88}
+		FBASE_15:${varDeps88}
+		FBASE_16:${varDeps88}
+		FBASE_17:${varDeps88}
+		FBASE_18:${varDeps88}
+		FBASE_19:${varDeps88}
+		FBASE_20:${varDeps88}
+	end
+
+	files:Catacombs
+		${varDeps89}:CATACOMB XOPSMUJUNGLEADDON XCOMENTRY CATACDECOR CAVEBLACK XCOMEXIT PENTA_X DUNGEON
+		CATACOMBS_00:${varDeps89}
+		CATACOMBS_01:${varDeps89}
+		CATACOMBS_02:${varDeps89}
+		CATACOMBS_03:${varDeps89}
+		CATACOMBS_04:${varDeps89}
+		CATACOMBS_05:${varDeps89}
+		CATACOMBS_06:${varDeps89}
+		CATACOMBS_07:${varDeps89}
+		CATACOMBS_08:${varDeps89}
+		CATACOMBS_09:${varDeps89}
+		CATACOMBS_10:${varDeps89}
+		CATACOMBS_11:${varDeps89}
+		CATACOMBS_12:${varDeps89}
+		CATACOMBS_13:${varDeps89}
+		CATACOMBS_14:${varDeps89}
+		CATACOMBS_15:${varDeps89}
+		CATACOMBS_16:${varDeps89}
+		CATACOMBS_17:${varDeps89}
+		CATACOMBS_18:${varDeps89}
+		CATACOMBS_19:${varDeps89}
+		CATACOMBS_20:${varDeps89}
+		CATACOMBS_21:${varDeps89}
+		CATACOMBS_22:${varDeps89}
+		CATACOMBS_DIABLO_00:${varDeps89}
+		CATACOMBS_DIABLO_01:${varDeps89}
+		CATACOMBS_DIABLO_02:${varDeps89}
+		CATACOMBS_DIABLO_03:${varDeps89}
+		CATACOMBS_DIABLO_04:${varDeps89}
+		CATACOMBS_DIABLO_05:${varDeps89}
+		CATACOMBS_DIABLO_06:${varDeps89}
+		CATACOMBS_DIABLO_07:${varDeps89}
+		CATACOMBS_DIABLO_08:${varDeps89}
+		CATACOMBS_DIABLO_09:${varDeps89}
+		CATACOMBS_LZ:${varDeps89}
+		CATACOMBS_XX:${varDeps89}
+		CATACOMBSDIO_01:${varDeps89}
+	end
+	files:Vampire Castle
+		${varDeps103}:CAVEBLACK CATACOMB CATACDECOR LAVA DUNGEON
+		VAMPCASTLE_0X:${varDeps103}
+		VAMPCASTLE_1X:${varDeps103}
+		VAMPCASTLE_00:${varDeps103}
+		VAMPCASTLE_01:${varDeps103}
+		VAMPCASTLE_02:${varDeps103}
+		VAMPCASTLE_2X:${varDeps103}
+		VAMPCASTLE_03:${varDeps103}
+		VAMPCASTLE_04:${varDeps103}
+		VAMPCASTLE_11:${varDeps103}
+		VAMPCASTLE_12:${varDeps103}
+		VAMPCASTLE_13:${varDeps103}
+		VAMPCASTLE_14:${varDeps103}
+		VAMPCASTLE_21:${varDeps103}
+		VAMPCASTLE_22:${varDeps103}
+		VAMPCASTLE_23:${varDeps103}
+		VAMPCASTLE_24:${varDeps103}
+		VAMPCASTLE_30:${varDeps103}
+		VAMPCASTLE_30_SOL:${varDeps103}
+		VAMPCASTLE_31:${varDeps103}
+		VAMPCASTLE_32:${varDeps103}
+		VAMPCASTLE_33:${varDeps103}
+		VAMPCASTLE_34:${varDeps103}
+		VAMPCASTLE_35:${varDeps103}
+		VAMPCASTLE_36:${varDeps103}
+		STRIXCAVE_00:${varDeps103}
+	end
+
+	files:Space
+		${varDeps96}:STATIONWALLS STATIONDECOR STATION LIFTER STATIONBITS
+		ORBIT_00:${varDeps96}
+		ORBIT_01:${varDeps96}
+		STATION_01:${varDeps96}
+		SAT_01:${varDeps96}
+	end
+
+	files:Slums
+		${varDeps98}:ROADS URBITS URBAN FRNITURE DECKSHIPC LINERSHIPC PORTBITS
+		SLUMURBAN00:${varDeps98}
+		SLUMURBAN01:${varDeps98}
+		SLUMURBAN02:${varDeps98}
+		SLUMURBAN03:${varDeps98}
+		SLUMURBAN04:${varDeps98}
+		SLUMURBAN05:${varDeps98}
+		SLUMURBAN06:${varDeps98}
+		SLUMURBAN07:${varDeps98}
+		SLUMURBAN08:${varDeps98}
+		SLUMURBAN09:${varDeps98}
+		SLUMURBAN10:${varDeps98}
+		SLUMURBAN11:${varDeps98}
+		SLUMURBAN12:${varDeps98}
+		SLUMURBAN13:${varDeps98}
+		SLUMURBAN14:${varDeps98}
+		SLUMURBAN15:${varDeps98}
+		SLUMURBAN16:${varDeps98}
+		SLUMURBAN17:${varDeps98}
+		SLUMURBAN18:${varDeps98}
+		SLUMURBAN19:${varDeps98}
+		SLUMURBAN20:${varDeps98}
+		SLUMURBAN21:${varDeps98}
+		SLUMURBAN22:${varDeps98}
+		SLUMURBAN23:${varDeps98}
+		SLUMURBAN24:${varDeps98}
+		SLUMURBAN25:${varDeps98}
+		SLUMURBAN26:${varDeps98}
+		SLUMURBAN27:${varDeps98}
+		SLUMURBAN28:${varDeps98}
+		SLUMURBAN29:${varDeps98}
+		SLUMURBAN30:${varDeps98}
+	end
+
+	files:Island Urban
+		${varDeps37}:SEAURBAN ISLANDURBAN1 ISLANDURBAN2 ISLANDURBAN3 SEABITS
+		ISLANDURBAN00:${varDeps37}
+		ISLANDURBAN01:${varDeps37}
+		ISLANDURBAN02:${varDeps37}
+		ISLANDURBAN03:${varDeps37}
+		ISLANDURBAN04:${varDeps37}
+		ISLANDURBAN05:${varDeps37}
+		ISLANDURBAN06:${varDeps37}
+		ISLANDURBAN07:${varDeps37}
+		ISLANDURBAN08:${varDeps37}
+		ISLANDURBAN09:${varDeps37}
+		ISLANDURBAN10:${varDeps37}
+		ISLANDURBAN11:${varDeps37}
+		ISLANDURBAN12:${varDeps37}
+		ISLANDURBAN13:${varDeps37}
+		ISLANDURBAN14:${varDeps37}
+		ISLANDURBAN_XCOM:${varDeps37}
+	end
+
+	files:Polar Mountain
+		${varDeps99}:POLARMOUNT POLAR POLARMOUNTBITS
+		POLARMOUNT00:${varDeps99}
+		POLARMOUNT01:${varDeps99}
+		POLARMOUNT02:${varDeps99}
+		POLARMOUNT03:${varDeps99}
+		POLARMOUNT04:${varDeps99}
+		POLARMOUNT05:${varDeps99}
+		POLARMOUNT06:${varDeps99}
+		POLARMOUNT07:${varDeps99}
+		POLARMOUNT08:${varDeps99}
+		POLARMOUNT09:${varDeps99}
+		POLARMOUNT10:${varDeps99}
+		POLARMOUNT11:${varDeps99}
+		POLARMOUNT12:${varDeps99}
+	end
+
+	files:Port TFTD
+		${varDeps95}:SEAURBAN PORTROADS PORTURBITS SEABITS
+		PORTUFO00:${varDeps95}
+		PORTUFO01:${varDeps95}
+		PORTUFO02:${varDeps95}
+		PORTUFO03:${varDeps95}
+		PORTUFO04:${varDeps95}
+		PORTUFO05:${varDeps95}
+		PORTUFO06:${varDeps95}
+		PORTUFO07:${varDeps95}
+		PORTUFO08:${varDeps95}
+		PORTUFO09:${varDeps95}
+		PORTUFO10:${varDeps95}
+		PORTUFO11:${varDeps95}
+		PORTUFO12:${varDeps95}
+		PORTUFO13:${varDeps95}
+		PORTUFO14:${varDeps95}
+		PORTUFO15:${varDeps95}
+		PORTUFO16:${varDeps95}
+		PORTUFO17:${varDeps95}
+		PORTUFO18:${varDeps95}
+		PORTUFO19:${varDeps95}
+		PORTUFO20:${varDeps95}
+	end
+
+	files:Jungle Temple
+		${varDeps91}:SANDS MUJUNGLE JUNGLEBITS
+		MUJUNGLE00:${varDeps91}
+		MUJUNGLE01:${varDeps91}
+		MUJUNGLE02:${varDeps91}
+		MUJUNGLE03:${varDeps91}
+		MUJUNGLE04:${varDeps91}
+		MUJUNGLE05:${varDeps91}
+		MUJUNGLE06:${varDeps91}
+		MUJUNGLE07:${varDeps91}
+		MUJUNGLE08:${varDeps91}
+		MUJUNGLE09:${varDeps91}
+		MUJUNGLE10:${varDeps91}
+		MUJUNGLE11:${varDeps91}
+		MUJUNGLE12:${varDeps91}
+		MUJUNGLE13:${varDeps91}
+		MUJUNGLE14:${varDeps91}
+	end
+
+	files:Storm Mountain
+		${varDeps100}:MOUNT SIBERIABASE STORMMOUNT XOPSUFOCLONES
+		STORMMOUNTAIN00:${varDeps100}
+		STORMMOUNTAIN01:${varDeps100}
+		STORMMOUNTAIN02:${varDeps100}
+		STORMMOUNTAIN03:${varDeps100}
+		STORMMOUNTAIN04:${varDeps100}
+		STORMMOUNTAIN05:${varDeps100}
+		STORMMOUNTAIN06:${varDeps100}
+		STORMMOUNTAIN07:${varDeps100}
+		STORMMOUNTAIN08:${varDeps100}
+		STORMMOUNTAIN09:${varDeps100}
+		STORMMOUNTAIN10:${varDeps100}
+		STORMMOUNTAIN11:${varDeps100}
+		STORMMOUNTAIN12:${varDeps100}
+		STORMMOUNTAIN13:${varDeps100}
+		STORMMOUNTAIN14:${varDeps100}
+		STORMMOUNTAIN_CHRYSSALID:${varDeps100}
+	end
+	files:Dimension-X Jungle
+
+		${varDeps102}:DIMENSION_X_JUNGLE
+		DIMENSIONXJUNGLE00:${varDeps102}
+		DIMENSIONXJUNGLE01:${varDeps102}
+		DIMENSIONXJUNGLE02:${varDeps102}
+		DIMENSIONXJUNGLE03:${varDeps102}
+		DIMENSIONXJUNGLE04:${varDeps102}
+		DIMENSIONXJUNGLE05:${varDeps102}
+		DIMENSIONXJUNGLE06:${varDeps102}
+		DIMENSIONXJUNGLE07:${varDeps102}
+		DIMENSIONXJUNGLE08:${varDeps102}
+		DIMENSIONXJUNGLE09:${varDeps102}
+		DIMENSIONXJUNGLE10:${varDeps102}
+		DIMENSIONXJUNGLE11:${varDeps102}
+	end
+
+	files:Beach
+
+		${varDeps52}:BEACH SAVANNABEACH
+		BEACH00:${varDeps52}
+		BEACH01:${varDeps52}
+		BEACH02:${varDeps52}
+		BEACH03:${varDeps52}
+		BEACH04:${varDeps52}
+		BEACH05:${varDeps52}
+	end
+
+	files:Luxury Liner
+		${varDeps36}:SEAURBAN LINERSHIPA LINERSHIPB LINERSHIPC LINERSHIPD DECKSHIPC LIFTER BATHBITZ_HT
+		LINERT00:${varDeps36}
+		LINERT01:${varDeps36}
+	end
+	files:Ocean Temple
+
+		${varDeps30}:OCEANTEMPLE1 OCEANTEMPLE2 OCEANTEMPLE3 OCEANTEMPLE4
+		OCEANTEMPLE01:${varDeps30}
+		OCEANTEMPLE02:${varDeps30}
+		OCEANTEMPLE03:${varDeps30}
+		OCEANTEMPLE04:${varDeps30}
+		OCEANTEMPLE05:${varDeps30}
+		OCEANTEMPLE06:${varDeps30}
+		OCEANTEMPLE07:${varDeps30}
+		OCEANTEMPLE08:${varDeps30}
+		OCEANTEMPLE09:${varDeps30}
+	end
+	files:Desert Temple
+		${varDeps114}:SANDS ATLANTDESERT DESERT
+		ATLANTDESERT00:${varDeps114}
+		ATLANTDESERT01:${varDeps114}
+		ATLANTDESERT02:${varDeps114}
+		ATLANTDESERT03:${varDeps114}
+		ATLANTDESERT04:${varDeps114}
+		ATLANTDESERT05:${varDeps114}
+		ATLANTDESERT06:${varDeps114}
+		ATLANTDESERT07:${varDeps114}
+		ATLANTDESERT08:${varDeps114}
+		ATLANTDESERT09:${varDeps114}
+		ATLANTDESERT10:${varDeps114}
+		ATLANTDESERT11:${varDeps114}
+		ATLANTDESERT12:${varDeps114}
+	end
+	files:Mummy Village
+		${varDeps113}:MUMMY_VILLAGE SHOGG_VILLAGE_WALL02 SHOGG_VILLAGE_PODS MUMMY_RUINS
+# North cave wall
+		MUM_VILLAGE_N00:${varDeps113}
+# North cave wall short
+		MUM_VILLAGE_N_SHORT00:${varDeps113}
+		MUM_VILLAGE_N_SHORT01:${varDeps113}
+# East cave wall
+		MUM_VILLAGE_E00:${varDeps113}
+		MUM_VILLAGE_E01:${varDeps113}
+# East cave wall short
+		MUM_VILLAGE_E_SHORT00:${varDeps113}
+# South cave wall
+		MUM_VILLAGE_S00:${varDeps113}
+# South cave wall short
+		MUM_VILLAGE_S_SHORT00:${varDeps113}
+# West cave wall
+		MUM_VILLAGE_W00:${varDeps113}
+		MUM_VILLAGE_W01:${varDeps113}
+# West cave wall short
+		MUM_VILLAGE_W_SHORT00:${varDeps113}
+		MUM_VILLAGE_W_SHORT01:${varDeps113}
+		MUM_VILLAGE_W_SHORT02:${varDeps113}
+# North-East cave corner
+		MUM_VILLAGE_NE00:${varDeps113}
+		MUM_VILLAGE_NE01:${varDeps113}
+# South-East cave corner
+		MUM_VILLAGE_SE00:${varDeps113}
+		MUM_VILLAGE_SE01:${varDeps113}
+# South-West cave corner
+		MUM_VILLAGE_SW00:${varDeps113}
+		MUM_VILLAGE_SW01:${varDeps113}	
+# North-West cave corner
+		MUM_VILLAGE_NW00:${varDeps113}
+		MUM_VILLAGE_NW01:${varDeps113}
+# Cave middle
+		MUM_VILLAGE_MIDDLE00:${varDeps113}
+		MUM_VILLAGE_MIDDLE01:${varDeps113}
+		MUM_VILLAGE_MIDDLE02:${varDeps113}
+		MUM_VILLAGE_MIDDLE03:${varDeps113}
+		MUM_VILLAGE_MIDDLE04:${varDeps113}
+		MUM_VILLAGE_MIDDLE05:${varDeps113}
+		MUM_VILLAGE_MIDDLE06:${varDeps113}
+		MUM_VILLAGE_MIDDLE07:${varDeps113}
+		MUM_VILLAGE_MIDDLE08:${varDeps113}
+		MUM_VILLAGE_MIDDLE09:${varDeps113}
+		MUM_VILLAGE_MIDDLE10:${varDeps113}
+		MUM_VILLAGE_MIDDLE11:${varDeps113}
+		MUM_VILLAGE_MIDDLE12:${varDeps113}
+		MUM_VILLAGE_MIDDLE13:${varDeps113}
+# Cave middle big
+		MUM_VILLAGE_MIDDLE_BIG00:${varDeps113}
+		MUM_VILLAGE_MIDDLE_BIG01:${varDeps113}
+		MUM_VILLAGE_MIDDLE_BIG02:${varDeps113}
+		MUM_VILLAGE_MIDDLE_BIG03:${varDeps113}
+	end
+	files:Space Freighter Command
+		${varDeps116}:FREIGHTER_MAIN FREIGHTER_COMMAND
+		FREIGHTERBASE_CENTER_TEMPLATE:${varDeps116}
+		FREIGHTERBASE_CENTER_BRIDGE00:${varDeps116}
+		FREIGHTERBASE_CENTER_HANGAR00:${varDeps116}
+		FREIGHTERBASE_CENTER_CROSSROADS00:${varDeps116}
+	end
+	files:Space Freighter Agrarian
+		${varDeps117}:FREIGHTER_MAIN FREIGHTER_AGRARIAN
+		FREIGHTER_AGRI_FARM00:${varDeps117}
+		FREIGHTER_AGRI_FARM01:${varDeps117}
+		FREIGHTER_AGRI_FARM02:${varDeps117}
+		FREIGHTER_AGRI_BYRE00:${varDeps117}
+		FREIGHTER_AGRI_LINK_NW00:${varDeps117}
+	end
+	files:Space Freighter Passenger
+		${varDeps118}:FREIGHTER_MAIN FREIGHTER_PASSENGER
+		FREIGHTER_PASS_ROOMS00:${varDeps118}
+		FREIGHTER_PASS_ROOMS01:${varDeps118}
+		FREIGHTER_PASS_LINK_SW00:${varDeps118}
+		FREIGHTER_PASS_CHAPEL00:${varDeps118}
+	end
+	files:Space Freighter Cargo
+		${varDeps119}:FREIGHTER_MAIN FREIGHTER_CARGO
+		FREIGHTER_CARGO_STORAGE00:${varDeps119}
+		FREIGHTER_CARGO_STORAGE01:${varDeps119}
+		FREIGHTER_CARGO_STORAGE10:${varDeps119}
+		FREIGHTER_CARGO_TANKS00:${varDeps119}
+		FREIGHTER_CARGO_LINK_SE00:${varDeps119}
+		FREIGHTER_CARGO_LINK_NE00:${varDeps119}
+	end
+	files:Underwater Habitat
+		${varDeps122}:SEASAND CYBERPIPES USOBITS
+		SEAHABITAT00:${varDeps122}
+		SEAHABITAT01:${varDeps122}
+		SEAHABITAT02:${varDeps122}
+		SEAHABITAT03:${varDeps122}
+		SEAHABITAT04:${varDeps122}
+		SEAHABITAT05:${varDeps122}
+		SEAHABITAT06:${varDeps122}
+		SEAHABITAT07:${varDeps122}
+		SEAHABITAT08:${varDeps122}
+		SEAHABITAT09:${varDeps122}
+		SEAHABITAT10:${varDeps122}
+		SEAHABITAT11:${varDeps122}
+	end
+	files:Marine Base
+
+		${varDeps123}:MARINEBASE01 MARINEBASE02 MARINEBASE03 MARINEBASE04 MARINEBASE05
+		MARINEBASE00:${varDeps123}
+		MARINEBASE01:${varDeps123}
+		MARINEBASE02:${varDeps123}
+		MARINEBASE03:${varDeps123}
+		MARINEBASE04:${varDeps123}
+		MARINEBASE05:${varDeps123}
+		MARINEBASE06:${varDeps123}
+		MARINEBASE07:${varDeps123}
+		MARINEBASE08:${varDeps123}
+		MARINEBASE09:${varDeps123}
+		MARINEBASE10:${varDeps123}
+		MARINEBASE11:${varDeps123}
+		MARINEBASE12:${varDeps123}
+		MARINEBASE13:${varDeps123}
+		MARINEBASE14:${varDeps123}
+		MARINEBASE15:${varDeps123}
+		MARINEBASE16:${varDeps123}
+		MARINEBASE20:${varDeps123}
+	end
+
+	files:Reptoid Settlement
+#		${varDeps110}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_BITS U_FLOOR
+#		${varDeps110}:SHOGG_VILLAGE SHOGG_VILLAGE_WALL02 SHOGG_VILLAGE_PODS BRAIN SHOGG_VILLAGE2 SHOGG_FRN REP_EXT02 REP_BITS REP_FLOOR
+#		${varDeps110}:DOOM_BASE DOOM_WALL02 DOOM_PODS DOOM_BRAIN DOOM_BASE2 DOOM_FRN DOOM_EXT02 DOOM_BITS U_FLOOR
+		${varDeps110}:REP_BASE REP_WALL02 REP_PODS BRAIN SHOGG_VILLAGE2 REP_FRN REP_EXT02 REP_BITS REP_FLOOR
+# North cave wall
+		REP_VILLAGE_N00:${varDeps110}
+		REP_VILLAGE_N01:${varDeps110}
+# North cave wall short
+		REP_VILLAGE_N_SHORT00:${varDeps110}
+		REP_VILLAGE_N_SHORT01:${varDeps110}
+# East cave wall
+		REP_VILLAGE_E00:${varDeps110}
+		REP_VILLAGE_E01:${varDeps110}
+# East cave wall short
+		REP_VILLAGE_E_SHORT00:${varDeps110}
+		REP_VILLAGE_E_SHORT01:${varDeps110}
+		REP_VILLAGE_E_SHORT02:${varDeps110}
+# South cave wall
+		REP_VILLAGE_S00:${varDeps110}
+		REP_VILLAGE_S01:${varDeps110}
+# South cave wall short
+		REP_VILLAGE_S_SHORT00:${varDeps110}
+		REP_VILLAGE_S_SHORT01:${varDeps110}
+# West cave wall
+		REP_VILLAGE_W00:${varDeps110}
+		REP_VILLAGE_W01:${varDeps110}
+		REP_VILLAGE_W02:${varDeps110}
+# West cave wall short
+		REP_VILLAGE_W_SHORT00:${varDeps110}
+		REP_VILLAGE_W_SHORT01:${varDeps110}
+# North-East cave corner
+		REP_VILLAGE_NE00:${varDeps110}
+		REP_VILLAGE_NE01:${varDeps110}
+# South-East cave corner
+		REP_VILLAGE_SE00:${varDeps110}
+		REP_VILLAGE_SE01:${varDeps110}
+		REP_VILLAGE_SE02:${varDeps110}
+# South-West cave corner
+		REP_VILLAGE_SW00:${varDeps110}
+		REP_VILLAGE_SW01:${varDeps110}
+		REP_VILLAGE_SW02:${varDeps110}
+# North-West cave corner
+		REP_VILLAGE_NW00:${varDeps110}
+		REP_VILLAGE_NW01:${varDeps110}
+# Cave middle
+		REP_VILLAGE_MIDDLE00:${varDeps110}
+		REP_VILLAGE_MIDDLE01:${varDeps110}
+		REP_VILLAGE_MIDDLE02:${varDeps110}
+		REP_VILLAGE_MIDDLE03:${varDeps110}
+		REP_VILLAGE_MIDDLE04:${varDeps110}
+		REP_VILLAGE_MIDDLE05:${varDeps110}
+		REP_VILLAGE_MIDDLE06:${varDeps110}
+		REP_VILLAGE_MIDDLE07:${varDeps110}
+# Cave middle big
+		REP_VILLAGE_MIDDLE_BIG00:${varDeps110}
+		REP_VILLAGE_MIDDLE_BIG01:${varDeps110}
+		REP_VILLAGE_MIDDLE_BIG02:${varDeps110}
+		REP_VILLAGE_MIDDLE_BIG03:${varDeps110}
+		REP_VILLAGE_MIDDLE_BIG04:${varDeps110}
+	end
+	files:Reptoid Surface Base
+		REPTIFORMER_TOWER:${varDeps110}
+		REPTOID_FIELD_COMMAND:${varDeps110}
+		REPTOID_EMPLACEMENT:${varDeps110}
+		REPTOID_SMALL_POWER_STATION:${varDeps110}
+		REPTOID_LARGE_POWER_STATION:${varDeps110}
+		REPTOID_SMALL_STORAGE:${varDeps110}
+		REPTOID_LARGE_STORAGE:${varDeps110}
+		REPTOID_LANDING_PAD:${varDeps110}
+		REPTOID_BARRACKS:${varDeps110}
+		REPTOID_MONUMENT:${varDeps110}
+	end
+	files:Reptoid Settlement Landing
+		${varDeps111}:CAVERED
+		SHOGG_VILLAGE_ENTRY00:${varDeps111}
+		SHOGG_VILLAGE_ENTRY01:${varDeps111}
+		SHOGG_VILLAGE_ENTRY02:${varDeps111}
+		SHOGG_VILLAGE_ENTRY03:${varDeps111}
+		SHOGG_VILLAGE_LANDING00:${varDeps111}
+		SHOGG_VILLAGE_LANDING01:${varDeps111}
+		SHOGG_VILLAGE_LANDING02:${varDeps111}
+		SHOGG_VILLAGE_LANDING03:${varDeps111}
+		SHOGG_VILLAGE_LANDING04:${varDeps111}
+		REP_VILLAGE_LANDING00:${varDeps111}
+		REP_VILLAGE_LANDING01:${varDeps111}
+		REP_VILLAGE_LANDING02:${varDeps111}
+		REP_VILLAGE_LANDING03:${varDeps111}
+		MUM_VILLAGE_LANDING00:${varDeps111}
+		MUM_VILLAGE_LANDING01:${varDeps111}
+		MUM_VILLAGE_LANDING02:${varDeps111}
+		MUM_VILLAGE_LANDING03:${varDeps111}
+	end
+
+	files:Space Freighter Base
+		${varDeps115}:FREIGHTER_MAIN FREIGHTER_TECHNICAL
+		FREIGHTERBASE_CENTER00:${varDeps115}
+		FREIGHTERBASE_NE00:${varDeps115}
+		FREIGHTERBASE_NW00:${varDeps115}
+		FREIGHTERBASE_SE00:${varDeps115}
+		FREIGHTERBASE_SW00:${varDeps115}
+		FREIGHTERBASE_S00:${varDeps115}
+		FREIGHTERBASE_N00:${varDeps115}
+		FREIGHTERBASE_W00:${varDeps115}
+		FREIGHTERBASE_E00:${varDeps115}
+		FREIGHTER_TEMPLATE:${varDeps115}
+		FREIGHTER_TEMPLATE_NE:${varDeps115}
+		FREIGHTER_TEMPLATE_SE:${varDeps115}
+		FREIGHTER_TEMPLATE_NW:${varDeps115}
+		FREIGHTER_TEMPLATE_SW:${varDeps115}
+		FREIGHTER_STRUCTURE_S00:${varDeps115}
+		FREIGHTER_STRUCTURE_N00:${varDeps115}
+		FREIGHTER_STRUCTURE_N01:${varDeps115}
+		FREIGHTER_STRUCTURE_E00:${varDeps115}
+		FREIGHTER_STRUCTURE_W00:${varDeps115}
+		FREIGHTER_STRUCTURE_LINK_S00:${varDeps115}
+		FREIGHTER_STRUCTURE_LINK_N00:${varDeps115}
+		FREIGHTER_STRUCTURE_LINK_E00:${varDeps115}
+		FREIGHTER_STRUCTURE_LINK_W00:${varDeps115}
+	end
+
+	files:Alien Planet
+		${varDeps124}:U_PLANET U_EXT U_EXT_ROOF U_BITSN U_WALL
+		UPLANET_00:${varDeps124}
+		UPLANET_01:${varDeps124}
+		UPLANET_02:${varDeps124}
+		UPLANET_03:${varDeps124}
+		UPLANET_04:${varDeps124}
+		UPLANET_05:${varDeps124}
+		UPLANET_06:${varDeps124}
+		UPLANET_07:${varDeps124}
+		UPLANET_08:${varDeps124}
+		UPLANET_09:${varDeps124}
+		UPLANET_10:${varDeps124}
+		UPLANET_11:${varDeps124}
+		UPLANET_12:${varDeps124}
+		UPLANET_13:${varDeps124}
+		UPLANET_14:${varDeps124}
+		UPLANET_15:${varDeps124}
+		UPLANET_16:${varDeps124}
+		UPLANET_17:${varDeps124}
+		UPLANET_18:${varDeps124}
+		UPLANET_19:${varDeps124}
+	end
+	files:Alien Planet Acid
+		${varDeps125}:U_PLANET_ACID U_EXT U_EXT_ROOF U_BITSN U_WALL
+		UPLANET_00:${varDeps125}
+		UPLANET_01:${varDeps125}
+		UPLANET_02:${varDeps125}
+		UPLANET_03:${varDeps125}
+		UPLANET_04:${varDeps125}
+		UPLANET_05:${varDeps125}
+		UPLANET_06:${varDeps125}
+		UPLANET_07:${varDeps125}
+		UPLANET_08:${varDeps125}
+		UPLANET_09:${varDeps125}
+		UPLANET_10:${varDeps125}
+		UPLANET_11:${varDeps125}
+		UPLANET_12:${varDeps125}
+		UPLANET_13:${varDeps125}
+		UPLANET_14:${varDeps125}
+		UPLANET_15:${varDeps125}
+		UPLANET_16:${varDeps125}
+		UPLANET_17:${varDeps125}
+		UPLANET_18:${varDeps125}
+		UPLANET_19:${varDeps125}
+	end
+
+	files:Cold Isle
+		${varDeps126}:COLDISLE POLARMOUNTBITS SEAURBAN COLDISLEB1 COLDISLEB2
+		COLDISLE00:${varDeps126}
+		COLDISLE01:${varDeps126}
+		COLDISLE02:${varDeps126}
+		COLDISLE03:${varDeps126}
+		COLDISLE04:${varDeps126}
+		COLDISLE05:${varDeps126}
+		COLDISLE06:${varDeps126}
+		COLDISLE07:${varDeps126}
+		COLDISLE08:${varDeps126}
+		COLDISLE09:${varDeps126}
+		COLDISLE10:${varDeps126}
+		COLDISLE11:${varDeps126}
+		COLDISLE12:${varDeps126}
+		COLDISLE13:${varDeps126}
+		COLDISLE14:${varDeps126}
+		COLDISLE15:${varDeps126}
+		COLDISLE16:${varDeps126}
+		COLDISLE17:${varDeps126}
+		COLDISLE18:${varDeps126}
+		COLDISLE19:${varDeps126}
+		COLDISLE20:${varDeps126}
+		COLDISLE21:${varDeps126}
+		COLDISLE22:${varDeps126}
+		COLDISLE23:${varDeps126}
+		COLDISLE24:${varDeps126}
+		COLDISLE25:${varDeps126}
+		COLDISLE26:${varDeps126}
+		COLDISLE27:${varDeps126}
+		COLDISLE28:${varDeps126}
+		COLDISLE29:${varDeps126}
+		COLDISLE30:${varDeps126}
+		COLDISLE31:${varDeps126}
+		COLDISLE32:${varDeps126}
+		COLDISLE33:${varDeps126}
+		COLDISLE34:${varDeps126}
+	end
+
+	files:Alien Buildings
+		MOON_OUTPOST00:U_EXT02 U_WALL02 U_BITS UFOL83 U_FACILITY
+
+	end
+	files:Misc Buildings
+		GOVTBUILDING00:GOVROADS GOVTBITS GOVT GOVTFRN GOVTDECOR
+		UNI_00:COMROADS COMBITS COMMERCE COMFRN COMDECOR
+		CRIB01:DAWNURBAN DAWNURBITS CRIBDECOR MANSIONBITS CITYFRNITURE
+		PRISON:DAWNROADS PRISONBITS PRISON PRISONDECOR
+		SILO00:SILO
+		D_KEEP:CULTIVAT BARN SIBERIABASE SIBERIABASE2
+		BANK_OPEN_00:GOVTDECOR GOVT GOVTFRN
+		FOREST_CABIN:FOREST FRNITURE BARN
+		HILL_BUNKER:FOREST FRNITURE BARN
+		PENTAGRAM_MEDIUM:PENTA
+		D_ATRIUM_DEF:ROADS URBITS URBAN FRNITURE CAFEENTRY
+		JUNGLESHRINE:SANDS MUJUNGLE JUNGLEBITS URNS
+		SCI_HOUSE:SCI_HOUSE SCI_HOUSE2 FRNITURE LAMP_WALL
+		GHOST_HOUSE:URBITS URBAN FRNITURE FRNITURE_FINNIK GHOSTS_FINNIK
+		CATACOMBS_POOL_00:CATACOMB XOPSMUJUNGLEADDON XCOMENTRY CATACDECOR CAVEBLACK XCOMEXIT PENTA_X DUNGEON LAVA_GREEN DOOMDECOR
+		CATACOMBS_POOL_SAMAEL_00:CATACOMB XOPSMUJUNGLEADDON XCOMENTRY CATACDECOR CAVEBLACK XCOMEXIT PENTA_X DUNGEON LAVA_GREEN DOOMDECOR
+		DIM_X_PAD:C_EXT_WALL_SILVER C_EXT_ROOF_SILVER DESERT_PINK
+	end
+
+	files:Dreamworld Buildings
+#		VILLA_00:GOVTDECOR ATLANVILLA DUNGEON_VILLA PENTA_X CATACDECOR MANSION_PAINTINGS
+		VILLA_00:DREAMDECOR ATLANVILLA DUNGEON_VILLA PENTA_X CATACDECOR MANSION_PAINTINGS
+	end
+
+	files:X-Com Entries
+		PINKDESERT_EXIT:DESERT_PINK DESERTBITS_PINK XCOMENTRY
+		PINKDESERT_SPAWN:DESERT_PINK DESERTBITS_PINK XCOMENTRY
+		CAFE00:COMROADS COMBITS COMMERCE COMFRN CAFEENTRY
+		CAFE01:COMROADS COMBITS COMMERCE COMFRN CAFEENTRY
+		CAVESEXIT:CAVEBLACK XCOMEXIT
+		CATACPORTAL_00:CAVEBLACK CATACOMB CATACDECOR LAVA DUNGEON XCOMEXIT TDPORTAL XOPSMUJUNGLEADDON
+		PENTA_DREAM:PENTA_XCOM
+	end
+
+	files:Endless Mansion
+
+		${varDeps93}:COMMERCE XB3BITZ1 DAWNFRNITURE URBITS MANSIONGARDEN MANSIONFLOOR MANSIONBITS XCOMEXIT
+		EMANS00:${varDeps93}
+		EMANS01:${varDeps93}
+		EMANS02:${varDeps93}
+		EMANS03:${varDeps93}
+		EMANS04:${varDeps93}
+		EMANS05:${varDeps93}
+		EMANS06:${varDeps93}
+		EMANS07:${varDeps93}
+		EMANS08:${varDeps93}
+		EMANS09:${varDeps93}
+	end
+
+end
+
+Tileset:UFO - Ships
+	type:1
+	rootpath:${varPath3}
+	rmpPath:${varPath4}
+	blankPath:${varPath5}
+	palette:ufo-battle
+	files:XCom
+		LIGHTNIN:LIGHTNIN
+		LIGHTNI2:LIGHTNIN U_WALL02
+		AVENGER:AVENGER
+		NKF_APC:NKF_APC
+		PLANE:PLANE
+		INTERCEPTOR:INTRCEPT
+		CUTERANGER:PLANE CRAFTBIT_GREY
+		SKYMARSHALL:PLANE_ALLOY CRAFTBIT_ALLOY AVENGER_NEW
+		LANDER:LIGHTNIN AVENGER
+		DROPSHIP:DROPSHIP DROPSHIP2
+		DRAGONFLY:DRAGONFLY
+		RAPIER:RAPIER
+		MANTIS:OXC-UFO
+		BROADSWORD:RAPIER
+		DELOREAN:DELOREAN
+		CIVILIANCAR:XCARS
+		LUXURYCAR:XCARS
+		XVAN:XCARS
+		OPSCAR:XCARS
+		XICE:LODY
+		HUMMER:HUMMER
+		COPTER:COPTER
+		UH_1B_HUEY:UH_1B_HUEY
+		MI_24_HIND:MI_24_HIND
+		OSPREY:OSPREY
+		XPLANE1:FIGHTER
+		XPLANE2:FIGHTER
+		XPLANE3:FIGHTER
+		XPLANE4:FIGHTER
+		LILSUB:C_EXT_WALL_GOLD C_EXT_ROOF_GOLD C_EXT_NOSE_BUMPLESS_GOLD C_EXT_NOSE_SIDE_GOLD C_INT_XCOM
+		FATSUB:C_EXT_WALL_GOLD C_EXT_ROOF_GOLD C_EXT_NOSE_BUMPLESS_GOLD C_EXT_NOSE_SIDE_GOLD C_INT_XCOM SUBBITS
+	end
+	files:Misc Vehicles
+		XARMY:XARMY
+		PICKUP:XARMY
+		SUV:XARMY
+	end
+	files:Syndicate
+		SCARAB:RAPIER_DARK
+		DRAGONFLY_DARK:DRAGONFLY_DARK
+	end
+	files:Battleship 2
+
+		${varDeps49}:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 UFOL83
+		UFO_162:${varDeps49}
+		UFO_163:${varDeps49}
+		UFOGIANT:${varDeps49}
+
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+
+	end
+
+
+	files:Terror Ship
+		${varDeps74}:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 U_OPER2 UFOL83
+		TERROR00:${varDeps74}
+		TERROR01:${varDeps74}
+		TERROR02:${varDeps74}
+		TERROR03:${varDeps74}
+		TERROR04:${varDeps74}
+		TERROR05:${varDeps74}
+		TERROR06:${varDeps74}
+		TERROR07:${varDeps74}
+		UFO_150:${varDeps74}
+	end
+	files:Battleship
+		${varDeps130}:U_EXT02 U_WALL02 U_PODS U_BITS UFOL83
+		UFO_160:${varDeps130}
+		UFO_BS0:${varDeps130}
+		UFO_BS1:${varDeps130}
+		UFO_BS2:${varDeps130}
+		UFO_BS3:${varDeps130}
+		UFO_BS4:${varDeps130}
+		UFO_BS5:${varDeps130}
+		UFO_BS6:${varDeps130}
+		UFO_BS7:${varDeps130}
+		UFO_BS8:${varDeps130}
+	end
+	files:Lab Ship
+
+		LABSHIP1:${varDeps74}
+		LABSHIP2:${varDeps74}
+		LABSHIP3:${varDeps74}
+		LABSHIP4:${varDeps74}
+	end
+	files:Supply Ship
+		${varDeps46}:U_EXT02 U_WALL02 U_DISEC2 U_BITS U_DISEC3 UFOL83
+		UFO_170:${varDeps46}
+		SUPPLY:${varDeps46}
+		SUPPLY0:${varDeps46}
+		SUPPLY1:${varDeps46}
+		SUPPLY2:${varDeps46}
+	end
+	files:Small Scout
+
+		${varDeps75}:UFO1
+		UFO1A:${varDeps75}
+		UFO1B:${varDeps75}
+		UFO1C:${varDeps75}
+	end
+	files:Medium Scout
+
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		MEDSCOUT01:${varDeps53}
+		MEDSCOUT02:${varDeps53}
+		MEDSCOUT03:${varDeps53}
+		MEDSCOUT04:${varDeps53}
+		MEDSCOUT05:${varDeps53}
+		MEDSCOUT06:${varDeps53}
+		MEDSCOUT07:${varDeps53}
+		MEDSCOUT08:${varDeps53}
+		MEDSCOUT09:${varDeps53}
+
+	end
+	files:Large Scout
+
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		LARGSCOUT00:${varDeps53}
+		LARGSCOUT01:${varDeps53}
+		LARGSCOUT02:${varDeps53}
+		LARGSCOUT03:${varDeps53}
+		LARGSCOUT04:${varDeps53}
+		LARGSCOUT05:${varDeps53}
+		LARGSCOUT06:${varDeps53}
+		LARGSCOUT07:${varDeps53}
+		LARGSCOUT08:${varDeps53}
+		LARGSCOUT09:${varDeps53}
+		LARGSCOUT10:${varDeps53}
+		LARGSCOUT11:${varDeps53}
+		LARGSCOUT12:${varDeps53}
+		LARGSCOUT13:${varDeps53}
+		LARGSCOUT14:${varDeps53}
+		LARGSCOUT15:${varDeps53}
+		LARGSCOUT16:${varDeps53}
+		LARGSCOUT17:${varDeps53}
+		LARGSCOUT18:${varDeps53}
+		LARGSCOUT19:${varDeps53}
+		LARGSCOUT20:${varDeps53}
+		LARGSCOUT21:${varDeps53}
+		LARGSCOUT22:${varDeps53}
+		LARGSCOUT23:${varDeps53}
+		LARGSCOUT24:${varDeps53}
+
+	end
+	files:Sentry Ship
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		SENTRY00:${varDeps53}
+		SENTRY01:${varDeps53}
+		SENTRY02:${varDeps53}
+		SENTRY03:${varDeps53}
+		SENTRY04:${varDeps53}
+		SENTRY05:${varDeps53}
+		SENTRY06:${varDeps53}
+		SENTRY07:${varDeps53}
+		SENTRY08:${varDeps53}
+		SENTRY09:${varDeps53}
+		SENTRY10:${varDeps53}
+		SENTRY11:${varDeps53}
+		SENTRY12:${varDeps53}
+		SENTRY13:${varDeps53}
+	end
+	files:Fighter Ship
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		FIGHTER00:${varDeps53}
+		FIGHTER01:${varDeps53}
+		FIGHTER02:${varDeps53}
+		FIGHTER03:${varDeps53}
+		FIGHTER04:${varDeps53}
+		FIGHTER05:${varDeps53}
+		FIGHTER06:${varDeps53}
+		FIGHTER07:${varDeps53}
+		FIGHTER08:${varDeps53}
+	end
+	files:Harvester
+		${varDeps46}:U_EXT02 U_WALL02 U_DISEC2 U_BITS U_DISEC3 UFOL83
+		UFO_130:${varDeps46}
+		HARVES00:${varDeps46}
+		HARVES01:${varDeps46}
+		HARVES02:${varDeps46}
+		HARVES03:${varDeps46}
+		HARVES04:${varDeps46}
+		HARVES05:${varDeps46}
+		HARVES06:${varDeps46}
+		HARVES07:${varDeps46}
+		HARVES08:${varDeps46}
+		HARVES09:${varDeps46}
+		HARVES10:${varDeps46}
+		HARVES11:${varDeps46}
+		HARVES12:${varDeps46}
+		HARVES13:${varDeps46}
+		HARVES14:${varDeps46}
+		HARVES15:${varDeps46}
+		HARVES16:${varDeps46}
+		HARVES17:${varDeps46}
+		HARVES18:${varDeps46}
+		HARVES19:${varDeps46}
+		HARVES20:${varDeps46}
+		HARVES21:${varDeps46}
+		HARVES22:${varDeps46}
+		HARVES23:${varDeps46}
+
+	end
+	files:Abductor
+		${varDeps60}:U_EXT02 U_WALL02 U_OPER2 U_BITS UFOL83
+		UFO_140:${varDeps60}
+		ABDUCT00:${varDeps60}
+		ABDUCT01:${varDeps60}
+		ABDUCT02:${varDeps60}
+		ABDUCT03:${varDeps60}
+		ABDUCT04:${varDeps60}
+		ABDUCT05:${varDeps60}
+		ABDUCT06:${varDeps60}
+		ABDUCT07:${varDeps60}
+		ABDUCT08:${varDeps60}
+		ABDUCT09:${varDeps60}
+
+	end
+	files:Excavator
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		EXCAVTR01:${varDeps53}
+		EXCAVTR02:${varDeps53}
+		EXCAVTR03:${varDeps53}
+		EXCAVTR04:${varDeps53}
+		EXCAVTR05:${varDeps53}
+		EXCAVTR06:${varDeps53}
+		EXCAVTR07:${varDeps53}
+		EXCAVTR08:${varDeps53}
+		EXCAVTR09:${varDeps53}
+		EXCAVTR10:${varDeps53}
+		EXCAVTR11:${varDeps53}
+	end
+	files:Dawn Highway
+		${varDeps50}:DAWNROADS DAWNURBITS DAWNURBAN DAWNFRNITURE DAWNDECOR
+		DAWNHIGHWAY00:${varDeps50}
+		DAWNHIGHWAY01:${varDeps50}
+		DAWNHIGHWAY02:${varDeps50}
+		DAWNHIGHWAY03:${varDeps50}
+		DAWNHIGHWAY04:${varDeps50}
+		DAWNHIGHWAY05:${varDeps50}
+		DAWNHIGHWAY06:${varDeps50}
+		
+	end
+	files:Misc UFOs
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		OBSERVER00:${varDeps53}
+		OBSERVER01:${varDeps53}
+		STRIKER00:${varDeps53}
+		TROOPSHIP00:${varDeps53}
+		TROOPSHIP01:${varDeps53}
+		UFO_112:${varDeps53}
+		UFO_112A:${varDeps53}
+		UFO_114:${varDeps53}
+		UFO_122:${varDeps53}
+		UFO_124:${varDeps53}
+		UFO_125:${varDeps53}
+		UFO_126:${varDeps53}
+		UFO_127:${varDeps53}
+		UFO_128:${varDeps53}
+		UFO_129:${varDeps53}
+		UFOSAUC:${varDeps53}
+		UFRSAUC:${varDeps53}
+		UFOSCOUT:${varDeps53}
+		UFRSCOUT:${varDeps53}
+		UFOKLATU:${varDeps53}
+		UFRKLATU:${varDeps53}
+		UFRPR:${varDeps53}
+
+	end
+	files:Envoy Ship
+		${varDeps57}:U_EXT02GOLD U_WALL02GOLD U_BITSGOLD UFOL83GOLD
+		ENVOY1:${varDeps57}
+		ENVOY2:${varDeps57}
+		ENVOY3:${varDeps57}
+		
+	end
+	files:Reptillian Ships
+		${varDeps107}:REP_EXT02 REP_WALL02 REP_BITS REP_UFOL83
+		VIPER:${varDeps107}
+		DRAKE:${varDeps107}
+		ARACHNID:${varDeps107}
+		UFO_125:${varDeps107}
+		SNAPPING_TURTLE:${varDeps107}
+	end
+	files:Piratez
+		${varDeps64}:U_EXT02 U_WALL02 U_PODS U_BITS U_OPER2 UFODIO XB2BR U_DISEC2
+		VES_270:${varDeps64}
+
+		${varDeps46}:U_EXT02 U_WALL02 U_DISEC2 U_BITS U_DISEC3 UFOL83
+		VES_180:${varDeps46}
+
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		VES_410:${varDeps53}
+		VES_420:${varDeps53}
+		VES_220:${varDeps53}
+
+		${varDeps53}:U_EXT02 U_WALL02 U_BITS UFOL83
+		VES_230:${varDeps53}
+		VES_140:${varDeps53}
+		VES_150:${varDeps53}
+
+		${varDeps59}:U_EXT02 U_WALL02 UFO1 U_BITS FRNITURE PLANE
+		VES_190:${varDeps59}
+
+		${varDeps60}:U_EXT02 U_WALL02 U_OPER2 U_BITS
+		VES_110:${varDeps60}
+		VES_120:${varDeps60}
+		VES_160:${varDeps60}
+		VES_170:${varDeps60}
+
+		${varDeps61}:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 U_OPER2
+		VES_210:${varDeps61}
+
+		${varDeps62}:U_EXT02 U_WALL02 U_PODS U_BITS FRNITURE BATHBITZ
+		VES_130:${varDeps62}
+		VES_130_C:${varDeps62}
+	end
+
+	files:Mansion
+		${varDeps51}:ROADS URBITS URBAN FRNITURE BATHBITZ_HT TAVERN
+		D_ATRIUM:${varDeps51}
+		D_MANSN:${varDeps51}
+		D_TAVERN:${varDeps51}
+	end
+
+	files:Reticulan
+		${varDeps63}:RET_SHIPS
+		VES_R_010:${varDeps63}
+		VES_R_011:${varDeps63}
+	end
+
+	files:Cult
+		${varDeps73}:CULTMIL CULTDECOR CULTEXTRA
+		CULTHOUSE00:${varDeps73}
+		CULTHOUSE01:${varDeps73}
+		CULTHOUSE02:${varDeps73}
+		CULTHOUSE03:${varDeps73}
+		CULTHOUSE04:${varDeps73}
+		CULTHOUSE05:${varDeps73}
+		CULTHOUSE06:${varDeps73}
+		CULTHOUSE07:${varDeps73}
+		CULTHOUSE08:${varDeps73}
+		CULTHOUSE09:${varDeps73}
+		CULTHOUSE10:${varDeps73}
+		CULTHOUSE11:${varDeps73}
+		CULTHOUSE12:${varDeps73}
+
+		CULTHIDEOUT00:${varDeps73}
+		CULTHIDEOUT01:${varDeps73}
+		CULTHIDEOUT02:${varDeps73}
+		CULTHIDEOUT03:${varDeps73}
+		CULTHIDEOUT04:${varDeps73}
+
+		LO_WO_HOUSE:${varDeps73}
+
+		DURFACTORY:MILEXT MILWARE MILINT
+
+		${varDeps42}:PORTROADS PORTURBITS ROADS URBITS FRNITURE
+		OSIRONWAREHOUSE:${varDeps42}
+	end
+
+	files:Underwater Structures
+		${varDeps77}:USOEXT2 USOEXT3 SEAORGANIC1 SEAORGANIC2 SEAORGANIC3 SEANOM
+		USOLANDINGPAD:${varDeps77}
+		AQUATOIDOFFICE:${varDeps77}
+		TLETHEMBASSY:${varDeps77}
+	end
+	files:USOs
+		${varDeps78}:USOEXT2 USOEXT3 USOINT1 USOINT2 USOINT3
+		USOSURVEYSHIP00:${varDeps78}
+		USOESCORT00:${varDeps78}
+		USOCRUISER00:${varDeps78}
+		USOHEAVYCRUISER00:${varDeps78}
+		USOHUNTER00:${varDeps78}
+		USOBATTLESHIP00:${varDeps78}
+		USODREADNOUGHT00:${varDeps78}
+		USOFLEETSUPPLYCRUISER00:${varDeps78}
+	end
+	files:USO crashed
+		${varDeps108}:USOEXT2 USOEXT3 USOINT1 USOINT2 USOINT3 DESERT_PINK
+		USOFLEETSUPPLYCRUISER_WRECK:${varDeps108}
+	end
+	files:Crop Circles
+		${varDeps86}:CROPCIRCLE
+		CROPCIRCLE00:${varDeps86}
+		CROPCIRCLE01:${varDeps86}
+		CROPCIRCLE02:${varDeps86}
+		CROPCIRCLE03:${varDeps86}
+		CROPCHEM00:${varDeps86}
+	end
+	files:Dead Cattle
+		${varDeps87}:DEADCATTLE
+		DEADCATTLE00:${varDeps87}
+
+	end
+	files:Hybrids
+		CLONEBARN00:BARN CLONING
+		JARHEADPLANT00:ROADS URBITS URBAN FRNITURE DECKSHIPC CLONING
+		HYBRSTOR00:ROADS URBITS URBAN FRNITURE HYBRSTOR
+		HYBRID_CONTROL00:A_BASE A_WALL02 A_PODS BRAIN A_BASE2 HYBRCONTR
+
+	end
+	files:Corporation Labs
+		${varDeps94}:CORPLAB
+		CORPLAB01:${varDeps94}
+		MONSTERLAB01:${varDeps94}
+	end
+
+	files:Corporation Warehouse
+		${varDeps109}:CORPWAREHOUSE
+		CORPWAREHOUSE00:${varDeps109}
+	end
+
+	files:Corporation MiniTower
+		${varDeps90}:CORP
+		MINITOWER00:${varDeps90}
+		MINITOWER01:${varDeps90}
+		MINITOWER02:${varDeps90}
+		MINITOWER03:${varDeps90}
+		MINITOWER04:${varDeps90}
+		MINITOWER0N:${varDeps90}
+		MINITOWER_template:${varDeps90}
+	end
+
+	files:Corporation Tower
+		CORPHQ_GROUND:${varDeps90}
+		CORPHQ_A01:${varDeps90}
+		CORPHQ_A02:${varDeps90}
+		CORPHQ_A03:${varDeps90}
+		CORPHQ_A04:${varDeps90}
+		CORPHQ_B01:${varDeps90}
+		CORPHQ_B02:${varDeps90}
+		CORPHQ_B03:${varDeps90}
+		CORPHQ_B04:${varDeps90}
+		CORPHQ_ROOF:${varDeps90}
+		CORPHQ_ROOF_P2:${varDeps90}
+	end
+
+	files:Academy Outposts
+		${varDeps97}:C_EXT_WALL_SILVER C_EXT_ROOF_SILVER C_BITS2 LIFTER C_INT COMPUTERS BATHBITZ_HT XBASEN_BITS DOORS1
+		HTHOUSE_00:${varDeps97}
+		HTHOUSE_01:${varDeps97}
+		HTHOUSE_02:${varDeps97}
+		HTHOUSE_03:${varDeps97}
+		HTHOUSE_04:${varDeps97}
+		HTHOUSE_05:${varDeps97}
+		HTHOUSE_06:${varDeps97}
+		HTHOUSE_07:${varDeps97}
+		HTHOUSE_08:${varDeps97}
+		HTHOUSE_09:${varDeps97}
+		HTHOUSE_10:${varDeps97}
+		HTHOUSE_11:${varDeps97}
+		HTHOUSE_12:${varDeps97}
+		HTHOUSE_13:${varDeps97}
+		HTHOUSE_14:${varDeps97}
+	end
+
+	files:Communications Tower
+		${varDeps97}:C_EXT_WALL_SILVER C_EXT_ROOF_SILVER C_BITS2 LIFTER C_INT COMPUTERS BATHBITZ_HT XBASEN_BITS DOORS1
+		COMMS_TOWER_GROUND:${varDeps97}
+		COMMS_TOWER_A01:${varDeps97}
+		COMMS_TOWER_A02:${varDeps97}
+		COMMS_TOWER_A03:${varDeps97}
+		COMMS_TOWER_B01:${varDeps97}
+		COMMS_TOWER_B02:${varDeps97}
+		COMMS_TOWER_B03:${varDeps97}
+		COMMS_TOWER_B04:${varDeps97}
+		COMMS_TOWER_ROOF:${varDeps97}
+		COMMS_TOWER_A_TEMPLATE:${varDeps97}
+		COMMS_TOWER_B_TEMPLATE:${varDeps97}
+	end
+
+	files:Dark Rituals
+		DEEPONERITUALS00:SEAURBAN ISLANDURBAN1 ISLANDURBAN2 ISLANDURBAN3 SEABITS RITUALSBEACH
+		BEASTMANALTAR00:RITUALS
+		BEASTMANALTAR01:RITUALS
+		CANNIBALCAMP00:RITUALS
+		COMMUNION:FORESTMOUNT FOREST FORESTMOUNTBITS RITUALS
+		RITUALCAVE_00:CAVEBLACK RITUALS
+	end
+
+	files:MAGMA
+		REACTOR00:REACTOR
+		TANKFACTORY00:MILEXT MAGMAWAREAN
+	end
+
+	files:Cyberweb
+		${varDeps101}:CYBERWAREAN CYBERWAREBITS XOPSUFOWALLS XOPSUFOFLOOR XOPSUFOITEMS2SM CYBERWAREEXTRA
+		CYBERPORTAL:${varDeps101}
+		CYBERCOMPUTER:${varDeps101}
+	end
+
+	files:Cyberweb Bunker
+		${varDeps106}:CYBER_DISEC2 CYBER_BASE RET_SHIPS
+		CYBERWEBFORTRESS:${varDeps106}
+	end
+	files:Bank
+		${varDeps112}:GOVTDECOR GOVT RET_WALLS
+		BANK_00:${varDeps112}
+		BANK_01:${varDeps112}
+		BANK_02:${varDeps112}
+		BANK_03:${varDeps112}
+		BANK_04:${varDeps112}
+	end
+
+	files:Blessed Crystal
+		${varDeps121}:BLESSED-ENGINE BLESSED-UFO WOS-UFO--ALIEN--FORCE-FIELD BLESSED-ART BLESSED-CARGO
+		BLESSED_UFO_010:${varDeps121}
+		BLESSED_SHIP_08:${varDeps121}
+		BLESSED_UFO_020:${varDeps121}
+		BLESSED_SHIP_04:${varDeps121}
+		BLESSED_SHIP_06:${varDeps121}
+		BLESSED_SHIP_02:${varDeps121}
+	end
+
+	files:Men in Black
+		${varDeps127}:MIB_EXT02 MIB_WALL02 MIB_BITS
+		MIB_TRANSPORT_A:${varDeps127}
+		MIB_TRANSPORT_B:${varDeps127}
+	end
+	files:Luke's OXCF
+		${varDeps128}:OXCF_LIGHTNIA OXCF_LIGHTNIA_B OXCF_LIGHTNIA_D
+		OXCF-LIGHTNIN_1:${varDeps128}
+		OXCF-LIGHTNIN_3:${varDeps128}
+		OXCF-LIGHTNIN_4:${varDeps128}
+		OXCF-LIGHTNIN_5:${varDeps128}
+		OXCF-LIGHTNIN_6:${varDeps128}
+		OXCF-LIGHTNIN_7:${varDeps128}
+		OXCF-LIGHTNIN_9:${varDeps128}
+	end
+
+end
+
