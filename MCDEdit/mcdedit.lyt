@@ -2,9 +2,9 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename MILTECH
-SelectMCD 22
-SelectPCK 30
+selectedfilename BIG_BASE_FINNIK
+SelectMCD 3
+SelectPCK 0
 Animate False
 t_checkered False
 Form3_w 473
@@ -13,8 +13,8 @@ Form4_w 415
 Form4_h 450
 Form5_w 715
 Form5_h 569
-t_form6_l 703
-t_form6_t 40
+t_form6_l -1
+t_form6_t -1
 t_form6_1 False
 t_form6_2 True
 t_form6_3 True
@@ -23,7 +23,7 @@ t_form6_5 True
 t_form6_6 False
 t_form6_t1 False
 t_form6_t2 False
-t_form6_col1 250
+t_form6_col1 16
 t_form6_col2 0
 t_form6_mode 6
 t_form6_pal 0
@@ -34,6 +34,6 @@ t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
 t_form1_scroll 0
-t_form6_scroll 611
-t_form1_t 178
-t_form1_l 770
+t_form6_scroll 0
+t_form1_t 355
+t_form1_l 973
