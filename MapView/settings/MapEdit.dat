@@ -696,7 +696,7 @@ Tileset:UFO - Terrain
 	end
 	files:Alien Base Expanded
 
-		${varDeps55}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_BITS U_FLOOR BIG_BASE_FINNIK
+		${varDeps55}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_BITS U_FLOOR
 		UBASE_00:${varDeps55}
 		UBASE_00b:${varDeps55}
 		UBASE_00c:${varDeps55}
