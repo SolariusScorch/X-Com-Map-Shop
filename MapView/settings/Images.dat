@@ -474,3 +474,7 @@ URBAN_LOW:${ufoImg}
 URBAN_LOW_FRN:${ufoImg}
 URBAN_LOW_OBJ:${ufoImg}
 URBAN_MARKET:${ufoImg}
+MEDICAL_SPECIAL:${ufoImg}
+MEDICAL_UTIL:${ufoImg}
+MEDICAL_BATH:${ufoImg}
+MEDICAL_INT:${ufoImg}
