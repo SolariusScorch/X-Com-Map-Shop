@@ -474,6 +474,7 @@ Tileset:UFO - Terrain
 		CULTASOL02:${varDeps33}
 		CULTACIV00:${varDeps33}
 		CULTACIV01:${varDeps33}
+		CULTACIV02:${varDeps33}
 		CULT_NEW00:${varDeps33}
 		CULT_NEW01:${varDeps33}
 		CULT_NEW02:${varDeps33}
@@ -788,6 +789,10 @@ Tileset:UFO - Terrain
 		CIV_UBASE_06:${varDeps55}
 		CIV_UBASE_07:${varDeps55}
 		CIV_UBASE_10:${varDeps55}
+		CIV_UBASE_50:${varDeps55}
+		CIV_UBASE_51:${varDeps55}
+		CIV_UBASE_52:${varDeps55}
+		CIV_UBASE_53:${varDeps55}
 		CIV_UBASE_100:${varDeps55}
 		HANGAR_UPPER_CHAMBER_0:${varDeps55}
 		ENTER_CHAMBER_00:${varDeps55}
@@ -862,7 +867,7 @@ Tileset:UFO - Terrain
 		PORTURBAN21:${varDeps58}
 		PORTURBAN22:${varDeps58}
 	end
-	files:Urban Terror
+	files:Urban
 
 		${varDeps54}:ROADS URBITS URBAN FRNITURE MADDECOR
 		URBAN00:${varDeps54}
@@ -917,6 +922,11 @@ Tileset:UFO - Terrain
 		CIVURBAN49:${varDeps54}
 		CIVURBAN50:${varDeps54}
 		CIVURBAN51:${varDeps54}
+		CIVURBAN52:${varDeps54}
+		CIVURBAN53:${varDeps54}
+		CIVURBAN54:${varDeps54}
+		CIVURBAN55:${varDeps54}
+		CIVURBAN56:${varDeps54}
 		EXPANDEDTERROR00:${varDeps54}
 		EXPANDEDTERROR01:${varDeps54}
 		EXPANDEDTERROR02:${varDeps54}
@@ -2915,6 +2925,7 @@ Tileset:UFO - Ships
 		UFOKLATU:${varDeps53}
 		UFRKLATU:${varDeps53}
 		UFRPR:${varDeps53}
+		UFO_120aa_BY_CIVILIAN:${varDeps53}
 
 	end
 	files:Envoy Ship
