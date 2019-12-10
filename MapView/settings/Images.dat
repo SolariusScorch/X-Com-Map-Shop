@@ -333,6 +333,7 @@ DOOMDECOR:${ufoImg}
 FORESTSWAMP:${ufoImg}
 SAVANNAFOREST:${ufoImg}
 SAVANNAPOLAR:${ufoImg}
+SAVANNASWAMP:${ufoImg}
 SILO:${ufoImg}
 DIMENSION_X_JUNGLE:${ufoImg}
 GOVT:${ufoImg}
