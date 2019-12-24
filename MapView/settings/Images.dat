@@ -345,6 +345,7 @@ DREAMDECOR:${ufoImg}
 PRISON:${ufoImg}
 PRISONDECOR:${ufoImg}
 PRISONBITS:${ufoImg}
+PRISONROADS:${ufoImg}
 DESERT_PINK:${ufoImg}
 DESERTBITS_PINK:${ufoImg}
 STRYKER:${ufoImg}
@@ -391,6 +392,8 @@ FREIGHTER_PASSENGER:${ufoImg}
 FREIGHTER_CARGO:${ufoImg}
 ASYLUM_WALL:${ufoImg}
 CRIBDECOR:${ufoImg}
+CRIBURBAN:${ufoImg}
+CRIBURBITS:${ufoImg}
 PENTA:${ufoImg}
 PENTA_X:${ufoImg}
 TAVERN:${ufoImg}
@@ -460,6 +463,8 @@ MILINDUSTRIAL:${ufoImg}
 MILEXT:${ufoImg}
 MILTECH:${ufoImg}
 MILBARR:${ufoImg}
+MILINDUSTRIAL:${ufoImg}
+ADVENT_URBAN:${ufoImg}
 ADVENT_ABDUCTION:${ufoImg}
 ADVENT_CLONING:${ufoImg}
 ADVENT_FNITURE:${ufoImg}
@@ -481,3 +486,6 @@ MEDICAL_UTIL:${ufoImg}
 MEDICAL_BATH:${ufoImg}
 MEDICAL_INT:${ufoImg}
 MEDICAL_SPECIAL:${ufoImg}
+CONVOY:${ufoImg}
+BARN_JUNK:${ufoImg}
+URBITS_JUNK:${ufoImg}
