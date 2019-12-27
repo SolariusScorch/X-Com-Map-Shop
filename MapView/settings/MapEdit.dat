@@ -980,6 +980,7 @@ Tileset:UFO - Terrain
 		EXPANDEDTERROR25:${varDeps54}
 		EXPANDEDTERROR26:${varDeps54}
 		URBANAMUYS00:${varDeps54}
+		URBANSANYASKILLPRO00:${varDeps54}
 	end
 	files:Village
 
