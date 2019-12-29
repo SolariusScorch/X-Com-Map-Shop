@@ -700,7 +700,7 @@ Tileset:UFO - Terrain
 		ASYLUM_FENCE_NW01:${varDeps35}
 		ASYLUM_FENCE_S_GATE00:${varDeps35}
 	end
-	files:Alien Base Expanded
+	files:Alien Base
 
 		${varDeps55}:U_BASE U_WALL02 U_PODS BRAIN U_BASE2 U_FRN U_EXT02 U_BITS U_FLOOR
 		UBASE_00:${varDeps55}
@@ -789,16 +789,19 @@ Tileset:UFO - Terrain
 		UBASE_SOL_03:${varDeps55}
 		UBASE_SOL_04:${varDeps55}
 		UBASE_SOL_05:${varDeps55}
-		CIV_UBASE_00:${varDeps55}
-		CIV_UBASE_02:${varDeps55}
-		CIV_UBASE_06:${varDeps55}
-		CIV_UBASE_07:${varDeps55}
-		CIV_UBASE_10:${varDeps55}
-		CIV_UBASE_50:${varDeps55}
-		CIV_UBASE_51:${varDeps55}
-		CIV_UBASE_52:${varDeps55}
-		CIV_UBASE_53:${varDeps55}
-		CIV_UBASE_100:${varDeps55}
+		UBASE_CIV_00:${varDeps55}
+		UBASE_CIV_01:${varDeps55}
+		UBASE_CIV_02:${varDeps55}
+		UBASE_CIV_03:${varDeps55}
+		UBASE_CIV_05:${varDeps55}
+		UBASE_CIV_06:${varDeps55}
+		UBASE_CIV_07:${varDeps55}
+		UBASE_CIV_10:${varDeps55}
+		UBASE_CIV_50:${varDeps55}
+		UBASE_CIV_51:${varDeps55}
+		UBASE_CIV_52:${varDeps55}
+		UBASE_CIV_53:${varDeps55}
+		UBASE_CIV_100:${varDeps55}
 		HANGAR_UPPER_CHAMBER_0:${varDeps55}
 		ENTER_CHAMBER_00:${varDeps55}
 		ENTER_CHAMBER_01:${varDeps55}
