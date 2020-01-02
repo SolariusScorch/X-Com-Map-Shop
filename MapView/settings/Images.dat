@@ -234,10 +234,15 @@ C_BITS2:${ufoImg}
 C_EXT_WALL_DBLUE:${ufoImg}
 C_EXT_ROOF_DBLUE:${ufoImg}
 C_INT_HALF:${ufoImg}
-C_INT_XCOM:${ufoImg}
+C_INT_HALF_XCOM:${ufoImg}
 C_INT:${ufoImg}
+C_INT_XCOM:${ufoImg}
+C_INT_ENGINE_E:${ufoImg}
 C_EXT_WALL_GOLD:${ufoImg}
+C_EXT_WALL_BLACK:${ufoImg}
+C_EXT_WALL_BLACK_PURR:${ufoImg}
 C_EXT_ROOF_GOLD:${ufoImg}
+C_EXT_ROOF_BLACK:${ufoImg}
 C_EXT_NOSE_BUMPLESS_GOLD:${ufoImg}
 C_EXT_NOSE_SIDE_GOLD:${ufoImg}
 SUBBITS:${ufoImg}
@@ -314,6 +319,8 @@ XARMY:${ufoImg}
 FIGHTER:${ufoImg}
 LODY:${ufoImg}
 COPTER:${ufoImg}
+TRITON_U:${ufoImg}
+TRITON_PURR:${ufoImg}
 CULTMACHINES:${ufoImg}
 SANDS:${ufoImg}
 ATLANTDESERT:${ufoImg}
@@ -487,5 +494,6 @@ MEDICAL_BATH:${ufoImg}
 MEDICAL_INT:${ufoImg}
 MEDICAL_SPECIAL:${ufoImg}
 CONVOY:${ufoImg}
+KITSUNE:${ufoImg}
 BARN_JUNK:${ufoImg}
 URBITS_JUNK:${ufoImg}
