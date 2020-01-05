@@ -1934,10 +1934,11 @@ Tileset:UFO - Terrain
 
 	files:Urban Low (Parent)
 		${varDeps132}:URBAN_LOW_OBJ URBAN_LOW_FRN URBAN_LOW
-		URBANLOW00:${varDeps132}
-		URBANLOW01:${varDeps132}
-		URBANLOW02:${varDeps132}
-		URBANLOW03:${varDeps132}
+		URBANLOWS00:${varDeps132}
+		URBANLOWS01:${varDeps132}
+		URBANLOWS02:${varDeps132}
+		URBANLOWS03:${varDeps132}
+		URBANLOWF00:${varDeps132}
 	end
 
 	files:Urban Market (Child)
