@@ -1932,9 +1932,12 @@ Tileset:UFO - Terrain
 		URBANJUNK_ROAD_02:${varDeps131}
 	end
 
-	files:Urban Low (Master)
+	files:Urban Low (Parent)
 		${varDeps132}:URBAN_LOW_OBJ URBAN_LOW_FRN URBAN_LOW
 		URBANLOW00:${varDeps132}
+		URBANLOW01:${varDeps132}
+		URBANLOW02:${varDeps132}
+		URBANLOW03:${varDeps132}
 	end
 
 	files:Urban Market (Child)
