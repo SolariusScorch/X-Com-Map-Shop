@@ -2,7 +2,7 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename DAWNROADS
+selectedfilename URBAN_ROADS3
 SelectMCD 0
 SelectPCK 0
 Animate False
@@ -35,5 +35,5 @@ t_form6_set_margtop 0
 t_form6_set_pckrow 10
 t_form1_scroll 0
 t_form6_scroll 248
-t_form1_t 284
-t_form1_l 1696
+t_form1_t 285
+t_form1_l 2353

@@ -1955,6 +1955,11 @@ Tileset:UFO - Terrain
 		URBANMARKET00:${varDeps133}
 	end
 
+	files:Urban Roads (Child)
+		${varDeps134}:URBAN_ROADS1 URBAN_ROADS2
+		URBANROAD00:${varDeps134}
+	end
+
 	files:Tasoth Factory
 		${varDeps81}:GRUNGE1 GRUNGE2 GRUNGE3 GRUNGE4 GRUNGE5 USOBITS
 		GRUNGE00:${varDeps81}
