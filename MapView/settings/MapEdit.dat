@@ -1952,6 +1952,8 @@ Tileset:UFO - Terrain
 		URBANLOWS11:${varDeps132}
 		URBANLOWS12:${varDeps132}
 		URBANLOWS13:${varDeps132}
+		URBANLOWS14:${varDeps132}
+		URBANLOWS15:${varDeps132}
 	end
 
 	files:Urban Market (Child)
