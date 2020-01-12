@@ -1936,37 +1936,42 @@ Tileset:UFO - Terrain
 	end
 
 	files:Urban Low (Parent)
-		${varDeps132}:URBAN_LOW_OBJ URBAN_LOW_FRN URBAN_LOW
-		URBANLOWF00:${varDeps132}
-		URBANLOWS00:${varDeps132}
-		URBANLOWS01:${varDeps132}
-		URBANLOWS02:${varDeps132}
-		URBANLOWS03:${varDeps132}
-		URBANLOWS04:${varDeps132}
-		URBANLOWS05:${varDeps132}
-		URBANLOWS06:${varDeps132}
-		URBANLOWS07:${varDeps132}
-		URBANLOWS08:${varDeps132}
-		URBANLOWS09:${varDeps132}
-		URBANLOWS10:${varDeps132}
-		URBANLOWS11:${varDeps132}
-		URBANLOWS12:${varDeps132}
-		URBANLOWS13:${varDeps132}
-		URBANLOWS14:${varDeps132}
-		URBANLOWS15:${varDeps132}
+		${varDeps133}:URBAN_LOW_OBJ URBAN_LOW_FRN URBAN_LOW
+		URBANLOWF00:${varDeps133}
+		URBANLOWS00:${varDeps133}
+		URBANLOWS01:${varDeps133}
+		URBANLOWS02:${varDeps133}
+		URBANLOWS03:${varDeps133}
+		URBANLOWS04:${varDeps133}
+		URBANLOWS05:${varDeps133}
+		URBANLOWS06:${varDeps133}
+		URBANLOWS07:${varDeps133}
+		URBANLOWS08:${varDeps133}
+		URBANLOWS09:${varDeps133}
+		URBANLOWS10:${varDeps133}
+		URBANLOWS11:${varDeps133}
+		URBANLOWS12:${varDeps133}
+		URBANLOWS13:${varDeps133}
+		URBANLOWS14:${varDeps133}
+		URBANLOWS15:${varDeps133}
 	end
 
 	files:Urban Market (Child)
-		${varDeps133}:URBAN_MARKET URBAN_LOW_FRN URBAN_LOW
-		URBANMARKET00:${varDeps133}
-		URBANMARKET01:${varDeps133}
-		URBANMARKET02:${varDeps133}
-		URBANMARKET03:${varDeps133}
+		${varDeps134}:URBAN_MARKET URBAN_LOW_FRN URBAN_LOW
+		URBANMARKET00:${varDeps134}
+		URBANMARKET01:${varDeps134}
+		URBANMARKET02:${varDeps134}
+		URBANMARKET03:${varDeps134}
+	end
+
+	files:Urban Market - Clothes (Child)
+		${varDeps135}:URBAN_MARKET_CLOTHING URBAN_LOW_FRN URBAN_LOW
+		URBANMARKETCLOTHING00:${varDeps134}
 	end
 
 	files:Urban Roads (Child)
-		${varDeps134}:URBAN_ROADS1 URBAN_ROADS2
-		URBANROAD00:${varDeps134}
+		${varDeps132}:URBAN_ROADS1 URBAN_ROADS2
+		URBANROAD00:${varDeps132}
 	end
 
 	files:Tasoth Factory
