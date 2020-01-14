@@ -1938,6 +1938,14 @@ Tileset:UFO - Terrain
 	files:Urban Low (Parent)
 		${varDeps133}:URBAN_LOW_OBJ URBAN_LOW_FRN URBAN_LOW
 		URBANLOWF00:${varDeps133}
+		URBANLOWF01:${varDeps133}
+		URBANLOWF02:${varDeps133}
+		URBANLOWF03:${varDeps133}
+		URBANLOWF04:${varDeps133}
+		URBANLOWF05:${varDeps133}
+		URBANLOWF06:${varDeps133}
+		URBANLOWF07:${varDeps133}
+		URBANLOWF08:${varDeps133}
 		URBANLOWS00:${varDeps133}
 		URBANLOWS01:${varDeps133}
 		URBANLOWS02:${varDeps133}
