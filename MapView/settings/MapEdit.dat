@@ -1981,6 +1981,7 @@ Tileset:UFO - Terrain
 	files:Urban Market - Bar (Child)
 		${varDeps136}:URBAN_MARKET_BAR URBAN_LOW_FRN URBAN_LOW
 		URBANMARKETBAR00:${varDeps136}
+		URBANMARKETBAR01:${varDeps136}
 	end
 
 	files:Urban Roads (Child)
