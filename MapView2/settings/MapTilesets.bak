@@ -1,0 +1,3454 @@
+# This is the default MapTilesets for MapViewII. It sets up the stock UFOs,
+# Craft, and landscapes for out-of-the-box use by the app.
+#
+# 'tilesets' - a list that contains all the blocks.
+# 'type'     - the label of MAP/RMP files for the block.
+# 'terrains' - the label(s) of PCK/TAB/MCD files for the block. A terrain may be
+#              defined in one of three formats:
+#              - LABEL
+#              - LABEL: basepath
+#              - LABEL: <basepath>
+#              The first gets the terrain from the Configurator's basepath. The
+#              second gets the terrain from the current Map's basepath. The
+#              third gets the terrain from the specified basepath (don't use
+#              quotes). A terrain must be in a subdirectory labeled TERRAIN.
+# 'category' - a header for the tileset, is arbitrary here.
+# 'group'    - a header for the categories, is arbitrary except that the first
+#              letters designate the game-type and must be either 'ufo' or
+#              'tftd' (case insensitive, with or without a following space).
+# 'basepath' - the path to the parent directory of the tileset's Map and Route
+#              files (default: the resource directory(s) that was/were specified
+#              when MapView was installed/configured). Note that Maps are
+#              expected to be in a subdir called MAPS, Routes in a subdir called
+#              ROUTES, but that terrains - PCK/TAB/MCD files - are referenced by
+#              default in the basepath that is set by the Configurator and have
+#              to be in a subdir labeled TERRAIN of that path. But see
+#              'terrains' above.
+
+tilesets:
+
+#----- ufoShips ---------------------------------------------------------------#
+#----- UFO --------------------------------------------------------------------#
+  - type: UFO1A
+    terrains:
+      - UFO1
+    category: UFO
+    group: ufoShips
+  - type: UFO_110
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_120
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_130
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_DISEC2
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_140
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_OPER2
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_150
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_160
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+    category: UFO
+    group: ufoShips
+  - type: UFO_170
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_DISEC2
+      - U_BITS
+    category: UFO
+    group: ufoShips
+
+#----- Craft ------------------------------------------------------------------#
+  - type: AVENGER
+    terrains:
+      - AVENGER
+    category: Craft
+    group: ufoShips
+  - type: LIGHTNIN
+    terrains:
+      - LIGHTNIN
+    category: Craft
+    group: ufoShips
+  - type: PLANE
+    terrains:
+      - PLANE
+    category: Craft
+    group: ufoShips
+
+#----- ufoLandscapes ----------------------------------------------------------#
+#----- base XCOM --------------------------------------------------------------#
+  - type: XBASE_00
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_01
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_02
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_03
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_04
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_05
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_06
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_07
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_08
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_09
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_10
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_11
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_12
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_13
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_14
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_15
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_16
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_17
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_18
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_19
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+  - type: XBASE_20
+    terrains:
+      - XBASE1
+      - XBASE2
+    category: base XCOM
+    group: ufoLandscapes
+
+#----- base aLien -------------------------------------------------------------#
+  - type: UBASE_00
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_01
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_02
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_03
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_04
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_05
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_06
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_07
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_08
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_09
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_10
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_11
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_12
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_13
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_14
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+  - type: UBASE_15
+    terrains:
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+    category: base aLien
+    group: ufoLandscapes
+
+#----- Cultivated -------------------------------------------------------------#
+  - type: CULTA00
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA01
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA02
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA03
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA04
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA05
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA06
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA07
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA08
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA09
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA10
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA11
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA12
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA13
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA14
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA15
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA16
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA17
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+  - type: CULTA18
+    terrains:
+      - CULTIVAT
+      - BARN
+    category: Cultivated
+    group: ufoLandscapes
+
+#----- Desert -----------------------------------------------------------------#
+  - type: DESERT00
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT01
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT02
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT03
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT04
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT05
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT06
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT07
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT08
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT09
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT10
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+  - type: DESERT11
+    terrains:
+      - DESERT
+    category: Desert
+    group: ufoLandscapes
+
+#----- Forest -----------------------------------------------------------------#
+  - type: FOREST00
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST01
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST02
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST03
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST04
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST05
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST06
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST07
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST08
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST09
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST10
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+  - type: FOREST11
+    terrains:
+      - FOREST
+    category: Forest
+    group: ufoLandscapes
+
+#----- Jungle -----------------------------------------------------------------#
+  - type: JUNGLE00
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE01
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE02
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE03
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE04
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE05
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE06
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE07
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE08
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE09
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE10
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+  - type: JUNGLE11
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: ufoLandscapes
+
+#----- Mars -------------------------------------------------------------------#
+  - type: MARS00
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS01
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS02
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS03
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS04
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS05
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS06
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS07
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS08
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS09
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+  - type: MARS10
+    terrains:
+      - MARS
+      - U_WALL02
+    category: Mars
+    group: ufoLandscapes
+
+#----- Mountain ---------------------------------------------------------------#
+  - type: MOUNT00
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT01
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT02
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT03
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT04
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT05
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT06
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT07
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT08
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT09
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT10
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT11
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+  - type: MOUNT12
+    terrains:
+      - MOUNT
+    category: Mountain
+    group: ufoLandscapes
+
+#----- Polar ------------------------------------------------------------------#
+  - type: POLAR00
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR01
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR02
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR03
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR04
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR05
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR06
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR07
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR08
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR09
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR10
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR11
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR12
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+  - type: POLAR13
+    terrains:
+      - POLAR
+    category: Polar
+    group: ufoLandscapes
+
+#----- Urban ------------------------------------------------------------------#
+  - type: URBAN00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN01
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN02
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN03
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN04
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN05
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN06
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN07
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN08
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN09
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN14
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN15
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN16
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN17
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+  - type: URBAN18
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    category: Urban
+    group: ufoLandscapes
+
+#----- tftdShips --------------------------------------------------------------#
+#----- USO --------------------------------------------------------------------#
+  - type: UFO01
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO02
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO03
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO04
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO05
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO06
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO07
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+  - type: UFO08
+    terrains:
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    category: USO
+    group: tftdShips
+
+#----- Craft ------------------------------------------------------------------#
+  - type: LEVIATH
+    terrains:
+      - LEVIATH
+    category: Craft
+    group: tftdShips
+  - type: HAMMER
+    terrains:
+      - HAMMER
+    category: Craft
+    group: tftdShips
+  - type: TRITON
+    terrains:
+      - TRITON
+    category: Craft
+    group: tftdShips
+
+#----- tftdSeascapes ----------------------------------------------------------#
+#----- Alien Artifact Site 1 --------------------------------------------------#
+  - type: ALART00
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART01
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART02
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART03
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART04
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART05
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART06
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART07
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART08
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART09
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART10
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+  - type: ALART11
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - PYRAMID
+      - UFOBITS
+    category: Alien Artifact Site 1
+    group: tftdSeascapes
+
+#----- Alien Artifact Site 2 --------------------------------------------------#
+  - type: GRUNGE00
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE01
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE02
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE03
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE04
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE05
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE06
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE07
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE08
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE09
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE10
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE11
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE12
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE13
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE14
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE15
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+  - type: GRUNGE16
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: tftdSeascapes
+
+#----- alship -----------------------------------------------------------------#
+  - type: ALSHIP00
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP01
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP02
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP03
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP04
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP05
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP06
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP07
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP08
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP09
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP10
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP11
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP12
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP13
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP14
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP15
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP16
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+  - type: ALSHIP17
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - UFOBITS
+    category: alship
+    group: tftdSeascapes
+
+#----- Atlantis ---------------------------------------------------------------#
+  - type: ATLAN00
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN01
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN02
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN03
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN04
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN05
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN06
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN07
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN08
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN09
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN10
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN11
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+  - type: ATLAN12
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: tftdSeascapes
+
+#----- Coral ------------------------------------------------------------------#
+  - type: CORAL00
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL01
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL02
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL03
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL04
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL05
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL06
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL07
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL08
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL09
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL10
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL11
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+  - type: CORAL12
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: tftdSeascapes
+
+#----- Sunken Cargo Ship ------------------------------------------------------#
+  - type: MSUNK00
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK01
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK02
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK03
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK04
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK05
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK06
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK07
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK08
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK09
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK10
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK11
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK12
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+  - type: MSUNK13
+    terrains:
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    category: Sunken Cargo Ship
+    group: tftdSeascapes
+
+#----- Sunken Galleon ---------------------------------------------------------#
+  - type: GAL01
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL02
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL03
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL04
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL05
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL06
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL07
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL08
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL09
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL10
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL11
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL12
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL13
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL14
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL15
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+  - type: GAL16
+    terrains:
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    category: Sunken Galleon
+    group: tftdSeascapes
+
+#----- Sunken Plane -----------------------------------------------------------#
+  - type: PLANE00
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE01
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE02
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE03
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE04
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE05
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE06
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE07
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE08
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE09
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE10
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE11
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE12
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE13
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE14
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE15
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE16
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE17
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE18
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE19
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+  - type: PLANE20
+    terrains:
+      - SAND
+      - PLANE
+      - UFOBITS
+    category: Sunken Plane
+    group: tftdSeascapes
+
+#----- Mayan Temple -----------------------------------------------------------#
+  - type: MU00
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU01
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU02
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU03
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU04
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU05
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU06
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU07
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU08
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU09
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU10
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU11
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU12
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU13
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+  - type: MU14
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: tftdSeascapes
+
+#----- Underwater Research Facility -------------------------------------------#
+  - type: PIPES00
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES01
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES02
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES03
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES04
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES05
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES06
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES07
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES08
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES09
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES10
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+  - type: PIPES11
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: tftdSeascapes
+
+#----- Seabed -----------------------------------------------------------------#
+  - type: SEABED00
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED01
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED02
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED03
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED04
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED05
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED06
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED07
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED08
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED09
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED10
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED11
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+  - type: SEABED12
+    terrains:
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    category: Seabed
+    group: tftdSeascapes
+
+#----- Volcano ----------------------------------------------------------------#
+  - type: VOLC00
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC01
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC02
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC03
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC04
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC05
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC06
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC07
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC08
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC09
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC10
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+  - type: VOLC11
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: tftdSeascapes
+
+#----- Cargo Ship Terror Site -------------------------------------------------#
+  - type: CARGO00
+    terrains:
+      - SEA
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+    category: Cargo Ship Terror Site
+    group: tftdSeascapes
+  - type: CARGO01
+    terrains:
+      - SEA
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+    category: Cargo Ship Terror Site
+    group: tftdSeascapes
+  - type: CARGO02
+    terrains:
+      - SEA
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+    category: Cargo Ship Terror Site
+    group: tftdSeascapes
+
+#----- Island Terror Site -----------------------------------------------------#
+  - type: ISLAND00
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND01
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND02
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND03
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND04
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND05
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND06
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND07
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND08
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND09
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND10
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND11
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND12
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND13
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+  - type: ISLAND14
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: tftdSeascapes
+
+#----- Cruise Ship 1 Terror Site ----------------------------------------------#
+  - type: LINERT00
+    terrains:
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    category: Cruise Ship 1 Terror Site
+    group: tftdSeascapes
+  - type: LINERT01
+    terrains:
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    category: Cruise Ship 1 Terror Site
+    group: tftdSeascapes
+  - type: LINERT02
+    terrains:
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    category: Cruise Ship 1 Terror Site
+    group: tftdSeascapes
+
+#----- Cruise Ship 2 Terror Site ----------------------------------------------#
+  - type: LINERB02
+    terrains:
+      - SEA
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    category: Cruise Ship 2 Terror Site
+    group: tftdSeascapes
+  - type: LINERB03
+    terrains:
+      - SEA
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    category: Cruise Ship 2 Terror Site
+    group: tftdSeascapes
+
+#----- Port Terror Site -------------------------------------------------------#
+  - type: PORT00
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT01
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT02
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT03
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT04
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT05
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT06
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT07
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT08
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT09
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT10
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT11
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT12
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT13
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT14
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT15
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT16
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT17
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT18
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT19
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+  - type: PORT20
+    terrains:
+      - SEA
+      - PORT01
+      - PORT02
+    category: Port Terror Site
+    group: tftdSeascapes
+
+#----- T'leth Level 2 ---------------------------------------------------------#
+  - type: LEVEL01
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL02
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL03
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL04
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL05
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL06
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL07
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL08
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+  - type: LEVEL09
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: tftdSeascapes
+
+#----- T'leth Level 3 ---------------------------------------------------------#
+  - type: CRYPT01
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT02
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT03
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT04
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT05
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT06
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT07
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT08
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+  - type: CRYPT09
+    terrains:
+      - CRYPT1
+      - CRYPT2
+      - CRYPT3
+      - CRYPT4
+    category: T'leth Level 3
+    group: tftdSeascapes
+
+#----- Alien Base Level 1 -----------------------------------------------------#
+  - type: ENTRY00
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY01
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY02
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY03
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY04
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY05
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY06
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY07
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+  - type: ENTRY08
+    terrains:
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+    category: Alien Base Level 1
+    group: tftdSeascapes
+
+#----- Alien Base Level 2 -----------------------------------------------------#
+  - type: A_BASE00
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE01
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE02
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE03
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE04
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE05
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE06
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE07
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE08
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE09
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE10
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE11
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE12
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE13
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE14
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+  - type: A_BASE15
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: tftdSeascapes
+
+#----- XCom Base --------------------------------------------------------------#
+  - type: XBASES00
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES01
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES02
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES03
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES04
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES05
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES06
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES07
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES08
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES09
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES10
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES11
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES12
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES13
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES14
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES15
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES16
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES17
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES18
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES19
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes
+  - type: XBASES20
+    terrains:
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    category: XCom Base
+    group: tftdSeascapes

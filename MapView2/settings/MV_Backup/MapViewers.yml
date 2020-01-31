@@ -1,0 +1,50 @@
+# delete this file if things go wrong with your window locations and/or sizes.
+# It will be recreated from a hardcoded manifest the next time the program runs.
+#
+# NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
+#
+MainView:
+  left: 0
+  top: 49
+  width: 1257
+  height: 886
+TopView:
+  left: 959
+  top: 392
+  width: 640
+  height: 480
+RouteView:
+  left: 440
+  top: 373
+  width: 640
+  height: 480
+TileView:
+  left: 1261
+  top: 0
+  width: 400
+  height: 949
+TopRouteView:
+  left: 1747
+  top: 176
+  width: 1207
+  height: 762
+Options:
+  left: 647
+  top: 275
+  width: 600
+  height: 564
+TilesetEditor:
+  left: 170
+  top: 140
+  width: 580
+  height: 470
+PckView:
+  left: 190
+  top: 160
+  width: 480
+  height: 640
+McdView:
+  left: 210
+  top: 180
+  width: 820
+  height: 820

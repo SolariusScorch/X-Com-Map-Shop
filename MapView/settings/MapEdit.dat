@@ -1273,7 +1273,7 @@ Tileset:UFO - Terrain
 		XBASE_03:${varDeps44}
 		XBASE_04:${varDeps44}
 		XBASE_05:${varDeps44}
-		XBASE_05:${varDeps44}
+		XBASE_06:${varDeps44}
 		XBASE_07:${varDeps44}
 		XBASE_08:${varDeps44}
 		XBASE_09:${varDeps44}
@@ -1962,6 +1962,7 @@ Tileset:UFO - Terrain
 		URBANLOWS13:${varDeps133}
 		URBANLOWS14:${varDeps133}
 		URBANLOWS15:${varDeps133}
+		URBANLOWS16:${varDeps133}
 	end
 
 	files:Urban Market (Child)
@@ -1970,6 +1971,8 @@ Tileset:UFO - Terrain
 		URBANMARKET01:${varDeps134}
 		URBANMARKET02:${varDeps134}
 		URBANMARKET03:${varDeps134}
+		URBANMARKET04:${varDeps134}
+		URBANMARKET05:${varDeps134}
 	end
 
 	files:Urban Market - Clothes (Child)
@@ -3087,6 +3090,8 @@ Tileset:UFO - Ships
 		G0001_Stealer_by_wolwerin:U_EXT02 U_WALL02 U_OPER2 U_BITS
 		G0002_Executioner_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
 		G0007_Battle_Heavy_Ship_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
+		G0008_Sanctuary_Ship_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 U_BASE
+		G0010_Interceptor_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
 	end
 
 	files:Envoy Ship

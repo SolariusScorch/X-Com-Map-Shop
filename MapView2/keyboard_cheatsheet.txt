@@ -1,0 +1,166 @@
+These are keyboard shortcuts for the Map Editor.
+
+GENERAL
+-------
+Tab - cycles controls
+Shift+Tab - cycles controls backwards
+
+F5 - show/hide TileView
+F6 - show/hide TopView
+F7 - show/hide RouteView
+F8 - show/hide TopRouteView
+
+note: If a viewer is minimized it will be restored instead of closed.
+
+Ctrl with the above F-keys focuses the respective viewer.
+Shift with any of the above F-keys focuses MainView.
+
+F11 - minimize all
+F12 - restore all
+
+Escape tries to focus the panel in the active viewer.
+
+Ctrl+o - open Options for the viewer
+
+
+MAINVIEW
+--------
+Ctrl+a - save Map,Routes,and the tree
+Ctrl+m - save the Map
+Ctrl+r - save the Routes
+Ctrl+e - save Map+Routes as
+Ctrl+t - save the tree
+
+Ctrl+i - screenshot
+Ctrl+z - resize the map
+Ctrl+u - tileslot substitution
+Ctrl+f - show map info
+
+Ctrl+g - show the ScanG viewer
+
+Ctrl+n - reload terrains
+
+Ctrl+q - quit
+
+numeric keypad - navigate the map
+Shift + numeric keypad - multi-tile selection
+Subtract - level up
+Add - level down
+
+Escape cancels a multi-tile selection.
+
+Ctrl+x - cut tile(s)
+Ctrl+c - copy tile(s)
+Ctrl+v - paste tile(s)
+Del    - delete tile(s)
+
+f - fill selected tile(s)' selected quadrant with selected tilepart
+
+Ctrl+s - save the Map if the panel has focus
+
+Enter - opens the Maptree's contextmenu if the tree has focus.
+Enter - search if the Search textbox has focus.
+
+F1 - CHM Helpfile
+F2 - toggle animations
+F3 - toggle door state (if the panel has focus)
+F4 - toggle grid visibility
+
+F3 - search if the panel does *not* have focus.
+Shift + F3 - focuses the Search textbox.
+
+Ctrl+F1 - toggles floor visibility
+Ctrl+F2 - toggles westwall visibility
+Ctrl+F3 - toggles northwall visibility
+Ctrl+F4 - toggles content visibility
+
+Note: Visibility affects Cut/Paste/Delete operations.
+
+F10 - cycle to the next colortone for selected tile(s) [Shift] backwards
+
+RMB on the Map panel enables drag-panning when zoomed in on the Map.
+
+Enter on a selected Maptree node loads its tileset.
+
+Spacebar with any Maptree node selected opens the context-menu.
+
+LMB on a Maptree node that is already selected, or Shift+LMB on a node that is
+not selected, or Shift+Enter when a Maptree node has focus all show a dialog to
+find the Mapfile if it's gone rogue.
+
+
+TILEVIEW
+--------
+Arrow keys navigate the table.
+Home      - goto first tile on row
+End       - goto last tile on row
+PageUp    - goto tile 1 page up
+PageDown  - goto tile 1 page down
+Ctrl+Home - goto first tile in the table
+Ctrl+End  - goto last tile in the table
+
+i   - show MCD info (also, double-click a part)
+F9  - open selected part in PckView
+F10 - open selected part in McdView
+
+
+TOPVIEW
+-------
+numeric keypad         - navigate the map
+Shift + numeric keypad - multi-tile selection
+Subtract               - level up
+Add                    - level down
+
+Escape cancels a multi-tile selection.
+
+Ctrl+x - cut tile(s)
+Ctrl+c - copy tile(s)
+Ctrl+v - paste tile(s)
+Del    - delete tile(s)
+
+f - fill selected tile(s)' selected quadrant with selected part
+
+1 - select Floor quadrant
+2 - select Westwall quadrant
+3 - select Northwall quadrant
+4 - select Content quadrant
+
+Quadrant Panel
+q         - select the current tilepart's proper quadrant-type if a current
+            tilepart is valid
+t         - select the tilepart, in TileView, of the currently selected quadrant
+            (or double-click the quadrant itself)
+Enter     - place the currently selected part in TileView in the currently
+            selected quadrant of the currently selected tile(s) (or right-click
+            the quadrant itself)
+Shift+Del - delete the part(s) of the currently selected quadrant in the
+            currently selected tile(s) (or double-right-click the quadrant
+            itself)
+
+F1 - toggle floor visibility
+F2 - toggle westwall visibility
+F3 - toggle northwall visibility
+F4 - toggle content visibility
+
+Note: Visibility affects Cut/Paste/Delete operations.
+
+Ctrl+s - save the Map if the panel has focus
+
+
+ROUTEVIEW
+---------
+numeric keypad - navigate the map
+Subtract - level up
+Add - level down
+Shift + numeric keypad (incl/ Subtract and Add) - drag a selected node to an
+adjacent tile iff that tile doesn't already have a node
+
+Ctrl+x - cut selected node
+Ctrl+c - copy selected node
+Ctrl+v - paste cut/copied node
+Del    - delete selected node
+
+Escape - deselect selected node
+Enter - select node on selected tile if one exists else create a node there
+
+Ctrl+s - save the Routes if the panel has focus
