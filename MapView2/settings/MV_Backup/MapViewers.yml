@@ -4,9 +4,9 @@
 # NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
 #
 MainView:
-  left: 0
-  top: 49
-  width: 1257
+  left: 1
+  top: 9
+  width: 1249
   height: 886
 TopView:
   left: 959
@@ -26,13 +26,13 @@ TileView:
 TopRouteView:
   left: 1747
   top: 176
-  width: 1207
-  height: 762
+  width: 1358
+  height: 811
 Options:
   left: 647
-  top: 275
+  top: 113
   width: 600
-  height: 564
+  height: 726
 TilesetEditor:
   left: 170
   top: 140

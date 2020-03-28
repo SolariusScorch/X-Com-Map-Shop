@@ -3091,6 +3091,7 @@ Tileset:UFO - Ships
 		G0002_Executioner_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
 		G0007_Battle_Heavy_Ship_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
 		G0008_Sanctuary_Ship_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 U_BASE
+		G0009_Defender_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS U_DISEC2 U_OPER2
 		G0010_Interceptor_by_wolwerin:U_EXT02 U_WALL02 U_PODS U_BITS
 	end
 
