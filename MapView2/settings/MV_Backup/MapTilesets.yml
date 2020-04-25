@@ -28,7 +28,7 @@ tilesets:
 
 #----- TFTD - Terrain ---------------------------------------------------------#
 #----- Alien Artifact Site 1 --------------------------------------------------#
-  - type: ALART09
+  - type: ALART00
     terrains:
       - SAND
       - ROCKS
@@ -46,7 +46,7 @@ tilesets:
       - UFOBITS
     category: Alien Artifact Site 1
     group: TFTD - Terrain
-  - type: ALART10
+  - type: ALART09
     terrains:
       - SAND
       - ROCKS
@@ -55,7 +55,7 @@ tilesets:
       - UFOBITS
     category: Alien Artifact Site 1
     group: TFTD - Terrain
-  - type: ALART00
+  - type: ALART10
     terrains:
       - SAND
       - ROCKS
@@ -302,6 +302,13 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Atlantis ---------------------------------------------------------------#
+  - type: ATLAN00
+    terrains:
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    category: Atlantis
+    group: TFTD - Terrain
   - type: ATLAN01
     terrains:
       - SAND
@@ -386,15 +393,17 @@ tilesets:
       - UFOBITS
     category: Atlantis
     group: TFTD - Terrain
-  - type: ATLAN00
-    terrains:
-      - SAND
-      - ATLANTIS
-      - UFOBITS
-    category: Atlantis
-    group: TFTD - Terrain
 
 #----- Coral ------------------------------------------------------------------#
+  - type: CORAL00
+    terrains:
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+      - UFOBITS
+    category: Coral
+    group: TFTD - Terrain
   - type: CORAL12
     terrains:
       - SAND
@@ -423,15 +432,6 @@ tilesets:
     category: Coral
     group: TFTD - Terrain
   - type: CORAL01
-    terrains:
-      - SAND
-      - WEEDS
-      - CORAL
-      - ROCKS
-      - UFOBITS
-    category: Coral
-    group: TFTD - Terrain
-  - type: CORAL00
     terrains:
       - SAND
       - WEEDS
@@ -644,6 +644,13 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Mayan Temple -----------------------------------------------------------#
+  - type: MU00
+    terrains:
+      - SAND
+      - MU
+      - UFOBITS
+    category: Mayan Temple
+    group: TFTD - Terrain
   - type: MU02
     terrains:
       - SAND
@@ -652,13 +659,6 @@ tilesets:
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU03
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
-    category: Mayan Temple
-    group: TFTD - Terrain
-  - type: MU00
     terrains:
       - SAND
       - MU
@@ -751,6 +751,13 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Underwater Research Facility -------------------------------------------#
+  - type: PIPES00
+    terrains:
+      - SAND
+      - PIPES
+      - UFOBITS
+    category: Underwater Research Facility
+    group: TFTD - Terrain
   - type: PIPES10
     terrains:
       - SAND
@@ -759,13 +766,6 @@ tilesets:
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES11
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES00
     terrains:
       - SAND
       - PIPES
@@ -956,6 +956,12 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Volcano ----------------------------------------------------------------#
+  - type: VOLC00
+    terrains:
+      - SAND
+      - VOLC
+    category: Volcano
+    group: TFTD - Terrain
   - type: VOLC04
     terrains:
       - SAND
@@ -975,12 +981,6 @@ tilesets:
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC07
-    terrains:
-      - SAND
-      - VOLC
-    category: Volcano
-    group: TFTD - Terrain
-  - type: VOLC00
     terrains:
       - SAND
       - VOLC
@@ -1030,7 +1030,7 @@ tilesets:
     group: TFTD - Terrain
 
 #----- T'leth Level 2 ---------------------------------------------------------#
-  - type: LEVEL08
+  - type: LEVEL01
     terrains:
       - ORGANIC1
       - ORGANIC2
@@ -1038,7 +1038,15 @@ tilesets:
       - PSYNOM
     category: T'leth Level 2
     group: TFTD - Terrain
-  - type: LEVEL09
+  - type: LEVEL02
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: T'leth Level 2
+    group: TFTD - Terrain
+  - type: LEVEL03
     terrains:
       - ORGANIC1
       - ORGANIC2
@@ -1078,7 +1086,7 @@ tilesets:
       - PSYNOM
     category: T'leth Level 2
     group: TFTD - Terrain
-  - type: LEVEL01
+  - type: LEVEL08
     terrains:
       - ORGANIC1
       - ORGANIC2
@@ -1086,15 +1094,7 @@ tilesets:
       - PSYNOM
     category: T'leth Level 2
     group: TFTD - Terrain
-  - type: LEVEL02
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: T'leth Level 2
-    group: TFTD - Terrain
-  - type: LEVEL03
+  - type: LEVEL09
     terrains:
       - ORGANIC1
       - ORGANIC2
@@ -1375,6 +1375,14 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Alien Base Level 2 -----------------------------------------------------#
+  - type: A_BASE00
+    terrains:
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    category: Alien Base Level 2
+    group: TFTD - Terrain
   - type: A_BASE01
     terrains:
       - ORGANIC1
@@ -1392,14 +1400,6 @@ tilesets:
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE15
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE00
     terrains:
       - ORGANIC1
       - ORGANIC2
@@ -1505,7 +1505,7 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Cargo Ship Terror Site -------------------------------------------------#
-  - type: CARGO02
+  - type: CARGO00
     terrains:
       - SEA
       - CARGO1
@@ -1514,7 +1514,7 @@ tilesets:
       - CARGO3
     category: Cargo Ship Terror Site
     group: TFTD - Terrain
-  - type: CARGO00
+  - type: CARGO02
     terrains:
       - SEA
       - CARGO1
@@ -1534,6 +1534,16 @@ tilesets:
     group: TFTD - Terrain
 
 #----- Alien Artifact Site 2 --------------------------------------------------#
+  - type: GRUNGE00
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
   - type: GRUNGE16
     terrains:
       - GRUNGE1
@@ -1555,16 +1565,6 @@ tilesets:
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE03
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE00
     terrains:
       - GRUNGE1
       - GRUNGE2
@@ -1624,66 +1624,6 @@ tilesets:
       - UFOBITS
     category: Alien Artifact Site 2
     group: TFTD - Terrain
-  - type: GRUNGE15
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE14
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE13
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE12
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE11
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
-  - type: GRUNGE10
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
-    category: Alien Artifact Site 2
-    group: TFTD - Terrain
   - type: GRUNGE08
     terrains:
       - GRUNGE1
@@ -1704,8 +1644,76 @@ tilesets:
       - UFOBITS
     category: Alien Artifact Site 2
     group: TFTD - Terrain
+  - type: GRUNGE10
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
+  - type: GRUNGE11
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
+  - type: GRUNGE12
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
+  - type: GRUNGE13
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
+  - type: GRUNGE14
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
+  - type: GRUNGE15
+    terrains:
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3
+      - GRUNGE4
+      - GRUNGE5
+      - UFOBITS
+    category: Alien Artifact Site 2
+    group: TFTD - Terrain
 
 #----- Island Terror Site -----------------------------------------------------#
+  - type: ISLAND00
+    terrains:
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    category: Island Terror Site
+    group: TFTD - Terrain
   - type: ISLAND12
     terrains:
       - SEA
@@ -1795,14 +1803,6 @@ tilesets:
     category: Island Terror Site
     group: TFTD - Terrain
   - type: ISLAND01
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND00
     terrains:
       - SEA
       - ISLAND1
@@ -2618,6 +2618,21 @@ tilesets:
       - JUNGLE
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLE_ROAD_WE00
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLE_ROAD_SN00
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLE_ROAD_XX00
+    terrains:
+      - JUNGLE
+    category: Jungle
+    group: UFO - Terrain
 
 #----- Farm -------------------------------------------------------------------#
   - type: CULTA00
@@ -2625,6 +2640,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA01
@@ -2632,6 +2648,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA02
@@ -2639,6 +2656,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA03
@@ -2646,6 +2664,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA04
@@ -2653,6 +2672,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA05
@@ -2660,6 +2680,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA06
@@ -2667,6 +2688,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA07
@@ -2674,6 +2696,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA08
@@ -2681,6 +2704,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA09
@@ -2688,6 +2712,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA10
@@ -2695,6 +2720,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA11
@@ -2702,6 +2728,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA12
@@ -2709,6 +2736,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA13
@@ -2716,6 +2744,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA14
@@ -2723,6 +2752,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA15
@@ -2730,6 +2760,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA16
@@ -2737,6 +2768,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA17
@@ -2744,6 +2776,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTA18
@@ -2751,6 +2784,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTASOL00
@@ -2758,6 +2792,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTASOL01
@@ -2765,6 +2800,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTASOL02
@@ -2772,6 +2808,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTACIV00
@@ -2779,6 +2816,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTACIV01
@@ -2786,6 +2824,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTACIV02
@@ -2793,6 +2832,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW00
@@ -2800,6 +2840,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW01
@@ -2807,6 +2848,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW02
@@ -2814,6 +2856,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW03
@@ -2821,6 +2864,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW04
@@ -2828,6 +2872,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW05
@@ -2835,6 +2880,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW06
@@ -2842,6 +2888,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW07
@@ -2849,6 +2896,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW08
@@ -2856,6 +2904,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW09
@@ -2863,6 +2912,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW10
@@ -2870,6 +2920,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW11
@@ -2877,6 +2928,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW12
@@ -2884,6 +2936,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW13
@@ -2891,6 +2944,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW14
@@ -2898,6 +2952,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW15
@@ -2905,6 +2960,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW16
@@ -2912,6 +2968,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW17
@@ -2919,6 +2976,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_NEW18
@@ -2926,6 +2984,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM00
@@ -2933,6 +2992,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM01
@@ -2940,6 +3000,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM02
@@ -2947,6 +3008,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM03
@@ -2954,6 +3016,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM04
@@ -2961,6 +3024,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM05
@@ -2968,6 +3032,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM06
@@ -2975,6 +3040,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM07
@@ -2982,6 +3048,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM08
@@ -2989,6 +3056,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM09
@@ -2996,6 +3064,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM10
@@ -3003,6 +3072,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM11
@@ -3010,6 +3080,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM12
@@ -3017,6 +3088,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM13
@@ -3024,6 +3096,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM14
@@ -3031,6 +3104,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM15
@@ -3038,6 +3112,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM16
@@ -3045,6 +3120,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM17
@@ -3052,6 +3128,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM18
@@ -3059,6 +3136,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM19
@@ -3066,6 +3144,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM20
@@ -3073,6 +3152,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM21
@@ -3080,6 +3160,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM22
@@ -3087,6 +3168,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTAFARM23
@@ -3094,6 +3176,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG01
@@ -3101,6 +3184,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG02
@@ -3108,6 +3192,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG03
@@ -3115,6 +3200,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG04
@@ -3122,6 +3208,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG05
@@ -3129,6 +3216,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG06
@@ -3136,6 +3224,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG07
@@ -3143,6 +3232,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULTABIG08
@@ -3150,6 +3240,7 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
   - type: CULT_FINNIK00
@@ -3157,6 +3248,31 @@ tilesets:
       - CULTIVAT
       - BARN
       - CULTMACHINES
+      - ROADS
+    category: Farm
+    group: UFO - Terrain
+  - type: CULTA_ROAD_WE00
+    terrains:
+      - CULTIVAT
+      - BARN
+      - CULTMACHINES
+      - ROADS
+    category: Farm
+    group: UFO - Terrain
+  - type: CULTA_ROAD_SN00
+    terrains:
+      - CULTIVAT
+      - BARN
+      - CULTMACHINES
+      - ROADS
+    category: Farm
+    group: UFO - Terrain
+  - type: CULTA_ROAD_XX00
+    terrains:
+      - CULTIVAT
+      - BARN
+      - CULTMACHINES
+      - ROADS
     category: Farm
     group: UFO - Terrain
 
@@ -3248,6 +3364,7 @@ tilesets:
     terrains:
       - FOREST
       - FORESTBITS
+      - ROADS
     category: Forest
     group: UFO - Terrain
   - type: SOLFOREST13
@@ -3397,12 +3514,109 @@ tilesets:
       - ROADS
     category: Forest
     group: UFO - Terrain
+  - type: FOREST_ROAD_SN02
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+    category: Forest
+    group: UFO - Terrain
   - type: FOREST_ROAD_XX00
     terrains:
       - FOREST
       - FORESTBITS
       - ROADS
     category: Forest
+    group: UFO - Terrain
+
+#----- Forest Swamp -----------------------------------------------------------#
+  - type: FORESTSWAMP03
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP05
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP06
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP09
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP10
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP11
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP13
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP14
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP15
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP16
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP20
+    terrains:
+      - FOREST
+      - FORESTBITS
+      - ROADS
+      - FORESTSWAMP
+    category: Forest Swamp
     group: UFO - Terrain
 
 #----- Forest Mountain --------------------------------------------------------#
@@ -5875,430 +6089,389 @@ tilesets:
   - type: INDUSTRIALSLUM00
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM01
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM02
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM03
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM04
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM05
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM06
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM07
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM08
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM09
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM10
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM11
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM12
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM13
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM14
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM15
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM16
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM17
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM18
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM19
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM30
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM31
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM32
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM33
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM34
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM35
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO18
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO14
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO15
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO16
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO17
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO19
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO20
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO21
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO22
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO23
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADCROSS
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
-  - type: INDUSTRIALSLUMROADRAILNS
+  - type: INDUSTRIALSLUMROADCROSS2
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADNS
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADWE
     terrains:
       - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     category: Industrial Slum
     group: UFO - Terrain
-
-#----- Port Urban -------------------------------------------------------------#
-  - type: PORTURBAN00
+  - type: INDUSTRIALSLUMROADWE2
     terrains:
       - PORTROADS
-      - PORTURBITS
-    category: Port Urban
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
     group: UFO - Terrain
-  - type: PORTURBAN01
+  - type: INDUSTRIALSLUMROADRAILCROSS
     terrains:
       - PORTROADS
-      - PORTURBITS
-    category: Port Urban
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
     group: UFO - Terrain
-  - type: PORTURBAN02
+  - type: INDUSTRIALSLUMROADRAILNS
     terrains:
       - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN03
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN04
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN05
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN06
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN07
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN08
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN09
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN10
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN11
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN12
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN13
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN14
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN15
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN16
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN17
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN18
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN19
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN20
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN21
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
-    group: UFO - Terrain
-  - type: PORTURBAN22
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-    category: Port Urban
+      - INDUSLUM
+      - ROADS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
+    category: Industrial Slum
     group: UFO - Terrain
 
 #----- Urban ------------------------------------------------------------------#
@@ -7716,152 +7889,6 @@ tilesets:
     terrains:
       - POLAR
     category: Arctic
-    group: UFO - Terrain
-
-#----- Forest Swamp -----------------------------------------------------------#
-  - type: FORESTSWAMP00
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP01
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP02
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP03
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP04
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP05
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP06
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP07
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP08
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP09
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP10
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP11
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP12
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP13
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP14
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP15
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP16
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP17
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP18
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP19
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTSWAMP20
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTPOLARDIO01
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTPOLARDIO02
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
-    group: UFO - Terrain
-  - type: FORESTPOLARDIO03
-    terrains:
-      - FOREST
-      - FORESTSWAMP
-    category: Forest Swamp
     group: UFO - Terrain
 
 #----- Cydonia ----------------------------------------------------------------#
@@ -9398,6 +9425,14 @@ tilesets:
       - XCOMBITS
     category: X-Com Base Expanded
     group: UFO - Terrain
+  - type: XBASS_42
+    terrains:
+      - XBASE1
+      - XBASE2
+      - XCOMWALL
+      - XCOMBITS
+    category: X-Com Base Expanded
+    group: UFO - Terrain
 
 #----- Pirate Base ------------------------------------------------------------#
   - type: XBR_00
@@ -9967,6 +10002,303 @@ tilesets:
       - XB3BITZ3
     category: Pirate Base
     group: UFO - Terrain
+  - type: XBR_63
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_64
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_65
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_66
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_67
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_68
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_69
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_70
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_71
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_72
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_73
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_74
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_75
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_76
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_77
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_78
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_79
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_80
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_81
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_82
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_83
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_84
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_85
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_86
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_87
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_88
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_89
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_90
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_91
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_92
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_93
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_94
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
+  - type: XBR_95
+    terrains:
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: UFO - Terrain
 
 #----- Commercial -------------------------------------------------------------#
   - type: COMRCURBAN00
@@ -9974,7 +10306,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -9983,7 +10315,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -9992,7 +10324,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10001,7 +10333,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10010,7 +10342,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10019,7 +10351,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10028,7 +10360,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10037,7 +10369,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10046,7 +10378,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10055,7 +10387,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10064,7 +10396,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10073,7 +10405,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10082,7 +10414,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10091,7 +10423,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10100,7 +10432,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10109,7 +10441,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10118,7 +10450,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10127,7 +10459,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10136,7 +10468,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10145,7 +10477,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10154,7 +10486,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10163,7 +10495,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10172,7 +10504,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10181,7 +10513,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10190,7 +10522,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10199,7 +10531,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10208,7 +10540,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10217,7 +10549,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10226,7 +10558,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10235,7 +10567,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10244,7 +10576,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10253,7 +10585,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10262,7 +10594,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -10271,7 +10603,142 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN34
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN35
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN36
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN37
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN38
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN39
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN40
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN41
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN42
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN43
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN44
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN45
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN46
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN50
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN51
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
       - COMDECOR
     category: Commercial
     group: UFO - Terrain
@@ -12919,7 +13386,7 @@ tilesets:
       - SEANOM
     category: Seabed
     group: UFO - Terrain
-  - type: SEABED13
+  - type: SEABEDENTRY
     terrains:
       - SEASAND
       - SEAROCKS
@@ -14075,15 +14542,6 @@ tilesets:
       - CULTIVAT
     category: Junk Urban
     group: UFO - Terrain
-  - type: URBANJUNK47_ROAD
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-    category: Junk Urban
-    group: UFO - Terrain
   - type: URBANJUNKDIO_00
     terrains:
       - JUNGLE
@@ -14260,6 +14718,34 @@ tilesets:
       - URBAN_LOW
     category: Urban Low (Parent)
     group: UFO - Terrain
+  - type: URBANLOWF09
+    terrains:
+      - URBAN_LOW_OBJ
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Low (Parent)
+    group: UFO - Terrain
+  - type: URBANLOWF10
+    terrains:
+      - URBAN_LOW_OBJ
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Low (Parent)
+    group: UFO - Terrain
+  - type: URBANLOWF11
+    terrains:
+      - URBAN_LOW_OBJ
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Low (Parent)
+    group: UFO - Terrain
+  - type: URBANLOWF12
+    terrains:
+      - URBAN_LOW_OBJ
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Low (Parent)
+    group: UFO - Terrain
   - type: URBANLOWS00
     terrains:
       - URBAN_LOW_OBJ
@@ -14393,8 +14879,14 @@ tilesets:
       - URBAN_LOW
     category: Urban Low (Parent)
     group: UFO - Terrain
-
-  - type: URBANLOWS_twin_buildings_template
+  - type: URBANLOWS19
+    terrains:
+      - URBAN_LOW_OBJ
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Low (Parent)
+    group: UFO - Terrain
+  - type: URBANLOWS_TWIN_BUILDINGS_TEMPLATE
     terrains:
       - URBAN_LOW_OBJ
       - URBAN_LOW_FRN
@@ -14493,8 +14985,492 @@ tilesets:
     group: UFO - Terrain
 
 #----- Urban Roads (Child) ----------------------------------------------------#
-  - type: URBANROAD00
+  - type: URBANRAILROADF00
     terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANRAILROADCRF00
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF01
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF02
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF03
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF04
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF05
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANROADHF00
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF01
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF02
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF03
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF04
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF05
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF06
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF07
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF08
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF09
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF10
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF11
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF12
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF13
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF14
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF15
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF16
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF17
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF18
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF19
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF20
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF00
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF01
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF02
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF03
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF04
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF05
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF06
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF07
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF08
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF09
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF10
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF11
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF12
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF13
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF14
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF15
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF16
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF17
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF18
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF19
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF20
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF00
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF01
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF02
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF03
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF04
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF05
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF06
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF07
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF08
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF09
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF10
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF21
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANROADVF21
+    terrains:
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
     category: Urban Roads (Child)
     group: UFO - Terrain
 
@@ -17128,169 +18104,211 @@ tilesets:
 #----- Port TFTD --------------------------------------------------------------#
   - type: PORTUFO00
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO01
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO02
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO03
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO04
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO05
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO06
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO07
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO08
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO09
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO10
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO11
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO12
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO13
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO14
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO15
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO16
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO17
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO18
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO19
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
   - type: PORTUFO20
     terrains:
-      - SEAURBAN
       - PORTROADS
       - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
       - SEABITS
     category: Port TFTD
     group: UFO - Terrain
@@ -17298,105 +18316,168 @@ tilesets:
 #----- Jungle Temple ----------------------------------------------------------#
   - type: MUJUNGLE00
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE01
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE02
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE03
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE04
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE05
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE06
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE07
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE08
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE09
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE10
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE11
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE12
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE13
     terrains:
-      - SANDS
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
     group: UFO - Terrain
   - type: MUJUNGLE14
     terrains:
-      - SANDS
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE15
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE16
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_SN00
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_SN01
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_SN02
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_WE00
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_WE01
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_WE02
+    terrains:
+      - JUNGLEROCKS
+      - MUJUNGLE
+      - JUNGLEBITS
+    category: Jungle Temple
+    group: UFO - Terrain
+  - type: MUJUNGLE_ROAD_XX00
+    terrains:
+      - JUNGLEROCKS
       - MUJUNGLE
       - JUNGLEBITS
     category: Jungle Temple
@@ -17824,6 +18905,62 @@ tilesets:
       - DESERT
     category: Desert Temple
     group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_XX00
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_SN00
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_SN01
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_SN02
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_WE00
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_WE01
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_WE02
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
+  - type: ATLANTDESERT_ROAD_WE03
+    terrains:
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    category: Desert Temple
+    group: UFO - Terrain
 
 #----- Mummy Village ----------------------------------------------------------#
   - type: MUM_VILLAGE_N00
@@ -18139,126 +19276,176 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
 
-#----- Space Freighter Command ------------------------------------------------#
-  - type: FREIGHTERBASE_CENTER_TEMPLATE
+#----- IDT Rice Farm ----------------------------------------------------------#
+  - type: ALT_BARN_1
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
-    category: Space Freighter Command
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_BRIDGE00
+  - type: ALT_BARN_2
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
-    category: Space Freighter Command
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_HANGAR00
+  - type: ALT_BARN_3
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
-    category: Space Freighter Command
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_CROSSROADS00
+  - type: ALT_BARN_4
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
-    category: Space Freighter Command
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-
-#----- Space Freighter Agrarian -----------------------------------------------#
-  - type: FREIGHTER_AGRI_FARM00
+  - type: ALT_BARN_5
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_AGRI_FARM01
+  - type: ALT_BARN_6
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_AGRI_FARM02
+  - type: ALT_BARN_7
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_AGRI_BYRE00
+  - type: ALT_BARN_8
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_AGRI_LINK_NW00
+  - type: ALT_BARN_9
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-
-#----- Space Freighter Passenger ----------------------------------------------#
-  - type: FREIGHTER_PASS_ROOMS00
+  - type: ALT_BARN_10
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
-    category: Space Freighter Passenger
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_PASS_ROOMS01
+  - type: ALT_BARN_11
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
-    category: Space Freighter Passenger
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_PASS_LINK_SW00
+  - type: ALT_BARN_12
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
-    category: Space Freighter Passenger
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_PASS_CHAPEL00
+  - type: ALT_BARN_13
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
-    category: Space Freighter Passenger
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-
-#----- Space Freighter Cargo --------------------------------------------------#
-  - type: FREIGHTER_CARGO_STORAGE00
+  - type: ALT_BARN_14
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_CARGO_STORAGE01
+  - type: ALT_BARN_15
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_CARGO_STORAGE10
+  - type: ALT_BARN_16
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
-  - type: FREIGHTER_CARGO_TANKS00
+  - type: ALT_BARN_17
     terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_LINK_SE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_LINK_NE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
+      - IDT-FARM
+      - IDT_ASIA
+      - IDT-FARM-WATER
+      - IDT-BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    category: IDT Rice Farm
     group: UFO - Terrain
 
 #----- Underwater Habitat -----------------------------------------------------#
@@ -19265,6 +20452,128 @@ tilesets:
     category: Reptoid Settlement Landing
     group: UFO - Terrain
 
+#----- Space Freighter Command ------------------------------------------------#
+  - type: FREIGHTERBASE_CENTER_TEMPLATE
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_COMMAND
+    category: Space Freighter Command
+    group: UFO - Terrain
+  - type: FREIGHTERBASE_CENTER_BRIDGE00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_COMMAND
+    category: Space Freighter Command
+    group: UFO - Terrain
+  - type: FREIGHTERBASE_CENTER_HANGAR00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_COMMAND
+    category: Space Freighter Command
+    group: UFO - Terrain
+  - type: FREIGHTERBASE_CENTER_CROSSROADS00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_COMMAND
+    category: Space Freighter Command
+    group: UFO - Terrain
+
+#----- Space Freighter Agrarian -----------------------------------------------#
+  - type: FREIGHTER_AGRI_FARM00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: UFO - Terrain
+  - type: FREIGHTER_AGRI_FARM01
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: UFO - Terrain
+  - type: FREIGHTER_AGRI_FARM02
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: UFO - Terrain
+  - type: FREIGHTER_AGRI_BYRE00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: UFO - Terrain
+  - type: FREIGHTER_AGRI_LINK_NW00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: UFO - Terrain
+
+#----- Space Freighter Passenger ----------------------------------------------#
+  - type: FREIGHTER_PASS_ROOMS00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_PASSENGER
+    category: Space Freighter Passenger
+    group: UFO - Terrain
+  - type: FREIGHTER_PASS_ROOMS01
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_PASSENGER
+    category: Space Freighter Passenger
+    group: UFO - Terrain
+  - type: FREIGHTER_PASS_LINK_SW00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_PASSENGER
+    category: Space Freighter Passenger
+    group: UFO - Terrain
+  - type: FREIGHTER_PASS_CHAPEL00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_PASSENGER
+    category: Space Freighter Passenger
+    group: UFO - Terrain
+
+#----- Space Freighter Cargo --------------------------------------------------#
+  - type: FREIGHTER_CARGO_STORAGE00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+  - type: FREIGHTER_CARGO_STORAGE01
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+  - type: FREIGHTER_CARGO_STORAGE10
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+  - type: FREIGHTER_CARGO_TANKS00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+  - type: FREIGHTER_CARGO_LINK_SE00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+  - type: FREIGHTER_CARGO_LINK_NE00
+    terrains:
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: UFO - Terrain
+
 #----- Space Freighter Base ---------------------------------------------------#
   - type: FREIGHTERBASE_CENTER00
     terrains:
@@ -20266,6 +21575,14 @@ tilesets:
     group: UFO - Terrain
 
 #----- UFO - Ships ------------------------------------------------------------#
+#----- X-Com Entries ----------------------------------------------------------#
+  - type: PENTAGRAM_MEDIUM_ENTRY
+    terrains:
+      - PENTA_XCOM
+      - CATACOMB
+    category: X-Com Entries
+    group: UFO - Ships
+
 #----- XCom -------------------------------------------------------------------#
   - type: LIGHTNIN
     terrains:
@@ -20446,6 +21763,13 @@ tilesets:
       - KITSUNE
     category: XCom
     group: UFO - Ships
+  - type: SENTINEL
+    terrains:
+      - AVENGER
+      - LIGHTNIN
+      - XBASE1
+    category: XCom
+    group: UFO - Ships
 
 #----- Misc Vehicles ----------------------------------------------------------#
   - type: XARMY
@@ -20609,6 +21933,52 @@ tilesets:
     category: Terror Ship
     group: UFO - Ships
 
+#----- Lab Ship ---------------------------------------------------------------#
+  - type: LABSHIP1
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+      - U_OPER2
+      - UFOL83
+    category: Lab Ship
+    group: UFO - Ships
+  - type: LABSHIP2
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+      - U_OPER2
+      - UFOL83
+    category: Lab Ship
+    group: UFO - Ships
+  - type: LABSHIP3
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+      - U_OPER2
+      - UFOL83
+    category: Lab Ship
+    group: UFO - Ships
+  - type: LABSHIP4
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+      - U_OPER2
+      - UFOL83
+    category: Lab Ship
+    group: UFO - Ships
+
 #----- Battleship -------------------------------------------------------------#
   - type: UFO_160
     terrains:
@@ -20701,52 +22071,6 @@ tilesets:
     category: Battleship
     group: UFO - Ships
 
-#----- Lab Ship ---------------------------------------------------------------#
-  - type: LABSHIP1
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
-    category: Lab Ship
-    group: UFO - Ships
-  - type: LABSHIP2
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
-    category: Lab Ship
-    group: UFO - Ships
-  - type: LABSHIP3
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
-    category: Lab Ship
-    group: UFO - Ships
-  - type: LABSHIP4
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
-    category: Lab Ship
-    group: UFO - Ships
-
 #----- Supply Ship ------------------------------------------------------------#
   - type: UFO_170
     terrains:
@@ -20797,503 +22121,6 @@ tilesets:
       - U_DISEC3
       - UFOL83
     category: Supply Ship
-    group: UFO - Ships
-
-#----- Small Scout ------------------------------------------------------------#
-  - type: UFO1A
-    terrains:
-      - UFO1
-    category: Small Scout
-    group: UFO - Ships
-  - type: UFO1B
-    terrains:
-      - UFO1
-    category: Small Scout
-    group: UFO - Ships
-  - type: UFO1C
-    terrains:
-      - UFO1
-    category: Small Scout
-    group: UFO - Ships
-
-#----- Medium Scout -----------------------------------------------------------#
-  - type: MEDSCOUT01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-  - type: MEDSCOUT10_UFO_110_A_by_wolwerin
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Medium Scout
-    group: UFO - Ships
-
-#----- Large Scout ------------------------------------------------------------#
-  - type: LARGSCOUT00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT11
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT12
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT13
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT14
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT15
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT16
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT17
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT18
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT19
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT20
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT21
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT22
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT23
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT24
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-  - type: LARGSCOUT25_UFO_120_A_by_wolwerin
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Large Scout
-    group: UFO - Ships
-
-#----- Sentry Ship ------------------------------------------------------------#
-  - type: SENTRY00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY11
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY12
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-  - type: SENTRY13
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Sentry Ship
-    group: UFO - Ships
-
-#----- Fighter Ship -----------------------------------------------------------#
-  - type: FIGHTER00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
-    group: UFO - Ships
-  - type: FIGHTER08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Fighter Ship
     group: UFO - Ships
 
 #----- Harvester --------------------------------------------------------------#
@@ -21546,6 +22373,503 @@ tilesets:
       - U_DISEC3
       - UFOL83
     category: Harvester
+    group: UFO - Ships
+
+#----- Small Scout ------------------------------------------------------------#
+  - type: UFO1A
+    terrains:
+      - UFO1
+    category: Small Scout
+    group: UFO - Ships
+  - type: UFO1B
+    terrains:
+      - UFO1
+    category: Small Scout
+    group: UFO - Ships
+  - type: UFO1C
+    terrains:
+      - UFO1
+    category: Small Scout
+    group: UFO - Ships
+
+#----- Medium Scout -----------------------------------------------------------#
+  - type: MEDSCOUT01
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT02
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT03
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT04
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT05
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT06
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT07
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT08
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT09
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+  - type: MEDSCOUT10_UFO_110_A_BY_WOLWERIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Medium Scout
+    group: UFO - Ships
+
+#----- Large Scout ------------------------------------------------------------#
+  - type: LARGSCOUT00
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT01
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT02
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT03
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT04
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT05
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT06
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT07
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT08
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT09
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT10
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT11
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT12
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT13
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT14
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT15
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT16
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT17
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT18
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT19
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT20
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT21
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT22
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT23
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT24
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+  - type: LARGSCOUT25_UFO_120_A_BY_WOLWERIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Large Scout
+    group: UFO - Ships
+
+#----- Sentry Ship ------------------------------------------------------------#
+  - type: SENTRY00
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY01
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY02
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY03
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY04
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY05
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY06
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY07
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY08
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY09
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY10
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY11
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY12
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+  - type: SENTRY13
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Sentry Ship
+    group: UFO - Ships
+
+#----- Fighter Ship -----------------------------------------------------------#
+  - type: FIGHTER00
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER01
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER02
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER03
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER04
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER05
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER06
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER07
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER08
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Fighter Ship
     group: UFO - Ships
 
 #----- Abductor ---------------------------------------------------------------#
@@ -22130,277 +23454,6 @@ tilesets:
     category: Reptillian Ships
     group: UFO - Ships
 
-#----- Piratez - Reticulan vessels --------------------------------------------------------------#
-  - type: VES_R_010
-    terrains:
-      - RET_SHIPS
-    category: Reticulan
-    group: Piratez - Ships
-  - type: VES_R_011
-    terrains:
-      - RET_SHIPS
-    category: Reticulan
-    group: Piratez - Ships
-  - type: VES_R_020
-    terrains:
-      - RET_SHIPS
-    category: Reticulan
-    group: Piratez - Ships
-  - type: VES_R_030
-    terrains:
-      - RET_SHIPS
-    category: Reticulan
-    group: Piratez - Ships
-
-#----- Piratez - light vessels ------------------------------------------------#
-  - type: VESSEL_AIRBUS
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_EXT_NOSE_SILVER
-      - C_EXT_NOSE_SIDE_SILVER
-      - C_EXT_ENGINE_S_SILVER
-      - C_INT
-      - DOORSSEC
-    category: Light Vessels
-    group: Piratez - Ships
-  - type: VESSEL_AMBULANCE
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_EXT_NOSE_SILVER
-      - C_EXT_NOSE_SIDE_SILVER
-      - C_INT
-      - C_EXT_ROOF_RED
-      - LIFTER
-      - C_INT_ENGINE_E
-      - XBASEN_BEDS
-      - DOORS2
-    category: Light Vessels
-    group: Piratez - Ships
-  - type: VES_NIN_1
-    terrains:
-      - C_EXT_WALL_BLACK
-      - C_EXT_ROOF_BLACK
-      - C_EXT_NOSE_BUMPLESS_BLACK
-      - C_EXT_NOSE_SIDE_BLACK
-      - C_EXT_ENGINE_S_BLACK
-      - LIFTER
-      - C_EXT_XCOM_DARK
-      - C_INT_HALF
-      - XBASEN_BEDS
-      - C_EXT_GLASSWALL
-      - NINJASPECIALS
-    category: Light Vessels
-    group: Piratez - Ships
-
-#----- Piratez - Plastasteel vessels ---------------------------------------------------#
-  - type: VES_190
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - UFO1
-      - U_BITS
-      - FRNITURE
-      - PLANE
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_270
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_OPER2
-      - UFODIO
-      - XB2BR
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_180
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_DISEC2
-      - U_BITS_G
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_410
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_420
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_430
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_220
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_230
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_140
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_150
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_110
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_120
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_160
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_170
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_OPER_G
-      - U_BITS_G
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_210
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_130
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - FRNITURE
-      - BATHBITZ
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_130_C
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - FRNITURE
-      - BATHBITZ
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_300
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_320
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_BITS_G
-      - UFOL83DIO_B
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_500
-    terrains:
-      - U_EXT_B
-      - U_WALL_B
-      - U_BITS_B
-      - UFOL83DIO_B
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_EXCV
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_BITS_G
-      - UFOL83DIO_B
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_PINK
-    terrains:
-      - U_EXT_P
-      - U_WALL_P
-      - U_BITS_P
-      - UFOL83_P
-      - FRNTURE_GOLD
-      - STATIONDECOR
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_SNAKEBOAT
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
-      - U_DISEC2
-      - U_OPER2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-
 #----- Mansion ----------------------------------------------------------------#
   - type: D_ATRIUM
     terrains:
@@ -22646,6 +23699,54 @@ tilesets:
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
       - ADVENT_CRAFT
+    category: ADVENT
+    group: UFO - Ships
+  - type: ALIEN_EMBASSY
+    terrains:
+      - ROADS
+      - URBITS
+      - ADVENT_URBAN
+      - FRNITURE
+      - U_EMBASSY_FINNIK
+    category: ADVENT
+    group: UFO - Ships
+  - type: ADVENT_CLINIC00
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_CLONING
+      - ADVENT_ABDUCTION
+      - ADVENT_HARVEST
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+    category: ADVENT
+    group: UFO - Ships
+  - type: ADVENT_CLINIC01
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+      - URBITS
+    category: ADVENT
+    group: UFO - Ships
+  - type: ADVENT_HIDEOUT01
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ADVENT_HIDEOUT
+    category: ADVENT
+    group: UFO - Ships
+  - type: ADVENT_HIDEOUT00
+    terrains:
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
     category: ADVENT
     group: UFO - Ships
 
@@ -23115,6 +24216,84 @@ tilesets:
       - DOORS1
     category: Academy Outposts
     group: UFO - Ships
+  - type: HTHOUSE_01G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
+  - type: HTHOUSE_02G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
+  - type: HTHOUSE_03G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
+  - type: HTHOUSE_04G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
+  - type: HTHOUSE_05G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
+  - type: HTHOUSE_06G
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Ships
 
 #----- Communications Tower ---------------------------------------------------#
   - type: COMMS_TOWER_GROUND
@@ -23526,56 +24705,6 @@ tilesets:
     category: OSIRON
     group: UFO - Ships
 
-#----- ADVENT -----------------------------------------------------------------#
-  - type: ALIEN_EMBASSY
-    terrains:
-      - ROADS
-      - URBITS
-      - ADVENT_URBAN
-      - FRNITURE
-      - U_EMBASSY_FINNIK
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC00
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_CLONING
-      - ADVENT_ABDUCTION
-      - ADVENT_HARVEST
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC01
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-      - URBITS
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - ADVENT_HIDEOUT
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT00
-    terrains:
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
-    category: ADVENT
-    group: UFO - Ships
-
 #----- Moon Outpost -----------------------------------------------------------#
   - type: MOON_OUTPOST00
     terrains:
@@ -23617,6 +24746,15 @@ tilesets:
     category: Misc Buildings
     group: UFO - Ships
   - type: CRIB01
+    terrains:
+      - CRIBURBAN
+      - CRIBURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+    category: Misc Buildings
+    group: UFO - Ships
+  - type: LT_HOUSE_02G
     terrains:
       - CRIBURBAN
       - CRIBURBITS
@@ -23777,3 +24915,275 @@ tilesets:
       - MANSION_PAINTINGS
     category: Dreamworld Buildings
     group: UFO - Ships
+
+#----- Piratez - Ships --------------------------------------------------------#
+#----- Reticulan --------------------------------------------------------------#
+  - type: VES_R_010
+    terrains:
+      - RET_SHIPS
+    category: Reticulan
+    group: Piratez - Ships
+  - type: VES_R_011
+    terrains:
+      - RET_SHIPS
+    category: Reticulan
+    group: Piratez - Ships
+  - type: VES_R_020
+    terrains:
+      - RET_SHIPS
+    category: Reticulan
+    group: Piratez - Ships
+  - type: VES_R_030
+    terrains:
+      - RET_SHIPS
+    category: Reticulan
+    group: Piratez - Ships
+
+#----- Light Vessels ----------------------------------------------------------#
+  - type: VESSEL_AIRBUS
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT
+      - DOORSSEC
+    category: Light Vessels
+    group: Piratez - Ships
+  - type: VESSEL_AMBULANCE
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_INT
+      - C_EXT_ROOF_RED
+      - LIFTER
+      - C_INT_ENGINE_E
+      - XBASEN_BEDS
+      - DOORS2
+    category: Light Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_1
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - LIFTER
+      - C_EXT_XCOM_DARK
+      - C_INT_HALF
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - NINJASPECIALS
+    category: Light Vessels
+    group: Piratez - Ships
+
+#----- Plastasteel vessels ----------------------------------------------------#
+  - type: VES_190
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - UFO1
+      - U_BITS
+      - FRNITURE
+      - PLANE
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_270
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_OPER2
+      - UFODIO
+      - XB2BR
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_180
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_DISEC2
+      - U_BITS_G
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_410
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_PODS_G
+      - U_BITS_G
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_420
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_PODS_G
+      - U_BITS_G
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_430
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_PODS_G
+      - U_BITS_G
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_220
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_230
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_140
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_150
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_110
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_OPER2
+      - U_BITS
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_120
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_OPER2
+      - U_BITS
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_160
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_OPER2
+      - U_BITS
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_170
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_OPER_G
+      - U_BITS_G
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_210
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+      - U_OPER2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_130
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - FRNITURE
+      - BATHBITZ
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_130_C
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - FRNITURE
+      - BATHBITZ
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_300
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_DISEC2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_320
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_BITS_G
+      - UFOL83DIO_B
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_500
+    terrains:
+      - U_EXT_B
+      - U_WALL_B
+      - U_BITS_B
+      - UFOL83DIO_B
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_EXCV
+    terrains:
+      - U_EXT_G
+      - U_WALL_G
+      - U_BITS_G
+      - UFOL83DIO_B
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_PINK
+    terrains:
+      - U_EXT_P
+      - U_WALL_P
+      - U_BITS_P
+      - UFOL83_P
+      - FRNTURE_GOLD
+      - STATIONDECOR
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_SNAKEBOAT
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - UFOL83
+      - U_DISEC2
+      - U_OPER2
+    category: Plastasteel vessels
+    group: Piratez - Ships
