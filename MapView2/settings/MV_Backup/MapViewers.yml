@@ -6,7 +6,7 @@
 MainView:
   left: 0
   top: 10
-  width: 1251
+  width: 1257
   height: 885
 TopView:
   left: 959

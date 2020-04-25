@@ -4856,6 +4856,10 @@ tilesets:
     terrains: *XComBase
     category: X-Com Base Expanded
     group: UFO - Terrain
+  - type: XBASS_42
+    terrains: *XComBase
+    category: X-Com Base Expanded
+    group: UFO - Terrain
 
 #----- Pirate Base ------------------------------------------------------------#
   - type: XBR_00
@@ -7129,7 +7133,7 @@ tilesets:
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK01
-    terrains: Urbanjunk
+    terrains: *Urbanjunk
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK02
@@ -7570,8 +7574,309 @@ tilesets:
     group: UFO - Terrain
 
 #----- Urban Roads (Child) ----------------------------------------------------#
-  - type: URBANROAD00
-    terrains:
+  - type: URBANRAILROADF00
+    terrains: &UrbanLowRoads
+      - URBAN_ROADS1
+      - RAILCROSSING
+      - URBAN_ROADS2
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANRAILROADCRF00
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF01
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF02
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF03
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF04
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANRAILROADCRF05
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANROADHF00
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF01
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF02
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF03
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF04
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF05
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF06
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF07
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF08
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF09
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF10
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF11
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF12
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF13
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF14
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF15
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF16
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF17
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF18
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF19
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF20
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF00
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF01
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF02
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF03
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF04
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF05
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF06
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF07
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF08
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF09
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF10
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF11
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF12
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF13
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF14
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF15
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF16
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF17
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF18
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF19
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADVF20
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF00
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF01
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF02
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF03
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF04
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF05
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF06
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF07
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF08
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF09
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADCRF10
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
+  - type: URBANROADHF21
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANROADVF21
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
 
@@ -12284,6 +12589,10 @@ tilesets:
     terrains: *AcademyOutpost
     category: Academy Outposts
     group: UFO - Ships
+  - type: HTHOUSE_06G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Ships
 
 #----- Communications Tower ---------------------------------------------------#
   - type: COMMS_TOWER_GROUND
@@ -12576,12 +12885,16 @@ tilesets:
     category: Misc Buildings
     group: UFO - Ships
   - type: CRIB01
-    terrains:
+    terrains: &Crib
       - CRIBURBAN
       - CRIBURBITS
       - CRIBDECOR
       - MANSIONBITS
       - CITYFRNITURE
+    category: Misc Buildings
+    group: UFO - Ships
+  - type: LT_HOUSE_02G
+    terrains: *Crib
     category: Misc Buildings
     group: UFO - Ships
   - type: PRISON
