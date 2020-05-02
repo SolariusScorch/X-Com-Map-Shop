@@ -12236,54 +12236,6 @@ tilesets:
       - ADVENT_CRAFT
     category: ADVENT
     group: UFO - Ships
-  - type: ALIEN_EMBASSY
-    terrains:
-      - ROADS
-      - URBITS
-      - ADVENT_URBAN
-      - FRNITURE
-      - U_EMBASSY_FINNIK
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC00
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_CLONING
-      - ADVENT_ABDUCTION
-      - ADVENT_HARVEST
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC01
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-      - URBITS
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - ADVENT_HIDEOUT
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT00
-    terrains:
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
-    category: ADVENT
-    group: UFO - Ships
 
 #----- USOs -------------------------------------------------------------------#
   - type: USOSURVEYSHIP00
@@ -12497,147 +12449,6 @@ tilesets:
   - type: CORPHQ_ROOF_P2
     terrains: *Corporation
     category: Corporation Tower
-    group: UFO - Ships
-
-#----- Academy Outposts -------------------------------------------------------#
-  - type: HTHOUSE_00
-    terrains: &AcademyOutpost
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_01
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_02
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_03
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_04
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_05
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_06
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_07
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_08
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_09
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_10
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_11
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_12
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_13
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_14
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_01G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_02G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_03G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_04G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_05G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_06G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-
-#----- Communications Tower ---------------------------------------------------#
-  - type: COMMS_TOWER_GROUND
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A01
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A02
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A03
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B01
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B02
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B03
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B04
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_ROOF
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A_TEMPLATE
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B_TEMPLATE
-    terrains: *AcademyOutpost
-    category: Communications Tower
     group: UFO - Ships
 
 #----- Dark Rituals -----------------------------------------------------------#
@@ -12865,6 +12676,71 @@ tilesets:
     category: Alien Buildings
     group: UFO - Ships
 
+#----- Dreamworld Buildings ---------------------------------------------------#
+  - type: VILLA_00
+    terrains:
+      - DREAMDECOR
+      - ATLANVILLA
+      - DUNGEON_VILLA
+      - PENTA_X
+      - CATACDECOR
+      - MANSION_PAINTINGS
+    category: Dreamworld Buildings
+    group: UFO - Ships
+
+#----- UFO - Buildings --------------------------------------------------------#
+#----- ADVENT ---------------------------------------------------------#
+
+  - type: ALIEN_EMBASSY
+    terrains:
+      - ROADS
+      - URBITS
+      - ADVENT_URBAN
+      - FRNITURE
+      - U_EMBASSY_FINNIK
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC00
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_CLONING
+      - ADVENT_ABDUCTION
+      - ADVENT_HARVEST
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC01
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+      - URBITS
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT01
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ADVENT_HIDEOUT
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT00
+    terrains:
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+    category: ADVENT
+    group: UFO - Buildings
+
+
 #----- Misc Buildings ---------------------------------------------------------#
   - type: GOVTBUILDING00
     terrains:
@@ -12874,7 +12750,7 @@ tilesets:
       - GOVTFRN
       - GOVTDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: UNI_00
     terrains:
       - COMROADS
@@ -12883,7 +12759,7 @@ tilesets:
       - COMFRN
       - COMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CRIB01
     terrains: &Crib
       - CRIBURBAN
@@ -12892,11 +12768,11 @@ tilesets:
       - MANSIONBITS
       - CITYFRNITURE
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: LT_HOUSE_02G
     terrains: *Crib
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: PRISON
     terrains:
       - PRISONROADS
@@ -12904,12 +12780,12 @@ tilesets:
       - PRISON
       - PRISONDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: SILO00
     terrains:
       - SILO
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: D_KEEP
     terrains:
       - CULTIVAT
@@ -12917,33 +12793,33 @@ tilesets:
       - SIBERIABASE
       - SIBERIABASE2
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: BANK_OPEN_00
     terrains:
       - GOVTDECOR
       - GOVT
       - GOVTFRN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: FOREST_CABIN
     terrains:
       - FOREST
       - FRNITURE
       - BARN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: HILL_BUNKER
     terrains:
       - FOREST
       - FRNITURE
       - BARN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: PENTAGRAM_MEDIUM
     terrains:
       - PENTA
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: D_ATRIUM_DEF
     terrains:
       - ROADS
@@ -12952,7 +12828,7 @@ tilesets:
       - FRNITURE
       - CAFEENTRY
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: JUNGLESHRINE
     terrains:
       - SANDS
@@ -12960,7 +12836,7 @@ tilesets:
       - JUNGLEBITS
       - URNS
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: SCI_HOUSE
     terrains:
       - SCI_HOUSE
@@ -12968,7 +12844,7 @@ tilesets:
       - FRNITURE
       - LAMP_WALL
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: GHOST_HOUSE
     terrains:
       - URBITS
@@ -12977,7 +12853,7 @@ tilesets:
       - FRNITURE_FINNIK
       - GHOSTS_FINNIK
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CATACOMBS_POOL_00
     terrains:
       - CATACOMB
@@ -12991,7 +12867,7 @@ tilesets:
       - LAVA_GREEN
       - DOOMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CATACOMBS_POOL_SAMAEL_00
     terrains:
       - CATACOMB
@@ -13005,14 +12881,14 @@ tilesets:
       - LAVA_GREEN
       - DOOMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: DIM_X_PAD
     terrains:
       - C_EXT_WALL_SILVER
       - C_EXT_ROOF_SILVER
       - DESERT_PINK
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CLINIC00
     terrains:
       - MEDICAL_GENERAL
@@ -13024,7 +12900,7 @@ tilesets:
       - ADVENT_MEDICINE
       - MEDICAL_SPECIAL
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CLINIC_ASYLUM
     terrains:
       - MEDICAL_GENERAL
@@ -13036,19 +12912,155 @@ tilesets:
       - ADVENT_MEDICINE
       - PENTA
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
 
-#----- Dreamworld Buildings ---------------------------------------------------#
-  - type: VILLA_00
+#----- Academy Outposts -------------------------------------------------------#
+  - type: HTHOUSE_00
+    terrains: &AcademyOutpost
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_01
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_02
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_03
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_04
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_05
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_06
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_07
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_08
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_09
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_10
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_11
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_12
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_13
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_14
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_01G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_02G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_03G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_04G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_05G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+  - type: HTHOUSE_06G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: UFO - Buildings
+
+#----- Communications Tower ---------------------------------------------------#
+  - type: COMMS_TOWER_GROUND
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_A01
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_A02
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_A03
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_B01
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_B02
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_B03
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_B04
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_ROOF
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_A_TEMPLATE
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+  - type: COMMS_TOWER_B_TEMPLATE
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: UFO - Buildings
+
+  - type: MAGAZYNMAFII
     terrains:
-      - DREAMDECOR
-      - ATLANVILLA
-      - DUNGEON_VILLA
-      - PENTA_X
-      - CATACDECOR
-      - MANSION_PAINTINGS
-    category: Dreamworld Buildings
-    group: UFO - Ships
+      - URBAN
+      - CORP
+    category: Misc Buildings
+    group: UFO - Buildings
 
 #----- Piratez - Ships --------------------------------------------------------#
 #----- Reticulan --------------------------------------------------------------#

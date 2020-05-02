@@ -4603,653 +4603,262 @@ tilesets:
     category: Dawn City
     group: UFO - Terrain
 
-#----- X-Com Base Expanded ----------------------------------------------------#
+#----- X-Com Base ----------------------------------------------------#
   - type: XBASE_00
     terrains: &XComBase
       - XBASE1
       - XBASE2
       - XCOMWALL
       - XCOMBITS
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_01
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_02
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_03
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_04
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_05
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_06
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_07
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_08
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_09
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_10
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_11
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_12
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_13
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_14
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_15
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_16
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_17
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_18
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_19
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_20
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_01
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_02
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_03
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_04
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_05
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_06
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_07
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_08
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_09
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_10
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_11
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_12
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_13
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_14
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_15
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_16
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_17
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_18
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_19
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_20
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_21
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_22
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_23
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_24
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_25
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_26
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_27
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_28
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_29
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_30
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_31
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_32
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_33
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_34
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_35
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_36
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_37
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_38
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_39
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_40
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_41
     terrains: *XComBase
-    category: X-Com Base Expanded
+    category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_42
     terrains: *XComBase
-    category: X-Com Base Expanded
-    group: UFO - Terrain
-
-#----- Pirate Base ------------------------------------------------------------#
-  - type: XBR_00
-    terrains: &PiratezBase
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_01
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_02
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_03
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_04
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_05
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_06
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_07
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_08
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_09
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_10
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_11
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_12
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_13
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_14
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_15
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_16
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_17
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_18
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_19
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_20
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_21
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_22
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_23
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_24
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_25
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_26
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_27
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_28
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_29
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_30
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_31
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_32
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_33
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_34
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_35
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_36
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_37
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_38
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_39
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_40
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_41
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_42
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_43
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_44
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_45
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_46
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_47
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_48
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_49
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_50
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_51
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_52
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_53
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_54
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_55
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_56
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_57
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_58
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_59
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_60
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_61
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_62
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_63
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_64
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_65
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_66
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_67
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_68
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_69
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_70
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_71
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_72
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_73
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_74
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_75
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_76
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_77
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_78
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_79
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_80
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_81
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_82
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_83
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_84
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_85
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_86
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_87
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_88
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_89
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_90
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_91
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_92
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_93
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_94
-    terrains: *PiratezBase
-    category: Pirate Base
-    group: UFO - Terrain
-  - type: XBR_95
-    terrains: *PiratezBase
-    category: Pirate Base
+    category: X-Com Base
     group: UFO - Terrain
 
 #----- Commercial -------------------------------------------------------------#
@@ -8776,29 +8385,6 @@ tilesets:
     category: Vampire Castle
     group: UFO - Terrain
 
-#----- Space ------------------------------------------------------------------#
-  - type: ORBIT_00
-    terrains: &SpaceStation
-      - STATIONWALLS
-      - STATIONDECOR
-      - STATION
-      - LIFTER
-      - STATIONBITS
-    category: Space
-    group: UFO - Terrain
-  - type: ORBIT_01
-    terrains: *SpaceStation
-    category: Space
-    group: UFO - Terrain
-  - type: STATION_01
-    terrains: *SpaceStation
-    category: Space
-    group: UFO - Terrain
-  - type: SAT_01
-    terrains: *SpaceStation
-    category: Space
-    group: UFO - Terrain
-
 #----- Slums ------------------------------------------------------------------#
   - type: SLUMURBAN00
     terrains: &SlumUrban
@@ -10331,194 +9917,6 @@ tilesets:
     category: Reptoid Settlement Landing
     group: UFO - Terrain
 
-#----- Space Freighter Command ------------------------------------------------#
-  - type: FREIGHTERBASE_CENTER_TEMPLATE
-    terrains: &spaceFreighterCommand
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
-    category: Space Freighter Command
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_BRIDGE00
-    terrains: *spaceFreighterCommand
-    category: Space Freighter Command
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_HANGAR00
-    terrains: *spaceFreighterCommand
-    category: Space Freighter Command
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_CENTER_CROSSROADS00
-    terrains: *spaceFreighterCommand
-    category: Space Freighter Command
-    group: UFO - Terrain
-
-#----- Space Freighter Agrarian -----------------------------------------------#
-  - type: FREIGHTER_AGRI_FARM00
-    terrains: &spaceFreighterAgrarian
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
-    category: Space Freighter Agrarian
-    group: UFO - Terrain
-  - type: FREIGHTER_AGRI_FARM01
-    terrains: *spaceFreighterAgrarian
-    category: Space Freighter Agrarian
-    group: UFO - Terrain
-  - type: FREIGHTER_AGRI_FARM02
-    terrains: *spaceFreighterAgrarian
-    category: Space Freighter Agrarian
-    group: UFO - Terrain
-  - type: FREIGHTER_AGRI_BYRE00
-    terrains: *spaceFreighterAgrarian
-    category: Space Freighter Agrarian
-    group: UFO - Terrain
-  - type: FREIGHTER_AGRI_LINK_NW00
-    terrains: *spaceFreighterAgrarian
-    category: Space Freighter Agrarian
-    group: UFO - Terrain
-
-#----- Space Freighter Passenger ----------------------------------------------#
-  - type: FREIGHTER_PASS_ROOMS00
-    terrains: &spaceFreighterPassenger
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
-    category: Space Freighter Passenger
-    group: UFO - Terrain
-  - type: FREIGHTER_PASS_ROOMS01
-    terrains: *spaceFreighterPassenger
-    category: Space Freighter Passenger
-    group: UFO - Terrain
-  - type: FREIGHTER_PASS_LINK_SW00
-    terrains: *spaceFreighterPassenger
-    category: Space Freighter Passenger
-    group: UFO - Terrain
-  - type: FREIGHTER_PASS_CHAPEL00
-    terrains: *spaceFreighterPassenger
-    category: Space Freighter Passenger
-    group: UFO - Terrain
-
-#----- Space Freighter Cargo --------------------------------------------------#
-  - type: FREIGHTER_CARGO_STORAGE00
-    terrains: &spaceFreighterCargo
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_STORAGE01
-    terrains: *spaceFreighterCargo
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_STORAGE10
-    terrains: *spaceFreighterCargo
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_TANKS00
-    terrains: *spaceFreighterCargo
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_LINK_SE00
-    terrains: *spaceFreighterCargo
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-  - type: FREIGHTER_CARGO_LINK_NE00
-    terrains: *spaceFreighterCargo
-    category: Space Freighter Cargo
-    group: UFO - Terrain
-
-#----- Space Freighter Base ---------------------------------------------------#
-  - type: FREIGHTERBASE_CENTER00
-    terrains: &spaceFreighterBase
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_NE00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_NW00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_SE00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_SW00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_S00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_N00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_W00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTERBASE_E00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_TEMPLATE
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_TEMPLATE_NE
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_TEMPLATE_SE
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_TEMPLATE_NW
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_TEMPLATE_SW
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_S00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_N00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_N01
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_E00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_W00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_LINK_S00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_LINK_N00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_LINK_E00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-  - type: FREIGHTER_STRUCTURE_LINK_W00
-    terrains: *spaceFreighterBase
-    category: Space Freighter Base
-    group: UFO - Terrain
-
 #----- Alien Planet -----------------------------------------------------------#
   - type: UPLANET_00
     terrains: &AlienPlanet
@@ -10945,6 +10343,83 @@ tilesets:
   - type: EMANS09
     terrains: *EndlessMansion
     category: Endless Mansion
+    group: UFO - Terrain
+
+#----- Corporation MiniTower --------------------------------------------------#
+  - type: MINITOWER00
+    terrains: &Corporation
+      - CORP
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER01
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER02
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER03
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER04
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER0N
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+  - type: MINITOWER_TEMPLATE
+    terrains: *Corporation
+    category: Corporation MiniTower
+    group: UFO - Terrain
+
+#----- Corporation Tower ------------------------------------------------------#
+  - type: CORPHQ_GROUND
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_A01
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_A02
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_A03
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_A04
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_B01
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_B02
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_B03
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_B04
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_ROOF
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_ROOF_P2
+    terrains: *Corporation
+    category: Corporation Tower
     group: UFO - Terrain
 
 #----- UFO - Ships ------------------------------------------------------------#
@@ -12067,144 +11542,6 @@ tilesets:
     category: Reptillian Ships
     group: UFO - Ships
 
-#----- Mansion ----------------------------------------------------------------#
-  - type: D_ATRIUM
-    terrains: &Mansion
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
-    category: Mansion
-    group: UFO - Ships
-  - type: D_MANSN
-    terrains: *Mansion
-    category: Mansion
-    group: UFO - Ships
-  - type: D_TAVERN
-    terrains: *Mansion
-    category: Mansion
-    group: UFO - Ships
-
-#----- Cult -------------------------------------------------------------------#
-  - type: CULTHOUSE00
-    terrains: &Culthouse
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE01
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE02
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE03
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE04
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE05
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE06
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE07
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE08
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE09
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE10
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE11
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHOUSE12
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHIDEOUT00
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHIDEOUT01
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHIDEOUT02
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHIDEOUT03
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: CULTHIDEOUT04
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: LO_WO_HOUSE
-    terrains: *Culthouse
-    category: Cult
-    group: UFO - Ships
-  - type: DURFACTORY
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILTECH
-    category: Cult
-    group: UFO - Ships
-  - type: OSIRONWAREHOUSE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
-    category: Cult
-    group: UFO - Ships
-
-#----- Underwater Structures --------------------------------------------------#
-  - type: USOLANDINGPAD
-    terrains: &UnderwaterStructure
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
-    category: Underwater Structures
-    group: UFO - Ships
-  - type: AQUATOIDOFFICE
-    terrains: *UnderwaterStructure
-    category: Underwater Structures
-    group: UFO - Ships
-  - type: TLETHEMBASSY
-    terrains: *UnderwaterStructure
-    category: Underwater Structures
-    group: UFO - Ships
-
 #----- ADVENT -----------------------------------------------------------------#
   - type: ADVENT_FIGHTER
     terrains:
@@ -12234,54 +11571,6 @@ tilesets:
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
       - ADVENT_CRAFT
-    category: ADVENT
-    group: UFO - Ships
-  - type: ALIEN_EMBASSY
-    terrains:
-      - ROADS
-      - URBITS
-      - ADVENT_URBAN
-      - FRNITURE
-      - U_EMBASSY_FINNIK
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC00
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_CLONING
-      - ADVENT_ABDUCTION
-      - ADVENT_HARVEST
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_CLINIC01
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-      - URBITS
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - ADVENT_HIDEOUT
-    category: ADVENT
-    group: UFO - Ships
-  - type: ADVENT_HIDEOUT00
-    terrains:
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
     category: ADVENT
     group: UFO - Ships
 
@@ -12334,418 +11623,6 @@ tilesets:
       - USOINT3
       - DESERT_PINK
     category: USO crashed
-    group: UFO - Ships
-
-#----- Crop Circles -----------------------------------------------------------#
-  - type: CROPCIRCLE00
-    terrains: &CropCircle
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Ships
-  - type: CROPCIRCLE01
-    terrains: *CropCircle
-    category: Crop Circles
-    group: UFO - Ships
-  - type: CROPCIRCLE02
-    terrains: *CropCircle
-    category: Crop Circles
-    group: UFO - Ships
-  - type: CROPCIRCLE03
-    terrains: *CropCircle
-    category: Crop Circles
-    group: UFO - Ships
-  - type: CROPCHEM00
-    terrains: *CropCircle
-    category: Crop Circles
-    group: UFO - Ships
-
-#----- Dead Cattle ------------------------------------------------------------#
-  - type: DEADCATTLE00
-    terrains:
-      - DEADCATTLE
-    category: Dead Cattle
-    group: UFO - Ships
-
-#----- Hybrids ----------------------------------------------------------------#
-  - type: CLONEBARN00
-    terrains:
-      - BARN
-      - CLONING
-    category: Hybrids
-    group: UFO - Ships
-  - type: JARHEADPLANT00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - CLONING
-    category: Hybrids
-    group: UFO - Ships
-  - type: HYBRSTOR00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - HYBRSTOR
-    category: Hybrids
-    group: UFO - Ships
-  - type: HYBRID_CONTROL00
-    terrains:
-      - A_BASE
-      - A_WALL02
-      - A_PODS
-      - BRAIN
-      - A_BASE2
-      - HYBRCONTR
-    category: Hybrids
-    group: UFO - Ships
-
-#----- Corporation Labs -------------------------------------------------------#
-  - type: CORPLAB01
-    terrains:
-      - CORPLAB
-    category: Corporation Labs
-    group: UFO - Ships
-  - type: MONSTERLAB01
-    terrains:
-      - CORPLAB
-    category: Corporation Labs
-    group: UFO - Ships
-
-#----- Corporation Warehouse --------------------------------------------------#
-  - type: CORPWAREHOUSE00
-    terrains:
-      - CORPWAREHOUSE
-    category: Corporation Warehouse
-    group: UFO - Ships
-
-#----- Corporation MiniTower --------------------------------------------------#
-  - type: MINITOWER00
-    terrains: &Corporation
-      - CORP
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER01
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER02
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER03
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER04
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER0N
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-  - type: MINITOWER_TEMPLATE
-    terrains: *Corporation
-    category: Corporation MiniTower
-    group: UFO - Ships
-
-#----- Corporation Tower ------------------------------------------------------#
-  - type: CORPHQ_GROUND
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_A01
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_A02
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_A03
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_A04
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_B01
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_B02
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_B03
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_B04
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_ROOF
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-  - type: CORPHQ_ROOF_P2
-    terrains: *Corporation
-    category: Corporation Tower
-    group: UFO - Ships
-
-#----- Academy Outposts -------------------------------------------------------#
-  - type: HTHOUSE_00
-    terrains: &AcademyOutpost
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_01
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_02
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_03
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_04
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_05
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_06
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_07
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_08
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_09
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_10
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_11
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_12
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_13
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_14
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_01G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_02G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_03G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_04G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_05G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-  - type: HTHOUSE_06G
-    terrains: *AcademyOutpost
-    category: Academy Outposts
-    group: UFO - Ships
-
-#----- Communications Tower ---------------------------------------------------#
-  - type: COMMS_TOWER_GROUND
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A01
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A02
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A03
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B01
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B02
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B03
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B04
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_ROOF
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_A_TEMPLATE
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-  - type: COMMS_TOWER_B_TEMPLATE
-    terrains: *AcademyOutpost
-    category: Communications Tower
-    group: UFO - Ships
-
-#----- Dark Rituals -----------------------------------------------------------#
-  - type: DEEPONERITUALS00
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
-      - RITUALSBEACH
-    category: Dark Rituals
-    group: UFO - Ships
-  - type: BEASTMANALTAR00
-    terrains: &DarkAltar
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Ships
-  - type: BEASTMANALTAR01
-    terrains: *DarkAltar
-    category: Dark Rituals
-    group: UFO - Ships
-  - type: CANNIBALCAMP00
-    terrains: *DarkAltar
-    category: Dark Rituals
-    group: UFO - Ships
-  - type: COMMUNION
-    terrains:
-      - FORESTMOUNT
-      - FOREST
-      - FORESTMOUNTBITS
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Ships
-  - type: RITUALCAVE_00
-    terrains:
-      - CAVEBLACK
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Ships
-
-#----- MAGMA ------------------------------------------------------------------#
-  - type: REACTOR00
-    terrains:
-      - REACTOR
-    category: MAGMA
-    group: UFO - Ships
-  - type: TANKFACTORY00
-    terrains:
-      - MILEXT
-      - MAGMAWAREAN
-    category: MAGMA
-    group: UFO - Ships
-
-#----- Cyberweb ---------------------------------------------------------------#
-  - type: CYBERPORTAL
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - XOPSUFOWALLS
-      - XOPSUFOFLOOR
-      - XOPSUFOITEMS2SM
-      - CYBERWAREEXTRA
-    category: Cyberweb
-    group: UFO - Ships
-  - type: CYBERCOMPUTER
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - XOPSUFOWALLS
-      - XOPSUFOFLOOR
-      - XOPSUFOITEMS2SM
-      - CYBERWAREEXTRA
-    category: Cyberweb
-    group: UFO - Ships
-
-#----- Cyberweb Bunker --------------------------------------------------------#
-  - type: CYBERWEBFORTRESS
-    terrains:
-      - CYBER_DISEC2
-      - CYBER_BASE
-      - RET_SHIPS
-    category: Cyberweb Bunker
-    group: UFO - Ships
-
-#----- Bank -------------------------------------------------------------------#
-  - type: BANK_00
-    terrains: &Bank
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Ships
-  - type: BANK_01
-    terrains: *Bank
-    category: Bank
-    group: UFO - Ships
-  - type: BANK_02
-    terrains: *Bank
-    category: Bank
-    group: UFO - Ships
-  - type: BANK_03
-    terrains: *Bank
-    category: Bank
-    group: UFO - Ships
-  - type: BANK_04
-    terrains: *Bank
-    category: Bank
     group: UFO - Ships
 
 #----- Blessed Crystal --------------------------------------------------------#
@@ -12836,7 +11713,8 @@ tilesets:
     category: Luke's OXCF
     group: UFO - Ships
 
-#----- OSIRON -----------------------------------------------------------------#
+#----- UFO - Buildings --------------------------------------------------------#
+#----- Osiron -----------------------------------------------------------------#
   - type: OSIRON_NEST_00
     terrains:
       - ROADS
@@ -12845,25 +11723,156 @@ tilesets:
       - CRATES
       - DOORSSEC
       - OSIRON_FINNIK
-    category: OSIRON
-    group: UFO - Ships
-
-#----- Moon Outpost -----------------------------------------------------------#
-  - type: MOON_OUTPOST00
-    terrains: *SmallUFO
-    category: Moon Outpost
-    group: UFO - Ships
-
-#----- Alien Buildings --------------------------------------------------------#
-  - type: MOON_OUTPOST00
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONWAREHOUSE
     terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-      - U_FACILITY
-    category: Alien Buildings
-    group: UFO - Ships
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    category: Osiron
+    group: UFO - Buildings
+
+#----- Dreamworld Buildings ---------------------------------------------------#
+  - type: VILLA_00
+    terrains:
+      - DREAMDECOR
+      - ATLANVILLA
+      - DUNGEON_VILLA
+      - PENTA_X
+      - CATACDECOR
+      - MANSION_PAINTINGS
+    category: Dreamworld Buildings
+    group: UFO - Buildings
+
+#----- Cyberweb ---------------------------------------------------------------#
+  - type: CYBERPORTAL
+    terrains:
+      - CYBERWAREAN
+      - CYBERWAREBITS
+      - XOPSUFOWALLS
+      - XOPSUFOFLOOR
+      - XOPSUFOITEMS2SM
+      - CYBERWAREEXTRA
+    category: Cyberweb
+    group: UFO - Buildings
+  - type: CYBERCOMPUTER
+    terrains:
+      - CYBERWAREAN
+      - CYBERWAREBITS
+      - XOPSUFOWALLS
+      - XOPSUFOFLOOR
+      - XOPSUFOITEMS2SM
+      - CYBERWAREEXTRA
+    category: Cyberweb
+    group: UFO - Buildings
+
+  - type: CYBERWEBFORTRESS
+    terrains:
+      - CYBER_DISEC2
+      - CYBER_BASE
+      - RET_SHIPS
+    category: Cyberweb
+    group: UFO - Buildings
+
+#----- Mansion ----------------------------------------------------------------#
+  - type: D_ATRIUM
+    terrains: &Mansion
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_MANSN
+    terrains: *Mansion
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_TAVERN
+    terrains: *Mansion
+    category: Mansion
+    group: UFO - Buildings
+
+#----- ADVENT ---------------------------------------------------------#
+
+  - type: ALIEN_EMBASSY
+    terrains:
+      - ROADS
+      - URBITS
+      - ADVENT_URBAN
+      - FRNITURE
+      - U_EMBASSY_FINNIK
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC00
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_CLONING
+      - ADVENT_ABDUCTION
+      - ADVENT_HARVEST
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC01
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+      - URBITS
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT01
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ADVENT_HIDEOUT
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT00
+    terrains:
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+    category: ADVENT
+    group: UFO - Buildings
+
+
+#----- Bank -------------------------------------------------------------------#
+  - type: BANK_00
+    terrains: &Bank
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_01
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_02
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_03
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_04
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
 
 #----- Misc Buildings ---------------------------------------------------------#
   - type: GOVTBUILDING00
@@ -12874,7 +11883,7 @@ tilesets:
       - GOVTFRN
       - GOVTDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: UNI_00
     terrains:
       - COMROADS
@@ -12883,7 +11892,7 @@ tilesets:
       - COMFRN
       - COMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CRIB01
     terrains: &Crib
       - CRIBURBAN
@@ -12892,11 +11901,11 @@ tilesets:
       - MANSIONBITS
       - CITYFRNITURE
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: LT_HOUSE_02G
     terrains: *Crib
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: PRISON
     terrains:
       - PRISONROADS
@@ -12904,12 +11913,12 @@ tilesets:
       - PRISON
       - PRISONDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: SILO00
     terrains:
       - SILO
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: D_KEEP
     terrains:
       - CULTIVAT
@@ -12917,33 +11926,33 @@ tilesets:
       - SIBERIABASE
       - SIBERIABASE2
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: BANK_OPEN_00
     terrains:
       - GOVTDECOR
       - GOVT
       - GOVTFRN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: FOREST_CABIN
     terrains:
       - FOREST
       - FRNITURE
       - BARN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: HILL_BUNKER
     terrains:
       - FOREST
       - FRNITURE
       - BARN
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: PENTAGRAM_MEDIUM
     terrains:
       - PENTA
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: D_ATRIUM_DEF
     terrains:
       - ROADS
@@ -12952,7 +11961,7 @@ tilesets:
       - FRNITURE
       - CAFEENTRY
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: JUNGLESHRINE
     terrains:
       - SANDS
@@ -12960,7 +11969,7 @@ tilesets:
       - JUNGLEBITS
       - URNS
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: SCI_HOUSE
     terrains:
       - SCI_HOUSE
@@ -12968,7 +11977,7 @@ tilesets:
       - FRNITURE
       - LAMP_WALL
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: GHOST_HOUSE
     terrains:
       - URBITS
@@ -12977,7 +11986,7 @@ tilesets:
       - FRNITURE_FINNIK
       - GHOSTS_FINNIK
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CATACOMBS_POOL_00
     terrains:
       - CATACOMB
@@ -12991,7 +12000,7 @@ tilesets:
       - LAVA_GREEN
       - DOOMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CATACOMBS_POOL_SAMAEL_00
     terrains:
       - CATACOMB
@@ -13005,14 +12014,14 @@ tilesets:
       - LAVA_GREEN
       - DOOMDECOR
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: DIM_X_PAD
     terrains:
       - C_EXT_WALL_SILVER
       - C_EXT_ROOF_SILVER
       - DESERT_PINK
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CLINIC00
     terrains:
       - MEDICAL_GENERAL
@@ -13024,7 +12033,7 @@ tilesets:
       - ADVENT_MEDICINE
       - MEDICAL_SPECIAL
     category: Misc Buildings
-    group: UFO - Ships
+    group: UFO - Buildings
   - type: CLINIC_ASYLUM
     terrains:
       - MEDICAL_GENERAL
@@ -13036,19 +12045,272 @@ tilesets:
       - ADVENT_MEDICINE
       - PENTA
     category: Misc Buildings
-    group: UFO - Ships
-
-#----- Dreamworld Buildings ---------------------------------------------------#
-  - type: VILLA_00
+    group: UFO - Buildings
+  - type: MAGAZYNMAFII
     terrains:
-      - DREAMDECOR
-      - ATLANVILLA
-      - DUNGEON_VILLA
-      - PENTA_X
-      - CATACDECOR
-      - MANSION_PAINTINGS
-    category: Dreamworld Buildings
-    group: UFO - Ships
+      - URBAN
+      - CORP
+    category: Misc Buildings
+    group: UFO - Buildings
+
+#----- Alien Buildings --------------------------------------------------------#
+  - type: MOON_OUTPOST00
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+      - U_FACILITY
+    category: Alien Buildings
+    group: UFO - Buildings
+
+#----- Corporation Labs -------------------------------------------------------#
+  - type: CORPLAB01
+    terrains:
+      - CORPLAB
+    category: Corporation Labs
+    group: UFO - Buildings
+  - type: MONSTERLAB01
+    terrains:
+      - CORPLAB
+    category: Corporation Labs
+    group: UFO - Buildings
+
+#----- Corporation Warehouse --------------------------------------------------#
+  - type: CORPWAREHOUSE00
+    terrains:
+      - CORPWAREHOUSE
+    category: Corporation Warehouse
+    group: UFO - Buildings
+
+#----- Cult -------------------------------------------------------------------#
+  - type: CULTHOUSE00
+    terrains: &Culthouse
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE01
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE02
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE03
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE04
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE05
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE06
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE07
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE08
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE09
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE10
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE11
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE12
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT00
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT01
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT02
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT03
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT04
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: LO_WO_HOUSE
+    terrains: *Culthouse
+    category: Cult
+    group: UFO - Buildings
+  - type: DURFACTORY
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILTECH
+    category: Cult
+    group: UFO - Buildings
+
+#----- Underwater Structures --------------------------------------------------#
+  - type: USOLANDINGPAD
+    terrains: &UnderwaterStructure
+      - USOEXT2
+      - USOEXT3
+      - SEAORGANIC1
+      - SEAORGANIC2
+      - SEAORGANIC3
+      - SEANOM
+    category: Underwater Structures
+    group: UFO - Buildings
+  - type: AQUATOIDOFFICE
+    terrains: *UnderwaterStructure
+    category: Underwater Structures
+    group: UFO - Buildings
+  - type: TLETHEMBASSY
+    terrains: *UnderwaterStructure
+    category: Underwater Structures
+    group: UFO - Buildings
+
+#----- Crop Circles -----------------------------------------------------------#
+  - type: CROPCIRCLE00
+    terrains: &CropCircle
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE01
+    terrains: *CropCircle
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE02
+    terrains: *CropCircle
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE03
+    terrains: *CropCircle
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCHEM00
+    terrains: *CropCircle
+    category: Crop Circles
+    group: UFO - Buildings
+
+#----- Dead Cattle ------------------------------------------------------------#
+  - type: DEADCATTLE00
+    terrains:
+      - DEADCATTLE
+    category: Dead Cattle
+    group: UFO - Buildings
+
+#----- Hybrids ----------------------------------------------------------------#
+  - type: CLONEBARN00
+    terrains:
+      - BARN
+      - CLONING
+    category: Hybrids
+    group: UFO - Buildings
+  - type: JARHEADPLANT00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - CLONING
+    category: Hybrids
+    group: UFO - Buildings
+  - type: HYBRSTOR00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - HYBRSTOR
+    category: Hybrids
+    group: UFO - Buildings
+  - type: HYBRID_CONTROL00
+    terrains:
+      - A_BASE
+      - A_WALL02
+      - A_PODS
+      - BRAIN
+      - A_BASE2
+      - HYBRCONTR
+    category: Hybrids
+    group: UFO - Buildings
+
+#----- Dark Rituals -----------------------------------------------------------#
+  - type: DEEPONERITUALS00
+    terrains:
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+      - SEABITS
+      - RITUALSBEACH
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR00
+    terrains: &DarkAltar
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR01
+    terrains: *DarkAltar
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: CANNIBALCAMP00
+    terrains: *DarkAltar
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: COMMUNION
+    terrains:
+      - FORESTMOUNT
+      - FOREST
+      - FORESTMOUNTBITS
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: RITUALCAVE_00
+    terrains:
+      - CAVEBLACK
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+
+#----- MAGMA ------------------------------------------------------------------#
+  - type: REACTOR00
+    terrains:
+      - REACTOR
+    category: MAGMA
+    group: UFO - Buildings
+  - type: TANKFACTORY00
+    terrains:
+      - MILEXT
+      - MAGMAWAREAN
+    category: MAGMA
+    group: UFO - Buildings
+
 
 #----- Piratez - Ships --------------------------------------------------------#
 #----- Reticulan --------------------------------------------------------------#
@@ -13306,3 +12568,749 @@ tilesets:
       - U_OPER2
     category: Plastasteel vessels
     group: Piratez - Ships
+
+#----- Piratez - Buildings --------------------------------------------------------#
+#----- Academy Outposts -------------------------------------------------------#
+  - type: HTHOUSE_00
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_01
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_02
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_03
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_04
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_05
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_06
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_07
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_08
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_09
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_10
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_11
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_12
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_13
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_14
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_01G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_02G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_03G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_04G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_05G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_06G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+
+#----- Piratez - Terrain --------------------------------------------------------#
+#----- Communications Tower ---------------------------------------------------#
+  - type: COMMS_TOWER_GROUND
+    terrains: &AcademyOutpost
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_A01
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_A02
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_A03
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_B01
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_B02
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_B03
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_B04
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_ROOF
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_A_TEMPLATE
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+  - type: COMMS_TOWER_B_TEMPLATE
+    terrains: *AcademyOutpost
+    category: Communications Tower
+    group: Piratez - Terrain
+
+#----- Pirate Base ------------------------------------------------------------#
+  - type: XBR_00
+    terrains: &PiratezBase
+      - XB1BR
+      - XB2BR
+      - XB3BITZ2
+      - XB3BITZ1
+      - XB3BITZ3
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_01
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_02
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_03
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_04
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_05
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_06
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_07
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_08
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_09
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_10
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_11
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_12
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_13
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_14
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_15
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_16
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_17
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_18
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_19
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_20
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_21
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_22
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_23
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_24
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_25
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_26
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_27
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_28
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_29
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_30
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_31
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_32
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_33
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_34
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_35
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_36
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_37
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_38
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_39
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_40
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_41
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_42
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_43
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_44
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_45
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_46
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_47
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_48
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_49
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_50
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_51
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_52
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_53
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_54
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_55
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_56
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_57
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_58
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_59
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_60
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_61
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_62
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_63
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_64
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_65
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_66
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_67
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_68
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_69
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_70
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_71
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_72
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_73
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_74
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_75
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_76
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_77
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_78
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_79
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_80
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_81
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_82
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_83
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_84
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_85
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_86
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_87
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_88
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_89
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_90
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_91
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_92
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_93
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_94
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_95
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+
+#----- Space ------------------------------------------------------------------#
+  - type: ORBIT_00
+    terrains: &SpaceStation
+      - STATIONWALLS
+      - STATIONDECOR
+      - STATION
+      - LIFTER
+      - STATIONBITS
+    category: Space
+    group: Piratez - Terrain
+  - type: ORBIT_01
+    terrains: *SpaceStation
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_01
+    terrains: *SpaceStation
+    category: Space
+    group: Piratez - Terrain
+  - type: SAT_01
+    terrains: *SpaceStation
+    category: Space
+    group: Piratez - Terrain
+
+#----- Space Freighter Command ------------------------------------------------#
+  - type: FREIGHTERBASE_CENTER_TEMPLATE
+    terrains: &spaceFreighterCommand
+      - FREIGHTER_MAIN
+      - FREIGHTER_COMMAND
+    category: Space Freighter Command
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_CENTER_BRIDGE00
+    terrains: *spaceFreighterCommand
+    category: Space Freighter Command
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_CENTER_HANGAR00
+    terrains: *spaceFreighterCommand
+    category: Space Freighter Command
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_CENTER_CROSSROADS00
+    terrains: *spaceFreighterCommand
+    category: Space Freighter Command
+    group: Piratez - Terrain
+
+#----- Space Freighter Agrarian -----------------------------------------------#
+  - type: FREIGHTER_AGRI_FARM00
+    terrains: &spaceFreighterAgrarian
+      - FREIGHTER_MAIN
+      - FREIGHTER_AGRARIAN
+    category: Space Freighter Agrarian
+    group: Piratez - Terrain
+  - type: FREIGHTER_AGRI_FARM01
+    terrains: *spaceFreighterAgrarian
+    category: Space Freighter Agrarian
+    group: Piratez - Terrain
+  - type: FREIGHTER_AGRI_FARM02
+    terrains: *spaceFreighterAgrarian
+    category: Space Freighter Agrarian
+    group: Piratez - Terrain
+  - type: FREIGHTER_AGRI_BYRE00
+    terrains: *spaceFreighterAgrarian
+    category: Space Freighter Agrarian
+    group: Piratez - Terrain
+  - type: FREIGHTER_AGRI_LINK_NW00
+    terrains: *spaceFreighterAgrarian
+    category: Space Freighter Agrarian
+    group: Piratez - Terrain
+
+#----- Space Freighter Passenger ----------------------------------------------#
+  - type: FREIGHTER_PASS_ROOMS00
+    terrains: &spaceFreighterPassenger
+      - FREIGHTER_MAIN
+      - FREIGHTER_PASSENGER
+    category: Space Freighter Passenger
+    group: Piratez - Terrain
+  - type: FREIGHTER_PASS_ROOMS01
+    terrains: *spaceFreighterPassenger
+    category: Space Freighter Passenger
+    group: Piratez - Terrain
+  - type: FREIGHTER_PASS_LINK_SW00
+    terrains: *spaceFreighterPassenger
+    category: Space Freighter Passenger
+    group: Piratez - Terrain
+  - type: FREIGHTER_PASS_CHAPEL00
+    terrains: *spaceFreighterPassenger
+    category: Space Freighter Passenger
+    group: Piratez - Terrain
+
+#----- Space Freighter Cargo --------------------------------------------------#
+  - type: FREIGHTER_CARGO_STORAGE00
+    terrains: &spaceFreighterCargo
+      - FREIGHTER_MAIN
+      - FREIGHTER_CARGO
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+  - type: FREIGHTER_CARGO_STORAGE01
+    terrains: *spaceFreighterCargo
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+  - type: FREIGHTER_CARGO_STORAGE10
+    terrains: *spaceFreighterCargo
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+  - type: FREIGHTER_CARGO_TANKS00
+    terrains: *spaceFreighterCargo
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+  - type: FREIGHTER_CARGO_LINK_SE00
+    terrains: *spaceFreighterCargo
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+  - type: FREIGHTER_CARGO_LINK_NE00
+    terrains: *spaceFreighterCargo
+    category: Space Freighter Cargo
+    group: Piratez - Terrain
+
+#----- Space Freighter Base ---------------------------------------------------#
+  - type: FREIGHTERBASE_CENTER00
+    terrains: &spaceFreighterBase
+      - FREIGHTER_MAIN
+      - FREIGHTER_TECHNICAL
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_NE00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_NW00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_SE00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_SW00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_S00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_N00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_W00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_E00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_TEMPLATE
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_TEMPLATE_NE
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_TEMPLATE_SE
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_TEMPLATE_NW
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_TEMPLATE_SW
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_S00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_N00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_N01
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_E00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_W00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_LINK_S00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_LINK_N00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_LINK_E00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_STRUCTURE_LINK_W00
+    terrains: *spaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+
