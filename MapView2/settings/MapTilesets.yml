@@ -4860,6 +4860,10 @@ tilesets:
     terrains: *XComBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_43
+    terrains: *XComBase
+    category: X-Com Base
+    group: UFO - Terrain
 
 #----- Commercial -------------------------------------------------------------#
   - type: COMRCURBAN00
@@ -8923,6 +8927,10 @@ tilesets:
     terrains: *StormMountain
     category: Storm Mountain
     group: UFO - Terrain
+  - type: STORMMOUNTAIN_CARS
+    terrains: *StormMountain
+    category: Storm Mountain
+    group: UFO - Terrain
   - type: STORMMOUNTAIN_CHRYSSALID
     terrains: *StormMountain
     category: Storm Mountain
@@ -9023,6 +9031,17 @@ tilesets:
   - type: LINERT01
     terrains: *LuxuryLiner
     category: Luxury Liner
+    group: UFO - Terrain
+
+#----- Carrier -----------------------------------------------------------#
+  - type: CARRIER # by Precentor Apollyon
+    terrains:
+      - SEAURBAN
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+    category: Carrier
     group: UFO - Terrain
 
 #----- Ocean Temple -----------------------------------------------------------#
@@ -11497,6 +11516,28 @@ tilesets:
       - U_OPER2
     category: Misc UFOs
     group: UFO - Ships
+  - type: G0015_AVERAGE_SCOUT_BY_WOLWERIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+    category: Misc UFOs
+    group: UFO - Ships
+  - type: G0016_AVERAGE_SCOUT_BY_WOLWERIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+    category: Misc UFOs
+    group: UFO - Ships
+  - type: G0017_AVERAGE_SPY_BY_WOLWERIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_OPER2
+      - U_BITS
+    category: Misc UFOs
+    group: UFO - Ships
 
 #----- Envoy Ship -------------------------------------------------------------#
   - type: ENVOY1
@@ -12047,6 +12088,12 @@ tilesets:
     category: Misc Buildings
     group: UFO - Buildings
   - type: MAGAZYNMAFII
+    terrains:
+      - URBAN
+      - CORP
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: MAGAZYNMAFII_02
     terrains:
       - URBAN
       - CORP
