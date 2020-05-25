@@ -8760,6 +8760,34 @@ tilesets:
     terrains: *Port
     category: Port TFTD
     group: UFO - Terrain
+  - type: PORTUFO22
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTUFO27
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTUFO28
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTUFO29
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTUFO30
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTUFO31
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
+  - type: PORTROAD_WE
+    terrains: *Port
+    category: Port TFTD
+    group: UFO - Terrain
 
 #----- Jungle Temple ----------------------------------------------------------#
   - type: MUJUNGLE00
