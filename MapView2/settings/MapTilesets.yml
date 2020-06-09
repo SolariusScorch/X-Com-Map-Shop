@@ -2110,7 +2110,7 @@ tilesets:
     group: UFO - Terrain
 
 #----- Forest Swamp -----------------------------------------------------------#
-  - type: FORESTSWAMP03
+  - type: FORESTSWAMP00
     terrains: &ForestSwamp
       - FOREST
       - FORESTBITS
@@ -2118,11 +2118,35 @@ tilesets:
       - FORESTSWAMP
     category: Forest Swamp
     group: UFO - Terrain
+  - type: FORESTSWAMP01
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP02
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP03
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP04
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
   - type: FORESTSWAMP05
     terrains: *ForestSwamp
     category: Forest Swamp
     group: UFO - Terrain
   - type: FORESTSWAMP06
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP07
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP08
     terrains: *ForestSwamp
     category: Forest Swamp
     group: UFO - Terrain
@@ -2135,6 +2159,10 @@ tilesets:
     category: Forest Swamp
     group: UFO - Terrain
   - type: FORESTSWAMP11
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP12
     terrains: *ForestSwamp
     category: Forest Swamp
     group: UFO - Terrain
@@ -2151,6 +2179,18 @@ tilesets:
     category: Forest Swamp
     group: UFO - Terrain
   - type: FORESTSWAMP16
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP17
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP18
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMP19
     terrains: *ForestSwamp
     category: Forest Swamp
     group: UFO - Terrain
@@ -4863,6 +4903,113 @@ tilesets:
   - type: XBASS_43
     terrains: *XComBase
     category: X-Com Base
+    group: UFO - Terrain
+
+#----- Chem Town -------------------------------------------------------------#
+  - type: CHEMTOWN00
+    terrains: &Chemtown
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILINDUSTRIAL
+      - MILTECH
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN01
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN02
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN03
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN04
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN05
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN06
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN07
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN08
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN09
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN11
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN12
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN13
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN14
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN20
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN21
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN30
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN31
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN40
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN50
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN51
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN52
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN11LZ
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN12LZ
+    terrains: *Chemtown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN13LZ
+    terrains: *Chemtown
+    category: Chem Town
     group: UFO - Terrain
 
 #----- Commercial -------------------------------------------------------------#
