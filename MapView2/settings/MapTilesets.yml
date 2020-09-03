@@ -2907,6 +2907,10 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_15_TALL
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_16
     terrains: *AlienBase
     category: Alien Base
@@ -7333,6 +7337,15 @@ tilesets:
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
 
+#----- Urban Medical (Child) ---------------------------------------------#
+  - type: URBANMEDICAL00
+    terrains: &UrbanMedical
+      - URBAN_MEDICAL
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Medical (Child)
+    group: UFO - Terrain
+
 #----- Urban Roads (Child) ----------------------------------------------------#
   - type: URBANRAILROADF00
     terrains: &UrbanLowRoads
@@ -9102,6 +9115,14 @@ tilesets:
     terrains: *StormMountain
     category: Storm Mountain
     group: UFO - Terrain
+  - type: STORMMOUNTAIN15
+    terrains: *StormMountain
+    category: Storm Mountain
+    group: UFO - Terrain
+  - type: STORMMOUNTAIN16
+    terrains: *StormMountain
+    category: Storm Mountain
+    group: UFO - Terrain
   - type: STORMMOUNTAIN_CARS
     terrains: *StormMountain
     category: Storm Mountain
@@ -9618,10 +9639,10 @@ tilesets:
 #----- IDT Rice Farm ----------------------------------------------------------#
   - type: ALT_BARN_1
     terrains: &IDTRiceFarm
-      - IDT-FARM
+      - IDT_FARM
       - IDT_ASIA
-      - IDT-FARM-WATER
-      - IDT-BARNFLOOR
+      - IDT_FARM_WATER
+      - IDT_BARNFLOOR
       - IDT_HUMAN
       - URBAN_GOODS
     category: IDT Rice Farm
@@ -9687,6 +9708,14 @@ tilesets:
     category: IDT Rice Farm
     group: UFO - Terrain
   - type: ALT_BARN_17
+    terrains: *IDTRiceFarm
+    category: IDT Rice Farm
+    group: UFO - Terrain
+  - type: ALT_BARN_18
+    terrains: *IDTRiceFarm
+    category: IDT Rice Farm
+    group: UFO - Terrain
+  - type: ALT_BARN_19
     terrains: *IDTRiceFarm
     category: IDT Rice Farm
     group: UFO - Terrain
@@ -10431,6 +10460,155 @@ tilesets:
     terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
+
+#----- Plains --------------------------------------------------------------#
+  - type: PLAINS00
+    terrains: &Plains
+      - MOUNTGRASS
+#      - MOUNTMUD
+#      - MOUNTROCK
+#      - MOUNTSAND
+#      - MOUNTSNOW
+#      - MOUNTTROP
+#      - MOUNTWASTE
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS00
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS01
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS02
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS03
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS04
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS05
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS06
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS07
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS08
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS09
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS10
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS11
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINS12
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+
+#----- Mount BD --------------------------------------------------------------#
+  - type: MOUNTBD00
+    terrains: &MountBD
+#      - MOUNTGRASS
+#      - MOUNTMUD
+#      - MOUNTROCK
+#      - MOUNTSAND
+#      - MOUNTSNOW
+#      - MOUNTTROP
+      - MOUNTWASTE
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD01
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD02
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD03
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD04
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD05
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD06
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD07
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD08
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD09
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD10
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD11
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBD12
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+
+#----- Winter Wall --------------------------------------------------------------#
+  - type: WINTERWALL00
+    terrains: &WinterWall
+      - GOVTDECOR
+      - GOVROADS
+      - XCOMENTRY
+      - XCOMEXIT
+      - INDUSLUM
+    category: Winter Wall
+    group: Piratez - Terrain
+  - type: WINTERWALL01
+    terrains: *WinterWall
+    category: Winter Wall
+    group: Piratez - Terrain
+  - type: WINTERWALL02
+    terrains: *WinterWall
+    category: Winter Wall
+    group: Piratez - Terrain
+  - type: WINTERWALL03
+    terrains: *WinterWall
+    category: Winter Wall
+    group: Piratez - Terrain
 
 #----- X-Com Entries ----------------------------------------------------------#
   - type: PINKDESERT_EXIT
@@ -11951,6 +12129,17 @@ tilesets:
     category: Osiron
     group: UFO - Buildings
 
+#----- UAC -----------------------------------------------------------------#
+  - type: APOCSMALLWAREHOUSE
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    category: UAC
+    group: UFO - Buildings
+
 #----- Dreamworld Buildings ---------------------------------------------------#
   - type: VILLA_00
     terrains:
@@ -12874,6 +13063,10 @@ tilesets:
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_06G
+    terrains: *AcademyOutpost
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_07G
     terrains: *AcademyOutpost
     category: Academy Outposts
     group: Piratez - Buildings
