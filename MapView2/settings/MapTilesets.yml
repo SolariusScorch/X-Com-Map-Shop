@@ -3071,6 +3071,10 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_SOL_06
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_CIV_00
     terrains: *AlienBase
     category: Alien Base
@@ -7346,6 +7350,19 @@ tilesets:
     category: Urban Medical (Child)
     group: UFO - Terrain
 
+#----- Urban Sports (Child) ---------------------------------------------#
+  - type: URBANSPORTS00
+    terrains: &UrbanSports
+      - URBAN_SPORTS
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Sports (Child)
+    group: UFO - Terrain
+  - type: URBANSPORTS01
+    terrains: *UrbanSports
+    category: Urban Sports (Child)
+    group: UFO - Terrain
+
 #----- Urban Roads (Child) ----------------------------------------------------#
   - type: URBANRAILROADF00
     terrains: &UrbanLowRoads
@@ -10464,10 +10481,11 @@ tilesets:
 #----- Plains --------------------------------------------------------------#
   - type: PLAINS00
     terrains: &Plains
-      - MOUNTGRASS
+#      - MOUNTGRASS
 #      - MOUNTMUD
 #      - MOUNTROCK
 #      - MOUNTSAND
+      - MOUNTSAND_NOCACTI
 #      - MOUNTSNOW
 #      - MOUNTTROP
 #      - MOUNTWASTE
@@ -10875,6 +10893,11 @@ tilesets:
   - type: DELOREAN
     terrains:
       - DELOREAN
+    category: XCom
+    group: UFO - Ships
+  - type: CADILLAC
+    terrains:
+      - CADILLAC
     category: XCom
     group: UFO - Ships
   - type: CIVILIANCAR
@@ -12065,6 +12088,16 @@ tilesets:
       - MIB_BITS
     category: Men in Black
     group: UFO - Ships
+  - type: MIB_STRIKESHIP
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+      - MIB_PODS
+      - MIB_FRN
+      - MIB_EXTRA
+    category: Men in Black
+    group: UFO - Ships
   - type: SCI_HOUSE
     terrains:
       - SCI_HOUSE
@@ -12137,6 +12170,14 @@ tilesets:
       - ROADS
       - URBITS
       - FRNITURE
+    category: UAC
+    group: UFO - Buildings
+  - type: UACLAB
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILTECH
     category: UAC
     group: UFO - Buildings
 
@@ -12280,6 +12321,14 @@ tilesets:
     group: UFO - Buildings
 
 #----- Misc Buildings ---------------------------------------------------------#
+  - type: ICELABCAVE_00
+    terrains:
+      - CAVEICE
+      - CATACOMB
+      - CATACDECOR
+      - LAVA
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: GOVTBUILDING00
     terrains:
       - GOVROADS
