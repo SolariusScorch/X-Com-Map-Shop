@@ -3753,6 +3753,155 @@ tilesets:
     category: Urban
     group: UFO - Terrain
 
+#----- Nuke City ----------------------------------------------------------------#
+  - type: NUKECITY00
+    terrains: &NukeCity
+      - NUKE1
+      - NUKE2
+      - NUKE3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY01
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY02
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY03
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY04
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY05
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY06
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY07
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY08
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY09
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY10NS
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY10WE
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY11NS
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY11WE
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKECITY12
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE00
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE01
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE02
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE03
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE04
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE05
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE06
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE07
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE08
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE09
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE10
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE11
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE12
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE13
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE14
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE15
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE16
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE17
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE18
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+  - type: NUKE19
+    terrains: *NukeCity
+    category: Nuke City
+    group: UFO - Terrain
+
 #----- Village ----------------------------------------------------------------#
   - type: VILBAN00
     terrains: &SlavicVillage
@@ -7306,6 +7455,10 @@ tilesets:
     terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
+  - type: URBANMARKET06
+    terrains: *UrbanLowMarket
+    category: Urban Market (Child)
+    group: UFO - Terrain
 
 #----- Urban Market - Clothes (Child) -----------------------------------------#
   - type: URBANMARKETCLOTHING00
@@ -10485,8 +10638,8 @@ tilesets:
 #      - MOUNTMUD
 #      - MOUNTROCK
 #      - MOUNTSAND
-      - MOUNTSAND_NOCACTI
-#      - MOUNTSNOW
+#      - MOUNTSAND_NOCACTI
+      - MOUNTSNOW
 #      - MOUNTTROP
 #      - MOUNTWASTE
     category: Plains
@@ -11568,6 +11721,10 @@ tilesets:
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER08
+    terrains: *SmallUFO
+    category: Fighter Ship
+    group: UFO - Ships
+  - type: FIGHTER09
     terrains: *SmallUFO
     category: Fighter Ship
     group: UFO - Ships
