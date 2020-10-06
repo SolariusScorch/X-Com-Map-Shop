@@ -7517,6 +7517,10 @@ tilesets:
     terrains: *UrbanLowMarketBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
+  - type: URBANMARKETBAR04
+    terrains: *UrbanLowMarketBar
+    category: Urban Market - Bar (Child)
+    group: UFO - Terrain
 
 #----- Urban Medical (Child) ---------------------------------------------#
   - type: URBANMEDICAL00
