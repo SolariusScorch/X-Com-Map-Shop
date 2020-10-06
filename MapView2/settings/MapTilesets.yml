@@ -1637,8 +1637,8 @@ tilesets:
     terrains: &Farm
       - CULTIVAT
       - BARN
-      - CULTMACHINES
       - ROADS
+      - CULTMACHINES
     category: Farm
     group: UFO - Terrain
   - type: CULTA01
@@ -2061,6 +2061,10 @@ tilesets:
     category: Forest
     group: UFO - Terrain
   - type: FINNIKFOREST06
+    terrains: *Forest
+    category: Forest
+    group: UFO - Terrain
+  - type: BRAINFOREST00
     terrains: *Forest
     category: Forest
     group: UFO - Terrain
@@ -7459,6 +7463,18 @@ tilesets:
     terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
+  - type: URBANMARKET07
+    terrains: *UrbanLowMarket
+    category: Urban Market (Child)
+    group: UFO - Terrain
+  - type: URBANMARKET08
+    terrains: *UrbanLowMarket
+    category: Urban Market (Child)
+    group: UFO - Terrain
+  - type: URBANMARKET09
+    terrains: *UrbanLowMarket
+    category: Urban Market (Child)
+    group: UFO - Terrain
 
 #----- Urban Market - Clothes (Child) -----------------------------------------#
   - type: URBANMARKETCLOTHING00
@@ -7493,6 +7509,14 @@ tilesets:
     terrains: *UrbanLowMarketBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
+  - type: URBANMARKETBAR02
+    terrains: *UrbanLowMarketBar
+    category: Urban Market - Bar (Child)
+    group: UFO - Terrain
+  - type: URBANMARKETBAR03
+    terrains: *UrbanLowMarketBar
+    category: Urban Market - Bar (Child)
+    group: UFO - Terrain
 
 #----- Urban Medical (Child) ---------------------------------------------#
   - type: URBANMEDICAL00
@@ -7512,6 +7536,10 @@ tilesets:
     category: Urban Sports (Child)
     group: UFO - Terrain
   - type: URBANSPORTS01
+    terrains: *UrbanSports
+    category: Urban Sports (Child)
+    group: UFO - Terrain
+  - type: URBANSPORTS02
     terrains: *UrbanSports
     category: Urban Sports (Child)
     group: UFO - Terrain
