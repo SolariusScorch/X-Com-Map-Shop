@@ -12405,6 +12405,16 @@ tilesets:
       - MILTECH
     category: UAC
     group: UFO - Buildings
+  - type: UACSPACELAB
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILINDUSTRIAL
+      - XCOMEXIT
+      - MILTECH
+    category: UAC
+    group: UFO - Buildings
 
 #----- Dreamworld Buildings ---------------------------------------------------#
   - type: VILLA_00
