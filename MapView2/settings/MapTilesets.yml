@@ -3079,6 +3079,22 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_SOL_07
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: UBASE_SOL_08
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: UBASE_SOL_09
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: UBASE_SOL_10
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_CIV_00
     terrains: *AlienBase
     category: Alien Base
@@ -10768,13 +10784,13 @@ tilesets:
 #----- Mount BD --------------------------------------------------------------#
   - type: MOUNTBD00
     terrains: &MountBD
-#      - MOUNTGRASS
+      - MOUNTGRASS
 #      - MOUNTMUD
 #      - MOUNTROCK
 #      - MOUNTSAND
 #      - MOUNTSNOW
 #      - MOUNTTROP
-      - MOUNTWASTE
+#      - MOUNTWASTE
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD01
@@ -10869,7 +10885,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - CAFEENTRY
     category: X-Com Entries
     group: UFO - Terrain
@@ -10878,7 +10894,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - CAFEENTRY
     category: X-Com Entries
     group: UFO - Terrain
@@ -11217,6 +11233,11 @@ tilesets:
       - C_INT_HALF_XCOM
       - C_EXT_ROOF_BLACK
       - KITSUNE
+    category: XCom
+    group: UFO - Ships
+  - type: STARFIGHTER
+    terrains:
+      - STARFIGHTER
     category: XCom
     group: UFO - Ships
   - type: SENTINEL
@@ -12578,7 +12599,7 @@ tilesets:
       - COMROADS
       - COMBITS
       - COMMERCE
-      - COMFRN
+      - COMFRN2
       - COMDECOR
     category: Misc Buildings
     group: UFO - Buildings
