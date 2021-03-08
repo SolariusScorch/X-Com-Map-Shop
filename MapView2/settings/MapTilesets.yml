@@ -3167,6 +3167,10 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_DESCENT_LIFT
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: ENTER_CHAMBER_00
     terrains: *AlienBase
     category: Alien Base
@@ -4326,6 +4330,73 @@ tilesets:
     category: Arctic
     group: UFO - Terrain
 
+#----- Moon ----------------------------------------------------------------#
+  - type: MARS00
+    terrains: &Moon
+      - MOON_FINNIK
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS01
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS02
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS03
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS04
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS05
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MARS06
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON00
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON01
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON02
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON03
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON04
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON05
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON06
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON00_1
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+  - type: MOON00_2
+    terrains: *Moon
+    category: Moon
+    group: UFO - Terrain
+
 #----- Cydonia ----------------------------------------------------------------#
   - type: MARS00
     terrains: &CydoniaLanding
@@ -4424,6 +4495,44 @@ tilesets:
   - type: REPTIBUNKER00
     terrains: *CydoniaLandingReptoid
     category: Reptoid Cydonia
+    group: UFO - Terrain
+
+#----- UAC Moon Landing --------------------------------------------------------#
+  - type: MARS00
+    terrains: &MoonLandingUAC
+      - MOON_FINNIK
+      - UAC_WALL02
+      - UAC_FRN
+      - XCOMEXIT
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS01
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS02
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS03
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS04
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS05
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS06
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
+    group: UFO - Terrain
+  - type: MARS_UACENTRY
+    terrains: *MoonLandingUAC
+    category: UAC Moon Landing
     group: UFO - Terrain
 
 #----- Railyard ---------------------------------------------------------------#
@@ -9483,6 +9592,16 @@ tilesets:
     category: Luxury Liner
     group: UFO - Terrain
 
+#----- Small Liner -----------------------------------------------------------#
+  - type: LINERTS00
+    terrains: *LuxuryLiner
+    category: Luxury Liner (small)
+    group: UFO - Terrain
+  - type: LINERTS01
+    terrains: *LuxuryLiner
+    category: Luxury Liner (small)
+    group: UFO - Terrain
+
 #----- Carrier -----------------------------------------------------------#
   - type: CARRIER # by Precentor Apollyon
     terrains:
@@ -9625,6 +9744,116 @@ tilesets:
     category: Desert Temple
     group: UFO - Terrain
 
+#----- UAC Cave Lab ----------------------------------------------------------#
+  - type: MUM_VILLAGE_E00
+    terrains: &UACMoonCaveLab
+      - UAC_MOON_CAVE
+      - UAC_WALL02
+      - UAC_PODS
+      - UAC_DECOR
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_E_SHORT00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE00 # small empty
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE02
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE11
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE_BIG00 # big empty
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE_BIG01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_N00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_NE00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_NE01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_NW00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_NW01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_N_SHORT00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_N_SHORT01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_S00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_SE00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_SW00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_SW01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_S_SHORT00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_W00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_W_SHORT00
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_W_SHORT02
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_W_SHORT03
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_W01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_ENTRY
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+
 #----- Mummy Village ----------------------------------------------------------#
   - type: MUM_VILLAGE_N00
     terrains: &MummyVillage
@@ -9679,6 +9908,10 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT02
+    terrains: *MummyVillage
+    category: Mummy Village
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_W_SHORT03
     terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
@@ -12436,6 +12669,12 @@ tilesets:
       - MILTECH
     category: UAC
     group: UFO - Buildings
+  - type: UACMOONTURRET
+    terrains:
+      - STEELHILL
+      - UAC_BASE
+    category: UAC
+    group: UFO - Buildings
 
 #----- Dreamworld Buildings ---------------------------------------------------#
   - type: VILLA_00
@@ -13283,6 +13522,27 @@ tilesets:
       - U_DISEC2
       - U_OPER2
     category: Plastasteel vessels
+    group: Piratez - Ships
+
+#----- MARSEC Vessels ----------------------------------------------------------#
+  - type: VES_MAR_01
+    terrains: &MARSECVessels
+      - MARSEC_EXT_2
+      - MARSEC_COMPUTERS
+      - MARSEC_FRN
+      - MARSEC_NAVIGATION
+      - MARSEC_PODS
+      - MARSEC_OPER
+      - MARSEC_INT_2
+    category: MARSEC Vessels
+    group: Piratez - Ships
+  - type: VES_MAR_02
+    terrains: *MARSECVessels
+    category: MARSEC Vessels
+    group: Piratez - Ships
+  - type: VES_MAR_03
+    terrains: *MARSECVessels
+    category: MARSEC Vessels
     group: Piratez - Ships
 
 #----- Piratez - Buildings --------------------------------------------------------#
