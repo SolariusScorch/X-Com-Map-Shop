@@ -9773,11 +9773,19 @@ tilesets:
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE14
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG00 # big empty
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_MIDDLE_BIG03
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
@@ -9837,7 +9845,11 @@ tilesets:
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
-  - type: MUM_VILLAGE_W_SHORT02
+  - type: UAC_CAVE_W_SHORT01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_W_SHORT02
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
@@ -9846,6 +9858,30 @@ tilesets:
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W01
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_W02
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_W03
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_MIDDLE_03
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_MIDDLE_04
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_MIDDLE_05
+    terrains: *UACMoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
+  - type: UAC_CAVE_MIDDLE_06
     terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
@@ -10000,6 +10036,10 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE13
+    terrains: *MummyVillage
+    category: Mummy Village
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_MIDDLE14
     terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
@@ -10956,8 +10996,8 @@ tilesets:
 #      - MOUNTROCK
 #      - MOUNTSAND
 #      - MOUNTSAND_NOCACTI
-      - MOUNTSNOW
-#      - MOUNTTROP
+#      - MOUNTSNOW
+      - MOUNTTROP
 #      - MOUNTWASTE
     category: Plains
     group: UFO - Terrain
@@ -12393,6 +12433,16 @@ tilesets:
       - U_BITS
     category: Misc UFOs
     group: UFO - Ships
+  - type: BIG_SHIP_BY_BRAIN
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_OPER2
+      - UFOL83
+    category: Misc UFOs
+    group: UFO - Ships
 
 #----- Envoy Ship -------------------------------------------------------------#
   - type: ENVOY1
@@ -12673,6 +12723,13 @@ tilesets:
     terrains:
       - STEELHILL
       - UAC_BASE
+    category: UAC
+    group: UFO - Buildings
+  - type: UACDIMPORTAL
+    terrains:
+      - UAC_DEVICE
+      - UAC_DECOR
+      - UAC_PORTAL
     category: UAC
     group: UFO - Buildings
 
