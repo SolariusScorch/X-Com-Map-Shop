@@ -5206,6 +5206,10 @@ tilesets:
     terrains: *XComBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_44
+    terrains: *XComBase
+    category: X-Com Base
+    group: UFO - Terrain
 
 #----- Chem Town -------------------------------------------------------------#
   - type: CHEMTOWN00
@@ -12728,7 +12732,7 @@ tilesets:
   - type: UACDIMPORTAL
     terrains:
       - UAC_DEVICE
-      - UAC_DECOR
+      - UAC_DECOR_DEVICE
       - UAC_PORTAL
     category: UAC
     group: UFO - Buildings
