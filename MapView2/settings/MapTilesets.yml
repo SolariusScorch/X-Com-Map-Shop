@@ -3200,6 +3200,16 @@ tilesets:
     category: Alien Base
     group: UFO - Terrain
 
+#----- Alien Station -------------------------------------------------------------#
+  - type: USPACESIDE_00
+    terrains: *AlienBase
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_01
+    terrains: *AlienBase
+    category: Alien Station
+    group: UFO - Terrain
+
 #----- Alien Tunnels ----------------------------------------------------------#
   - type: UTUNNEL_00
     terrains: &AlienTunnels
