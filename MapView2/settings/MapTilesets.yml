@@ -3202,11 +3202,44 @@ tilesets:
 
 #----- Alien Station -------------------------------------------------------------#
   - type: USPACESIDE_00
-    terrains: *AlienBase
+    terrains: &AlienStationSide
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - SPACEBLANKS
+      - U_BASE2
+      - U_FRN
+      - U_EXT02
+      - U_BITS
+      - U_FLOOR
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_01
-    terrains: *AlienBase
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_02
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_03
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_04
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_BOTTOM
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_ORBIT_00
+    terrains: *AlienStationSide
+    category: Alien Station
+    group: UFO - Terrain
+  - type: USPACESIDE_ORBIT_01
+    terrains: *AlienStationSide
     category: Alien Station
     group: UFO - Terrain
 
