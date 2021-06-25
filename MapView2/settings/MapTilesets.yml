@@ -10294,6 +10294,98 @@ tilesets:
     category: IDT Rice Farm
     group: UFO - Terrain
 
+#----- IDT Corn Farm ----------------------------------------------------------#
+  - type: CULTARED00
+    terrains: &IDTCornFarm
+      - IDT_CULTIVAT_RED
+      - IDT_BARN_RED
+      - IDT_FARM_RED
+      - IDT_ROOF_RED
+      - SOL_SILO_PLAIN
+      - CULTMACHINES
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED01
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED02
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED03
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED04
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED05
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED06
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED07
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED08
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED09
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED10
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED11
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED12
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED13
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED14
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED15
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED16
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED17
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED18
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED19
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+  - type: CULTARED20
+    terrains: *IDTCornFarm
+    category: IDT Corn Farm
+    group: UFO - Terrain
+
 #----- Underwater Habitat -----------------------------------------------------#
   - type: SEAHABITAT00
     terrains: &seaHabitat
