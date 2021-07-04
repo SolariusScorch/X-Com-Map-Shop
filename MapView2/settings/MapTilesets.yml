@@ -4701,6 +4701,221 @@ tilesets:
     category: Railyard
     group: UFO - Terrain
 
+#----- UAC Vaults --------------------------------------------------------------#
+  - type: UACVAULT_00
+    terrains: &UACVaults
+      - UAC_BASE
+      - UAC_WALL02
+      - UAC_BITS
+      - UAC_DECOR
+      - CAVEBROWN
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_11
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_12
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_13
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_14
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_15
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_16
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_17
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_18
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_19
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_00E
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_01E
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_02E
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_03E
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_00B
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_00F
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS05
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_NS06
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE05
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_WE06
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_N00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_N01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_N02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_N03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_N04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_S00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_S01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_S02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_S03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_S04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_E00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_E01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_E02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_E03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_E04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_W00
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_W01
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_W02
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_W03
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+  - type: UACVAULT_W04
+    terrains: *UACVaults
+    category: UAC Vaults
+    group: UFO - Terrain
+
 #----- Dawn City --------------------------------------------------------------#
   - type: DAWNURBAN00
     terrains: &DawnCity
@@ -11253,6 +11468,43 @@ tilesets:
     terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
+
+#----- Western Town --------------------------------------------------------------#
+  - type: WESTOWN_00
+    terrains: &WesternTown
+      - MOUNTSAND
+      - CONTAINERS
+      - WESTFLOOR
+      - NUKE3
+      - IDT_FARM
+      - NUKE_CITY_2
+      - BRICKBAR
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_01
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_02
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_11
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_12
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_21
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_TEMPLATE
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
 
 #----- Winter Wall --------------------------------------------------------------#
   - type: WINTERWALL00
