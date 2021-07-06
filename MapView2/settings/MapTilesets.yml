@@ -11407,6 +11407,10 @@ tilesets:
     terrains: *Plains
     category: Plains
     group: UFO - Terrain
+  - type: PLAINSSOL13
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
 
 #----- Mount BD --------------------------------------------------------------#
   - type: MOUNTBD00
@@ -11489,6 +11493,30 @@ tilesets:
     terrains: *WesternTown
     category: Western Town
     group: Piratez - Terrain
+  - type: WESTOWN_04
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_05
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_06
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_07
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_08
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_09
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
   - type: WESTOWN_11
     terrains: *WesternTown
     category: Western Town
@@ -11497,7 +11525,27 @@ tilesets:
     terrains: *WesternTown
     category: Western Town
     group: Piratez - Terrain
+  - type: WESTOWN_13
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_14
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_15
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_16
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
   - type: WESTOWN_21
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_22
     terrains: *WesternTown
     category: Western Town
     group: Piratez - Terrain
