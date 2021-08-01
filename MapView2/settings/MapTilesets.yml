@@ -5468,6 +5468,10 @@ tilesets:
     terrains: *XComBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_45
+    terrains: *XComBase
+    category: X-Com Base
+    group: UFO - Terrain
 
 #----- Chem Town -------------------------------------------------------------#
   - type: CHEMTOWN00
@@ -9369,6 +9373,10 @@ tilesets:
     terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
+  - type: ISLANDURBANDIO01
+    terrains: *IslandUrban
+    category: Island Urban
+    group: UFO - Terrain
   - type: ISLANDURBAN14
     terrains: *IslandUrban
     category: Island Urban
@@ -13127,6 +13135,13 @@ tilesets:
       - ROADS
       - URBITS
       - FRNITURE
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONHAVIRA
+    terrains:
+      - HAVIRABASE
+      - HAVIRAWALLS
+      - HAVIRADECOR
     category: Osiron
     group: UFO - Buildings
 
