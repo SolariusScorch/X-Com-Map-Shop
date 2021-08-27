@@ -1619,6 +1619,22 @@ tilesets:
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLEDIO01
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLEDIO02
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLESOL01
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLESOL02
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
   - type: JUNGLE_ROAD_WE00
     terrains: *Jungle
     category: Jungle
@@ -1945,6 +1961,18 @@ tilesets:
     terrains: *Farm
     category: Farm
     group: UFO - Terrain
+  - type: CULTASOLHUGE00
+    terrains: *Farm
+    category: Farm
+    group: UFO - Terrain
+  - type: CULTASOLHUGE01
+    terrains: *Farm
+    category: Farm
+    group: UFO - Terrain
+  - type: CULTASOLHUGE02
+    terrains: *Farm
+    category: Farm
+    group: UFO - Terrain
   - type: CULTA_ROAD_WE00
     terrains: *Farm
     category: Farm
@@ -2033,6 +2061,14 @@ tilesets:
     category: Forest
     group: UFO - Terrain
   - type: SOLFOREST17
+    terrains: *Forest
+    category: Forest
+    group: UFO - Terrain
+  - type: SOLFORESTHUGE00
+    terrains: *Forest
+    category: Forest
+    group: UFO - Terrain
+  - type: SOLFORESTHUGE01
     terrains: *Forest
     category: Forest
     group: UFO - Terrain
@@ -2199,6 +2235,10 @@ tilesets:
     category: Forest Swamp
     group: UFO - Terrain
   - type: FORESTSWAMP20
+    terrains: *ForestSwamp
+    category: Forest Swamp
+    group: UFO - Terrain
+  - type: FORESTSWAMPHUGE21
     terrains: *ForestSwamp
     category: Forest Swamp
     group: UFO - Terrain
@@ -3835,6 +3875,10 @@ tilesets:
     terrains: *Urban
     category: Urban
     group: UFO - Terrain
+  - type: SOLBANHUGE00
+    terrains: *Urban
+    category: Urban
+    group: UFO - Terrain
 
 #----- Nuke City ----------------------------------------------------------------#
   - type: NUKECITY00
@@ -4166,6 +4210,10 @@ tilesets:
     terrains: *SlavicVillage
     category: Village
     group: UFO - Terrain
+  - type: VILBANHUGE60
+    terrains: *SlavicVillage
+    category: Village
+    group: UFO - Terrain
 
 #----- Desert -----------------------------------------------------------------#
   - type: DESERT00
@@ -4242,6 +4290,14 @@ tilesets:
     terrains: *Desert
     category: Desert
     group: UFO - Terrain
+  - type: DESERTHUGE00
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERTHUGE01
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
 
 #----- Mountain ---------------------------------------------------------------#
   - type: MOUNT00
@@ -4294,6 +4350,10 @@ tilesets:
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT12
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNTHUGE00
     terrains: *Mount
     category: Mountain
     group: UFO - Terrain
@@ -11354,12 +11414,12 @@ tilesets:
   - type: PLAINS00
     terrains: &Plains
 #      - MOUNTGRASS
-#      - MOUNTMUD
+      - MOUNTMUD
 #      - MOUNTROCK
 #      - MOUNTSAND
 #      - MOUNTSAND_NOCACTI
 #      - MOUNTSNOW
-      - MOUNTTROP
+#      - MOUNTTROP
 #      - MOUNTWASTE
     category: Plains
     group: UFO - Terrain
@@ -11416,6 +11476,10 @@ tilesets:
     category: Plains
     group: UFO - Terrain
   - type: PLAINSSOL13
+    terrains: *Plains
+    category: Plains
+    group: UFO - Terrain
+  - type: PLAINSSOLHUGE00
     terrains: *Plains
     category: Plains
     group: UFO - Terrain
@@ -11480,6 +11544,89 @@ tilesets:
     terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
+  - type: MOUNTBDSOLHUGE00
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+
+#----- Govt Base Defense --------------------------------------------------------------#
+  - type: GOVBASE_D_00
+    terrains: &GovtBaseDefense
+      - ROADSGREEN
+      - URBAN40K
+      - ABUNKER
+      - XCOMEXIT
+      - MILURBITSEXT
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_01
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_02
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_03
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_04
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_05
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_06
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_07
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_08
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_09
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_10
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_11
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_12
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_13
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_14
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_15
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_16
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
+  - type: GOVBASE_D_NS_00
+    terrains: *GovtBaseDefense
+    category: Govt Base Defense
+    group: Piratez - Terrain
 
 #----- Western Town --------------------------------------------------------------#
   - type: WESTOWN_00
@@ -13137,11 +13284,15 @@ tilesets:
       - FRNITURE
     category: Osiron
     group: UFO - Buildings
-  - type: OSIRONHAVIRA
-    terrains:
+  - type: OSIRONHAVIRA_00
+    terrains: &OsironHavira
       - HAVIRABASE
       - HAVIRAWALLS
       - HAVIRADECOR
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONHAVIRA_01
+    terrains: *OsironHavira
     category: Osiron
     group: UFO - Buildings
 
