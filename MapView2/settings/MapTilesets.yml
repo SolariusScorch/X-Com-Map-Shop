@@ -10975,6 +10975,10 @@ tilesets:
     terrains: *ReptoidVillage
     category: Reptoid Settlement
     group: UFO - Terrain
+  - type: REP_VILLAGE_MIDDLE_EXIT
+    terrains: *ReptoidVillage
+    category: Reptoid Settlement
+    group: UFO - Terrain
 
 #----- Reptoid Surface Base ---------------------------------------------------#
   - type: REPTIFORMER_TOWER

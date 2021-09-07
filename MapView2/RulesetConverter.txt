@@ -1,23 +1,83 @@
-RulesetConverter ver.1.0.1.0
-2019 oct 22
+RulesetConverter
+2021 jul 10 - 1.3.0.0
 
 
-RulesetConverter is a utility that converts data from an OxC ruleset file to a YAML configuration (template) file for MapViewII.
+RulesetConverter is a utility that converts data from an OxC/e ruleset file to a
+YAML file - MapTilesets.tpl - which contains data that can be used by MapView2.
 
-usage:
-Input a .RUL file, specifying whether it is for UFO or TFTD. There is also a checkbox to add a Basepath to the output. A basepath is needed if your MapViewII Configurator's specified resource directory is not that of the MAPS, ROUTES, and TERRAIN folders from which tilesets are currently being configured. That is, you do not need to specify a basepath if you intend to configure MapView to use the basepath of the files that are being configured or if the tilesets are already in that basepath (hint: see MapViewII's Configurator on its Edit menu); on the other hand, if you want MapViewII to keep whatever basepath it already has, and don't want to copy the current tilesets to the appropriate folders of that basepath yourself, the tilesets therefore need a custom basepath (specified by the add Basepath option).
+Tilesets are stored in OxC ruleset files under YAML-nodes labeled "terrains:".
 
-A basepath, by the way, is the parent directory of MAPS, ROUTES, and/or TERRAIN folders. MapViewII leverages that aspect of the standard XCOM folder-hierarchy.
+Input a .RUL file. Specify whether it's for UFO or TFTD. Enter a group-label for
+the tilesets - the name of the ruleset itself appears by default. Valid
+characters are restricted to ASCII minus the double-quote character. The group-
+label can also be changed in MapView2 if desired.
 
-This converter outputs tileset configuration metadata to a file "MapTilesets.tpl", which gets created in the converter's directory if and only if tilesets were found in the ruleset file that was used as input. The output-file is a valid "MapTilesets.*" file that could be copied or moved to MapViewII's /settings directory and used as-is (after renaming the extension to ".yml"). Which may or may not be fine depending on the resource directory(s) that you have set in MapView's Configurator, but then you'd need to overwrite your current "MapTilesets.yml" file (if you have one, and it's very likely you do since it gets created when MapViewII is installed on first run). So, I suggest getting your ducks in order and *copying* the tileset-data from the output (inside the .TPL file) to your already existing "MapTilesets.yml" file - with or without basepaths added, as explained above.
+A basepath is the parent directory of MAPS, ROUTES, and/or TERRAIN folders.
 
-Or, if you know a bit about what you're doing, you can rename the MapTilesets files back & forth, and reset the Configurator's basepath properly ... blah blah. Note that MapViewII will require the stock XCOM cursor sprite (UFOGRAPH\CURSOR.PCK+TAB) in the Configurator's basepath regardless; and for McdView to be fully functional the SCANG.DAT and LOFTEMPS.DAT files also need to be found in the Configurator's basepath: SCANG.DAT needs to be in a GEODATA folder and LOFTEMPS.DAT needs to be in GEODATA for UFO or TERRAIN for TFTD (or so I've read, I don't have TFTD).
+There is a checkbox to add a Basepath to the output. A basepath is needed if
+your MapView2 Configurator's basepath is not the parent of the MAPS, ROUTES, and
+TERRAIN folders of the ruleset's resources. That is, you do not need to specify
+a basepath if MapView is (or will be) configured to use that basepath. The
+Configurator's basepath can be changed under MapView2's Edit menu. On the other
+hand, if you want MapView2 to keep whatever basepath it already has, and don't
+want to copy the ruleset's tilesets to the resource folders of the
+Configurator's basepath (which you'd have to do yourself) the tilesets need to
+know where the resources are, as specified by the add Basepath option.
 
-Note that tilesets are stored in OxC ruleset files under YAML-nodes labeled "terrains". Also note that MapViewII doesn't call tilesets terrains. It calls terrains terrains and tilesets tilesets*
+The converter outputs tileset configuration data to a file MapTilesets.tpl,
+which gets created in the converter's directory only if tilesets are found in
+the ruleset. The output is a valid YAML file that can be copied to MapView2's
+/settings directory and used as-is if it's renamed to MapTilesets.yml. Instead,
+I suggest copying the data inside the .TPL file to your current MapTilesets.yml
+file. But don't copy the "tilesets:" line since YAML will barf if that line is
+duplicated.
+
+Note that MapView2 requires the stock XCOM cursor sprite UFOGRAPH\CURSOR.PCK+TAB
+in the Configurator's basepath; and for McdView to be fully functional the
+SCANG.DAT and LOFTEMPS.DAT files should also be found in the Configurator's
+basepath: SCANG.DAT needs to be in a GEODATA folder and LOFTEMPS.DAT needs to be
+in GEODATA for UFO or TERRAIN for TFTD (or so I've read, I don't have TFTD).
+
+Note that MapViewII doesn't call tilesets terrains. It calls terrains terrains
+and tilesets tilesets*
 
 
 - kevL
 
-* terrains are what you get in XCom TERRAIN directories; tilesets are a MAP file + its RMP file + its allocated terrains.
+* terrains are what you get in XCom TERRAIN directories; tilesets in MapView2
+are a MAP file + its RMP file + its allocated terrains.
 
-/anyway
+
+Here's a realworld example using XPiratez
+-----------------------------------------
+https://openxcom.org/forum/index.php/topic,9436.0.html
+
+Hunt around in your Piratez directories for the ruleset (.RUL) that contains its
+terrains. There may be more than one. but may be not.
+
+Leave MapView's Configuration as is - that is, configured to open Maps in your
+standard Xcom installation dir. (or wherever if you'd prefer to edit files in a
+/scratch directory, instead of making backups)
+
+Once you've found a Piratez ruleset that contains terrains, run
+RulesetConverter.exe
+
+browse to the ruleset
+choose GameType UFO
+click add Basepath
+browse to the *parent folder* of the Piratez MAPS/ROUTES/TERRAIN directories
+
+Click Convert and a MapTilesets.tpl file ought appear in the RulesetConverter's
+current directory.
+
+Then open it in a texteditor like Notepad++
+
+Also open the MapTilesets.yml file that's in the subfolder /settings of MapView.
+
+Copy the stuff in the .TPL file into your MapTilesets.yml file, obeying the laws
+of YAML. Do not copy the "tilesets:" line, MapTilesets.yml already has one.
+
+Save it and try running MapView
+
+
+if you find more than one ruleset that you'd like to import, Rinse & Repeat ...

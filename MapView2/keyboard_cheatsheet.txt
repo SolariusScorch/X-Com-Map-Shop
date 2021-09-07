@@ -28,24 +28,28 @@ MAINVIEW
 Ctrl+a - save Map,Routes,and the tree
 Ctrl+m - save the Map
 Ctrl+r - save the Routes
-Ctrl+e - save Map+Routes as
+Ctrl+e - export Map+Routes as
 Ctrl+t - save the tree
 
-Ctrl+i - screenshot
-Ctrl+z - resize the map
-Ctrl+u - tileslot substitution
-Ctrl+f - show map info
+Ctrl+l - reload current Map,Routes,Terrains
 
-Ctrl+g - show the ScanG viewer
-
-Ctrl+n - reload terrains
+Ctrl+n - screenshot
 
 Ctrl+q - quit
 
-numeric keypad - navigate the map
+Ctrl+z - resize the Map
+Ctrl+u - tileslot substitution
+
+Ctrl+g - show the ScanG viewer
+
+Ctrl+h - show Colorhelp
+Ctrl+b - show About
+Ctrl+i - show Map info
+
+numeric keypad         - navigate the map
 Shift + numeric keypad - multi-tile selection
-Subtract - level up
-Add - level down
+Subtract               - level up
+Add                    - level down
 
 Escape cancels a multi-tile selection.
 
@@ -76,6 +80,8 @@ Ctrl+F4 - toggles content visibility
 
 Note: Visibility affects Cut/Paste/Delete operations.
 
+F9 - cycle through selection border options
+Ctrl+F9 - toggle show selection border when only 1 tile is selected
 F10 - cycle to the next colortone for selected tile(s) [Shift] backwards
 
 RMB on the Map panel enables drag-panning when zoomed in on the Map.
@@ -102,6 +108,8 @@ Ctrl+End  - goto last tile in the table
 i   - show MCD info (also, double-click a part)
 F9  - open selected part in PckView
 F10 - open selected part in McdView
+
+Ctrl+h - show the ColorHelp dialog
 
 
 TOPVIEW
@@ -149,11 +157,11 @@ Ctrl+s - save the Map if the panel has focus
 
 ROUTEVIEW
 ---------
-numeric keypad - navigate the map
-Subtract - level up
-Add - level down
-Shift + numeric keypad (incl/ Subtract and Add) - drag a selected node to an
-adjacent tile iff that tile doesn't already have a node
+numeric keypad         - navigate the map
+Shift + numeric keypad - drag a selected node to an adjacent tile iff that tile
+                         doesn't already have a node (respects Subtract and Add)
+Subtract               - level up
+Add                    - level down
 
 Ctrl+x - cut selected node
 Ctrl+c - copy selected node
@@ -161,6 +169,14 @@ Ctrl+v - paste cut/copied node
 Del    - delete selected node
 
 Escape - deselect selected node
-Enter - select node on selected tile if one exists else create a node there
+Enter  - select node on selected tile if one exists else create a node there
 
 Ctrl+s - save the Routes if the panel has focus
+
+
+SCANGVIEW
+---------
+Subtract - level up
+Add      - level down
+l        - cycles layer visibility
+Enter    - reloads ScanG.dat
