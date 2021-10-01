@@ -3444,6 +3444,10 @@ tilesets:
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO10
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO18
     terrains: *IndustrialSlum
     category: Industrial Slum
@@ -9434,6 +9438,10 @@ tilesets:
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBANDIO01
+    terrains: *IslandUrban
+    category: Island Urban
+    group: UFO - Terrain
+  - type: ISLANDURBANDIO02
     terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
