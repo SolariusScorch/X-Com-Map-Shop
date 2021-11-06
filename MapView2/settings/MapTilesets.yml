@@ -13942,6 +13942,13 @@ tilesets:
 
 
 #----- Piratez - Ships --------------------------------------------------------#
+#----- Nekomimi --------------------------------------------------------------#
+  - type: GOLDENCLAW
+    terrains: &NekomimiShips
+      - GOLDENCLAW
+    category: Nekomimi
+    group: Piratez - Ships
+
 #----- Reticulan --------------------------------------------------------------#
   - type: VES_R_010
     terrains: &ReticulanShips
