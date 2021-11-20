@@ -12143,6 +12143,17 @@ tilesets:
       - XARMY
     category: Misc Vehicles
     group: UFO - Ships
+  - type: GMC_VAN
+    terrains:
+#      - GMC_VAN
+      - GMC_VAN2
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: SWAT_VAN
+    terrains:
+      - GMC_VAN2
+    category: Misc Vehicles
+    group: UFO - Ships
 
 #----- Syndicate --------------------------------------------------------------#
   - type: SCARAB
