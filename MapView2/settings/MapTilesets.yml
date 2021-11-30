@@ -8039,6 +8039,15 @@ tilesets:
     category: Urban Sports (Child)
     group: UFO - Terrain
 
+#----- Urban Police (Child) ---------------------------------------------#
+  - type: URBANPOLICE00
+    terrains: &UrbanPolice
+      - URBAN_POLICE
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Police (Child)
+    group: UFO - Terrain
+
 #----- Urban Roads (Child) ----------------------------------------------------#
   - type: URBANRAILROADF00
     terrains: &UrbanLowRoads
