@@ -4,9 +4,9 @@
 # NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
 #
 MainView:
-  left: 0
-  top: 2
-  width: 873
+  left: 1
+  top: 0
+  width: 1234
   height: 989
 TopView:
   left: 1198
@@ -19,15 +19,15 @@ RouteView:
   width: 640
   height: 480
 TileView:
-  left: 1946
+  left: 1247
   top: 0
-  width: 1384
-  height: 342
+  width: 657
+  height: 1011
 TopRouteView:
-  left: 2270
-  top: 173
-  width: 1012
-  height: 665
+  left: 1974
+  top: 124
+  width: 1370
+  height: 675
 Options:
   left: 647
   top: 113
@@ -48,3 +48,8 @@ McdView:
   top: 180
   width: 820
   height: 820
+ColorHelp:
+  left: 200
+  top: 100
+  width: 454
+  height: 256

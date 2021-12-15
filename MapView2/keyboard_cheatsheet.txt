@@ -39,6 +39,7 @@ Ctrl+q - quit
 
 Ctrl+z - resize the Map
 Ctrl+u - tileslot substitution
+Ctrl+w - terrain swap
 
 Ctrl+g - show the ScanG viewer
 

@@ -8048,6 +8048,28 @@ tilesets:
     category: Urban Police (Child)
     group: UFO - Terrain
 
+#----- Urban Office (Child) ---------------------------------------------#
+  - type: URBANOFFICE00
+    terrains: &UrbanOffice
+      - URBAN_OFFICE
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Office (Child)
+    group: UFO - Terrain
+  - type: URBANOFFICE01
+    terrains: *UrbanOffice
+    category: Urban Office (Child)
+    group: UFO - Terrain
+
+#----- Urban Plaza (Child) ---------------------------------------------#
+  - type: URBANPLAZA00
+    terrains: &UrbanPlaza
+      - URBAN_PLAZA
+      - URBAN_LOW_FRN
+      - URBAN_LOW
+    category: Urban Plaza (Child)
+    group: UFO - Terrain
+
 #----- Urban Roads (Child) ----------------------------------------------------#
   - type: URBANRAILROADF00
     terrains: &UrbanLowRoads
@@ -12160,7 +12182,17 @@ tilesets:
     group: UFO - Ships
   - type: SWAT_VAN
     terrains:
-      - GMC_VAN2
+      - POLICECAR
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: POLICECAR
+    terrains:
+      - POLICECAR
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: POLICECAR2
+    terrains:
+      - POLICECAR
     category: Misc Vehicles
     group: UFO - Ships
 
@@ -12769,6 +12801,10 @@ tilesets:
     group: UFO - Ships
 
 #----- Excavator --------------------------------------------------------------#
+  - type: EXCAVTR00
+    terrains: *SmallUFO
+    category: Excavator
+    group: UFO - Ships
   - type: EXCAVTR01
     terrains: *SmallUFO
     category: Excavator
@@ -12806,10 +12842,6 @@ tilesets:
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR10
-    terrains: *SmallUFO
-    category: Excavator
-    group: UFO - Ships
-  - type: EXCAVTR11
     terrains: *SmallUFO
     category: Excavator
     group: UFO - Ships
@@ -12926,15 +12958,15 @@ tilesets:
     terrains: *SmallUFO
     category: Misc UFOs
     group: UFO - Ships
-  - type: UFOKLATU
-    terrains: *SmallUFO
-    category: Misc UFOs
-    group: UFO - Ships
-  - type: UFRKLATU
-    terrains: *SmallUFO
-    category: Misc UFOs
-    group: UFO - Ships
   - type: UFRPR
+    terrains: *SmallUFO
+    category: Misc UFOs
+    group: UFO - Ships
+  - type: CONTACTSHIP00
+    terrains: *SmallUFO
+    category: Misc UFOs
+    group: UFO - Ships
+  - type: CONTACTSHIP01
     terrains: *SmallUFO
     category: Misc UFOs
     group: UFO - Ships
@@ -13229,14 +13261,22 @@ tilesets:
     group: UFO - Ships
 
 #----- Men in Black -----------------------------------------------------------#
-  - type: MIB_TRANSPORT_A
+  - type: MIB_TRANSPORTER
     terrains:
       - MIB_EXT02
       - MIB_WALL02
       - MIB_BITS
     category: Men in Black
     group: UFO - Ships
-  - type: MIB_TRANSPORT_B
+  - type: MIB_DROPSHIP
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+      - MIB_EXTRA
+    category: Men in Black
+    group: UFO - Ships
+  - type: MIB_STEALTH_BOMBER
     terrains:
       - MIB_EXT02
       - MIB_WALL02
@@ -14249,7 +14289,16 @@ tilesets:
 #----- Piratez - Buildings --------------------------------------------------------#
 #----- Academy Outposts -------------------------------------------------------#
   - type: HTHOUSE_00
-    terrains: *AcademyOutpost
+    terrains: &AcademyOutpost
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_BITS2
+      - LIFTER
+      - C_INT
+      - COMPUTERS
+      - BATHBITZ_HT
+      - XBASEN_BITS
+      - DOORS1
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_01
@@ -14337,19 +14386,22 @@ tilesets:
     category: Academy Outposts
     group: Piratez - Buildings
 
+#----- Stone Age -------------------------------------------------------#
+
+  - type: MUTANTCAMPSMALL
+    terrains:
+      - CULTIVAT
+      - STONEAGE_BARN
+      - FRNITURE
+      - STONEAGE_EXTRA
+    category: Stone Age
+    group: Piratez - Buildings
+
+
 #----- Piratez - Terrain --------------------------------------------------------#
 #----- Communications Tower ---------------------------------------------------#
   - type: COMMS_TOWER_GROUND
-    terrains: &AcademyOutpost
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyOutpost
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_A01
