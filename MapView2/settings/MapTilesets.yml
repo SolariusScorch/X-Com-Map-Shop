@@ -4302,11 +4302,40 @@ tilesets:
     terrains: *Desert
     category: Desert
     group: UFO - Terrain
+  - type: DESERT_ROAD_SN00
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_SN01
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_SN02
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_WE00
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_WE01
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_WE02
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
+  - type: DESERT_ROAD_XX00
+    terrains: *Desert
+    category: Desert
+    group: UFO - Terrain
 
 #----- Mountain ---------------------------------------------------------------#
   - type: MOUNT00
     terrains: &Mount
       - MOUNT
+      - ROADS
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT01
@@ -4358,6 +4387,42 @@ tilesets:
     category: Mountain
     group: UFO - Terrain
   - type: MOUNTHUGE00
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_SN00
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_SN01
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_SN02
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_SN03
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_WE00
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_WE01
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_WE02
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_WE03
+    terrains: *Mount
+    category: Mountain
+    group: UFO - Terrain
+  - type: MOUNT_ROAD_XX00
     terrains: *Mount
     category: Mountain
     group: UFO - Terrain
@@ -13858,6 +13923,13 @@ tilesets:
       - MILWARE
       - MILBARR
       - MILTECH
+    category: Cult
+    group: UFO - Buildings
+  - type: DEEPS
+    terrains:
+      - SANDS
+      - MUJUNGLE
+      - JUNGLE
     category: Cult
     group: UFO - Buildings
 
