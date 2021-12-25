@@ -4,13 +4,13 @@
 # NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
 #
 MainView:
-  left: 8
-  top: 0
+  left: 17
+  top: 4
   width: 1234
-  height: 991
+  height: 681
 TopView:
-  left: 1198
-  top: 457
+  left: 100
+  top: 50
   width: 640
   height: 480
 RouteView:
@@ -19,15 +19,15 @@ RouteView:
   width: 640
   height: 480
 TileView:
-  left: 1247
-  top: 0
+  left: 100
+  top: 50
   width: 657
-  height: 1011
+  height: 701
 TopRouteView:
-  left: 1974
-  top: 124
-  width: 1370
-  height: 675
+  left: 344
+  top: 13
+  width: 933
+  height: 590
 Options:
   left: 647
   top: 113

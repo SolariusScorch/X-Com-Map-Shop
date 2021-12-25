@@ -13366,6 +13366,11 @@ tilesets:
       - LAMP_WALL
     category: Men in Black
     group: UFO - Ships
+  - type: NKF_APC_DARK
+    terrains:
+      - NKF_APC_DARK
+    category: Men in Black
+    group: UFO - Ships
 
 #----- Luke's OXCF ------------------------------------------------------------#
   - type: OXCF-LIGHTNIN_1
