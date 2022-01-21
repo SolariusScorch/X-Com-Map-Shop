@@ -1635,6 +1635,14 @@ tilesets:
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLESOL03
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLESOLHUGE00
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
   - type: JUNGLE_ROAD_WE00
     terrains: *Jungle
     category: Jungle
@@ -1992,6 +2000,9 @@ tilesets:
       - FOREST
       - FORESTBITS
       - ROADS
+#      - FOREST_SNOW
+#      - FORESTBITS_SNOW
+#      - ROADS_SNOW
     category: Forest
     group: UFO - Terrain
   - type: FOREST01
@@ -2755,6 +2766,96 @@ tilesets:
   - type: ASYLUM_FENCE_S_GATE00
     terrains: *AsylumWall
     category: Asylum
+    group: UFO - Terrain
+
+#----- Mansion Wall -----------------------------------------------------------------#
+  - type: MANSION_FENCE_W00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_W01
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_W02
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_W03
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_E00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_E01
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_E02
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_E03
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_N00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_N01
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_N02
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_N03
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_N04
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S01
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S02
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_SE00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_SW00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_NE00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_NW00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_NW01
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S_GATE00
+    terrains: *AsylumWall
+    category: Mansion Wall
     group: UFO - Terrain
 
 #----- Alien Base -------------------------------------------------------------#
@@ -4498,6 +4599,10 @@ tilesets:
     category: Arctic
     group: UFO - Terrain
   - type: POLAR17
+    terrains: *Polar
+    category: Arctic
+    group: UFO - Terrain
+  - type: POLARHUGE00
     terrains: *Polar
     category: Arctic
     group: UFO - Terrain
@@ -7587,6 +7692,7 @@ tilesets:
       - FRNITURE
       - URBITS_JUNK
       - CULTIVAT
+      - CUNTTRYROAD_LT
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK01
@@ -7774,6 +7880,26 @@ tilesets:
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_00
+    terrains: *Urbanjunk
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_01
+    terrains: *Urbanjunk
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_02
+    terrains: *Urbanjunk
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_03
+    terrains: *Urbanjunk
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_04
+    terrains: *Urbanjunk
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_05
     terrains: *Urbanjunk
     category: Junk Urban
     group: UFO - Terrain
@@ -10680,6 +10806,10 @@ tilesets:
     terrains: *IDTRiceFarm
     category: IDT Rice Farm
     group: UFO - Terrain
+  - type: ALT_BARN_HUGE_00
+    terrains: *IDTRiceFarm
+    category: IDT Rice Farm
+    group: UFO - Terrain
 
 #----- IDT Corn Farm ----------------------------------------------------------#
   - type: CULTARED00
@@ -10765,10 +10895,6 @@ tilesets:
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED19
-    terrains: *IDTCornFarm
-    category: IDT Corn Farm
-    group: UFO - Terrain
-  - type: CULTARED20
     terrains: *IDTCornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
@@ -12239,6 +12365,11 @@ tilesets:
       - XARMY
     category: Misc Vehicles
     group: UFO - Ships
+  - type: LITTLE_BIRD
+    terrains:
+      - LITTLE_BIRD
+    category: Misc Vehicles
+    group: UFO - Ships
   - type: GMC_VAN
     terrains:
 #      - GMC_VAN
@@ -13003,10 +13134,6 @@ tilesets:
     terrains: *SmallUFO
     category: Misc UFOs
     group: UFO - Ships
-  - type: UFO_129
-    terrains: *SmallUFO
-    category: Misc UFOs
-    group: UFO - Ships
   - type: UFOSAUC
     terrains: *SmallUFO
     category: Misc UFOs
@@ -13211,8 +13338,8 @@ tilesets:
     category: Reptillian Ships
     group: UFO - Ships
 
-#----- ADVENT -----------------------------------------------------------------#
-  - type: ADVENT_FIGHTER
+#----- Hybrids -----------------------------------------------------------------#
+  - type: HYBRID_AIRCAR
     terrains:
       - C_EXT_WALL_BLACK
       - C_EXT_ROOF_BLACK
@@ -13224,10 +13351,10 @@ tilesets:
       - C_INT_HALF
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
-      - ADVENT_CRAFT
-    category: ADVENT
+      - HYBRID_CRAFT
+    category: Hybrids
     group: UFO - Ships
-  - type: ADVENT_LANDER
+  - type: HYBRID_LANDER
     terrains:
       - C_EXT_WALL_BLACK
       - C_EXT_ROOF_BLACK
@@ -13239,8 +13366,8 @@ tilesets:
       - C_INT_HALF
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
-      - ADVENT_CRAFT
-    category: ADVENT
+      - HYBRID_CRAFT
+    category: Hybrids
     group: UFO - Ships
 
 #----- USOs -------------------------------------------------------------------#
@@ -13326,6 +13453,13 @@ tilesets:
     group: UFO - Ships
 
 #----- Men in Black -----------------------------------------------------------#
+  - type: UFO_129
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+    category: Men in Black
+    group: UFO - Ships
   - type: MIB_TRANSPORTER
     terrains:
       - MIB_EXT02
@@ -13333,12 +13467,21 @@ tilesets:
       - MIB_BITS
     category: Men in Black
     group: UFO - Ships
+  - type: MIB_ENGINEERING_SHIP
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+      - MIB_CRAFTBITS
+      - MILTECH
+    category: Men in Black
+    group: UFO - Ships
   - type: MIB_DROPSHIP
     terrains:
       - MIB_EXT02
       - MIB_WALL02
       - MIB_BITS
-      - MIB_EXTRA
+      - MIB_CRAFTBITS
     category: Men in Black
     group: UFO - Ships
   - type: MIB_STEALTH_BOMBER
@@ -13355,7 +13498,7 @@ tilesets:
       - MIB_BITS
       - MIB_PODS
       - MIB_FRN
-      - MIB_EXTRA
+      - MIB_CRAFTBITS
     category: Men in Black
     group: UFO - Ships
   - type: SCI_HOUSE
@@ -13367,6 +13510,11 @@ tilesets:
     category: Men in Black
     group: UFO - Ships
   - type: NKF_APC_DARK
+    terrains:
+      - NKF_APC_DARK
+    category: Men in Black
+    group: UFO - Ships
+  - type: NKF_APC_CONVOY_DARK
     terrains:
       - NKF_APC_DARK
     category: Men in Black
@@ -13656,6 +13804,10 @@ tilesets:
     category: Misc Buildings
     group: UFO - Buildings
   - type: LT_HOUSE_02G
+    terrains: *Crib
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: LT_HOUSE_04G
     terrains: *Crib
     category: Misc Buildings
     group: UFO - Buildings
@@ -14338,6 +14490,16 @@ tilesets:
       - U_BITS
       - UFOL83
       - U_DISEC2
+      - U_OPER2
+    category: Plastasteel vessels
+    group: Piratez - Ships
+  - type: VES_260
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - UFOL83
       - U_OPER2
     category: Plastasteel vessels
     group: Piratez - Ships
