@@ -6,8 +6,8 @@
 MainView:
   left: 0
   top: 0
-  width: 1347
-  height: 991
+  width: 1502
+  height: 983
 TopView:
   left: 100
   top: 50
@@ -19,13 +19,13 @@ RouteView:
   width: 640
   height: 480
 TileView:
-  left: 1350
-  top: 0
-  width: 554
-  height: 1011
+  left: 1514
+  top: 6
+  width: 390
+  height: 1005
 TopRouteView:
-  left: 2041
-  top: 78
+  left: 2079
+  top: 90
   width: 933
   height: 590
 Options:
@@ -53,3 +53,8 @@ ColorHelp:
   top: 100
   width: 454
   height: 256
+McdInfo:
+  left: 200
+  top: 100
+  width: 512
+  height: 609
