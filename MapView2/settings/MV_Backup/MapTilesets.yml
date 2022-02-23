@@ -4381,81 +4381,191 @@ tilesets:
 
 #----- Nooberia ---------------------------------------------------------------#
   - type: NOOBERIA0X0X
-    terrains: &Nooberia
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA01
+    terrains:
       - MOUNTSNOW
       - URBAN40K
       - COMPLEXBITS
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA02
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA03
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA04
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA05
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA06
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA07
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA08
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA09
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA10
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA11
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA12
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA13
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA20
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-  - type: NOOBERIA_CARS
-    terrains: *Nooberia
-    category: Nooberia
-    group: UFO - Terrain
-
-#----- Nooberia additions ---------------------------------------------------------------#
-  - type: NOOBERIA_CHRYSSALID_CAPSULES
     terrains:
       - MOUNTSNOW
       - URBAN40K
-      - XOPSUFOCLONES
-    category: Misc Buildings
-    group: UFO - Buildings
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA03
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA04
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA05
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA06
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA07
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA08
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA09
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA10
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA11
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA12
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA13
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA14
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA15
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA16
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA20
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA21
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA24
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA25
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA26
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA27
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA28
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA29
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
+  - type: NOOBERIA_CARS
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - COMPLEXBITS
+    category: Nooberia
+    group: UFO - Terrain
 
 #----- White Base -------------------------------------------------------------#
   - type: WHITEBASE_00
-    terrains: &Whitebase
+    terrains:
       - WHITEBASES01
       - WHITEBASES02
       - WHITEBASES03
@@ -4465,97 +4575,229 @@ tilesets:
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_01
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_02
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_03
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_04
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_05
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_06
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_07
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_08
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_09
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_10
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_11
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_12
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_13
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_14
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_15
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_16
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_17
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_18
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_19
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_21
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_22
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
   - type: WHITEBASE_23
-    terrains: *Whitebase
+    terrains:
+      - WHITEBASES01
+      - WHITEBASES02
+      - WHITEBASES03
+      - WHITEBASES04
+      - WHITEBASES05
+      - WHITEBITS
     category: White Base
     group: UFO - Terrain
 
 #----- Lotus Base -------------------------------------------------------------#
   - type: LOTUSBASE_00
-    terrains: &LotusBase
+    terrains:
       - LOTUSBASE01
       - LOTUSBASE02
       - LOTUSBASE03
@@ -4564,75 +4806,165 @@ tilesets:
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_01
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_02
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_03
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_04
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_05
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_06
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_07
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_08
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_09
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_10
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_11
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_12
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_13
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_14
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_15
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_16
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_17
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
   - type: LOTUSBASE_18
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Lotus Base
     group: UFO - Terrain
 
@@ -7034,7 +7366,7 @@ tilesets:
 
 #----- Urban ------------------------------------------------------------------#
   - type: URBAN00
-    terrains: &Urban
+    terrains:
       - ROADS
       - URBITS
       - URBAN
@@ -7043,359 +7375,804 @@ tilesets:
     category: Urban
     group: UFO - Terrain
   - type: URBAN01
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN02
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN03
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN04
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN05
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN06
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN07
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN08
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN09
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN10
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN11
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN12
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN13
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN14
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN15
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN16
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN17
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBAN18
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN19
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN20
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN21
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN22
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN23
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN24
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN25
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN26
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN27
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN28
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN29
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN30
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN31
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN32
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN33
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN34
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN35
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN36
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN37
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN38
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: SOLBAN39
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: SOLBAN40
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN41
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN42
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN43
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN44
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN45
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN46
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN47
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN48
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN49
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN50
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN51
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN52
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN53
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN54
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN55
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN56
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN57
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR00
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR01
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR02
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR03
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR04
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR05
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR06
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR07
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR08
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR09
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR10
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR11
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR12
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR13
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR14
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR15
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR16
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR17
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR18
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR19
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR20
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR22
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR22_1
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR23
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR24
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR25
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR26
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBANAMUYS00
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRODIO00
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRO00
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRO01
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
   - type: SOLBANHUGE00
-    terrains: *Urban
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
     category: Urban
     group: UFO - Terrain
 
@@ -21259,7 +22036,7 @@ tilesets:
 
 #----- Reptoid Settlement -----------------------------------------------------#
   - type: REP_VILLAGE_N00
-    terrains: &ReptoidVillage
+    terrains:
       - REP_BASE
       - REP_WALL02
       - REP_PODS
@@ -21272,171 +22049,549 @@ tilesets:
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N_SHORT00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N_SHORT01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S01_ENTRY
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S_SHORT00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S_SHORT01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W_SHORT00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W_SHORT01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NE00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NE01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NW00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NW01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE03
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE04
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE05
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE06
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE07
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG00
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG01
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG02
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG03
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG04
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_EXIT
-    terrains: *ReptoidVillage
+    terrains:
+      - REP_BASE
+      - REP_WALL02
+      - REP_PODS
+      - BRAIN
+      - SHOGG_VILLAGE2
+      - REP_FRN
+      - REP_EXT02
+      - REP_BITS
+      - REP_FLOOR
     category: Reptoid Settlement
     group: UFO - Terrain
 
@@ -22762,63 +23917,935 @@ tilesets:
     category: Corporation Tower
     group: UFO - Terrain
 
-#----- Academy Tower --------------------------------------------------#
+#----- Academy Tower ----------------------------------------------------------#
   - type: ACADEMY_BASE00
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_00
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_01
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_02
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_03
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_04
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_00
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_01
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_02
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_03
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_04
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOP00
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_A_TEMPLATE
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
   - type: ACADEMY_TOWER_B_TEMPLATE
-    terrains: *LotusBase
+    terrains:
+      - LOTUSBASE01
+      - LOTUSBASE02
+      - LOTUSBASE03
+      - LOTUSBASE04
+      - LOTUSBASE05
     category: Academy Tower
     group: UFO - Terrain
+
+#----- UFO - Buildings --------------------------------------------------------#
+#----- Misc Buildings ---------------------------------------------------------#
+  - type: NOOBERIA_CHRYSSALID_CAPSULES
+    terrains:
+      - MOUNTSNOW
+      - URBAN40K
+      - XOPSUFOCLONES
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: ICELABCAVE_00
+    terrains:
+      - CAVEICE
+      - CATACOMB
+      - CATACDECOR
+      - LAVA
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: GOVTBUILDING00
+    terrains:
+      - GOVROADS
+      - GOVTBITS
+      - GOVT
+      - GOVTFRN
+      - GOVTDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: UNI_00
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: CRIB01
+    terrains:
+      - CRIBURBAN
+      - CRIBURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: LT_HOUSE_02G
+    terrains:
+      - CRIBURBAN
+      - CRIBURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: LT_HOUSE_04G
+    terrains:
+      - CRIBURBAN
+      - CRIBURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: PRISON
+    terrains:
+      - PRISONROADS
+      - PRISONBITS
+      - PRISON
+      - PRISONDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: SILO00
+    terrains:
+      - SILO
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: D_KEEP
+    terrains:
+      - CULTIVAT
+      - BARN
+      - SIBERIABASE
+      - SIBERIABASE2
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: BANK_OPEN_00
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - GOVTFRN
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: FOREST_CABIN
+    terrains:
+      - FOREST
+      - FRNITURE
+      - BARN
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: HILL_BUNKER
+    terrains:
+      - FOREST
+      - FRNITURE
+      - BARN
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: PENTAGRAM_MEDIUM
+    terrains:
+      - PENTA
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: D_ATRIUM_DEF
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - CAFEENTRY
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: JUNGLESHRINE
+    terrains:
+      - SANDS
+      - MUJUNGLE
+      - JUNGLEBITS
+      - URNS
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: SCI_HOUSE
+    terrains:
+      - SCI_HOUSE
+      - SCI_HOUSE2
+      - FRNITURE
+      - LAMP_WALL
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: GHOST_HOUSE
+    terrains:
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - FRNITURE_FINNIK
+      - GHOSTS_FINNIK
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: CATACOMBS_POOL_00
+    terrains:
+      - CATACOMB
+      - XOPSMUJUNGLEADDON
+      - XCOMENTRY
+      - CATACDECOR
+      - CAVEBLACK
+      - XCOMEXIT
+      - PENTA_X
+      - DUNGEON
+      - LAVA_GREEN
+      - DOOMDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: CATACOMBS_POOL_SAMAEL_00
+    terrains:
+      - CATACOMB
+      - XOPSMUJUNGLEADDON
+      - XCOMENTRY
+      - CATACDECOR
+      - CAVEBLACK
+      - XCOMEXIT
+      - PENTA_X
+      - DUNGEON
+      - LAVA_GREEN
+      - DOOMDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: DIM_X_PAD
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - DESERT_PINK
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: CLINIC00
+    terrains:
+      - MEDICAL_GENERAL
+      - MEDICAL_FNITURE
+      - MEDICAL_UTIL
+      - MEDICAL_INT
+      - MEDICAL_BATH
+      - MEDICAL_SUPPLY
+      - ADVENT_MEDICINE
+      - MEDICAL_SPECIAL
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: CLINIC_ASYLUM
+    terrains:
+      - MEDICAL_GENERAL
+      - MEDICAL_FNITURE
+      - MEDICAL_UTIL
+      - MEDICAL_INT
+      - MEDICAL_BATH
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - PENTA
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: MAGAZYNMAFII
+    terrains:
+      - URBAN
+      - CORP
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: MAGAZYNMAFII_02
+    terrains:
+      - URBAN
+      - CORP
+    category: Misc Buildings
+    group: UFO - Buildings
+
+#----- Osiron -----------------------------------------------------------------#
+  - type: OSIRON_NEST_00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - CRATES
+      - DOORSSEC
+      - OSIRON_FINNIK
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONWAREHOUSE
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONHAVIRA_00
+    terrains:
+      - HAVIRABASE
+      - HAVIRAWALLS
+      - HAVIRADECOR
+    category: Osiron
+    group: UFO - Buildings
+  - type: OSIRONHAVIRA_01
+    terrains:
+      - HAVIRABASE
+      - HAVIRAWALLS
+      - HAVIRADECOR
+    category: Osiron
+    group: UFO - Buildings
+
+#----- UAC --------------------------------------------------------------------#
+  - type: APOCSMALLWAREHOUSE
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - FRNITURE
+    category: UAC
+    group: UFO - Buildings
+  - type: UACLAB
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILTECH
+    category: UAC
+    group: UFO - Buildings
+  - type: UACSPACELAB
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILINDUSTRIAL
+      - XCOMEXIT
+      - MILTECH
+    category: UAC
+    group: UFO - Buildings
+  - type: UACMOONTURRET
+    terrains:
+      - STEELHILL
+      - UAC_BASE
+    category: UAC
+    group: UFO - Buildings
+  - type: UACDIMPORTAL
+    terrains:
+      - UAC_DEVICE
+      - UAC_DECOR_DEVICE
+      - UAC_PORTAL
+    category: UAC
+    group: UFO - Buildings
+
+#----- Dreamworld Buildings ---------------------------------------------------#
+  - type: VILLA_00
+    terrains:
+      - DREAMDECOR
+      - ATLANVILLA
+      - DUNGEON_VILLA
+      - PENTA_X
+      - CATACDECOR
+      - MANSION_PAINTINGS
+    category: Dreamworld Buildings
+    group: UFO - Buildings
+
+#----- Cyberweb ---------------------------------------------------------------#
+  - type: CYBERPORTAL
+    terrains:
+      - CYBERWAREAN
+      - CYBERWAREBITS
+      - XOPSUFOWALLS
+      - XOPSUFOFLOOR
+      - XOPSUFOITEMS2SM
+      - CYBERWAREEXTRA
+    category: Cyberweb
+    group: UFO - Buildings
+  - type: CYBERCOMPUTER
+    terrains:
+      - CYBERWAREAN
+      - CYBERWAREBITS
+      - XOPSUFOWALLS
+      - XOPSUFOFLOOR
+      - XOPSUFOITEMS2SM
+      - CYBERWAREEXTRA
+    category: Cyberweb
+    group: UFO - Buildings
+  - type: CYBERWEBFORTRESS
+    terrains:
+      - CYBER_DISEC2
+      - CYBER_BASE
+      - RET_SHIPS
+    category: Cyberweb
+    group: UFO - Buildings
+
+#----- Mansion ----------------------------------------------------------------#
+  - type: D_ATRIUM
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_MANSN
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_TAVERN
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+    category: Mansion
+    group: UFO - Buildings
+
+#----- ADVENT -----------------------------------------------------------------#
+  - type: ALIEN_EMBASSY
+    terrains:
+      - ROADS
+      - URBITS
+      - ADVENT_URBAN
+      - FRNITURE
+      - U_EMBASSY_FINNIK
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC00
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_CLONING
+      - ADVENT_ABDUCTION
+      - ADVENT_HARVEST
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_CLINIC01
+    terrains:
+      - ADVENT_GENERAL
+      - ADVENT_FNITURE
+      - ADVENT_SUPPLY
+      - ADVENT_MEDICINE
+      - ADVENT_SPECIAL
+      - URBITS
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT01
+    terrains:
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ADVENT_HIDEOUT
+    category: ADVENT
+    group: UFO - Buildings
+  - type: ADVENT_HIDEOUT00
+    terrains:
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+    category: ADVENT
+    group: UFO - Buildings
+
+#----- Bank -------------------------------------------------------------------#
+  - type: BANK_00
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_01
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_02
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_03
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_04
+    terrains:
+      - GOVTDECOR
+      - GOVT
+      - RET_WALLS
+    category: Bank
+    group: UFO - Buildings
+
+#----- Alien Buildings --------------------------------------------------------#
+  - type: MOON_OUTPOST00
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+      - U_FACILITY
+    category: Alien Buildings
+    group: UFO - Buildings
+
+#----- Corporation Labs -------------------------------------------------------#
+  - type: CORPLAB01
+    terrains:
+      - CORPLAB
+    category: Corporation Labs
+    group: UFO - Buildings
+  - type: MONSTERLAB01
+    terrains:
+      - CORPLAB
+    category: Corporation Labs
+    group: UFO - Buildings
+
+#----- Corporation Warehouse --------------------------------------------------#
+  - type: CORPWAREHOUSE00
+    terrains:
+      - CORPWAREHOUSE
+    category: Corporation Warehouse
+    group: UFO - Buildings
+
+#----- Cult -------------------------------------------------------------------#
+  - type: CULTHOUSE00
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE01
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE02
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE03
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE04
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE05
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE06
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE07
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE08
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE09
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE10
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE11
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE12
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT00
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT01
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT02
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT03
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT04
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: LO_WO_HOUSE
+    terrains:
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Cult
+    group: UFO - Buildings
+  - type: DURFACTORY
+    terrains:
+      - MILEXT
+      - MILWARE
+      - MILBARR
+      - MILTECH
+    category: Cult
+    group: UFO - Buildings
+  - type: DEEPS
+    terrains:
+      - SANDS
+      - MUJUNGLE
+      - JUNGLE
+    category: Cult
+    group: UFO - Buildings
+  - type: CAVE_TEMPLE
+    terrains:
+      - DAGON_BASE
+      - DAGON_WALL02
+      - DAGON_PODS
+      - DAGON_EXTRA
+      - DAGON_BASE2
+      - DAGON_FRN
+      - DAGON_BITS
+      - DAGON_FLOOR
+      - OCEANTEMPLE1
+    category: Cult
+    group: UFO - Buildings
+
+#----- Underwater Structures --------------------------------------------------#
+  - type: USOLANDINGPAD
+    terrains:
+      - USOEXT2
+      - USOEXT3
+      - SEAORGANIC1
+      - SEAORGANIC2
+      - SEAORGANIC3
+      - SEANOM
+    category: Underwater Structures
+    group: UFO - Buildings
+  - type: AQUATOIDOFFICE
+    terrains:
+      - USOEXT2
+      - USOEXT3
+      - SEAORGANIC1
+      - SEAORGANIC2
+      - SEAORGANIC3
+      - SEANOM
+    category: Underwater Structures
+    group: UFO - Buildings
+  - type: TLETHEMBASSY
+    terrains:
+      - USOEXT2
+      - USOEXT3
+      - SEAORGANIC1
+      - SEAORGANIC2
+      - SEAORGANIC3
+      - SEANOM
+    category: Underwater Structures
+    group: UFO - Buildings
+
+#----- Crop Circles -----------------------------------------------------------#
+  - type: CROPCIRCLE00
+    terrains:
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE01
+    terrains:
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE02
+    terrains:
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCIRCLE03
+    terrains:
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+  - type: CROPCHEM00
+    terrains:
+      - CROPCIRCLE
+    category: Crop Circles
+    group: UFO - Buildings
+
+#----- Dead Cattle ------------------------------------------------------------#
+  - type: DEADCATTLE00
+    terrains:
+      - DEADCATTLE
+    category: Dead Cattle
+    group: UFO - Buildings
+
+#----- Hybrids ----------------------------------------------------------------#
+  - type: CLONEBARN00
+    terrains:
+      - BARN
+      - CLONING
+    category: Hybrids
+    group: UFO - Buildings
+  - type: JARHEADPLANT00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - CLONING
+    category: Hybrids
+    group: UFO - Buildings
+  - type: HYBRSTOR00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - HYBRSTOR
+    category: Hybrids
+    group: UFO - Buildings
+  - type: HYBRID_CONTROL00
+    terrains:
+      - A_BASE
+      - A_WALL02
+      - A_PODS
+      - BRAIN
+      - A_BASE2
+      - HYBRCONTR
+    category: Hybrids
+    group: UFO - Buildings
+
+#----- Dark Rituals -----------------------------------------------------------#
+  - type: DEEPONERITUALS00
+    terrains:
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+      - SEABITS
+      - RITUALSBEACH
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR00
+    terrains:
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR01
+    terrains:
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: CANNIBALCAMP00
+    terrains:
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: COMMUNION
+    terrains:
+      - FORESTMOUNT
+      - FOREST
+      - FORESTMOUNTBITS
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: RITUALCAVE_00
+    terrains:
+      - CAVEBLACK
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
+
+#----- MAGMA ------------------------------------------------------------------#
+  - type: REACTOR00
+    terrains:
+      - REACTOR
+    category: MAGMA
+    group: UFO - Buildings
+  - type: TANKFACTORY00
+    terrains:
+      - MILEXT
+      - MAGMAWAREAN
+    category: MAGMA
+    group: UFO - Buildings
 
 #----- Piratez - Terrain ------------------------------------------------------#
 #----- Govt Base Defense ------------------------------------------------------#
@@ -26786,801 +28813,6 @@ tilesets:
     category: Luke's OXCF
     group: UFO - Ships
 
-#----- UFO - Buildings --------------------------------------------------------#
-#----- Osiron -----------------------------------------------------------------#
-  - type: OSIRON_NEST_00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - CRATES
-      - DOORSSEC
-      - OSIRON_FINNIK
-    category: Osiron
-    group: UFO - Buildings
-  - type: OSIRONWAREHOUSE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
-    category: Osiron
-    group: UFO - Buildings
-  - type: OSIRONHAVIRA_00
-    terrains:
-      - HAVIRABASE
-      - HAVIRAWALLS
-      - HAVIRADECOR
-    category: Osiron
-    group: UFO - Buildings
-  - type: OSIRONHAVIRA_01
-    terrains:
-      - HAVIRABASE
-      - HAVIRAWALLS
-      - HAVIRADECOR
-    category: Osiron
-    group: UFO - Buildings
-
-#----- UAC --------------------------------------------------------------------#
-  - type: APOCSMALLWAREHOUSE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
-    category: UAC
-    group: UFO - Buildings
-  - type: UACLAB
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILTECH
-    category: UAC
-    group: UFO - Buildings
-  - type: UACSPACELAB
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - XCOMEXIT
-      - MILTECH
-    category: UAC
-    group: UFO - Buildings
-  - type: UACMOONTURRET
-    terrains:
-      - STEELHILL
-      - UAC_BASE
-    category: UAC
-    group: UFO - Buildings
-  - type: UACDIMPORTAL
-    terrains:
-      - UAC_DEVICE
-      - UAC_DECOR_DEVICE
-      - UAC_PORTAL
-    category: UAC
-    group: UFO - Buildings
-
-#----- Dreamworld Buildings ---------------------------------------------------#
-  - type: VILLA_00
-    terrains:
-      - DREAMDECOR
-      - ATLANVILLA
-      - DUNGEON_VILLA
-      - PENTA_X
-      - CATACDECOR
-      - MANSION_PAINTINGS
-    category: Dreamworld Buildings
-    group: UFO - Buildings
-
-#----- Cyberweb ---------------------------------------------------------------#
-  - type: CYBERPORTAL
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - XOPSUFOWALLS
-      - XOPSUFOFLOOR
-      - XOPSUFOITEMS2SM
-      - CYBERWAREEXTRA
-    category: Cyberweb
-    group: UFO - Buildings
-  - type: CYBERCOMPUTER
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - XOPSUFOWALLS
-      - XOPSUFOFLOOR
-      - XOPSUFOITEMS2SM
-      - CYBERWAREEXTRA
-    category: Cyberweb
-    group: UFO - Buildings
-  - type: CYBERWEBFORTRESS
-    terrains:
-      - CYBER_DISEC2
-      - CYBER_BASE
-      - RET_SHIPS
-    category: Cyberweb
-    group: UFO - Buildings
-
-#----- Mansion ----------------------------------------------------------------#
-  - type: D_ATRIUM
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
-    category: Mansion
-    group: UFO - Buildings
-  - type: D_MANSN
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
-    category: Mansion
-    group: UFO - Buildings
-  - type: D_TAVERN
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
-    category: Mansion
-    group: UFO - Buildings
-
-#----- ADVENT -----------------------------------------------------------------#
-  - type: ALIEN_EMBASSY
-    terrains:
-      - ROADS
-      - URBITS
-      - ADVENT_URBAN
-      - FRNITURE
-      - U_EMBASSY_FINNIK
-    category: ADVENT
-    group: UFO - Buildings
-  - type: ADVENT_CLINIC00
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_CLONING
-      - ADVENT_ABDUCTION
-      - ADVENT_HARVEST
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-    category: ADVENT
-    group: UFO - Buildings
-  - type: ADVENT_CLINIC01
-    terrains:
-      - ADVENT_GENERAL
-      - ADVENT_FNITURE
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - ADVENT_SPECIAL
-      - URBITS
-    category: ADVENT
-    group: UFO - Buildings
-  - type: ADVENT_HIDEOUT01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - ADVENT_HIDEOUT
-    category: ADVENT
-    group: UFO - Buildings
-  - type: ADVENT_HIDEOUT00
-    terrains:
-      - DAWNROADS
-      - DAWNURBITS
-      - DAWNURBAN
-      - DAWNFRNITURE
-    category: ADVENT
-    group: UFO - Buildings
-
-#----- Bank -------------------------------------------------------------------#
-  - type: BANK_00
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Buildings
-  - type: BANK_01
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Buildings
-  - type: BANK_02
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Buildings
-  - type: BANK_03
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Buildings
-  - type: BANK_04
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
-    category: Bank
-    group: UFO - Buildings
-
-#----- Misc Buildings ---------------------------------------------------------#
-  - type: ICELABCAVE_00
-    terrains:
-      - CAVEICE
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: GOVTBUILDING00
-    terrains:
-      - GOVROADS
-      - GOVTBITS
-      - GOVT
-      - GOVTFRN
-      - GOVTDECOR
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: UNI_00
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: CRIB01
-    terrains:
-      - CRIBURBAN
-      - CRIBURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: LT_HOUSE_02G
-    terrains:
-      - CRIBURBAN
-      - CRIBURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: LT_HOUSE_04G
-    terrains:
-      - CRIBURBAN
-      - CRIBURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: PRISON
-    terrains:
-      - PRISONROADS
-      - PRISONBITS
-      - PRISON
-      - PRISONDECOR
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: SILO00
-    terrains:
-      - SILO
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: D_KEEP
-    terrains:
-      - CULTIVAT
-      - BARN
-      - SIBERIABASE
-      - SIBERIABASE2
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: BANK_OPEN_00
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - GOVTFRN
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: FOREST_CABIN
-    terrains:
-      - FOREST
-      - FRNITURE
-      - BARN
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: HILL_BUNKER
-    terrains:
-      - FOREST
-      - FRNITURE
-      - BARN
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: PENTAGRAM_MEDIUM
-    terrains:
-      - PENTA
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: D_ATRIUM_DEF
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - CAFEENTRY
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: JUNGLESHRINE
-    terrains:
-      - SANDS
-      - MUJUNGLE
-      - JUNGLEBITS
-      - URNS
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: SCI_HOUSE
-    terrains:
-      - SCI_HOUSE
-      - SCI_HOUSE2
-      - FRNITURE
-      - LAMP_WALL
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: GHOST_HOUSE
-    terrains:
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - FRNITURE_FINNIK
-      - GHOSTS_FINNIK
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: CATACOMBS_POOL_00
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
-      - LAVA_GREEN
-      - DOOMDECOR
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: CATACOMBS_POOL_SAMAEL_00
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
-      - LAVA_GREEN
-      - DOOMDECOR
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: DIM_X_PAD
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - DESERT_PINK
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: CLINIC00
-    terrains:
-      - MEDICAL_GENERAL
-      - MEDICAL_FNITURE
-      - MEDICAL_UTIL
-      - MEDICAL_INT
-      - MEDICAL_BATH
-      - MEDICAL_SUPPLY
-      - ADVENT_MEDICINE
-      - MEDICAL_SPECIAL
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: CLINIC_ASYLUM
-    terrains:
-      - MEDICAL_GENERAL
-      - MEDICAL_FNITURE
-      - MEDICAL_UTIL
-      - MEDICAL_INT
-      - MEDICAL_BATH
-      - ADVENT_SUPPLY
-      - ADVENT_MEDICINE
-      - PENTA
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: MAGAZYNMAFII
-    terrains:
-      - URBAN
-      - CORP
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: MAGAZYNMAFII_02
-    terrains:
-      - URBAN
-      - CORP
-    category: Misc Buildings
-    group: UFO - Buildings
-
-#----- Alien Buildings --------------------------------------------------------#
-  - type: MOON_OUTPOST00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-      - U_FACILITY
-    category: Alien Buildings
-    group: UFO - Buildings
-
-#----- Corporation Labs -------------------------------------------------------#
-  - type: CORPLAB01
-    terrains:
-      - CORPLAB
-    category: Corporation Labs
-    group: UFO - Buildings
-  - type: MONSTERLAB01
-    terrains:
-      - CORPLAB
-    category: Corporation Labs
-    group: UFO - Buildings
-
-#----- Corporation Warehouse --------------------------------------------------#
-  - type: CORPWAREHOUSE00
-    terrains:
-      - CORPWAREHOUSE
-    category: Corporation Warehouse
-    group: UFO - Buildings
-
-#----- Cult -------------------------------------------------------------------#
-  - type: CULTHOUSE00
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE01
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE02
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE03
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE04
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE05
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE06
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE07
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE08
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE09
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE10
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE11
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHOUSE12
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHIDEOUT00
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHIDEOUT01
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHIDEOUT02
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHIDEOUT03
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: CULTHIDEOUT04
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: LO_WO_HOUSE
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
-    category: Cult
-    group: UFO - Buildings
-  - type: DURFACTORY
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILTECH
-    category: Cult
-    group: UFO - Buildings
-  - type: DEEPS
-    terrains:
-      - SANDS
-      - MUJUNGLE
-      - JUNGLE
-    category: Cult
-    group: UFO - Buildings
-  - type: CAVE_TEMPLE
-    terrains:
-      - DAGON_BASE
-      - DAGON_WALL02
-      - DAGON_PODS
-      - DAGON_EXTRA
-      - DAGON_BASE2
-      - DAGON_FRN
-      - DAGON_BITS
-      - DAGON_FLOOR
-      - OCEANTEMPLE1
-    category: Cult
-    group: UFO - Buildings
-
-#----- Underwater Structures --------------------------------------------------#
-  - type: USOLANDINGPAD
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
-    category: Underwater Structures
-    group: UFO - Buildings
-  - type: AQUATOIDOFFICE
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
-    category: Underwater Structures
-    group: UFO - Buildings
-  - type: TLETHEMBASSY
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
-    category: Underwater Structures
-    group: UFO - Buildings
-
-#----- Crop Circles -----------------------------------------------------------#
-  - type: CROPCIRCLE00
-    terrains:
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Buildings
-  - type: CROPCIRCLE01
-    terrains:
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Buildings
-  - type: CROPCIRCLE02
-    terrains:
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Buildings
-  - type: CROPCIRCLE03
-    terrains:
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Buildings
-  - type: CROPCHEM00
-    terrains:
-      - CROPCIRCLE
-    category: Crop Circles
-    group: UFO - Buildings
-
-#----- Dead Cattle ------------------------------------------------------------#
-  - type: DEADCATTLE00
-    terrains:
-      - DEADCATTLE
-    category: Dead Cattle
-    group: UFO - Buildings
-
-#----- Hybrids ----------------------------------------------------------------#
-  - type: CLONEBARN00
-    terrains:
-      - BARN
-      - CLONING
-    category: Hybrids
-    group: UFO - Buildings
-  - type: JARHEADPLANT00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - CLONING
-    category: Hybrids
-    group: UFO - Buildings
-  - type: HYBRSTOR00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - HYBRSTOR
-    category: Hybrids
-    group: UFO - Buildings
-  - type: HYBRID_CONTROL00
-    terrains:
-      - A_BASE
-      - A_WALL02
-      - A_PODS
-      - BRAIN
-      - A_BASE2
-      - HYBRCONTR
-    category: Hybrids
-    group: UFO - Buildings
-
-#----- Dark Rituals -----------------------------------------------------------#
-  - type: DEEPONERITUALS00
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
-      - RITUALSBEACH
-    category: Dark Rituals
-    group: UFO - Buildings
-  - type: BEASTMANALTAR00
-    terrains:
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Buildings
-  - type: BEASTMANALTAR01
-    terrains:
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Buildings
-  - type: CANNIBALCAMP00
-    terrains:
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Buildings
-  - type: COMMUNION
-    terrains:
-      - FORESTMOUNT
-      - FOREST
-      - FORESTMOUNTBITS
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Buildings
-  - type: RITUALCAVE_00
-    terrains:
-      - CAVEBLACK
-      - RITUALS
-    category: Dark Rituals
-    group: UFO - Buildings
-
-#----- MAGMA ------------------------------------------------------------------#
-  - type: REACTOR00
-    terrains:
-      - REACTOR
-    category: MAGMA
-    group: UFO - Buildings
-  - type: TANKFACTORY00
-    terrains:
-      - MILEXT
-      - MAGMAWAREAN
-    category: MAGMA
-    group: UFO - Buildings
-
 #----- Piratez - Ships --------------------------------------------------------#
 #----- Nekomimi ---------------------------------------------------------------#
   - type: GOLDENCLAW
@@ -28192,6 +29424,56 @@ tilesets:
       - XBASEN_BITS
       - DOORS1
     category: Academy Outposts
+    group: Piratez - Buildings
+
+#----- Church Outposts --------------------------------------------------------#
+  - type: CSHOUSE_01
+    terrains:
+      - CULTAN
+      - CULTBITS
+      - EASTER
+      - BATHBITZ_HT
+      - LIFTER
+      - XBASEN_BEDS
+      - FLOORSET
+      - DOORS2
+    category: Church Outposts
+    group: Piratez - Buildings
+  - type: CSHOUSE_02
+    terrains:
+      - CULTAN
+      - CULTBITS
+      - EASTER
+      - BATHBITZ_HT
+      - LIFTER
+      - XBASEN_BEDS
+      - FLOORSET
+      - DOORS2
+    category: Church Outposts
+    group: Piratez - Buildings
+  - type: CSHOUSE_02G
+    terrains:
+      - CULTAN
+      - CULTBITS
+      - EASTER
+      - BATHBITZ_HT
+      - LIFTER
+      - XBASEN_BEDS
+      - FLOORSET
+      - DOORS2
+    category: Church Outposts
+    group: Piratez - Buildings
+  - type: CSHOUSE_03G
+    terrains:
+      - CULTAN
+      - CULTBITS
+      - EASTER
+      - BATHBITZ_HT
+      - LIFTER
+      - XBASEN_BEDS
+      - FLOORSET
+      - DOORS2
+    category: Church Outposts
     group: Piratez - Buildings
 
 #----- Stone Age --------------------------------------------------------------#

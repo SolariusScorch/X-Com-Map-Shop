@@ -21,11 +21,11 @@ RouteView:
 TileView:
   left: 1514
   top: 6
-  width: 390
+  width: 392
   height: 1005
 TopRouteView:
   left: 2079
-  top: 90
+  top: 94
   width: 933
   height: 590
 Options:
