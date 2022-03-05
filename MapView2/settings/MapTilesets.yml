@@ -8301,6 +8301,10 @@ tilesets:
     terrains: *UrbanLowSports
     category: Urban Sports (Child)
     group: UFO - Terrain
+  - type: URBANSPORTS04
+    terrains: *UrbanLowSports
+    category: Urban Sports (Child)
+    group: UFO - Terrain
 
 #----- Urban Police (Child) ---------------------------------------------------#
   - type: URBANPOLICE00
@@ -10779,6 +10783,125 @@ tilesets:
   - type: CULTARED19
     terrains: *CornFarm
     category: IDT Corn Farm
+    group: UFO - Terrain
+
+#----- IDT Airport -----------------------------------------------------#
+  - type: AIRBASE00
+    terrains: &Airport
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+      - IDT_AIRPORT_CRISTAL_WALLS
+      - MILITARY_BARRICADES
+      - MISSILES_1
+      - MISSILES_2
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE01
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE02
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE03
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE04
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE05
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE06
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE07
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE08
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE09
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE10
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE11
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE12
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE13
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE14
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE15
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE16
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE17
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE18
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE19
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE20
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE21
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE30
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRBASE31
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRPORT_NS_ROAD
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRPORT_EW_ROAD
+    terrains: *Airport
+    category: IDT Airport
+    group: UFO - Terrain
+  - type: AIRPORT_X_ROAD
+    terrains: *Airport
+    category: IDT Airport
     group: UFO - Terrain
 
 #----- Underwater Habitat -----------------------------------------------------#
