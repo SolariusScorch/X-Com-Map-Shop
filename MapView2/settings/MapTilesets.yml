@@ -417,31 +417,11 @@ tilesets:
       - UFOBITS
     category: Underwater Research Facility
     group: TFTD - Terrain
-  - type: PIPES10
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES11
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES05
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES04
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES07
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
-  - type: PIPES06
-    terrains: *UnderwaterResearchFacility
-    category: Underwater Research Facility
-    group: TFTD - Terrain
   - type: PIPES01
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES02
     terrains: *UnderwaterResearchFacility
     category: Underwater Research Facility
     group: TFTD - Terrain
@@ -449,7 +429,19 @@ tilesets:
     terrains: *UnderwaterResearchFacility
     category: Underwater Research Facility
     group: TFTD - Terrain
-  - type: PIPES02
+  - type: PIPES04
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES05
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES06
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES07
     terrains: *UnderwaterResearchFacility
     category: Underwater Research Facility
     group: TFTD - Terrain
@@ -458,6 +450,14 @@ tilesets:
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES09
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES10
+    terrains: *UnderwaterResearchFacility
+    category: Underwater Research Facility
+    group: TFTD - Terrain
+  - type: PIPES11
     terrains: *UnderwaterResearchFacility
     category: Underwater Research Facility
     group: TFTD - Terrain
@@ -10910,6 +10910,7 @@ tilesets:
       - SEASAND
       - CYBERPIPES
       - USOBITS
+      - CYBERPIPESEXTRA
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT01
@@ -10953,6 +10954,10 @@ tilesets:
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT11
+    terrains: *SeaHabitat
+    category: Underwater Habitat
+    group: UFO - Terrain
+  - type: SEAHABITATHUGE20
     terrains: *SeaHabitat
     category: Underwater Habitat
     group: UFO - Terrain
