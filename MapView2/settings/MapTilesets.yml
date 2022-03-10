@@ -10910,6 +10910,7 @@ tilesets:
       - SEASAND
       - CYBERPIPES
       - USOBITS
+      - SONAR
       - CYBERPIPESEXTRA
     category: Underwater Habitat
     group: UFO - Terrain
