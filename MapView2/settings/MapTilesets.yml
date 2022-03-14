@@ -12216,6 +12216,18 @@ tilesets:
       - CORP
     category: Misc Buildings
     group: UFO - Buildings
+  - type: HAUNTEDHOUSE01
+    terrains:
+      - COMMERCE
+      - CATACDECOR
+      - DUNGEON
+      - MANSIONFLOOR
+      - MANSIONFURNITURE
+      - MANSION_PAINTINGS
+      - MANSIONBITS
+      - MANSIONGARDEN
+    category: Misc Buildings
+    group: UFO - Buildings
 
 #----- Osiron -----------------------------------------------------------------#
   - type: OSIRON_NEST_00
