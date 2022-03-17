@@ -2,9 +2,9 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename BARN_JUNK
+selectedfilename MIB_BITS
 SelectMCD 0
-SelectPCK 0
+SelectPCK 2
 Animate False
 t_checkered False
 Form3_w 473
@@ -26,7 +26,7 @@ t_form6_t2 False
 t_form6_col1 0
 t_form6_col2 0
 t_form6_mode 6
-t_form6_pal 1
+t_form6_pal 0
 t_form6_opened False
 t_form6_set_horsp 0
 t_form6_set_versp 0
