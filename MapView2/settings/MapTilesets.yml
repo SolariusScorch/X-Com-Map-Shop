@@ -1805,6 +1805,10 @@ tilesets:
     terrains: *Farm
     category: Farm
     group: UFO - Terrain
+  - type: CULT_DIO01
+    terrains: *Farm
+    category: Farm
+    group: UFO - Terrain
   - type: CULTASOLHUGE00
     terrains: *Farm
     category: Farm
