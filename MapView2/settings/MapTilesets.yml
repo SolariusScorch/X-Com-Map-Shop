@@ -10410,6 +10410,10 @@ tilesets:
     terrains: *MoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
+  - type: MUM_VILLAGE_W_SHORT03
+    terrains: *MoonCaveLab
+    category: UAC Moon Cave Lab
+    group: UFO - Terrain
   - type: UAC_CAVE_W01
     terrains: *MoonCaveLab
     category: UAC Moon Cave Lab
@@ -10609,6 +10613,10 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG03
+    terrains: *MummyVillage
+    category: Mummy Village
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_S01_ENTRY
     terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
@@ -13280,6 +13288,22 @@ tilesets:
     terrains: *PiratezBase
     category: Pirate Base
     group: Piratez - Terrain
+  - type: XBR_102
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_103
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_104
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_105
+    terrains: *PiratezBase
+    category: Pirate Base
+    group: Piratez - Terrain
 
 #----- Space ------------------------------------------------------------------#
   - type: ORBIT_00
@@ -13730,6 +13754,16 @@ tilesets:
   - type: POLICECAR2
     terrains:
       - POLICECAR
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: SCOOTER
+    terrains:
+      - SCI_FI_CARS_TILESET
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: HOVER_SCOOTER
+    terrains:
+      - SCI_FI_CARS_TILESET
     category: Misc Vehicles
     group: UFO - Ships
   - type: MILITARY_CONVOY
@@ -15332,6 +15366,25 @@ tilesets:
       - FRNITURE
       - STONEAGE_EXTRA
     category: Stone Age
+    group: Piratez - Buildings
+
+#----- Misc Buildings --------------------------------------------------------------#
+  - type: CATACOMBS_NEXUS
+    terrains:
+      - CATACOMB
+      - XOPSMUJUNGLEADDON
+      - XCOMENTRY
+      - CATACDECOR
+      - CAVEBLACK
+      - XCOMEXIT
+      - PENTA_X
+      - DUNGEON
+      - EARTHTEMPLE1
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: INDUSTRIALSLUM_RAGNAROCK
+    terrains: *IndustrialSlum
+    category: Misc Buildings
     group: Piratez - Buildings
 
 #----- From The Apocalypse - Terrain ------------------------------------------#
