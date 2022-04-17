@@ -4359,6 +4359,7 @@ tilesets:
     terrains: &Desert
       - DESERT
       - DESERTBITS
+      - DESERT_ROADS
     category: Desert
     group: UFO - Terrain
   - type: DESERT01
@@ -8644,6 +8645,10 @@ tilesets:
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANROADVF21
+    terrains: *UrbanRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+  - type: URBANROADVS00
     terrains: *UrbanRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
@@ -13762,6 +13767,11 @@ tilesets:
     category: Misc Vehicles
     group: UFO - Ships
   - type: HOVER_SCOOTER
+    terrains:
+      - SCI_FI_CARS_TILESET
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: X_SCIFICAR_1
     terrains:
       - SCI_FI_CARS_TILESET
     category: Misc Vehicles
