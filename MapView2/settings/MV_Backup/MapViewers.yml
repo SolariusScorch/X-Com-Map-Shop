@@ -24,8 +24,8 @@ TileView:
   width: 392
   height: 1005
 TopRouteView:
-  left: 2083
-  top: 118
+  left: 2027
+  top: 168
   width: 933
   height: 590
 Options:
@@ -39,9 +39,9 @@ TilesetEditor:
   width: 584
   height: 470
 PckView:
-  left: 190
-  top: 160
-  width: 480
+  left: 171
+  top: 154
+  width: 1588
   height: 640
 McdView:
   left: 210
@@ -58,3 +58,13 @@ McdInfo:
   top: 100
   width: 512
   height: 609
+PaletteViewer:
+  left: 20
+  top: 20
+  width: 320
+  height: 340
+SpriteEditor:
+  left: 191
+  top: 174
+  width: 321
+  height: 101

@@ -1,0 +1,8 @@
+PckConfig:
+  transparent: True
+  spriteshade: False
+  palette: 0
+  front: False
+  grid: 0
+  scale: 0
+  edit: Locked

@@ -3362,6 +3362,10 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_TRITANIUM_MATRIX
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_FILL_20X20
     terrains: *AlienBase
     category: Alien Base
@@ -11678,7 +11682,7 @@ tilesets:
 #----- Plains -----------------------------------------------------------------#
   - type: PLAINS00
     terrains: &Plains
-      - MOUNTMUD
+      - MOUNTSAND
     category: Plains
     group: UFO - Terrain
   - type: PLAINS01
@@ -13769,6 +13773,11 @@ tilesets:
   - type: HOVER_SCOOTER
     terrains:
       - SCI_FI_CARS_TILESET
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: TRUCKS
+    terrains:
+      - SPEED2
     category: Misc Vehicles
     group: UFO - Ships
   - type: X_SCIFICAR_1
