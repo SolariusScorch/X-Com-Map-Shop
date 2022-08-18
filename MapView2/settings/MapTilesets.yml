@@ -1397,6 +1397,8 @@ tilesets:
   - type: JUNGLE00
     terrains: &Jungle
       - JUNGLE
+      - JUNGLYROAD
+      - JUNGLEVINES
     category: Jungle
     group: UFO - Terrain
   - type: JUNGLE01
@@ -1463,6 +1465,18 @@ tilesets:
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLEDIO03
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLEDIO04
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLEDIO05
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
   - type: JUNGLESOL01
     terrains: *Jungle
     category: Jungle
@@ -1483,7 +1497,23 @@ tilesets:
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLE_ROAD_WE01
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLE_ROAD_WE02
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
   - type: JUNGLE_ROAD_SN00
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLE_ROAD_SN01
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLE_ROAD_SN02
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
@@ -6086,6 +6116,14 @@ tilesets:
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN46
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN47
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN48
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
