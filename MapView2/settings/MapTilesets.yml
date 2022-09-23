@@ -7086,7 +7086,7 @@ tilesets:
 
 #----- Industrial Slum --------------------------------------------------------#
   - type: INDUSTRIALSLUM00
-    terrains:
+    terrains: &IndustrialSlum
       - PORTROADS
       - INDUSLUM
       - ROADS
@@ -7095,396 +7095,185 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM01
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM02
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM03
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM04
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM05
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM06
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM07
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM08
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM09
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM10
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM11
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM12
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM13
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM14
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM15
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM16
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM17
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM18
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM19
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM30
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM31
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM32
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM33
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM34
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM35
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMSOL10
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO10
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO18
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO14
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO15
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO16
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO17
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO19
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO20
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO21
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO22
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO23
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADCROSS
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADCROSS2
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADNS
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADWE
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADWE2
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADRAILCROSS
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMROADRAILNS
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
 
 #----- Urban ------------------------------------------------------------------#
   - type: URBAN00
-    terrains:
+    terrains: &Urban
       - ROADS
       - URBITS
       - URBAN
@@ -7493,819 +7282,369 @@ tilesets:
     category: Urban
     group: UFO - Terrain
   - type: URBAN01
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN02
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN03
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN04
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN05
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN06
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN07
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN08
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN09
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN10
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN11
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN12
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN13
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN14
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN15
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN16
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN17
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN18
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBAN19
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN19
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN20
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN21
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN22
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN23
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN24
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN25
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN26
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN27
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN28
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN29
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN30
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN31
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN32
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN33
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN34
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN35
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN36
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN37
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: MADURBAN38
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: SOLBAN39
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: SOLBAN40
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN41
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN42
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN43
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN44
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN45
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN46
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN47
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN48
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN49
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN50
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN51
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN52
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN53
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN54
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN55
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN56
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: CIVURBAN57
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR01
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR02
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR03
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR04
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR05
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR06
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR07
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR08
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR09
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR10
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR11
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR12
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR13
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR14
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR15
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR16
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR17
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR18
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR19
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR20
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR22
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR22_1
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR23
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR24
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR25
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: EXPANDEDTERROR26
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBANAMUYS00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRODIO00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRO00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: URBANSANYASKILLPRO01
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
   - type: SOLBANHUGE00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
+    terrains: *Urban
     category: Urban
     group: UFO - Terrain
 
 #----- Nuke City --------------------------------------------------------------#
   - type: NUKECITY00
-    terrains:
+    terrains: &NukeCity
       - NUKE1
       - NUKE2
       - NUKE3
@@ -8316,377 +7655,139 @@ tilesets:
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY01
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY02
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY03
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY04
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY05
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY06
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY07
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY08
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY09
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY10NS
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY10WE
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY11NS
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY11WE
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKECITY12
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE00
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE01
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE02
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE03
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE04
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE05
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE06
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE07
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE08
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE09
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE10
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE11
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE12
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE13
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE14
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE15
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE16
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE17
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE18
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
   - type: NUKE19
-    terrains:
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
+    terrains: *NukeCity
     category: Nuke City
     group: UFO - Terrain
 
