@@ -7793,7 +7793,7 @@ tilesets:
 
 #----- Village ----------------------------------------------------------------#
   - type: VILBAN00
-    terrains:
+    terrains: &Rural
       - VILROADS
       - VILBITS
       - VILBAN
@@ -7801,686 +7801,388 @@ tilesets:
     category: Village
     group: UFO - Terrain
   - type: VILBAN01
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN02
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN03
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN04
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN05
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN06
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN07
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN08
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN09
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN10
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN11
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN12
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN13
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN14
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN15
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN16
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN17
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN18
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN19
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN20
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN21
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN22
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN23
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN24
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN25
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN26
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN30
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN31
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN32
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN33
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN34
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN35
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN36
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN37
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN40
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN50
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN51
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN52
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN53
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN54
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN55
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN56
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBAN57
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
   - type: VILBANHUGE60
-    terrains:
-      - VILROADS
-      - VILBITS
-      - VILBAN
-      - VILFRNITURE
+    terrains: *Rural
     category: Village
     group: UFO - Terrain
 
 #----- Desert -----------------------------------------------------------------#
   - type: DESERT00
-    terrains:
+    terrains: &Desert
       - DESERT
       - DESERTBITS
       - DESERT_ROADS
     category: Desert
     group: UFO - Terrain
   - type: DESERT01
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT02
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT03
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT04
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT05
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT06
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT07
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT08
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT09
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT10
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT11
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT12
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT13
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT14
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT15
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT16
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT17
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERTHUGE00
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERTHUGE01
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_SN00
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_SN01
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_SN02
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_WE00
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_WE01
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_WE02
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
   - type: DESERT_ROAD_XX00
-    terrains:
-      - DESERT
-      - DESERTBITS
-      - DESERT_ROADS
+    terrains: *Desert
     category: Desert
     group: UFO - Terrain
 
 #----- Mountain ---------------------------------------------------------------#
   - type: MOUNT00
-    terrains:
+    terrains: &Mount
       - MOUNT
       - ROADS
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT01
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT02
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT03
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT04
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT05
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT06
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT07
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT08
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT09
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT10
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT11
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT12
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNTHUGE00
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_SN00
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_SN01
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_SN02
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_SN03
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_WE00
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_WE01
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_WE02
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_WE03
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
   - type: MOUNT_ROAD_XX00
-    terrains:
-      - MOUNT
-      - ROADS
+    terrains: *Mount
     category: Mountain
     group: UFO - Terrain
 
@@ -8665,143 +8367,101 @@ tilesets:
 
 #----- Cydonia ----------------------------------------------------------------#
   - type: MARS00
-    terrains:
+    terrains: &Cydonia
       - MARS
       - U_WALL02
     category: Cydonia
     group: UFO - Terrain
   - type: MARS01
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS02
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS03
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS04
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS05
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS06
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS07
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS08
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS09
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
   - type: MARS10
-    terrains:
-      - MARS
-      - U_WALL02
+    terrains: *Cydonia
     category: Cydonia
     group: UFO - Terrain
 
 #----- Reptoid Cydonia --------------------------------------------------------#
   - type: MARS00
-    terrains:
+    terrains: &ReptoidCydonia
       - REP_MARS
       - REP_WALL02
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS01
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS02
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS03
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS04
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS05
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS06
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS07
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS08
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS09
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: MARS10
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
   - type: REPTIBUNKER00
-    terrains:
-      - REP_MARS
-      - REP_WALL02
+    terrains: *ReptoidCydonia
     category: Reptoid Cydonia
     group: UFO - Terrain
 
@@ -21394,170 +21054,6 @@ tilesets:
     category: Underwater Habitat
     group: UFO - Terrain
 
-#----- Marine Base ------------------------------------------------------------#
-  - type: MARINEBASE00
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE01
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE02
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE03
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE04
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE05
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE06
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE07
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE08
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE09
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE10
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE11
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE12
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE13
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE14
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE15
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE16
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-  - type: MARINEBASE20
-    terrains:
-      - MARINEBASE01
-      - MARINEBASE02
-      - MARINEBASE03
-      - MARINEBASE04
-      - MARINEBASE05
-    category: Marine Base
-    group: UFO - Terrain
-
 #----- Reptoid Settlement -----------------------------------------------------#
   - type: REP_VILLAGE_N00
     terrains:
@@ -29282,3 +28778,83 @@ tilesets:
       - DAWNFRNITURE
     category: ADVENT
     group: From The Ashes - Buildings
+
+#----- 40k - Terrain ---------------------------------------------#
+  - type: MARINEBASE00
+    terrains: &MarineBase
+      - MARINEBASE01
+      - MARINEBASE02
+      - MARINEBASE03
+      - MARINEBASE04
+      - MARINEBASE05
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE01
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE02
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE03
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE04
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE05
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE06
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE07
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE08
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE09
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE10
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE11
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE12
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE13
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE14
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE15
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE16
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+  - type: MARINEBASE20
+    terrains: *MarineBase
+    category: Marine Base
+    group: 40k - Terrain
+
