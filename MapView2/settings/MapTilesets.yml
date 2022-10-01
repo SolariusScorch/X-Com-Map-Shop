@@ -4486,185 +4486,110 @@ tilesets:
 
 #----- Nooberia ---------------------------------------------------------------#
   - type: NOOBERIA0X0X
-    terrains:
+    terrains: &Nooberia
       - MOUNTSNOW
       - URBAN40K2
       - COMPLEXBITS
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA01
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA02
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA03
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA04
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA05
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA06
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA07
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA08
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA09
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA10
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA11
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA12
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA13
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA14
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA15
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA16
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA20
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA21
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA24
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA25
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA26
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA27
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA28
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA29
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
   - type: NOOBERIA_CARS
-    terrains:
-      - MOUNTSNOW
-      - URBAN40K2
-      - COMPLEXBITS
+    terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
 
@@ -24203,6 +24128,119 @@ tilesets:
       - NUKE_CITY_2
       - BRICKBAR
     category: Western Town
+    group: Piratez - Terrain
+
+#----- Moonberia ---------------------------------------------------------------#
+  - type: MOONBERIA0X0X
+    terrains: &Moonberia
+      - MOUNTMOON
+      - URBAN40K2MOON
+      - COMPLEXBITSMOON
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA01
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA01
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA02
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA03
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA04
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA05
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA06
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA07
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA08
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA09
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA10
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA11
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA12
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA13
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA14
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA15
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA16
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA20
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA21
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA24
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA25
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA26
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA27
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA28
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA29
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA_CARS
+    terrains: *Moonberia
+    category: Moonberia
     group: Piratez - Terrain
 
 #----- Winter Wall ------------------------------------------------------------#
