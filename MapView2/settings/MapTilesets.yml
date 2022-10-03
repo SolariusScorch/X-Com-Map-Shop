@@ -29,34 +29,7 @@ tilesets:
 #----- TFTD - Terrain ---------------------------------------------------------#
 #----- Alien Artifact Site 1 --------------------------------------------------#
   - type: ALART00
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
-    category: Alien Artifact Site 1
-    group: TFTD - Terrain
-  - type: ALART04
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
-    category: Alien Artifact Site 1
-    group: TFTD - Terrain
-  - type: ALART09
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
-    category: Alien Artifact Site 1
-    group: TFTD - Terrain
-  - type: ALART10
-    terrains:
+    terrains: &AlienArtifactSite1
       - SAND
       - ROCKS
       - WEEDS
@@ -65,81 +38,53 @@ tilesets:
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART01
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART02
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART03
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
-  - type: ALART11
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+  - type: ALART04
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART05
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART06
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART07
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART08
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - PYRAMID
-      - UFOBITS
+    terrains: *AlienArtifactSite1
+    category: Alien Artifact Site 1
+    group: TFTD - Terrain
+  - type: ALART09
+    terrains: *AlienArtifactSite1
+    category: Alien Artifact Site 1
+    group: TFTD - Terrain
+  - type: ALART10
+    terrains: *AlienArtifactSite1
+    category: Alien Artifact Site 1
+    group: TFTD - Terrain
+  - type: ALART11
+    terrains: *AlienArtifactSite1
     category: Alien Artifact Site 1
     group: TFTD - Terrain
 
 #----- Alien Artifact Site 2 --------------------------------------------------#
   - type: GRUNGE00
-    terrains:
+    terrains: &Grunge
       - GRUNGE1
       - GRUNGE2
       - GRUNGE3
@@ -149,163 +94,67 @@ tilesets:
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE16
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE02
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE03
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE01
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE06
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE07
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE04
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE05
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE08
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE09
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE10
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE11
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE12
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE13
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE14
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE15
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - UFOBITS
+    terrains: *Grunge
     category: Alien Artifact Site 2
     group: TFTD - Terrain
 
@@ -22442,150 +22291,123 @@ tilesets:
 
 #----- Plains -----------------------------------------------------------------#
   - type: PLAINS00
-    terrains:
-      - MOUNTSAND
+    terrains: &Plains
+      - MOUNTSNOW
     category: Plains
     group: UFO - Terrain
   - type: PLAINS01
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS02
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS03
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS04
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS05
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS06
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS07
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS08
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS09
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS10
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS11
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINS12
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINSSOL13
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
   - type: PLAINSSOLHUGE00
-    terrains:
-      - MOUNTSAND
+    terrains: *Plains
     category: Plains
     group: UFO - Terrain
 
 #----- Mount BD ---------------------------------------------------------------#
   - type: MOUNTBD00
-    terrains:
-      - MOUNTSAND
+    terrains: &MountBD
+      - MOUNTSNOW
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD01
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD02
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD03
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD04
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD05
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD06
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD07
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD08
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD09
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD10
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD11
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBD12
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBDSOLHUGE00
-    terrains:
-      - MOUNTSAND
+    terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
 
@@ -23214,6 +23036,16 @@ tilesets:
   - type: SNEED_SHACK
     terrains:
       - FARM_SHOP_DECO
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: FORESTMOUNTGRAVEYARD01
+    terrains:
+      - MOUNT
+      - FOREST
+      - FORESTBITS
+      - GRAVES
+      - GRAVEYARD_DECOR
+      - GRAVLIFTDIRT01
     category: Misc Buildings
     group: UFO - Buildings
 
