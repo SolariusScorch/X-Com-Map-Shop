@@ -2,7 +2,7 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename TAIGAMOUNTBITS
+selectedfilename BLACKFOREST
 SelectMCD 0
 SelectPCK 0
 Animate False
@@ -34,6 +34,6 @@ t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
 t_form1_scroll 0
-t_form6_scroll 2162
+t_form6_scroll 0
 t_form1_t 249
 t_form1_l 1071
