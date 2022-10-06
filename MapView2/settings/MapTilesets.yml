@@ -29,7 +29,7 @@ tilesets:
 #----- TFTD - Terrain ---------------------------------------------------------#
 #----- Alien Artifact Site 1 --------------------------------------------------#
   - type: ALART00
-    terrains: &AlienArtifactSite1
+    terrains: &AlienArtifactSite1TFTD
       - SAND
       - ROCKS
       - WEEDS
@@ -38,53 +38,53 @@ tilesets:
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART01
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART02
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART03
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART04
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART05
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART06
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART07
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART08
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART09
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART10
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
   - type: ALART11
-    terrains: *AlienArtifactSite1
+    terrains: *AlienArtifactSite1TFTD
     category: Alien Artifact Site 1
     group: TFTD - Terrain
 
 #----- Alien Artifact Site 2 --------------------------------------------------#
   - type: GRUNGE00
-    terrains: &Grunge
+    terrains: &GrungeTFTD
       - GRUNGE1
       - GRUNGE2
       - GRUNGE3
@@ -94,130 +94,130 @@ tilesets:
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE16
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE02
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE03
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE01
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE06
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE07
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE04
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE05
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE08
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE09
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE10
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE11
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE12
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE13
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE14
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
   - type: GRUNGE15
-    terrains: *Grunge
+    terrains: *GrungeTFTD
     category: Alien Artifact Site 2
     group: TFTD - Terrain
 
 #----- Atlantis ---------------------------------------------------------------#
   - type: ATLAN00
-    terrains: &Atlantis
+    terrains: &AtlantisTFTD
       - SAND
       - ATLANTIS
       - UFOBITS
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN01
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN02
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN03
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN06
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN07
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN11
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN09
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN12
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN04
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN05
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN10
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
   - type: ATLAN08
-    terrains: *Atlantis
+    terrains: *AtlantisTFTD
     category: Atlantis
     group: TFTD - Terrain
 
 #----- Coral ------------------------------------------------------------------#
   - type: CORAL00
-    terrains: &Coral
+    terrains: &CoralTFTD
       - SAND
       - WEEDS
       - CORAL
@@ -226,57 +226,57 @@ tilesets:
     category: Coral
     group: TFTD - Terrain
   - type: CORAL01
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL02
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL03
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL04
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL05
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL06
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL07
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL08
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL09
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL10
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL11
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
   - type: CORAL12
-    terrains: *Coral
+    terrains: *CoralTFTD
     category: Coral
     group: TFTD - Terrain
 
 #----- Sunken Galleon ---------------------------------------------------------#
   - type: GAL01
-    terrains:
+    terrains: &SunkenGalleonTFTD
       - SAND
       - ROCKS
       - ASUNK
@@ -284,322 +284,187 @@ tilesets:
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL02
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL03
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL04
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL05
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL06
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL07
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL08
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL09
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL11
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL10
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL13
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL12
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL15
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL14
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
   - type: GAL16
-    terrains:
-      - SAND
-      - ROCKS
-      - ASUNK
-      - UFOBITS
+    terrains: *SunkenGalleonTFTD
     category: Sunken Galleon
     group: TFTD - Terrain
 
 #----- Mayan Temple -----------------------------------------------------------#
   - type: MU00
-    terrains:
+    terrains: &MuTempleTFTD
       - SAND
       - MU
       - UFOBITS
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU02
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU03
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU01
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU13
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU12
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU11
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU10
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU08
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU14
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU09
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU06
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU07
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU04
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
   - type: MU05
-    terrains:
-      - SAND
-      - MU
-      - UFOBITS
+    terrains: *MuTempleTFTD
     category: Mayan Temple
     group: TFTD - Terrain
 
 #----- Underwater Research Facility -------------------------------------------#
   - type: PIPES00
-    terrains:
+    terrains: &UnderwaterResearchFacilityTFTD
       - SAND
       - PIPES
       - UFOBITS
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES01
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES02
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES03
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES04
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES05
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES06
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES07
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES08
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES09
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES10
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
   - type: PIPES11
-    terrains:
-      - SAND
-      - PIPES
-      - UFOBITS
+    terrains: *UnderwaterResearchFacilityTFTD
     category: Underwater Research Facility
     group: TFTD - Terrain
 
 #----- Seabed -----------------------------------------------------------------#
   - type: SEABED00
-    terrains:
+    terrains: &SeabedTFTD
       - SAND
       - ROCKS
       - WEEDS
@@ -608,191 +473,109 @@ tilesets:
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED01
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED10
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED08
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED09
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED06
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED07
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED04
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED05
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED02
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED03
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED11
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
   - type: SEABED12
-    terrains:
-      - SAND
-      - ROCKS
-      - WEEDS
-      - DEBRIS
-      - UFOBITS
+    terrains: *SeabedTFTD
     category: Seabed
     group: TFTD - Terrain
 
 #----- Volcano ----------------------------------------------------------------#
   - type: VOLC00
-    terrains:
+    terrains: &VolcanicTFTD
       - SAND
       - VOLC
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC04
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC05
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC06
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC07
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC01
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC02
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC03
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC10
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC11
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC08
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC09
-    terrains:
-      - SAND
-      - VOLC
+    terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
 
 #----- T'leth Level 1 ---------------------------------------------------------#
   - type: ALSHIP00
-    terrains:
+    terrains: &Tleth1TFTD
       - GRUNGE1
       - GRUNGE2
       - GRUNGE3
@@ -801,162 +584,77 @@ tilesets:
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP01
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP02
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP03
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP04
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP05
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP06
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP07
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP08
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP09
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP10
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP11
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP12
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP13
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP14
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP15
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP16
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
   - type: ALSHIP17
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - UFOBITS
+    terrains: *Tleth1TFTD
     category: T'leth Level 1
     group: TFTD - Terrain
 
 #----- T'leth Level 2 ---------------------------------------------------------#
   - type: LEVEL01
-    terrains:
+    terrains: &Tleth2TFTD
       - ORGANIC1
       - ORGANIC2
       - ORGANIC3
@@ -964,97 +662,41 @@ tilesets:
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL02
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL03
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL04
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL05
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL06
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL07
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL08
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
   - type: LEVEL09
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: T'leth Level 2
     group: TFTD - Terrain
 
 #----- T'leth Level 3 ---------------------------------------------------------#
-  - type: CRYPT06
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
-    category: T'leth Level 3
-    group: TFTD - Terrain
-  - type: CRYPT07
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
-    category: T'leth Level 3
-    group: TFTD - Terrain
-  - type: CRYPT04
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
-    category: T'leth Level 3
-    group: TFTD - Terrain
-  - type: CRYPT05
-    terrains:
+  - type: CRYPT01
+    terrains: &Tleth3TFTD
       - CRYPT1
       - CRYPT2
       - CRYPT3
@@ -1062,58 +704,41 @@ tilesets:
     category: T'leth Level 3
     group: TFTD - Terrain
   - type: CRYPT02
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
+    terrains: *Tleth3TFTD
     category: T'leth Level 3
     group: TFTD - Terrain
   - type: CRYPT03
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
+    terrains: *Tleth3TFTD
     category: T'leth Level 3
     group: TFTD - Terrain
-  - type: CRYPT01
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
+  - type: CRYPT04
+    terrains: *Tleth3TFTD
+    category: T'leth Level 3
+    group: TFTD - Terrain
+  - type: CRYPT05
+    terrains: *Tleth3TFTD
+    category: T'leth Level 3
+    group: TFTD - Terrain
+  - type: CRYPT06
+    terrains: *Tleth3TFTD
+    category: T'leth Level 3
+    group: TFTD - Terrain
+  - type: CRYPT07
+    terrains: *Tleth3TFTD
     category: T'leth Level 3
     group: TFTD - Terrain
   - type: CRYPT08
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
+    terrains: *Tleth3TFTD
     category: T'leth Level 3
     group: TFTD - Terrain
   - type: CRYPT09
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT3
-      - CRYPT4
+    terrains: *Tleth3TFTD
     category: T'leth Level 3
     group: TFTD - Terrain
 
 #----- Alien Base Level 1 -----------------------------------------------------#
-  - type: ENTRY02
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
-    category: Alien Base Level 1
-    group: TFTD - Terrain
-  - type: ENTRY03
-    terrains:
+  - type: ENTRY00
+    terrains: &AlienBaseTFTD
       - SAND
       - UEXT2
       - UEXT3
@@ -1122,128 +747,41 @@ tilesets:
     category: Alien Base Level 1
     group: TFTD - Terrain
   - type: ENTRY01
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
+    terrains: *AlienBaseTFTD
     category: Alien Base Level 1
     group: TFTD - Terrain
-  - type: ENTRY00
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
+  - type: ENTRY02
+    terrains: *AlienBaseTFTD
     category: Alien Base Level 1
     group: TFTD - Terrain
-  - type: ENTRY08
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
-    category: Alien Base Level 1
-    group: TFTD - Terrain
-  - type: ENTRY06
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
-    category: Alien Base Level 1
-    group: TFTD - Terrain
-  - type: ENTRY07
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
+  - type: ENTRY03
+    terrains: *AlienBaseTFTD
     category: Alien Base Level 1
     group: TFTD - Terrain
   - type: ENTRY04
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
+    terrains: *AlienBaseTFTD
     category: Alien Base Level 1
     group: TFTD - Terrain
   - type: ENTRY05
-    terrains:
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
+    terrains: *AlienBaseTFTD
+    category: Alien Base Level 1
+    group: TFTD - Terrain
+  - type: ENTRY06
+    terrains: *AlienBaseTFTD
+    category: Alien Base Level 1
+    group: TFTD - Terrain
+  - type: ENTRY07
+    terrains: *AlienBaseTFTD
+    category: Alien Base Level 1
+    group: TFTD - Terrain
+  - type: ENTRY08
+    terrains: *AlienBaseTFTD
     category: Alien Base Level 1
     group: TFTD - Terrain
 
 #----- Sunken Cargo Ship ------------------------------------------------------#
-  - type: MSUNK10
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK13
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK12
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK04
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK05
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK06
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
-  - type: MSUNK07
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
-    category: Sunken Cargo Ship
-    group: TFTD - Terrain
   - type: MSUNK00
-    terrains:
+    terrains: &SunkenCargoShipTFTD
       - SAND
       - MSUNK1
       - MSUNK2
@@ -1251,187 +789,127 @@ tilesets:
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK01
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK02
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK03
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK04
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK05
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK06
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK07
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK08
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK09
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK10
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
   - type: MSUNK11
-    terrains:
-      - SAND
-      - MSUNK1
-      - MSUNK2
-      - UFOBITS
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK12
+    terrains: *SunkenCargoShipTFTD
+    category: Sunken Cargo Ship
+    group: TFTD - Terrain
+  - type: MSUNK13
+    terrains: *SunkenCargoShipTFTD
     category: Sunken Cargo Ship
     group: TFTD - Terrain
 
 #----- Alien Base Level 2 -----------------------------------------------------#
   - type: A_BASE00
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE01
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE14
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE15
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE10
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE11
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE12
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE13
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
-    category: Alien Base Level 2
-    group: TFTD - Terrain
-  - type: A_BASE03
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE02
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
-  - type: A_BASE05
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+  - type: A_BASE03
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE04
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
-  - type: A_BASE07
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+  - type: A_BASE05
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE06
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
-  - type: A_BASE09
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+  - type: A_BASE07
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
   - type: A_BASE08
-    terrains:
-      - ORGANIC1
-      - ORGANIC2
-      - ORGANIC3
-      - PSYNOM
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE09
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE10
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE11
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE12
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE13
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE14
+    terrains: *Tleth2TFTD
+    category: Alien Base Level 2
+    group: TFTD - Terrain
+  - type: A_BASE15
+    terrains: *Tleth2TFTD
     category: Alien Base Level 2
     group: TFTD - Terrain
 
 #----- Cargo Ship Terror Site -------------------------------------------------#
   - type: CARGO00
-    terrains:
+    terrains: &CargoShipLevel1TFTD
       - SEA
       - CARGO1
       - CARGO2
@@ -1440,115 +918,17 @@ tilesets:
     category: Cargo Ship Terror Site
     group: TFTD - Terrain
   - type: CARGO01
-    terrains:
-      - SEA
-      - CARGO1
-      - CARGO2
-      - XBITS
-      - CARGO3
+    terrains: *CargoShipLevel1TFTD
     category: Cargo Ship Terror Site
     group: TFTD - Terrain
   - type: CARGO02
-    terrains:
-      - SEA
-      - CARGO1
-      - CARGO2
-      - XBITS
-      - CARGO3
+    terrains: *CargoShipLevel1TFTD
     category: Cargo Ship Terror Site
     group: TFTD - Terrain
 
 #----- Island Terror Site -----------------------------------------------------#
   - type: ISLAND00
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND12
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND13
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND10
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND11
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND14
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND07
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND06
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND05
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND04
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND03
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
-    category: Island Terror Site
-    group: TFTD - Terrain
-  - type: ISLAND02
-    terrains:
+    terrains: &IslandTerrorTFTD
       - SEA
       - ISLAND1
       - ISLAND2
@@ -1556,33 +936,65 @@ tilesets:
     category: Island Terror Site
     group: TFTD - Terrain
   - type: ISLAND01
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
+    terrains: *IslandTerrorTFTD
     category: Island Terror Site
     group: TFTD - Terrain
-  - type: ISLAND09
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
+  - type: ISLAND02
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND03
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND04
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND05
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND06
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND07
+    terrains: *IslandTerrorTFTD
     category: Island Terror Site
     group: TFTD - Terrain
   - type: ISLAND08
-    terrains:
-      - SEA
-      - ISLAND1
-      - ISLAND2
-      - ISLAND3
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND09
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND10
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND11
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND12
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND13
+    terrains: *IslandTerrorTFTD
+    category: Island Terror Site
+    group: TFTD - Terrain
+  - type: ISLAND14
+    terrains: *IslandTerrorTFTD
     category: Island Terror Site
     group: TFTD - Terrain
 
 #----- Cruise Ship 1 Terror Site ----------------------------------------------#
   - type: LINERT00
-    terrains:
+    terrains: &CruiseShipLevel1TFTD
       - DECKC
       - LINERA
       - LINERB
@@ -1592,29 +1004,17 @@ tilesets:
     category: Cruise Ship 1 Terror Site
     group: TFTD - Terrain
   - type: LINERT01
-    terrains:
-      - DECKC
-      - LINERA
-      - LINERB
-      - LINERC
-      - LINERD
-      - DECKC
+    terrains: *CruiseShipLevel1TFTD
     category: Cruise Ship 1 Terror Site
     group: TFTD - Terrain
   - type: LINERT02
-    terrains:
-      - DECKC
-      - LINERA
-      - LINERB
-      - LINERC
-      - LINERD
-      - DECKC
+    terrains: *CruiseShipLevel1TFTD
     category: Cruise Ship 1 Terror Site
     group: TFTD - Terrain
 
 #----- Cruise Ship 2 Terror Site ----------------------------------------------#
   - type: LINERB02
-    terrains:
+    terrains: &CruiseShipLevel2TFTD
       - SEA
       - LINERA
       - LINERB
@@ -1624,317 +1024,191 @@ tilesets:
     category: Cruise Ship 2 Terror Site
     group: TFTD - Terrain
   - type: LINERB03
-    terrains:
-      - SEA
-      - LINERA
-      - LINERB
-      - LINERC
-      - LINERD
-      - DECKC
+    terrains: *CruiseShipLevel2TFTD
     category: Cruise Ship 2 Terror Site
     group: TFTD - Terrain
 
 #----- Sunken Plane -----------------------------------------------------------#
   - type: SUNKENPLANE00
-    terrains:
+    terrains: &SunkenPlaneTFTD
       - SAND
       - SUNKENPLANE
       - UFOBITS
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE01
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE02
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE03
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE04
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE05
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE06
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE07
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE08
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE09
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE10
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE11
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE12
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE13
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE14
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE15
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE16
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE17
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE18
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE19
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
   - type: SUNKENPLANE20
-    terrains:
-      - SAND
-      - SUNKENPLANE
-      - UFOBITS
+    terrains: *SunkenPlaneTFTD
     category: Sunken Plane
     group: TFTD - Terrain
 
 #----- Port Terror Site -------------------------------------------------------#
   - type: PORT00
-    terrains:
+    terrains: &PortTerrorTFTD
       - SEA
       - PORT01
       - PORT02
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT01
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT02
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT03
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT04
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT05
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT06
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT07
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT08
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT09
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT10
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT11
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT12
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT13
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT14
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT15
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT16
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT17
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT18
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT19
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
   - type: PORT20
-    terrains:
-      - SEA
-      - PORT01
-      - PORT02
+    terrains: *PortTerrorTFTD
     category: Port Terror Site
     group: TFTD - Terrain
 
 #----- X-Com Underwater Base --------------------------------------------------#
   - type: XBASES00
-    terrains:
+    terrains: &XBaseTFTD
       - XBASES01
       - XBASES02
       - XBASES03
@@ -1944,209 +1218,89 @@ tilesets:
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES01
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES02
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES03
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES04
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES05
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES06
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES07
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES08
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES09
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES10
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES11
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES12
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES13
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES14
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES15
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES16
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES17
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES18
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES19
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
   - type: XBASES20
-    terrains:
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-      - XBITS
+    terrains: *XBaseTFTD
     category: X-Com Underwater Base
     group: TFTD - Terrain
 
 #----- Crypt ------------------------------------------------------------------#
   - type: BL00
-    terrains:
+    terrains: &CryptTFTD
       - CRYPT1
       - CRYPT2
       - CRYPT13
@@ -2155,46 +1309,26 @@ tilesets:
     category: Crypt
     group: TFTD - Terrain
   - type: BL01
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT13
-      - CRYPT14
-      - UFOBITS
+    terrains: *CryptTFTD
     category: Crypt
     group: TFTD - Terrain
   - type: BL02
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT13
-      - CRYPT14
-      - UFOBITS
+    terrains: *CryptTFTD
     category: Crypt
     group: TFTD - Terrain
   - type: BL03
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT13
-      - CRYPT14
-      - UFOBITS
+    terrains: *CryptTFTD
     category: Crypt
     group: TFTD - Terrain
   - type: BL04
-    terrains:
-      - CRYPT1
-      - CRYPT2
-      - CRYPT13
-      - CRYPT14
-      - UFOBITS
+    terrains: *CryptTFTD
     category: Crypt
     group: TFTD - Terrain
 
 #----- TFTD - USOs ------------------------------------------------------------#
 #----- Alien ------------------------------------------------------------------#
   - type: UFO01
-    terrains:
+    terrains: &USOTFTD
       - UEXT2
       - UEXT3
       - UINT1
@@ -2203,77 +1337,37 @@ tilesets:
     category: Alien
     group: TFTD - USOs
   - type: UFO02
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO03
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO04
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO05
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO06
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO07
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
   - type: UFO08
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: Alien
     group: TFTD - USOs
 
 #----- TFTD - Misc UFOs -------------------------------------------------------#
   - type: USO_GT0004_SHIP_DESTROYER_BY_WOLWERIN
-    terrains:
-      - UEXT2
-      - UEXT3
-      - UINT1
-      - UINT2
-      - UINT3
+    terrains: *USOTFTD
     category: TFTD - Misc UFOs
     group: TFTD - USOs
 
@@ -3819,7 +2913,7 @@ tilesets:
 
 #----- Alien Base -------------------------------------------------------------#
   - type: UBASE_00
-    terrains:
+    terrains: &AlienBase
       - U_BASE
       - U_WALL02
       - U_PODS
@@ -3832,1543 +2926,481 @@ tilesets:
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_00B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_00C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_00D
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_00E
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_01B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_01C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_02B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_02C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_03B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04D
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04E
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04F
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04G
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04H
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_04I
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_05
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_05B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_06
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_06B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_06C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_06D
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_07
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_07B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_07C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_08
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_08B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_09
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_09B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_09C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_10
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_11
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_11B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_12
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_12B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_12C
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_13
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_14
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_14B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_15
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_15_TALL
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_16
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_16B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_17
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_17B
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_18
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_19
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_20
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_21
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_22
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_23
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_24
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_25
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_26
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_27
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_28
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_29
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_30
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_31
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_32
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_33
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_34
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_35
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_36
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_37
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_38
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_39
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_40
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_41
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_42
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_43
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_44
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_45
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_46
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_47
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_00
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_04
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_05
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_06
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_07
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_08
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_09
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_SOL_10
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_00
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_05
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_06
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_07
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_10
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_50
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_51
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_52
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_53
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_CIV_100
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: HANGAR_UPPER_CHAMBER_0
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_TURRET_00
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_TURRET_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_TURRET_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_TURRET_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_DESCENT_LIFT
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: ENTER_CHAMBER_00
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: ENTER_CHAMBER_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: CEREBRAL_CHAMBER
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: CEREBRAL_CHAMBER_1
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: CEREBRAL_CHAMBER_2
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_TRITANIUM_MATRIX
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_FILL_20X20
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
   - type: UBASE_FILL_10X10
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
 
 #----- Alien Station ----------------------------------------------------------#
   - type: USPACESIDE_00
-    terrains:
+    terrains: &AlienStation
       - U_BASE
       - U_WALL02
       - U_PODS
@@ -5381,100 +3413,37 @@ tilesets:
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_04
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_BOTTOM
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_ORBIT_00
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
   - type: USPACESIDE_ORBIT_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - SPACEBLANKS
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_BITS
-      - U_FLOOR
+    terrains: *AlienStation
     category: Alien Station
     group: UFO - Terrain
 
 #----- Alien Tunnels ----------------------------------------------------------#
   - type: UTUNNEL_00
-    terrains:
+    terrains: &AlienTunnels
       - U_BASE
       - U_WALL02
       - U_PODS
@@ -5487,120 +3456,39 @@ tilesets:
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_01
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_02
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_03
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_04
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_05
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_06
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_07
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_08
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
   - type: UTUNNEL_20
-    terrains:
-      - U_BASE
-      - U_WALL02
-      - U_PODS
-      - BRAIN
-      - U_BASE2
-      - U_FRN
-      - U_EXT02
-      - U_PIPES
-      - U_FACILITY
+    terrains: *AlienTunnels
     category: Alien Tunnels
     group: UFO - Terrain
 
@@ -8020,7 +5908,7 @@ tilesets:
 
 #----- X-Com Base -------------------------------------------------------------#
   - type: XBASE_00
-    terrains:
+    terrains: &XBase
       - XBASE1
       - XBASE2
       - XCOMWALL
@@ -8028,523 +5916,263 @@ tilesets:
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_01
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_02
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_03
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_04
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_05
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_06
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_07
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_08
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_09
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_10
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_11
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_12
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_13
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_14
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_15
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_16
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_17
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_18
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_19
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASE_20
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_01
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_02
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_03
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_04
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_05
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_06
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_07
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_08
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_09
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_10
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_11
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_12
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_13
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_14
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_15
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_16
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_17
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_18
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_19
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_20
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_21
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_22
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_23
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_24
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_25
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_26
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_27
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_28
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_29
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_30
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_31
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_32
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_33
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_34
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_35
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_36
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_37
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_38
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_39
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_40
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_41
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_42
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_43
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_44
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_45
-    terrains:
-      - XBASE1
-      - XBASE2
-      - XCOMWALL
-      - XCOMBITS
+    terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
 
@@ -17338,7 +14966,7 @@ tilesets:
 
 #----- Luxury Liner -----------------------------------------------------------#
   - type: LINERT00
-    terrains:
+    terrains: &LuxuryLiner
       - SEAURBAN
       - LINERSHIPA
       - LINERSHIPB
@@ -17350,47 +14978,23 @@ tilesets:
     category: Luxury Liner
     group: UFO - Terrain
   - type: LINERT01
-    terrains:
-      - SEAURBAN
-      - LINERSHIPA
-      - LINERSHIPB
-      - LINERSHIPC
-      - LINERSHIPD
-      - DECKSHIPC
-      - LIFTER
-      - BATHBITZ_HT
+    terrains: *LuxuryLiner
     category: Luxury Liner
     group: UFO - Terrain
 
 #----- Luxury Liner (small) ---------------------------------------------------#
   - type: LINERTS00
-    terrains:
-      - SEAURBAN
-      - LINERSHIPA
-      - LINERSHIPB
-      - LINERSHIPC
-      - LINERSHIPD
-      - DECKSHIPC
-      - LIFTER
-      - BATHBITZ_HT
+    terrains: *LuxuryLiner
     category: Luxury Liner (small)
     group: UFO - Terrain
   - type: LINERTS01
-    terrains:
-      - SEAURBAN
-      - LINERSHIPA
-      - LINERSHIPB
-      - LINERSHIPC
-      - LINERSHIPD
-      - DECKSHIPC
-      - LIFTER
-      - BATHBITZ_HT
+    terrains: *LuxuryLiner
     category: Luxury Liner (small)
     group: UFO - Terrain
 
 #----- Ocean Temple -----------------------------------------------------------#
   - type: OCEANTEMPLE01
-    terrains:
+    terrains: &OceanTemple
       - OCEANTEMPLE1
       - OCEANTEMPLE2
       - OCEANTEMPLE3
@@ -17398,222 +15002,130 @@ tilesets:
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE02
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE03
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE04
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE05
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE06
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE07
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE08
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
   - type: OCEANTEMPLE09
-    terrains:
-      - OCEANTEMPLE1
-      - OCEANTEMPLE2
-      - OCEANTEMPLE3
-      - OCEANTEMPLE4
+    terrains: *OceanTemple
     category: Ocean Temple
     group: UFO - Terrain
 
 #----- Desert Temple ----------------------------------------------------------#
   - type: ATLANTDESERT00
-    terrains:
+    terrains: &DesertTemple
       - SANDS
       - ATLANTDESERT
       - DESERT
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT01
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT02
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT03
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT04
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT05
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT06
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT07
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT08
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT09
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT10
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT11
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT12
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_XX00
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_SN00
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_SN01
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_SN02
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_WE00
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_WE01
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_WE02
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
   - type: ATLANTDESERT_ROAD_WE03
-    terrains:
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+    terrains: *DesertTemple
     category: Desert Temple
     group: UFO - Terrain
 
 #----- UAC Moon Cave Lab ------------------------------------------------------#
   - type: MUM_VILLAGE_E00
-    terrains:
+    terrains: &UACMoonCaveLab
       - UAC_MOON_CAVE
       - UAC_WALL02
       - UAC_PODS
@@ -17621,281 +15133,145 @@ tilesets:
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_E_SHORT00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE02
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE11
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE14
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_MIDDLE_BIG03
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_N00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_NE00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_NE01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_NW00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_NW01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_N_SHORT00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_N_SHORT01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_S00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_SE00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_SW00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_SW01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_S_SHORT00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_W00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT00
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W_SHORT01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W_SHORT02
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT03
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W01
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W02
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_W03
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_MIDDLE_03
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_MIDDLE_04
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_MIDDLE_05
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_MIDDLE_06
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
   - type: UAC_CAVE_ENTRY
-    terrains:
-      - UAC_MOON_CAVE
-      - UAC_WALL02
-      - UAC_PODS
-      - UAC_DECOR
+    terrains: *UACMoonCaveLab
     category: UAC Moon Cave Lab
     group: UFO - Terrain
 
 #----- Mummy Village ----------------------------------------------------------#
   - type: MUM_VILLAGE_N00
-    terrains:
+    terrains: &MummyVillage
       - MUMMY_VILLAGE
       - SHOGG_VILLAGE_WALL02
       - SHOGG_VILLAGE_PODS
@@ -17903,331 +15279,167 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_N_SHORT00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_N_SHORT01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_E00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_E01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_E_SHORT00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_S00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_S_SHORT00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT02
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_W_SHORT03
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_NE00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_NE01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_SE00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_SE01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_SW00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_SW01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_NW00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_NW01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE02
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE03
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE04
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE05
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE06
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE07
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE08
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE09
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE10
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE11
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE12
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE13
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE14
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG00
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG01
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG02
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_MIDDLE_BIG03
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_S01_ENTRY
-    terrains:
-      - MUMMY_VILLAGE
-      - SHOGG_VILLAGE_WALL02
-      - SHOGG_VILLAGE_PODS
-      - MUMMY_RUINS
+    terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
 
@@ -18461,7 +15673,7 @@ tilesets:
 
 #----- IDT Corn Farm ----------------------------------------------------------#
   - type: CULTARED00
-    terrains:
+    terrains: &CornFarm
       - IDT_CULTIVAT_RED
       - IDT_BARN_RED
       - IDT_FARM_RED
@@ -18471,193 +15683,79 @@ tilesets:
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED01
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED02
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED03
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED04
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED05
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED06
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED07
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED08
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED09
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED10
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED11
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED12
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED13
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED14
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED15
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED16
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED17
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED18
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
   - type: CULTARED19
-    terrains:
-      - IDT_CULTIVAT_RED
-      - IDT_BARN_RED
-      - IDT_FARM_RED
-      - IDT_ROOF_RED
-      - SOL_SILO_PLAIN
-      - CULTMACHINES
+    terrains: *CornFarm
     category: IDT Corn Farm
     group: UFO - Terrain
 
@@ -18867,7 +15965,7 @@ tilesets:
 
 #----- Underwater Habitat -----------------------------------------------------#
   - type: SEAHABITAT00
-    terrains:
+    terrains: &UnderwaterHabitat
       - SEASAND
       - CYBERPIPES
       - USOBITS
@@ -18876,117 +15974,57 @@ tilesets:
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT01
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT02
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT03
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT04
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT05
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT06
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT07
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT08
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT09
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT10
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITAT11
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
   - type: SEAHABITATHUGE20
-    terrains:
-      - SEASAND
-      - CYBERPIPES
-      - USOBITS
-      - SONAR
-      - CYBERPIPESEXTRA
+    terrains: *UnderwaterHabitat
     category: Underwater Habitat
     group: UFO - Terrain
 
 #----- Reptoid Settlement -----------------------------------------------------#
   - type: REP_VILLAGE_N00
-    terrains:
+    terrains: &ReptoidSettlement
       - REP_BASE
       - REP_WALL02
       - REP_PODS
@@ -18999,681 +16037,213 @@ tilesets:
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N_SHORT00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_N_SHORT01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_E_SHORT02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S01_ENTRY
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S_SHORT00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_S_SHORT01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W_SHORT00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_W_SHORT01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NE00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NE01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SE02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_SW02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NW00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_NW01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE03
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE04
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE05
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE06
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE07
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG00
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG01
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG02
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG03
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_BIG04
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
   - type: REP_VILLAGE_MIDDLE_EXIT
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Settlement
     group: UFO - Terrain
 
 #----- Reptoid Surface Base ---------------------------------------------------#
   - type: REPTIFORMER_TOWER
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_FIELD_COMMAND
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_EMPLACEMENT
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_SMALL_POWER_STATION
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_LARGE_POWER_STATION
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_SMALL_STORAGE
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_LARGE_STORAGE
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_LANDING_PAD
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_BARRACKS
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
   - type: REPTOID_MONUMENT
-    terrains:
-      - REP_BASE
-      - REP_WALL02
-      - REP_PODS
-      - BRAIN
-      - SHOGG_VILLAGE2
-      - REP_FRN
-      - REP_EXT02
-      - REP_BITS
-      - REP_FLOOR
+    terrains: *ReptoidSettlement
     category: Reptoid Surface Base
     group: UFO - Terrain
 
@@ -20626,7 +17196,7 @@ tilesets:
 
 #----- Endless Mansion --------------------------------------------------------#
   - type: EMANS00
-    terrains:
+    terrains: &EndlessMansion
       - COMMERCE
       - XB3BITZ1
       - MANSIONFURNITURE
@@ -20635,114 +17205,54 @@ tilesets:
       - MANSIONFLOOR
       - MANSIONBITS
       - XCOMEXIT
+    category: Endless Mansion
+    group: UFO - Terrain
+  - type: EMANS00A
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS01
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS02
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS03
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS04
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS05
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS06
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS07
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS08
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS09
-    terrains:
-      - COMMERCE
-      - XB3BITZ1
-      - MANSIONFURNITURE
-      - URBITS
-      - MANSIONGARDEN
-      - MANSIONFLOOR
-      - MANSIONBITS
-      - XCOMEXIT
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
+  - type: EMANS09A
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
+  - type: EMANS10
+    terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
 
@@ -21929,6 +18439,31 @@ tilesets:
     category: Ninja Raid Site
     group: Piratez - Terrain
 
+#----- Academy Base -----------------------------------------------------------#
+  - type: ABASE_00
+    terrains: &AcademyBase
+      - A_BASE
+      - A_WALL02
+      - A_PODS
+      - BRAIN
+      - A_BASE2
+      - CAVEBLACK
+      - A_DECOR
+    category: Academy Base
+    group: Piratez - Terrain
+  - type: ABASE_01
+    terrains: *AcademyBase
+    category: Academy Base
+    group: Piratez - Terrain
+  - type: ABASE_02
+    terrains: *AcademyBase
+    category: Academy Base
+    group: Piratez - Terrain
+  - type: ABASE_03
+    terrains: *AcademyBase
+    category: Academy Base
+    group: Piratez - Terrain
+
 #----- Western Town -----------------------------------------------------------#
   - type: WESTOWN_00
     terrains: &WesternTown
@@ -22008,6 +18543,69 @@ tilesets:
   - type: WESTOWN_TEMPLATE
     terrains: *WesternTown
     category: Western Town
+    group: Piratez - Terrain
+
+#----- Canyon of Death -----------------------------------------------------------#
+  - type: CANYON_ENTRY
+    terrains: &CanyonOfDeath
+      - MOUNTTROP
+      - URBAN40K
+      - XOPSMUJUNGLEADDON
+      - XCOMENTRY
+      - XCOMEXIT
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_EXIT
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N00
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N01
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N02
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N02C
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N03
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N03C
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S00
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S00C
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S01
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S02
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S03
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S03C
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
     group: Piratez - Terrain
 
 #----- Gothic -----------------------------------------------------------#
@@ -22636,7 +19234,7 @@ tilesets:
 
 #----- Pirate Base ------------------------------------------------------------#
   - type: XBR_00
-    terrains:
+    terrains: &PirateBase
       - XB1BR
       - XB2BR
       - XB3BITZ2
@@ -22645,894 +19243,511 @@ tilesets:
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_01
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_02
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_03
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_04
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_05
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_06
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_07
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_08
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_09
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_10
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_11
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_12
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_13
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_14
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_15
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_16
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_17
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_18
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_19
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_20
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_21
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_22
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_23
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_24
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_25
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_26
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_27
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_28
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_29
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_30
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_31
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_32
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_33
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_34
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_35
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_36
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_37
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_38
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_39
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_40
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_41
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_42
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_43
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_44
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_45
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_46
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_47
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_48
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_49
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_50
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_51
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_52
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_53
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_54
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_55
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_56
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_57
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_58
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_59
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_60
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_61
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_62
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_63
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_64
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_65
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_66
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_67
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_68
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_69
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_70
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_71
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_72
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_73
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_74
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_75
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_76
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_77
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_78
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_79
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_80
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_81
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_82
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_83
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_84
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_85
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_86
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_87
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_88
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_89
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_90
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_91
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_92
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_93
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_94
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_95
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_102
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_103
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_104
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_105
-    terrains:
-      - XB1BR
-      - XB2BR
-      - XB3BITZ2
-      - XB3BITZ1
-      - XB3BITZ3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_106
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_107
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_108
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_109
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_116
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_117
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_118
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_119
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_121
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_122
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_123
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_124
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_125
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_126
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_127
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_128
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_129
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_131
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_132
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_133
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_134
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_135
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_136
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_137
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_138
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_139
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_162
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_163
+    terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
 
