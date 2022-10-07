@@ -7180,7 +7180,7 @@ tilesets:
 
 #----- Complex Urban ----------------------------------------------------------#
   - type: COMPLEXURBAN00
-    terrains:
+    terrains: &ComplexUrban
       - AREA51_A3
       - AREA51_B2
       - AREA51_C2
@@ -7188,281 +7188,145 @@ tilesets:
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN01
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN02
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN03
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN04
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN05
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN06
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN07
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN08
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN09
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN10
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN11
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN12
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN13
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN14
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN15
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN16
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN17
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN18
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN19
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN20
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN21
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN22
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN23
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN24
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN25
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN26
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN27
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN28
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN29
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN30
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN31
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN32
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN33
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN34
-    terrains:
-      - AREA51_A3
-      - AREA51_B2
-      - AREA51_C2
-      - AREA51_D4
+    terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
 
 #----- Hive -------------------------------------------------------------------#
   - type: HIVE00
-    terrains:
+    terrains: &ChryssalidHive
       - HIVEA
       - HIVEB
       - HIVEC
@@ -7470,145 +7334,77 @@ tilesets:
     category: Hive
     group: UFO - Terrain
   - type: HIVE01
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE02
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE03
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE04
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE05
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE06
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE07
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE08
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE09
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE10
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE11
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE12
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE13
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE14
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE15
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE16
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
   - type: HIVE17
-    terrains:
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - XCOMEXIT
+    terrains: *ChryssalidHive
     category: Hive
     group: UFO - Terrain
 
 #----- Area 51 ----------------------------------------------------------------#
   - type: AREA51LZ
-    terrains:
+    terrains: &Area51
       - AREA51W
       - AREA51X
       - AREA51Y
@@ -7616,1769 +7412,889 @@ tilesets:
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASELZW
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASELZN
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASELZ
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE00
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE01
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE02
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE03
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE04
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE05
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE06
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE07
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE08
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE09
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE10
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE11
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE12
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE13
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE14
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE15
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE16
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE17
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE18
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE19
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE20
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE21
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE22
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE23
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE24
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE25
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE26
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE27
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE28
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE29
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE30
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE31
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE32
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE33
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE34
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE35
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE36
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE37
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE38
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE39
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE40
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE41
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE42
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE43
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE44
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE45
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE46
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE47
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE48
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE49
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE50
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE51
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE52
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE53
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE54
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE55
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE56
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE57
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE58
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE59
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE60
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE61
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE62
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE63
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE64
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE65
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE66
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE67
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE68
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE69
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE70
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE71
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE72
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE73
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE74
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE75
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE76
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE77
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE78
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE79
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE80
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE81
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE82
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE83
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE84
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE85
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE86
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE87
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE88
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE89
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE90
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE91
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE92
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE93
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE94
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE95
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE96
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE97
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE98
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE99
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE100
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE101
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE102
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE103
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE104
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE105
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE106
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE107
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE108
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE109
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE110
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE111
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE112
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE113
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE114
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE115
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE116
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE117
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE118
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE119
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE120
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE121
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE122
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE123
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE124
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE125
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE126
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE127
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE128
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE129
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE130
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE131
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE132
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE133
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE134
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE135
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE136
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE137
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE138
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE139
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE140
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE141
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE142
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE143
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE144
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE145
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE146
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE147
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE148
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE149
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE150
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE151
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE152
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE153
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE154
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE155
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE156
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE157
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE158
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE159
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE160
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE161
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE162
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE163
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE164
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE165
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE166
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE167
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE168
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE169
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE170
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE171
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE172
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE173
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE174
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE175
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE176
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE177
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE178
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE179
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE180
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE181
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE182
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE183
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE184
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE185
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE186
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE187
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE188
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE189
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE190
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE191
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE192
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE193
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE194
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE195
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE196
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE197
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE198
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE199
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE200
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE201
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE202
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE203
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE204
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE205
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE206
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE207
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE208
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE209
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE210
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE211
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE212
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE213
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE214
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE215
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
   - type: AREA51BASE216
-    terrains:
-      - AREA51W
-      - AREA51X
-      - AREA51Y
-      - AREA51Z
+    terrains: *Area51
     category: Area 51
     group: UFO - Terrain
 
 #----- Seabed -----------------------------------------------------------------#
   - type: SEABED00
-    terrains:
+    terrains: &Seabed
       - SEASAND
       - SEAROCKS
       - SEAWEEDS
@@ -9388,139 +8304,61 @@ tilesets:
     category: Seabed
     group: UFO - Terrain
   - type: SEABED01
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED02
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED03
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED04
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED05
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED06
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED07
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED08
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED09
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED10
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED11
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABED12
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
   - type: SEABEDENTRY
-    terrains:
-      - SEASAND
-      - SEAROCKS
-      - SEAWEEDS
-      - SEADEBRIS
-      - USOBITS
-      - SEANOM
+    terrains: *Seabed
     category: Seabed
     group: UFO - Terrain
 
 #----- Underwater City --------------------------------------------------------#
   - type: UCITY00
-    terrains:
+    terrains: &UnderseaCity
       - USOEXT2
       - USOEXT3
       - SEAORGANIC1
@@ -9533,191 +8371,65 @@ tilesets:
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY01
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY02
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY03
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY04
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY05
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY06
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY07
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY08
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY09
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY10
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY11
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY12
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY13
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
   - type: UCITY14
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEASAND
-      - SEAWEEDS
-      - SEAROCKS
-      - SEANOM
+    terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
 
 #----- Native Urban -----------------------------------------------------------#
   - type: NATIVEURBAN00
-    terrains:
+    terrains: &NativeUrban
       - JUNGLE
       - BARN
       - FRNITURE
@@ -9726,522 +8438,237 @@ tilesets:
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN01
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN02
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN03
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN04
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN05
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN06
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN07
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN08
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN09
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN10
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN11
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN12
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN13
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN14
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN15
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN16
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN17
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN18
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN19
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN20
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN21
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN22
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN23
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN24
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN25
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN26
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN27
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN28
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN29
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN30
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN31
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN32
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN33
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN34
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN35
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN36
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN37
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN38
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN39
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN40
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN41
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN42
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN43
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN44
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN45
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN46
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN47_ROAD
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBANDIO_00
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_00A
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_00B
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_00C
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_00D
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_01A
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_01B
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_01C
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_01D
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
   - type: NATIVEURBAN_ROAD_02
-    terrains:
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
+    terrains: *NativeUrban
     category: Native Urban
     group: UFO - Terrain
 
 #----- Junk Urban -------------------------------------------------------------#
   - type: URBANJUNK00
-    terrains:
+    terrains: &JunkUrban
       - JUNGLE
       - BARN_JUNK
       - FRNITURE
@@ -10251,613 +8678,247 @@ tilesets:
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK01
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK02
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK03
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK04
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK05
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK06
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK07
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK08
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK09
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK10
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK11
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK12
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK13
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK14
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK15
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK16
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK17
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK18
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK19
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK20
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK21
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK22
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK23
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK24
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK25
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK26
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK27
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK28
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK29
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK30
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK31
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK32
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK33
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK34
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK35
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK36
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK37
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK38
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK39
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK40
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK41
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK42
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK43
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK44
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK45
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK46
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_00
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_01
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_02
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_03
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_04
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_05
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_00A
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_00B
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_00C
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_00D
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_01A
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_01B
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_01C
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_01D
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNK_ROAD_02
-    terrains:
-      - JUNGLE
-      - BARN_JUNK
-      - FRNITURE
-      - URBITS_JUNK
-      - CULTIVAT
-      - CUNTTRYROAD_LT
+    terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
 
@@ -13700,7 +11761,7 @@ tilesets:
 
 #----- Slums ------------------------------------------------------------------#
   - type: SLUMURBAN00
-    terrains:
+    terrains: &SlumUrban
       - ROADS
       - URBITS
       - URBAN
@@ -13711,339 +11772,129 @@ tilesets:
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN01
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN02
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN03
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN04
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN05
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN06
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN07
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN08
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN09
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN10
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN11
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN12
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN13
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN14
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN15
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN16
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN17
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN18
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN19
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN20
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN21
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN22
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN23
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN24
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN25
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN26
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN27
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN28
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN29
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
   - type: SLUMURBAN30
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
-      - LINERSHIPC
-      - PORTBITS
+    terrains: *SlumUrban
     category: Slums
     group: UFO - Terrain
 
 #----- Island Urban -----------------------------------------------------------#
   - type: ISLANDURBAN00
-    terrains:
+    terrains: &IslandUrban
       - SEAURBAN
       - ISLANDURBAN1
       - ISLANDURBAN2
@@ -14052,156 +11903,71 @@ tilesets:
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN01
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN02
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN03
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN04
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN05
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN06
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN07
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN08
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN09
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN10
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN11
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN12
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN13
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBANDIO01
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBANDIO02
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN14
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
   - type: ISLANDURBAN_XCOM
-    terrains:
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-      - SEABITS
+    terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
 
@@ -23048,6 +20814,11 @@ tilesets:
       - ROADS
       - URBITS_INDUSLUM
       - SLUM_FURNITURE
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: HANGAR_PREVIEW_00
+    terrains:
+      - XBR1NEUTRAL
     category: Misc Buildings
     group: Piratez - Buildings
 
