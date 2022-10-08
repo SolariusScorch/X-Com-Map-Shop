@@ -6405,7 +6405,7 @@ tilesets:
 
 #----- Commercial -------------------------------------------------------------#
   - type: COMRCURBAN00
-    terrains:
+    terrains: &Commercial
       - COMROADS
       - COMBITS
       - COMMERCE
@@ -6414,643 +6414,318 @@ tilesets:
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN01
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN02
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN03
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN04
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN05
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN06
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN07
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN08
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN09
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN10
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN11
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN12
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN13
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN14
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN15
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN16
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN17
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN18
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN19
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN20
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN21
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN22
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN23
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN24
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN25
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN26
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN27
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN28
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN29
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN30
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN31
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN32
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN33
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN34
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN35
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN36
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN37
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN38
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN39
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN40
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN41
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN42
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN43
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN44
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN45
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN46
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN47
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN48
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN50
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN51
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
 
 #----- Alien Colony -----------------------------------------------------------#
   - type: ALIENCOLONY00
-    terrains:
+    terrains: &AlienColony
       - COLONYA
       - COLONYB
       - TUNDRAFOREST
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY01
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY02
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY03
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY04
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY05
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY06
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY07
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY08
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY09
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY10
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY11
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY12
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY13
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY14
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY15
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY16
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY17
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY18
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY19
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY20
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY21
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY22
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY23
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY24
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
   - type: ALIENCOLONY25
-    terrains:
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
+    terrains: *AlienColony
     category: Alien Colony
     group: UFO - Terrain
 
 #----- Military ---------------------------------------------------------------#
   - type: MBASE00
-    terrains:
+    terrains: &MilitaryBase
       - BASEROAD
       - BASEBITS
       - BASE
@@ -7058,123 +6733,63 @@ tilesets:
     category: Military
     group: UFO - Terrain
   - type: MBASE01
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE02
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE03
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE04
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE05
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE06
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE07
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE08
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE09
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE10
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE14
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE15
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE16
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE17
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
   - type: MBASE18
-    terrains:
-      - BASEROAD
-      - BASEBITS
-      - BASE
-      - BASEFRN
+    terrains: *MilitaryBase
     category: Military
     group: UFO - Terrain
 
@@ -8924,429 +8539,261 @@ tilesets:
 
 #----- Urban Low (Parent) -----------------------------------------------------#
   - type: URBANLOW_TEMPLATE_BIG
-    terrains:
+    terrains: &UrbanLow
       - URBAN_LOW_OBJ
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOW_TEMPLATE_HOUSE
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOW_TEMPLATE_HOUSE_BIG
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF00
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF01
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF02
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF03
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF04
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF05
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF06
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF07
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF08
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF09
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF10
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF11
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWF12
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS00
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS01
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS02
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS03
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS04
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS05
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS06
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS07
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS08
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS09
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS10
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS11
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS12
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS13
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS14
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS15
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS16
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS17
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS18
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS19
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
   - type: URBANLOWS_TWIN_BUILDINGS_TEMPLATE
-    terrains:
-      - URBAN_LOW_OBJ
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLow
     category: Urban Low (Parent)
     group: UFO - Terrain
 
 #----- Urban Market (Child) ---------------------------------------------------#
   - type: URBANMARKET00
-    terrains:
+    terrains: &UrbanLowMarket
       - URBAN_MARKET
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET01
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET02
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET03
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET04
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET05
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET06
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET07
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET08
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
   - type: URBANMARKET09
-    terrains:
-      - URBAN_MARKET
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowMarket
     category: Urban Market (Child)
     group: UFO - Terrain
 
 #----- Urban Market - Clothes (Child) -----------------------------------------#
   - type: URBANMARKETCLOTHING00
-    terrains:
+    terrains: &UrbanLowClothing
       - URBAN_MARKET_CLOTHING
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING01
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING02
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING03
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING04
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING05
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
   - type: URBANMARKETCLOTHING06
-    terrains:
-      - URBAN_MARKET_CLOTHING
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowClothing
     category: Urban Market - Clothes (Child)
     group: UFO - Terrain
 
 #----- Urban Market - Bar (Child) ---------------------------------------------#
   - type: URBANMARKETBAR00
-    terrains:
+    terrains: &UrbanLowBar
       - URBAN_MARKET_BAR
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
   - type: URBANMARKETBAR01
-    terrains:
-      - URBAN_MARKET_BAR
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
   - type: URBANMARKETBAR02
-    terrains:
-      - URBAN_MARKET_BAR
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
   - type: URBANMARKETBAR03
-    terrains:
-      - URBAN_MARKET_BAR
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
   - type: URBANMARKETBAR04
-    terrains:
-      - URBAN_MARKET_BAR
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
   - type: URBANMARKETBAR05
-    terrains:
-      - URBAN_MARKET_BAR
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowBar
     category: Urban Market - Bar (Child)
     group: UFO - Terrain
 
@@ -9361,38 +8808,26 @@ tilesets:
 
 #----- Urban Sports (Child) ---------------------------------------------------#
   - type: URBANSPORTS00
-    terrains:
+    terrains: &UrbanLowSports
       - URBAN_SPORTS
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Sports (Child)
     group: UFO - Terrain
   - type: URBANSPORTS01
-    terrains:
-      - URBAN_SPORTS
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowSports
     category: Urban Sports (Child)
     group: UFO - Terrain
   - type: URBANSPORTS02
-    terrains:
-      - URBAN_SPORTS
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowSports
     category: Urban Sports (Child)
     group: UFO - Terrain
   - type: URBANSPORTS03
-    terrains:
-      - URBAN_SPORTS
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowSports
     category: Urban Sports (Child)
     group: UFO - Terrain
   - type: URBANSPORTS04
-    terrains:
-      - URBAN_SPORTS
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowSports
     category: Urban Sports (Child)
     group: UFO - Terrain
 
@@ -9407,17 +8842,14 @@ tilesets:
 
 #----- Urban Office (Child) ---------------------------------------------------#
   - type: URBANOFFICE00
-    terrains:
+    terrains: &UrbanLowOffice
       - URBAN_OFFICE
       - URBAN_LOW_FRN
       - URBAN_LOW
     category: Urban Office (Child)
     group: UFO - Terrain
   - type: URBANOFFICE01
-    terrains:
-      - URBAN_OFFICE
-      - URBAN_LOW_FRN
-      - URBAN_LOW
+    terrains: *UrbanLowOffice
     category: Urban Office (Child)
     group: UFO - Terrain
 
@@ -9432,7 +8864,7 @@ tilesets:
 
 #----- Urban Roads (Child) ----------------------------------------------------#
   - type: URBANRAILROADF00
-    terrains:
+    terrains: &UrbanLowRoads
       - URBAN_ROADS1
       - RAILCROSSING
       - URBAN_ROADS2
@@ -9440,496 +8872,310 @@ tilesets:
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANRAILROADCRF00
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANRAILROADCRF01
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANRAILROADCRF02
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANRAILROADCRF03
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANRAILROADCRF04
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANRAILROADCRF05
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANROADHF00
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF01
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF02
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF03
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF04
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF05
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF06
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF07
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF08
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF09
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF10
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF11
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF12
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF13
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF14
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF15
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF16
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF17
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF18
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF19
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF20
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF00
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF01
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF02
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF03
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF04
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF05
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF06
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF07
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF08
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF09
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF10
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF11
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF12
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF13
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF14
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF15
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF16
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF17
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF18
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF19
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADVF20
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF00
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF01
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF02
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF03
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF04
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF05
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF06
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF07
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF08
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF09
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADCRF10
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
     bypassRecordsExceeded: True
   - type: URBANROADHF21
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANROADVF21
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
   - type: URBANROADVS00
-    terrains:
-      - URBAN_ROADS1
-      - RAILCROSSING
-      - URBAN_ROADS2
+    terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
 
 #----- Tasoth Factory ---------------------------------------------------------#
   - type: GRUNGE00
-    terrains:
+    terrains: &Grunge
       - GRUNGE1
       - GRUNGE2
       - GRUNGE3
@@ -9939,169 +9185,73 @@ tilesets:
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE01
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE02
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE03
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE04
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE05
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE06
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE07
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE08
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE09
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE10
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE11
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE12
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE13
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE14
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE15
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
   - type: GRUNGE16
-    terrains:
-      - GRUNGE1
-      - GRUNGE2
-      - GRUNGE3
-      - GRUNGE4
-      - GRUNGE5
-      - USOBITS
+    terrains: *Grunge
     category: Tasoth Factory
     group: UFO - Terrain
 
 #----- Warehouse --------------------------------------------------------------#
   - type: WARE_00
-    terrains:
+    terrains: &CyberWarehouse
       - CYBERWAREAN
       - CYBERWAREBITS
       - CRATES
@@ -10115,219 +9265,69 @@ tilesets:
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_01
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_02
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_03
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_04
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_05
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_06
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_07
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_08
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_09
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_10
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_11
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_12
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_13
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_14
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_15
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - SPECIALTYPE
-      - COMPUTERS
-      - ALIEN_EGGS
+    terrains: *CyberWarehouse
     category: Warehouse
     group: UFO - Terrain
 
 #----- Sewers -----------------------------------------------------------------#
   - type: CYBERWEB_00
-    terrains:
+    terrains: &Sewers
       - CYBERWAREAN
       - CYBERWAREBITS
       - CRATES
@@ -10338,399 +9338,147 @@ tilesets:
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_01
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_02
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_03
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_04
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_05
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_06
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_07
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_08
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_09
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_10
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_11
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_12
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_13
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_14
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_15
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_16
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_17
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_18
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_19
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_20
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_21
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_22
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_23
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_24
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_25
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_26
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_27
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_28
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_29
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_30
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_31
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_32
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_33
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_34
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_35
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
   - type: CYBERWEB_36
-    terrains:
-      - CYBERWAREAN
-      - CYBERWAREBITS
-      - CRATES
-      - DOORS1
-      - DOORSSEC
-      - CYBERPIPES
-      - COMPUTERS
+    terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
 
@@ -10900,207 +9648,129 @@ tilesets:
 
 #----- CavesBase Transition ---------------------------------------------------#
   - type: CAVES_UBASE_WEST_TEMPLATE
-    terrains:
+    terrains: &CavesBaseTransition
       - CAVEBLACK
       - U_BASE
       - U_WALL02
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_NORTH_TEMPLATE
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_BOTH_TEMPLATE
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_NORTH_00
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_NORTH_01
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_WEST_00
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
   - type: CAVES_UBASE_BOTH_00
-    terrains:
-      - CAVEBLACK
-      - U_BASE
-      - U_WALL02
+    terrains: *CavesBaseTransition
     category: CavesBase Transition
     group: UFO - Terrain
 
 #----- Sietch -----------------------------------------------------------------#
   - type: FBASE_00
-    terrains:
+    terrains: &Sietch
       - FBASE1
       - SIETCH
       - DESERT2
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_01
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_02
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_03
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_04
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_05
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_06
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_07
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_08
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_09
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_10
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_11
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_12
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_13
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_14
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_15
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_16
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_17
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_18
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_19
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
   - type: FBASE_20
-    terrains:
-      - FBASE1
-      - SIETCH
-      - DESERT2
+    terrains: *Sietch
     category: Sietch
     group: UFO - Terrain
 
 #----- Catacombs --------------------------------------------------------------#
   - type: CATACOMBS_00
-    terrains:
+    terrains: &Catacombs
       - CATACOMB
       - XOPSMUJUNGLEADDON
       - XCOMENTRY
@@ -11112,423 +9782,143 @@ tilesets:
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_01
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_02
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_03
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_04
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_05
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_06
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_07
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_08
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_09
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_10
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_11
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_12
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_13
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_14
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_15
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_16
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_17
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_18
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_19
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_20
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_21
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_22
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_00
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_01
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_02
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_03
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_04
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_05
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_06
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_07
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_08
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_09
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_LZ
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_XX
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBSDIO_01
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
+    terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
 
@@ -15196,12 +13586,7 @@ tilesets:
     category: Misc Buildings
     group: UFO - Buildings
   - type: UNI_00
-    terrains:
-      - COMROADS
-      - COMBITS
-      - COMMERCE
-      - COMFRN2
-      - COMDECOR
+    terrains: *Commercial
     category: Misc Buildings
     group: UFO - Buildings
   - type: CRIB01
