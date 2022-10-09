@@ -2437,6 +2437,10 @@ tilesets:
     terrains: *SiberiaBase
     category: Siberia
     group: UFO - Terrain
+  - type: SIBERIABASE_LZ
+    terrains: *SiberiaBase
+    category: Siberia
+    group: UFO - Terrain
 
 #----- Nooberia ---------------------------------------------------------------#
   - type: NOOBERIA0X0X
@@ -4594,6 +4598,90 @@ tilesets:
     category: Mountain
     group: UFO - Terrain
 
+#----- Forest Marsh ---------------------------------------------------------------#
+  - type: FORESTPOLAR00
+    terrains: &ForestMarsh
+      - FORESTPOLAR
+      - FOREST
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR01
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR02
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR03
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR04
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR05
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR06
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR07
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR08
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR09
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR10
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR11
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR12
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR13
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR14
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR15
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLAR16
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLARDIO01
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLARDIO02
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+  - type: FORESTPOLARDIO03
+    terrains: *ForestMarsh
+    category: Forest Marsh
+    group: UFO - Terrain
+
 #----- Jungle Marsh ---------------------------------------------------------------#
   - type: JUNGLEPOLAR00
     terrains: &JunglePolar
@@ -4845,6 +4933,39 @@ tilesets:
     category: Moon
     group: UFO - Terrain
 
+#----- Nazi Moonbase Surface ----------------------------------------------------------------#
+  - type: MARS00
+    terrains: &NaziMoonbaseSurface
+      - MOONGRAY
+      - URBAN40K
+      - STATION
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MARS01
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MARS02
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MARS03
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MARS04
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MARS05
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+  - type: MOONBUNKER00
+    terrains: *NaziMoonbaseSurface
+    category: Nazi Moonbase Surface
+    group: UFO - Terrain
+
 #----- Cydonia ----------------------------------------------------------------#
   - type: MARS00
     terrains: &Cydonia
@@ -4947,7 +5068,7 @@ tilesets:
 
 #----- UAC Moon Landing -------------------------------------------------------#
   - type: MARS00
-    terrains:
+    terrains: &UACMoonLanding
       - MOON_FINNIK
       - UAC_WALL02
       - UAC_FRN
@@ -4955,59 +5076,31 @@ tilesets:
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS01
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS02
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS03
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS04
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS05
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS06
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
   - type: MARS_UACENTRY
-    terrains:
-      - MOON_FINNIK
-      - UAC_WALL02
-      - UAC_FRN
-      - XCOMEXIT
+    terrains: *UACMoonLanding
     category: UAC Moon Landing
     group: UFO - Terrain
 
@@ -5995,6 +6088,14 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASE_GOLLOB
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_00
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
   - type: XBASS_01
     terrains: *XBase
     category: X-Com Base
@@ -6613,6 +6714,18 @@ tilesets:
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
+  - type: COMRCURBAN_HOBBZ06
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN_HOBBZ07
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN_HOBBZ08
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
 
 #----- Alien Colony -----------------------------------------------------------#
   - type: ALIENCOLONY00
@@ -6935,6 +7048,14 @@ tilesets:
     category: Complex Urban
     group: UFO - Terrain
   - type: COMPLEXURBAN34
+    terrains: *ComplexUrban
+    category: Complex Urban
+    group: UFO - Terrain
+  - type: COMPLEXURBANDIO01
+    terrains: *ComplexUrban
+    category: Complex Urban
+    group: UFO - Terrain
+  - type: COMPLEXURBANDIO27
     terrains: *ComplexUrban
     category: Complex Urban
     group: UFO - Terrain
@@ -7969,6 +8090,70 @@ tilesets:
   - type: SEABEDENTRY
     terrains: *Seabed
     category: Seabed
+    group: UFO - Terrain
+
+#----- Coral -----------------------------------------------------------------#
+  - type: CORAL00
+    terrains: &Coral
+      - SEASAND
+      - SEAWEEDS
+      - SEACORAL
+      - SEAROCKS
+      - USOBITS
+      - SEANOM
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL01
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL02
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL03
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL04
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL05
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL06
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL07
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL08
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL09
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL10
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL11
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL12
+    terrains: *Coral
+    category: Coral
+    group: UFO - Terrain
+  - type: CORAL13DIO
+    terrains: *Coral
+    category: Coral
     group: UFO - Terrain
 
 #----- Underwater City --------------------------------------------------------#
@@ -11137,6 +11322,18 @@ tilesets:
     terrains: *LuxuryLiner
     category: Luxury Liner
     group: UFO - Terrain
+  - type: LINERT01A
+    terrains: *LuxuryLiner
+    category: Luxury Liner
+    group: UFO - Terrain
+  - type: LINERT02
+    terrains: *LuxuryLiner
+    category: Luxury Liner
+    group: UFO - Terrain
+  - type: SEABLOCK
+    terrains: *LuxuryLiner
+    category: Luxury Liner
+    group: UFO - Terrain
 
 #----- Luxury Liner (small) ---------------------------------------------------#
   - type: LINERTS00
@@ -13234,6 +13431,73 @@ tilesets:
     category: Plains
     group: UFO - Terrain
 
+#----- Arctic BD -----------------------------------------------------------------#
+  - type: POLARBD00
+    terrains: &ArcticBD
+      - POLARHR
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD01
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD02
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD03
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD04
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD05
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD06
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD07
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD08
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD09
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD10
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD11
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD12
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD13
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD14
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+  - type: POLARBD15
+    terrains: *ArcticBD
+    category: Arctic BD
+    group: UFO - Terrain
+
 #----- Mount BD ---------------------------------------------------------------#
   - type: MOUNTBD00
     terrains: &MountBD
@@ -13367,7 +13631,15 @@ tilesets:
     terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
+  - type: EMANS00B
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
   - type: EMANS01
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
+  - type: EMANS01B
     terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
@@ -13408,6 +13680,10 @@ tilesets:
     category: Endless Mansion
     group: UFO - Terrain
   - type: EMANS10
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
+  - type: EMANS11
     terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
@@ -14162,6 +14438,13 @@ tilesets:
       - JUNGLE
     category: Cult
     group: UFO - Buildings
+  - type: MUJUN_C
+    terrains:
+      - SANDS
+      - MUJUNGLE
+      - JUNGLE
+    category: Cult
+    group: UFO - Buildings
   - type: CAVE_TEMPLE
     terrains:
       - DAGON_BASE
@@ -14614,6 +14897,10 @@ tilesets:
     terrains: *AcademyBase
     category: Academy Base
     group: Piratez - Terrain
+  - type: ABASE_TEMPL
+    terrains: *AcademyBase
+    category: Academy Base
+    group: Piratez - Terrain
 
 #----- Western Town -----------------------------------------------------------#
   - type: WESTOWN_00
@@ -14755,6 +15042,26 @@ tilesets:
     category: Canyon of Death
     group: Piratez - Terrain
   - type: CANYON_S03C
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_E00
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_E_TEMPLATE
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N_TEMPLATE
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_N_TEMPLATE2
+    terrains: *CanyonOfDeath
+    category: Canyon of Death
+    group: Piratez - Terrain
+  - type: CANYON_S_TEMPLATE2
     terrains: *CanyonOfDeath
     category: Canyon of Death
     group: Piratez - Terrain
@@ -15898,6 +16205,14 @@ tilesets:
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_163
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_TEMP20
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_WIP20
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
