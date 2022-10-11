@@ -2626,6 +2626,10 @@ tilesets:
     terrains: *WhiteBase
     category: White Base
     group: UFO - Terrain
+  - type: WHITEBASE_16LZ
+    terrains: *WhiteBase
+    category: White Base
+    group: UFO - Terrain
   - type: WHITEBASE_17
     terrains: *WhiteBase
     category: White Base
@@ -9666,6 +9670,10 @@ tilesets:
     terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
+  - type: CYBERWEBDIO_00
+    terrains: *Sewers
+    category: Sewers
+    group: UFO - Terrain
 
 #----- Caves ------------------------------------------------------------------#
   - type: CAVES_00
@@ -10091,6 +10099,14 @@ tilesets:
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_09
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_DIABLO_10
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_DIABLO_11
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
@@ -11792,6 +11808,14 @@ tilesets:
     category: Mummy Village
     group: UFO - Terrain
   - type: MUM_VILLAGE_S01_ENTRY
+    terrains: *MummyVillage
+    category: Mummy Village
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_S01_ENTRY_MDF
+    terrains: *MummyVillage
+    category: Mummy Village
+    group: UFO - Terrain
+  - type: MUM_VILLAGE_N_DAMSELS
     terrains: *MummyVillage
     category: Mummy Village
     group: UFO - Terrain
@@ -13690,90 +13714,86 @@ tilesets:
 
 #----- Corporation MiniTower --------------------------------------------------#
   - type: MINITOWER00
-    terrains:
+    terrains: &Corporation
       - CORP
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER01
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER02
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER03
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER04
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER0N
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
   - type: MINITOWER_TEMPLATE
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation MiniTower
     group: UFO - Terrain
 
 #----- Corporation Tower ------------------------------------------------------#
   - type: CORPHQ_GROUND
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_A01
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_A02
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_A03
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_A04
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_B01
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_B02
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_B03
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_B04
-    terrains:
-      - CORP
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
   - type: CORPHQ_ROOF
-    terrains:
-      - CORP
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_Atemplate
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_Btemplate
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
+  - type: CORPHQ_ASEC1
+    terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
 
@@ -16219,7 +16239,7 @@ tilesets:
 
 #----- Space ------------------------------------------------------------------#
   - type: ORBIT_00
-    terrains:
+    terrains: &Orbit
       - STATIONWALLS
       - STATIONDECOR
       - STATION
@@ -16228,30 +16248,43 @@ tilesets:
     category: Space
     group: Piratez - Terrain
   - type: ORBIT_01
-    terrains:
-      - STATIONWALLS
-      - STATIONDECOR
-      - STATION
-      - LIFTER
-      - STATIONBITS
+    terrains: *Orbit
     category: Space
     group: Piratez - Terrain
   - type: STATION_01
-    terrains:
-      - STATIONWALLS
-      - STATIONDECOR
-      - STATION
-      - LIFTER
-      - STATIONBITS
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_02
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_03
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_04
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_05
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: STATION_06
+    terrains: *Orbit
     category: Space
     group: Piratez - Terrain
   - type: SAT_01
-    terrains:
-      - STATIONWALLS
-      - STATIONDECOR
-      - STATION
-      - LIFTER
-      - STATIONBITS
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: SAT_02
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Terrain
+  - type: SAT_03
+    terrains: *Orbit
     category: Space
     group: Piratez - Terrain
 
@@ -19712,6 +19745,7 @@ tilesets:
     group: From The Ashes - Buildings
 
 #----- 40k - Terrain ---------------------------------------------#
+#----- Space Marine Base -----------------------------------------#
   - type: MARINEBASE00
     terrains: &MarineBase
       - MARINEBASE01
@@ -19788,5 +19822,84 @@ tilesets:
   - type: MARINEBASE20
     terrains: *MarineBase
     category: Marine Base
+    group: 40k - Terrain
+
+#----- Warzone ---------------------------------------------------#
+  - type: WAR00
+    terrains: &Warzone
+      - BATTLE
+      - SUPORTCHAOSPRED
+      - SUPORTPIECES
+      - SUPORT
+      - DEBRIS
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR01
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR02
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR03
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR04
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR05
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR06
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR07
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR08
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR09
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR14
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR15
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR16
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR17
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR18
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR19
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR20
+    terrains: *Warzone
+    category: Warzone
+    group: 40k - Terrain
+  - type: WAR30
+    terrains: *Warzone
+    category: Warzone
     group: 40k - Terrain
 
