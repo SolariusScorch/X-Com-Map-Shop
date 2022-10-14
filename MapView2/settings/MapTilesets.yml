@@ -8689,6 +8689,14 @@ tilesets:
     terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
+  - type: URBANJUNK46LZ
+    terrains: *JunkUrban
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNK47LZ
+    terrains: *JunkUrban
+    category: Junk Urban
+    group: UFO - Terrain
   - type: URBANJUNK_ROAD_00A
     terrains: *JunkUrban
     category: Junk Urban
@@ -10122,10 +10130,66 @@ tilesets:
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_HALL_NS_00
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_NS_01
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_NS_02
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_NS_03
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_00
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_01
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_02
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_03
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_00
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_01
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_02
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_WE_03
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HOLE_ENTRY
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_HALL_XX_LZ
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
 
 #----- Vampire Castle ---------------------------------------------------------#
   - type: VAMPCASTLE_0X
-    terrains:
+    terrains: &VampireCastle
       - CAVEBLACK
       - CATACOMB
       - CATACDECOR
@@ -10134,219 +10198,107 @@ tilesets:
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_1X
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_00
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_01
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_02
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_2X
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_03
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_04
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_11
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_12
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_13
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_14
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_21
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_22
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_23
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_24
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_30
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_30_SOL
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_31
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_32
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_33
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_34
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_35
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: VAMPCASTLE_36
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
+    category: Vampire Castle
+    group: UFO - Terrain
+  - type: NECROPOLIS_00
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
   - type: STRIXCAVE_00
-    terrains:
-      - CAVEBLACK
-      - CATACOMB
-      - CATACDECOR
-      - LAVA
-      - DUNGEON
+    terrains: *VampireCastle
+    category: Vampire Castle
+    group: UFO - Terrain
+  - type: CAVES_0X
+    terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
 
@@ -13621,7 +13573,7 @@ tilesets:
     category: X-Com Entries
     group: UFO - Terrain
   - type: CATACPORTAL_00
-    terrains:
+    terrains: &CatacombsPortal
       - CAVEBLACK
       - CATACOMB
       - CATACDECOR
@@ -13630,6 +13582,14 @@ tilesets:
       - XCOMEXIT
       - TDPORTAL
       - XOPSMUJUNGLEADDON
+    category: X-Com Entries
+    group: UFO - Terrain
+  - type: CATACPORTAL_CRUCIBLE
+    terrains: *CatacombsPortal
+    category: X-Com Entries
+    group: UFO - Terrain
+  - type: CATACPORTAL_CRUCIBLE3
+    terrains: *CatacombsPortal
     category: X-Com Entries
     group: UFO - Terrain
   - type: PENTA_DREAM
@@ -14089,6 +14049,10 @@ tilesets:
       - GRAVES
       - GRAVEYARD_DECOR
       - GRAVLIFTDIRT01
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: URBANSPOOKY01
+    terrains: *Urban
     category: Misc Buildings
     group: UFO - Buildings
 
@@ -15567,7 +15531,7 @@ tilesets:
 
 #----- Communications Tower ---------------------------------------------------#
   - type: COMMS_TOWER_GROUND
-    terrains:
+    terrains: &AcademyBuildings
       - C_EXT_WALL_SILVER
       - C_EXT_ROOF_SILVER
       - C_BITS2
@@ -15580,133 +15544,43 @@ tilesets:
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_A01
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_A02
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_A03
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_B01
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_B02
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_B03
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_B04
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_ROOF
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_A_TEMPLATE
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
   - type: COMMS_TOWER_B_TEMPLATE
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Communications Tower
     group: Piratez - Terrain
 
@@ -19149,295 +19023,97 @@ tilesets:
 #----- Piratez - Buildings ----------------------------------------------------#
 #----- Academy Outposts -------------------------------------------------------#
   - type: HTHOUSE_00
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_01
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_02
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_03
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_04
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_05
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_06
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_07
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_08
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_09
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_10
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_11
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_12
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_13
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_14
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_01G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_02G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_03G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_04G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_05G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_06G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
   - type: HTHOUSE_07G
-    terrains:
-      - C_EXT_WALL_SILVER
-      - C_EXT_ROOF_SILVER
-      - C_BITS2
-      - LIFTER
-      - C_INT
-      - COMPUTERS
-      - BATHBITZ_HT
-      - XBASEN_BITS
-      - DOORS1
+    terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
 
 #----- Church Outposts --------------------------------------------------------#
   - type: CSHOUSE_01
-    terrains:
+    terrains: &ChurchBuildings
       - CULTAN
       - CULTBITS
       - EASTER
@@ -19449,39 +19125,15 @@ tilesets:
     category: Church Outposts
     group: Piratez - Buildings
   - type: CSHOUSE_02
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - EASTER
-      - BATHBITZ_HT
-      - LIFTER
-      - XBASEN_BEDS
-      - FLOORSET
-      - DOORS2
+    terrains: *ChurchBuildings
     category: Church Outposts
     group: Piratez - Buildings
   - type: CSHOUSE_02G
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - EASTER
-      - BATHBITZ_HT
-      - LIFTER
-      - XBASEN_BEDS
-      - FLOORSET
-      - DOORS2
+    terrains: *ChurchBuildings
     category: Church Outposts
     group: Piratez - Buildings
   - type: CSHOUSE_03G
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - EASTER
-      - BATHBITZ_HT
-      - LIFTER
-      - XBASEN_BEDS
-      - FLOORSET
-      - DOORS2
+    terrains: *ChurchBuildings
     category: Church Outposts
     group: Piratez - Buildings
 
@@ -19526,6 +19178,17 @@ tilesets:
     category: Bunkers
     group: Piratez - Buildings
 
+#----- Lokk'Naar Altars ---------------------------------------------------------#
+  - type: LOKNARALTAR_0x
+    terrains:
+      - CAVEBLACK
+      - SIETCH
+      - CATACDECOR
+      - LAVA
+      - DUNGEON
+    category: Lokk'Naar Altars
+    group: Piratez - Buildings
+
 #----- Misc Buildings ---------------------------------------------------------#
   - type: CATACOMBS_NEXUS
     terrains:
@@ -19552,6 +19215,11 @@ tilesets:
   - type: HANGAR_PREVIEW_00
     terrains:
       - XBR1NEUTRAL
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: DUEL_00
+    terrains:
+      - ARENA
     category: Misc Buildings
     group: Piratez - Buildings
 

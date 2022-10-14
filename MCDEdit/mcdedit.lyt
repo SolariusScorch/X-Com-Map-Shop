@@ -2,9 +2,9 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename MOUNTSAND_NOCACTI
-SelectMCD 71
-SelectPCK 48
+selectedfilename MADDECOR
+SelectMCD 0
+SelectPCK 0
 Animate False
 t_checkered False
 Form3_w 473
@@ -33,7 +33,7 @@ t_form6_set_versp 0
 t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
-t_form1_scroll 2227
-t_form6_scroll 1238
-t_form1_t 191
-t_form1_l 1119
+t_form1_scroll 0
+t_form6_scroll 0
+t_form1_t 294
+t_form1_l 793
