@@ -2828,6 +2828,10 @@ tilesets:
     terrains: *AsylumWall
     category: Asylum Fence
     group: UFO - Terrain
+  - type: ASYLUM_FENCE_S_ENTRY00
+    terrains: *AsylumWall
+    category: Asylum Fence
+    group: UFO - Terrain
 
 #----- Mansion Wall -----------------------------------------------------------#
   - type: MANSION_FENCE_W00
@@ -3618,7 +3622,15 @@ tilesets:
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
-  - type: INDUSTRIALSLUMDIO18
+  - type: INDUSTRIALSLUMDIO11
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO12
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO13
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
@@ -3635,6 +3647,10 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO17
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO18
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
@@ -3655,6 +3671,10 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO23
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUM19XCOM
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
@@ -4389,6 +4409,14 @@ tilesets:
     category: Village
     group: UFO - Terrain
   - type: VILBANHUGE60
+    terrains: *Rural
+    category: Village
+    group: UFO - Terrain
+  - type: VILBAN56UFO
+    terrains: *Rural
+    category: Village
+    group: UFO - Terrain
+  - type: VILBANLANDING00
     terrains: *Rural
     category: Village
     group: UFO - Terrain
@@ -6283,7 +6311,7 @@ tilesets:
 
 #----- Chem Town --------------------------------------------------------------#
   - type: CHEMTOWN00
-    terrains:
+    terrains: &ChemTown
       - MILEXT
       - MILWARE
       - MILBARR
@@ -6292,219 +6320,131 @@ tilesets:
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN01
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN02
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN03
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN04
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN05
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN06
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN07
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN08
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN09
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN11
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN12
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN13
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN14
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN20
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN21
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN30
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN31
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN40
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN50
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN51
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN52
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN01B
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN02B
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN20R
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN30R
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN40R
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN11LZ
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN12LZ
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
   - type: CHEMTOWN13LZ
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: MILBASE_G00
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: MILBASE_G01
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: MILIND00
+    terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
 
@@ -9685,165 +9625,139 @@ tilesets:
 
 #----- Caves ------------------------------------------------------------------#
   - type: CAVES_00
-    terrains:
+    terrains: &Caves
       - CAVEBLACK
+      - XCOMEXIT
     category: Caves
     group: UFO - Terrain
   - type: CAVES_00A
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_00B
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_00C
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_01
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_02
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_03
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_04
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_05
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_06
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESDIO_01
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESDIO_02
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESDIO_03
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESDIO_04
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESDIO_05
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_FRAGMENT
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
+  - type: CAVESEXIT
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVES_TEMPLATE
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves
     group: UFO - Terrain
 
 #----- Caves - Lab ------------------------------------------------------------#
   - type: CAVESLAB_00
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_00A
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_00B
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_00C
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_01
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_02
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_03
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_04
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_05
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_06
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_01
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_02
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_03
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_04
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_05
-    terrains:
-      - CAVEBLACK
+    terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
 
@@ -10607,38 +10521,9 @@ tilesets:
     category: Polar Mountain
     group: UFO - Terrain
 
-#----- Military Industrial ----------------------------------------------------#
-  - type: MILBASE_G00
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
-    category: Military Industrial
-    group: UFO - Terrain
-  - type: MILBASE_G01
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
-    category: Military Industrial
-    group: UFO - Terrain
-  - type: MILIND00
-    terrains:
-      - MILEXT
-      - MILWARE
-      - MILBARR
-      - MILINDUSTRIAL
-      - MILTECH
-    category: Military Industrial
-    group: UFO - Terrain
-
 #----- Port -------------------------------------------------------------------#
   - type: PORTUFO00
-    terrains:
+    terrains: &Port
       - PORTROADS
       - PORTURBITS
       - ROADS
@@ -10648,273 +10533,111 @@ tilesets:
     category: Port
     group: UFO - Terrain
   - type: PORTUFO01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO02
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO03
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO04
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO05
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO06
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO07
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO08
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO09
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO10
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO11
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO12
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO13
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO14
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO15
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO16
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO17
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO18
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO19
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO20
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO22
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO27
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO28
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO29
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO30
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTUFO31
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
   - type: PORTROAD_WE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-      - SEABITS
+    terrains: *Port
     category: Port
     group: UFO - Terrain
 
@@ -11770,6 +11493,89 @@ tilesets:
   - type: MUM_VILLAGE_N_DAMSELS
     terrains: *MummyVillage
     category: Mummy Village
+    group: UFO - Terrain
+
+#----- IDT Snow Village ----------------------------------------------------------#
+  - type: IDT_SNOWVILLAGE00
+    terrains: &SnowVillageIDT
+      - IDT_SNOWBARN
+      - IDT_SNOWROOF
+      - IDT_SNOWCULTIVAT
+      - IDT_SNOWVILBAN
+      - FRNITURE
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE01
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE02
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE03
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE04
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE05
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE06
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE07
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE08
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE09
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE10
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE11
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE12
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE13
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE14
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE15
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE16
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE17
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
+    group: UFO - Terrain
+  - type: IDT_SNOWVILLAGE18
+    terrains: *SnowVillageIDT
+    category: IDT Snow Village
     group: UFO - Terrain
 
 #----- IDT Forest ----------------------------------------------------------#
@@ -13566,12 +13372,6 @@ tilesets:
       - CAFEENTRY
     category: X-Com Entries
     group: UFO - Terrain
-  - type: CAVESEXIT
-    terrains:
-      - CAVEBLACK
-      - XCOMEXIT
-    category: X-Com Entries
-    group: UFO - Terrain
   - type: CATACPORTAL_00
     terrains: &CatacombsPortal
       - CAVEBLACK
@@ -13813,6 +13613,57 @@ tilesets:
   - type: ACADEMY_TOWER_B_TEMPLATE
     terrains: *LotusBase
     category: Academy Tower
+    group: UFO - Terrain
+
+#----- Dark Tower --------------------------------------------------#
+  - type: DARK_TOWER_BOTTOM
+    terrains: &DarkTower
+      - SIETCH_DARK
+      - CATACDECOR
+      - DUNGEON
+      - ASHEN
+      - PENTA_X
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TOP
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_A_00
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_A_01
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_B_00
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_B_01
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_C_00
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_C_01
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_D_00
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: DARK_TOWER_TYPE_D_01
+    terrains: *DarkTower
+    category: Dark Tower
+    group: UFO - Terrain
+  - type: APOC_TEMPLE_01
+    terrains: *DarkTower
+    category: Dark Tower
     group: UFO - Terrain
 
 #----- UFO - Buildings --------------------------------------------------------#
@@ -15050,6 +14901,41 @@ tilesets:
     category: Canyon of Death
     group: Piratez - Terrain
 
+#----- Chem Town - Ghoul -----------------------------------------------------------#
+  - type: CHEMTOWN90
+    terrains: &ChemTownGhoul
+      - MILEXT
+      - MILWAREGHOUL
+      - MILBARRGHOUL
+      - MILINDUSTRIALGHOUL
+      - MILTECHGHOUL
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN91
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN92
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN93
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN94
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN95
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+  - type: CHEMTOWN96
+    terrains: *ChemTownGhoul
+    category: Chem Town (Ghoul)
+    group: Piratez - Terrain
+
 #----- Gothic -----------------------------------------------------------#
   - type: AULTA00
     terrains: &Gothic
@@ -15489,6 +15375,36 @@ tilesets:
   - type: MOONBERIA_CARS
     terrains: *Moonberia
     category: Moonberia
+    group: Piratez - Terrain
+
+#----- Reticulan Vats ---------------------------------------------------------#
+  - type: RETDUNG_0X
+    terrains: &ReticulanVats
+      - U_DISEC2
+      - U_BASE_RET
+      - RET_SHIPS
+      - XB3BITZ3
+    category: Reticulan Vats
+    group: Piratez - Terrain
+  - type: RETDUNG_00
+    terrains: *ReticulanVats
+    category: Reticulan Vats
+    group: Piratez - Terrain
+  - type: RETDUNG_01
+    terrains: *ReticulanVats
+    category: Reticulan Vats
+    group: Piratez - Terrain
+  - type: RETDUNG_02
+    terrains: *ReticulanVats
+    category: Reticulan Vats
+    group: Piratez - Terrain
+  - type: RETDUNG_03
+    terrains: *ReticulanVats
+    category: Reticulan Vats
+    group: Piratez - Terrain
+  - type: RETDUNG_10
+    terrains: *ReticulanVats
+    category: Reticulan Vats
     group: Piratez - Terrain
 
 #----- Winter Wall ------------------------------------------------------------#
@@ -16164,263 +16080,213 @@ tilesets:
 
 #----- Space Freighter Command ------------------------------------------------#
   - type: FREIGHTERBASE_CENTER_TEMPLATE
-    terrains:
+    terrains: &SpaceFreighterCommand
       - FREIGHTER_MAIN
       - FREIGHTER_COMMAND
     category: Space Freighter Command
     group: Piratez - Terrain
   - type: FREIGHTERBASE_CENTER_BRIDGE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
+    terrains: *SpaceFreighterCommand
     category: Space Freighter Command
     group: Piratez - Terrain
   - type: FREIGHTERBASE_CENTER_HANGAR00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
+    terrains: *SpaceFreighterCommand
     category: Space Freighter Command
     group: Piratez - Terrain
   - type: FREIGHTERBASE_CENTER_CROSSROADS00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_COMMAND
+    terrains: *SpaceFreighterCommand
     category: Space Freighter Command
     group: Piratez - Terrain
 
 #----- Space Freighter Agrarian -----------------------------------------------#
   - type: FREIGHTER_AGRI_FARM00
-    terrains:
+    terrains: &SpaceFreighterAgrarian
       - FREIGHTER_MAIN
       - FREIGHTER_AGRARIAN
     category: Space Freighter Agrarian
     group: Piratez - Terrain
   - type: FREIGHTER_AGRI_FARM01
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
+    terrains: *SpaceFreighterAgrarian
     category: Space Freighter Agrarian
     group: Piratez - Terrain
   - type: FREIGHTER_AGRI_FARM02
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
+    terrains: *SpaceFreighterAgrarian
     category: Space Freighter Agrarian
     group: Piratez - Terrain
   - type: FREIGHTER_AGRI_BYRE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
+    terrains: *SpaceFreighterAgrarian
     category: Space Freighter Agrarian
     group: Piratez - Terrain
   - type: FREIGHTER_AGRI_LINK_NW00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_AGRARIAN
+    terrains: *SpaceFreighterAgrarian
     category: Space Freighter Agrarian
     group: Piratez - Terrain
 
 #----- Space Freighter Passenger ----------------------------------------------#
   - type: FREIGHTER_PASS_ROOMS00
-    terrains:
+    terrains: &SpaceFreighterPassenger
       - FREIGHTER_MAIN
       - FREIGHTER_PASSENGER
     category: Space Freighter Passenger
     group: Piratez - Terrain
   - type: FREIGHTER_PASS_ROOMS01
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
+    terrains: *SpaceFreighterPassenger
     category: Space Freighter Passenger
     group: Piratez - Terrain
   - type: FREIGHTER_PASS_LINK_SW00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
+    terrains: *SpaceFreighterPassenger
     category: Space Freighter Passenger
     group: Piratez - Terrain
   - type: FREIGHTER_PASS_CHAPEL00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_PASSENGER
+    terrains: *SpaceFreighterPassenger
     category: Space Freighter Passenger
     group: Piratez - Terrain
 
 #----- Space Freighter Cargo --------------------------------------------------#
   - type: FREIGHTER_CARGO_STORAGE00
-    terrains:
+    terrains: &SpaceFreighterStorage
       - FREIGHTER_MAIN
       - FREIGHTER_CARGO
     category: Space Freighter Cargo
     group: Piratez - Terrain
   - type: FREIGHTER_CARGO_STORAGE01
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
+    terrains: *SpaceFreighterStorage
     category: Space Freighter Cargo
     group: Piratez - Terrain
   - type: FREIGHTER_CARGO_STORAGE10
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
+    terrains: *SpaceFreighterStorage
     category: Space Freighter Cargo
     group: Piratez - Terrain
   - type: FREIGHTER_CARGO_TANKS00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
+    terrains: *SpaceFreighterStorage
     category: Space Freighter Cargo
     group: Piratez - Terrain
   - type: FREIGHTER_CARGO_LINK_SE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
+    terrains: *SpaceFreighterStorage
     category: Space Freighter Cargo
     group: Piratez - Terrain
   - type: FREIGHTER_CARGO_LINK_NE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_CARGO
+    terrains: *SpaceFreighterStorage
     category: Space Freighter Cargo
     group: Piratez - Terrain
 
 #----- Space Freighter Base ---------------------------------------------------#
   - type: FREIGHTERBASE_CENTER00
-    terrains:
+    terrains: &SpaceFreighterBase
       - FREIGHTER_MAIN
       - FREIGHTER_TECHNICAL
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_NE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_NW00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_SE00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_SW00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_S00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_N00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_N01
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_W00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTERBASE_E00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTERBASE_NULL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_TEMPLATE
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_TEMPLATE_NE
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_TEMPLATE_SE
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_TEMPLATE_NW
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_TEMPLATE_SW
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_S00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_N00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_N01
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_E00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_W00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_LINK_S00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_LINK_N00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_LINK_E00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_STRUCTURE_LINK_W00
-    terrains:
-      - FREIGHTER_MAIN
-      - FREIGHTER_TECHNICAL
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_ROOF_S00
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_ROOF_N00
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_ROOF_E00
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: FREIGHTER_ROOF_W00
+    terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
 
@@ -19180,12 +19046,28 @@ tilesets:
 
 #----- Lokk'Naar Altars ---------------------------------------------------------#
   - type: LOKNARALTAR_0x
-    terrains:
+    terrains: &LokkNaarAltars
       - CAVEBLACK
       - SIETCH
       - CATACDECOR
       - LAVA
       - DUNGEON
+    category: Lokk'Naar Altars
+    group: Piratez - Buildings
+  - type: LOKNARALTAR_00
+    terrains: *LokkNaarAltars
+    category: Lokk'Naar Altars
+    group: Piratez - Buildings
+  - type: LOKNARALTAR_02
+    terrains: *LokkNaarAltars
+    category: Lokk'Naar Altars
+    group: Piratez - Buildings
+  - type: LOKNARALTAR_04
+    terrains: *LokkNaarAltars
+    category: Lokk'Naar Altars
+    group: Piratez - Buildings
+  - type: LOKNARALTAR_05
+    terrains: *LokkNaarAltars
     category: Lokk'Naar Altars
     group: Piratez - Buildings
 
@@ -19204,12 +19086,7 @@ tilesets:
     category: Misc Buildings
     group: Piratez - Buildings
   - type: INDUSTRIALSLUM_RAGNAROCK
-    terrains:
-      - PORTROADS
-      - INDUSLUM
-      - ROADS
-      - URBITS_INDUSLUM
-      - SLUM_FURNITURE
+    terrains: *IndustrialSlum
     category: Misc Buildings
     group: Piratez - Buildings
   - type: HANGAR_PREVIEW_00
@@ -19226,7 +19103,7 @@ tilesets:
 #----- Apocalypse - Terrain ---------------------------------------------------#
 #----- Temple of Sirius -------------------------------------------------------#
   - type: CBASE_00
-    terrains:
+    terrains: &TempleOfSirius
       - CULTAN
       - CULTBITS
       - LIFTER
@@ -19235,138 +19112,63 @@ tilesets:
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_01
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_02
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_03
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_04
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_05
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_06
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_07
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_08
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_09
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_10
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_11
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_12
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_13
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_14
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
   - type: CBASE_15
-    terrains:
-      - CULTAN
-      - CULTBITS
-      - LIFTER
-      - DOORS1
-      - DOORSSEC
+    terrains: *TempleOfSirius
     category: Temple of Sirius
     group: Apocalypse - Terrain
 
@@ -19571,3 +19373,193 @@ tilesets:
     category: Warzone
     group: 40k - Terrain
 
+#----- Industrial 40k --------------------------------------------#
+  - type: INDUSTRIALURBANCULT00
+    terrains: &Industrial40k
+      - PORTROADSCULT
+      - PORTURBITSCULT
+      - ROADSCULT
+      - URBITS
+      - ICHURCH
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT01
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT02
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT03
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT04
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT05
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT06
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT07
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT08
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT09
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT10
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT11
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT12
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT13
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT14
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT15
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT16
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT17
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT18
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT19
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT20
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT21
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT30
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT31
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT32
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT33
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT34
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT35
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT30A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT31A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT32A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT33A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT34A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULT35A
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO18
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO19
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO20
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO21
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO22
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTDIO23
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTROADNS
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTROADRAILNS
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTROADWE
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTROADCROSS
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTROADRAILCROSS
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
+  - type: INDUSTRIALURBANCULTXX
+    terrains: *Industrial40k
+    category: Industrial 40k
+    group: 40k - Terrain
