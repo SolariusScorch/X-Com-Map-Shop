@@ -4078,155 +4078,6 @@ tilesets:
     category: Urban
     group: UFO - Terrain
 
-#----- Nuke City --------------------------------------------------------------#
-  - type: NUKECITY00
-    terrains: &NukeCity
-      - NUKE1
-      - NUKE2
-      - NUKE3
-      - NUKE_WATER_2
-      - NUKE_UNDERGROUND
-      - NUKE_CITY
-      - NUKE_CITY_2
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY01
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY02
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY03
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY04
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY05
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY06
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY07
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY08
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY09
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY10NS
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY10WE
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY11NS
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY11WE
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKECITY12
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE00
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE01
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE02
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE03
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE04
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE05
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE06
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE07
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE08
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE09
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE10
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE11
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE12
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE13
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE14
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE15
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE16
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE17
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE18
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-  - type: NUKE19
-    terrains: *NukeCity
-    category: Nuke City
-    group: UFO - Terrain
-
 #----- Village ----------------------------------------------------------------#
   - type: VILBAN00
     terrains: &Rural
@@ -10960,39 +10811,29 @@ tilesets:
 
 #----- Beach ------------------------------------------------------------------#
   - type: BEACH00
-    terrains:
+    terrains: &BeachSavanna
       - BEACH
       - SAVANNABEACH
     category: Beach
     group: UFO - Terrain
   - type: BEACH01
-    terrains:
-      - BEACH
-      - SAVANNABEACH
+    terrains: *BeachSavanna
     category: Beach
     group: UFO - Terrain
   - type: BEACH02
-    terrains:
-      - BEACH
-      - SAVANNABEACH
+    terrains: *BeachSavanna
     category: Beach
     group: UFO - Terrain
   - type: BEACH03
-    terrains:
-      - BEACH
-      - SAVANNABEACH
+    terrains: *BeachSavanna
     category: Beach
     group: UFO - Terrain
   - type: BEACH04
-    terrains:
-      - BEACH
-      - SAVANNABEACH
+    terrains: *BeachSavanna
     category: Beach
     group: UFO - Terrain
   - type: BEACH05
-    terrains:
-      - BEACH
-      - SAVANNABEACH
+    terrains: *BeachSavanna
     category: Beach
     group: UFO - Terrain
 
@@ -12471,7 +12312,7 @@ tilesets:
 
 #----- Alien Planet -----------------------------------------------------------#
   - type: UPLANET_00
-    terrains:
+    terrains: &AlienPlanet
       - U_PLANET
       - U_EXT
       - U_EXT_ROOF
@@ -12480,180 +12321,85 @@ tilesets:
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_01
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_02
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_03
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_04
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_05
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_06
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_07
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_08
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_09
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_10
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_11
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_12
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_13
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_14
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_15
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_16
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_17
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_18
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
   - type: UPLANET_19
-    terrains:
-      - U_PLANET
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanet
     category: Alien Planet
     group: UFO - Terrain
 
 #----- Alien Planet Acid ------------------------------------------------------#
   - type: UPLANET_00
-    terrains:
+    terrains: &AlienPlanetAcid
       - U_PLANET_ACID
       - U_EXT
       - U_EXT_ROOF
@@ -12662,180 +12408,235 @@ tilesets:
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_01
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_02
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_03
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_04
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_05
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_06
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_07
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_08
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_09
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_10
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_11
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_12
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_13
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_14
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_15
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_16
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_17
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_18
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
     group: UFO - Terrain
   - type: UPLANET_19
-    terrains:
-      - U_PLANET_ACID
-      - U_EXT
-      - U_EXT_ROOF
-      - U_BITSN
-      - U_WALL
+    terrains: *AlienPlanetAcid
     category: Alien Planet Acid
+    group: UFO - Terrain
+
+#----- Alien Planet Void ------------------------------------------------------#
+  - type: UPLANETV_00
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_01
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_02
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_03
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_04
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_05
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_06
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_07
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_08
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_09
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_10
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_11
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_12
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_13
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_14
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_15
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_16
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_17
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_18
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_19
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_20
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_21
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_22
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_23
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_24
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_25
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_26
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_27
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_28
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_29
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_NS_00
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_NS_01
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_NS_02
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_NS_03
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_WE_00
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_WE_03
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
+    group: UFO - Terrain
+  - type: UPLANETV_XX_00
+    terrains: *AlienPlanetAcid
+    category: Alien Planet Void
     group: UFO - Terrain
 
 #----- Cold Isle --------------------------------------------------------------#
   - type: COLDISLE00
-    terrains:
+    terrains: &ColdIsle
       - COLDISLE
       - POLARMOUNTBITS
       - SEAURBAN
@@ -12844,309 +12645,139 @@ tilesets:
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE01
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE02
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE03
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE04
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE05
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE06
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE07
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE08
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE09
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE10
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE11
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE12
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE13
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE14
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE15
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE16
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE17
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE18
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE19
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE20
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE21
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE22
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE23
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE24
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE25
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE26
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE27
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE28
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE29
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE30
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE31
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE32
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE33
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
   - type: COLDISLE34
-    terrains:
-      - COLDISLE
-      - POLARMOUNTBITS
-      - SEAURBAN
-      - COLDISLEB1
-      - COLDISLEB2
+    terrains: *ColdIsle
     category: Cold Isle
     group: UFO - Terrain
 
@@ -13666,6 +13297,94 @@ tilesets:
     category: Dark Tower
     group: UFO - Terrain
 
+#----- Desert Plane -----------------------------------------------------------#
+  - type: CRASHEDPLANE00
+    terrains: &DesertPlane
+      - DESERTPLANE
+      - CRASHEDPLANE
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE01
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE02
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE03
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE04
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE05
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE06
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE07
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE08
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE09
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE10
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE11
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE12
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE13
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE14
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE15
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE16
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE17
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE18
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE19
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+  - type: CRASHEDPLANE20
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
+
 #----- UFO - Buildings --------------------------------------------------------#
 #----- Misc Buildings ---------------------------------------------------------#
   - type: NOOBERIA_CHRYSSALID_CAPSULES
@@ -14126,136 +13845,82 @@ tilesets:
 
 #----- Cult -------------------------------------------------------------------#
   - type: CULTHOUSE00
-    terrains:
+    terrains: &Culthouses
       - CULTMIL
       - CULTDECOR
       - CULTEXTRA
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE01
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE02
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE03
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE04
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE05
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE06
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE07
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE08
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE09
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE10
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE11
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE12
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT00
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT01
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT02
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT03
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT04
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: LO_WO_HOUSE
-    terrains:
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: DURFACTORY
@@ -14463,6 +14128,163 @@ tilesets:
     group: UFO - Buildings
 
 #----- Piratez - Terrain ------------------------------------------------------#
+#----- Nuke City --------------------------------------------------------------#
+  - type: NUKECITY00
+    terrains: &NukeCity
+      - NUKE1
+      - NUKE2
+      - NUKE3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY01
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY02
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY03
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY04
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY05
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY06
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY07
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY08
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY09
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY10
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY10NS
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY10WE
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY11
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY11NS
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY11WE
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKECITY12
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE00
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE01
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE02
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE03
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE04
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE05
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE06
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE07
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE08
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE09
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE10
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE11
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE12
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE13
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE14
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE15
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE16
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE17
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE18
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE19
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+
 #----- Govt Base Defense ------------------------------------------------------#
   - type: GOVBASE_D_00
     terrains: &GovtBase
@@ -15377,6 +15199,44 @@ tilesets:
     category: Moonberia
     group: Piratez - Terrain
 
+#----- Polis Urban -------------------------------------------------------------#
+  - type: POLISURBAN02
+    terrains: &PolisUrban
+      - U_DISEC2
+      - U_BASE_RET
+      - RET_SHIPS
+      - XB3BITZ3
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISURBAN04
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISURBAN05
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISURBAN05INF
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISURBAN06
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISENTRY
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISROAD
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+  - type: POLISSPECIAL
+    terrains: *PolisUrban
+    category: Polis Urban
+    group: Piratez - Terrain
+
 #----- Reticulan Vats ---------------------------------------------------------#
   - type: RETDUNG_0X
     terrains: &ReticulanVats
@@ -15407,9 +15267,61 @@ tilesets:
     category: Reticulan Vats
     group: Piratez - Terrain
 
+#----- Crypt Tek Labyrinths ---------------------------------------------------#
+  - type: CRYPTEK2_00
+    terrains: &CryptTekLabyrinths
+      - CAVEBLACK
+      - CRYPTEK1
+      - CRYPTEK2
+      - CRYPTEK3
+      - CRYPTEK4
+      - MARSEC_COMPUTERS
+      - XBASEN_BEDS
+      - MARSEC_FRN
+      - ATLANTSEASHORT
+      - XCOMENTRY
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_01
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_02
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_03
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_04
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_05
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_06
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_07
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_08
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+  - type: CRYPTEK2_XX1
+    terrains: *CryptTekLabyrinths
+    category: Crypt Tek Labyrinths
+    group: Piratez - Terrain
+
 #----- Winter Wall ------------------------------------------------------------#
   - type: WINTERWALL00
-    terrains:
+    terrains: &WinterWall
       - GOVTDECOR
       - GOVROADS
       - XCOMENTRY
@@ -15418,30 +15330,15 @@ tilesets:
     category: Winter Wall
     group: Piratez - Terrain
   - type: WINTERWALL01
-    terrains:
-      - GOVTDECOR
-      - GOVROADS
-      - XCOMENTRY
-      - XCOMEXIT
-      - INDUSLUM
+    terrains: *WinterWall
     category: Winter Wall
     group: Piratez - Terrain
   - type: WINTERWALL02
-    terrains:
-      - GOVTDECOR
-      - GOVROADS
-      - XCOMENTRY
-      - XCOMEXIT
-      - INDUSLUM
+    terrains: *WinterWall
     category: Winter Wall
     group: Piratez - Terrain
   - type: WINTERWALL03
-    terrains:
-      - GOVTDECOR
-      - GOVROADS
-      - XCOMENTRY
-      - XCOMEXIT
-      - INDUSLUM
+    terrains: *WinterWall
     category: Winter Wall
     group: Piratez - Terrain
 
@@ -16083,6 +15980,7 @@ tilesets:
     terrains: &SpaceFreighterCommand
       - FREIGHTER_MAIN
       - FREIGHTER_COMMAND
+      - FREIGHTER_COMMAND_2
     category: Space Freighter Command
     group: Piratez - Terrain
   - type: FREIGHTERBASE_CENTER_BRIDGE00
@@ -16402,6 +16300,11 @@ tilesets:
     terrains:
       - LODY
     category: XCom
+    group: UFO - Ships
+  - type: WRECK_CARS
+    terrains:
+      - WRECK_CARS
+    category: Misc Vehicles
     group: UFO - Ships
   - type: HUMMER
     terrains:
