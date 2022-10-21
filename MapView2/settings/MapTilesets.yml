@@ -10427,6 +10427,10 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFO11B
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTUFO12
     terrains: *Port
     category: Port
@@ -10459,7 +10463,15 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFO19B
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTUFO20
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO20B
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -10475,6 +10487,10 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFO28B
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTUFO29
     terrains: *Port
     category: Port
@@ -10484,6 +10500,10 @@ tilesets:
     category: Port
     group: UFO - Terrain
   - type: PORTUFO31
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO31B
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -16271,6 +16291,12 @@ tilesets:
       - DELOREAN
     category: XCom
     group: UFO - Ships
+  - type: DELOREAN_UFO
+    terrains:
+      - DELOREAN
+      - XCOMEXIT
+    category: XCom
+    group: UFO - Ships
   - type: CADILLAC
     terrains:
       - CADILLAC
@@ -16391,6 +16417,16 @@ tilesets:
       - XBASE1
     category: XCom
     group: UFO - Ships
+  - type: 8ENTRY
+    terrains:
+      - XCOMENTRY
+    category: X-Com Entries
+    group: UFO - Terrain
+  - type: 12ENTRY
+    terrains:
+      - XCOMENTRY
+    category: X-Com Entries
+    group: UFO - Terrain
 
 #----- Misc Vehicles ----------------------------------------------------------#
   - type: XARMY
@@ -18787,6 +18823,73 @@ tilesets:
       - MARSEC_OPER
       - MARSEC_INT_2
     category: MARSEC Vessels
+    group: Piratez - Ships
+
+#----- Capsules ---------------------------------------------------------------#
+  - type: CAPSULE1
+    terrains: &Capsule
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - LIFTER
+      - XBASEN_BITS
+      - BATHBITZ_HT
+      - COMPUTERS
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE2
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE3
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE4
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE5
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE5A
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE6
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE7
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+  - type: CAPSULE8
+    terrains: *Capsule
+    category: Capsules
+    group: Piratez - Ships
+
+#----- Pirate Vessels ---------------------------------------------------------#
+  - type: CHARIOT
+    terrains:
+      - AVENGER
+      - LIGHTNIN
+      - XBASE1
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SHUTTLE_GROUND
+    terrains: &Shuttle
+      - SHUTTLE
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SHUTTLE_ORBITAL
+    terrains: *Shuttle
+    category: Pirate Vessels
     group: Piratez - Ships
 
 #----- Piratez - Buildings ----------------------------------------------------#
