@@ -14148,6 +14148,197 @@ tilesets:
     group: UFO - Buildings
 
 #----- Piratez - Terrain ------------------------------------------------------#
+#----- Urban Waste --------------------------------------------------------------#
+  - type: URBANWASTE00
+    terrains: &UrbanWaste
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE01
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE02
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE03
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE04
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE05
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE06
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE07
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE08
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE09
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE10
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE11
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE12
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE13
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE14
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE15
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE16
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE17
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE18
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE19
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE20
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE21
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE22
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE23
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE24
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE25
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE26
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE27
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE28
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE29
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE30
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS01
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS02
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS03
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS01
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS02
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS03
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS04
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS05
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS06
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE01
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE02
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE03
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE04
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE05
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE06
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+
 #----- Nuke City --------------------------------------------------------------#
   - type: NUKECITY00
     terrains: &NukeCity
