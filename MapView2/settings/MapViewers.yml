@@ -4,7 +4,7 @@
 # NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
 #
 MainView:
-  left: 8
+  left: 13
   top: 0
   width: 1495
   height: 981
@@ -24,8 +24,8 @@ TileView:
   width: 392
   height: 1001
 TopRouteView:
-  left: 2027
-  top: 168
+  left: 1912
+  top: 0
   width: 933
   height: 590
 Options:
