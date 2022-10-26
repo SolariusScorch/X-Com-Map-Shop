@@ -4,8 +4,8 @@
 # NOTE: Do *not* add extra lines or anything to the format; it's not that robust.
 #
 MainView:
-  left: 13
-  top: 0
+  left: 175
+  top: 4
   width: 1495
   height: 981
 TopView:

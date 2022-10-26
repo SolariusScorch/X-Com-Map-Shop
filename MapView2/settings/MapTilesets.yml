@@ -18457,7 +18457,7 @@ tilesets:
 
 #----- USOs -------------------------------------------------------------------#
   - type: USOSURVEYSHIP00
-    terrains:
+    terrains: &USOs
       - USOEXT2
       - USOEXT3
       - USOINT1
@@ -18466,66 +18466,31 @@ tilesets:
     category: USOs
     group: UFO - Ships
   - type: USOESCORT00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USOCRUISER00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USOHEAVYCRUISER00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USOHUNTER00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USOBATTLESHIP00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USODREADNOUGHT00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
   - type: USOFLEETSUPPLYCRUISER00
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - USOINT1
-      - USOINT2
-      - USOINT3
+    terrains: *USOs
     category: USOs
     group: UFO - Ships
 
