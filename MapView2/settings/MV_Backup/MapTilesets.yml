@@ -26813,6 +26813,42 @@ tilesets:
       - MADDECOR_WASTE
     category: Urban Waste
     group: Piratez - Terrain
+  - type: URBANWASTE32
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE33
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE34
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEHUGE35
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
   - type: URBANWASTEROAD_CROSS01
     terrains:
       - ROADS_WASTE

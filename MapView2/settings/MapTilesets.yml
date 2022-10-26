@@ -14282,6 +14282,26 @@ tilesets:
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
+  - type: URBANWASTE32
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE33
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE34
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEHUGE35
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEHUGE36
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
   - type: URBANWASTEROAD_CROSS01
     terrains: *UrbanWaste
     category: Urban Waste
