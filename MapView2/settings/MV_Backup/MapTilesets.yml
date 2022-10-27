@@ -19010,6 +19010,18 @@ tilesets:
       - DUNGEON
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_HUNTERS_SPAWN
+    terrains:
+      - CATACOMB
+      - XOPSMUJUNGLEADDON
+      - XCOMENTRY
+      - CATACDECOR
+      - CAVEBLACK
+      - XCOMEXIT
+      - PENTA_X
+      - DUNGEON
+    category: Catacombs
+    group: UFO - Terrain
 
 #----- Vampire Castle ---------------------------------------------------------#
   - type: VAMPCASTLE_0X
