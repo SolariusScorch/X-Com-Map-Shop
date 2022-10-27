@@ -9835,6 +9835,26 @@ tilesets:
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_31
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_32
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_33
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_34
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_35
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
   - type: CATACOMBS_DIABLO_00
     terrains: *Catacombs
     category: Catacombs
