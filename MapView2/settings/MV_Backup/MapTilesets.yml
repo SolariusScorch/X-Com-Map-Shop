@@ -19010,18 +19010,6 @@ tilesets:
       - DUNGEON
     category: Catacombs
     group: UFO - Terrain
-  - type: CATACOMBS_HUNTERS_SPAWN
-    terrains:
-      - CATACOMB
-      - XOPSMUJUNGLEADDON
-      - XCOMENTRY
-      - CATACDECOR
-      - CAVEBLACK
-      - XCOMEXIT
-      - PENTA_X
-      - DUNGEON
-    category: Catacombs
-    group: UFO - Terrain
 
 #----- Vampire Castle ---------------------------------------------------------#
   - type: VAMPCASTLE_0X
@@ -26958,6 +26946,78 @@ tilesets:
     category: Urban Waste
     group: Piratez - Terrain
   - type: URBANWASTE40
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE41
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE42
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE43
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE44
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE45
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEHUGE46
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE47
+    terrains:
+      - ROADS_WASTE
+      - URBITS_WASTE
+      - URBAN_WASTE
+      - FRNITURE_WASTE
+      - MADDECOR_WASTE
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE48
     terrains:
       - ROADS_WASTE
       - URBITS_WASTE
