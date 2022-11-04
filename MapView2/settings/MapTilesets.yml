@@ -9745,6 +9745,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_01

@@ -18384,6 +18384,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_01
@@ -18396,6 +18397,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_02
@@ -18408,6 +18410,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_03
@@ -18420,6 +18423,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_04
@@ -18432,6 +18436,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_05
@@ -18444,6 +18449,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_06
@@ -18456,6 +18462,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_07
@@ -18468,6 +18475,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_08
@@ -18480,6 +18488,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_09
@@ -18492,6 +18501,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_10
@@ -18504,6 +18514,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_11
@@ -18516,6 +18527,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_12
@@ -18528,6 +18540,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_13
@@ -18540,6 +18553,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_14
@@ -18552,6 +18566,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_15
@@ -18564,6 +18579,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_16
@@ -18576,6 +18592,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_17
@@ -18588,6 +18605,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_18
@@ -18600,6 +18618,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_19
@@ -18612,6 +18631,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_20
@@ -18624,6 +18644,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_21
@@ -18636,6 +18657,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_22
@@ -18648,6 +18670,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_31
@@ -18660,6 +18683,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_32
@@ -18672,6 +18696,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_33
@@ -18684,6 +18709,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_34
@@ -18696,6 +18722,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_35
@@ -18708,6 +18735,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_00
@@ -18720,6 +18748,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_01
@@ -18732,6 +18761,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_02
@@ -18744,6 +18774,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_03
@@ -18756,6 +18787,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_04
@@ -18768,6 +18800,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_05
@@ -18780,6 +18813,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_06
@@ -18792,6 +18826,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_07
@@ -18804,6 +18839,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_08
@@ -18816,6 +18852,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_09
@@ -18828,6 +18865,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_10
@@ -18840,6 +18878,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_11
@@ -18852,6 +18891,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_LZ
@@ -18864,6 +18904,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_XX
@@ -18876,6 +18917,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBSDIO_01
@@ -18888,6 +18930,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_NS_00
@@ -18900,6 +18943,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_NS_01
@@ -18912,6 +18956,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_NS_02
@@ -18924,6 +18969,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_NS_03
@@ -18936,6 +18982,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_WE_00
@@ -18948,6 +18995,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_WE_01
@@ -18960,6 +19008,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_WE_02
@@ -18972,6 +19021,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_WE_03
@@ -18984,6 +19034,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HOLE_ENTRY
@@ -18996,6 +19047,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_HALL_XX_LZ
@@ -19008,6 +19060,7 @@ tilesets:
       - XCOMEXIT
       - PENTA_X
       - DUNGEON
+      - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
 
