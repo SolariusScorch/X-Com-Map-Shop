@@ -2654,6 +2654,10 @@ tilesets:
     terrains: *WhiteBase
     category: White Base
     group: UFO - Terrain
+  - type: WHITEBASE_00EZ
+    terrains: *WhiteBase
+    category: White Base
+    group: UFO - Terrain
 
 #----- Lotus Base -------------------------------------------------------------#
   - type: LOTUSBASE_00
