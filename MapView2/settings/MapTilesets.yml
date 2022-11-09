@@ -14000,7 +14000,7 @@ tilesets:
       - DAGON_FRN
       - DAGON_BITS
       - DAGON_FLOOR
-      - OCEANTEMPLE1
+      - OCEANTEMPLE1_HALF
     category: Cult
     group: UFO - Buildings
 
