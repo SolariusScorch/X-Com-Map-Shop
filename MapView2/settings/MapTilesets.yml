@@ -13800,6 +13800,16 @@ tilesets:
       - TAVERN
     category: Mansion
     group: UFO - Buildings
+  - type: D_ATRIUM_2
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+    category: Mansion
+    group: UFO - Buildings
   - type: D_MANSN
     terrains:
       - ROADS

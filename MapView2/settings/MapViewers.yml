@@ -5,8 +5,8 @@
 #
 MainView:
   left: 0
-  top: 2
-  width: 1460
+  top: 0
+  width: 1499
   height: 981
 TopView:
   left: 100
