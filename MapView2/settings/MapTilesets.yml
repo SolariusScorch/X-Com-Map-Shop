@@ -13540,6 +13540,19 @@ tilesets:
       - URBITS
       - URBAN
       - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
+      - CAFEENTRY
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: D_ATRIUM_3_DEF
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - BATHBITZ_HT
+      - TAVERN
       - CAFEENTRY
     category: Misc Buildings
     group: UFO - Buildings
@@ -13750,13 +13763,17 @@ tilesets:
 
 #----- Dreamworld Buildings ---------------------------------------------------#
   - type: VILLA_00
-    terrains:
+    terrains: &DreamscapeVilla
       - DREAMDECOR
       - ATLANVILLA
       - DUNGEON_VILLA
       - PENTA_X
       - CATACDECOR
       - MANSION_PAINTINGS
+    category: Dreamworld Buildings
+    group: UFO - Buildings
+  - type: VILLA_11
+    terrains: *DreamscapeVilla
     category: Dreamworld Buildings
     group: UFO - Buildings
 
@@ -13791,7 +13808,7 @@ tilesets:
 
 #----- Mansion ----------------------------------------------------------------#
   - type: D_ATRIUM
-    terrains:
+    terrains: &Atrium
       - ROADS
       - URBITS
       - URBAN
@@ -13801,70 +13818,52 @@ tilesets:
     category: Mansion
     group: UFO - Buildings
   - type: D_ATRIUM_2
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
+    terrains: *Atrium
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_ATRIUM_3
+    terrains: *Atrium
     category: Mansion
     group: UFO - Buildings
   - type: D_MANSN
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
+    terrains: *Atrium
     category: Mansion
     group: UFO - Buildings
   - type: D_TAVERN
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - BATHBITZ_HT
-      - TAVERN
+    terrains: *Atrium
     category: Mansion
     group: UFO - Buildings
 
 #----- Bank -------------------------------------------------------------------#
   - type: BANK_00
-    terrains:
+    terrains: &Bank
       - GOVTDECOR
       - GOVT
       - RET_WALLS
     category: Bank
     group: UFO - Buildings
   - type: BANK_01
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
+    terrains: *Bank
     category: Bank
     group: UFO - Buildings
   - type: BANK_02
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
+    terrains: *Bank
     category: Bank
     group: UFO - Buildings
   - type: BANK_03
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
+    terrains: *Bank
     category: Bank
     group: UFO - Buildings
   - type: BANK_04
-    terrains:
-      - GOVTDECOR
-      - GOVT
-      - RET_WALLS
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_05
+    terrains: *Bank
+    category: Bank
+    group: UFO - Buildings
+  - type: BANK_0X
+    terrains: *Bank
     category: Bank
     group: UFO - Buildings
 
@@ -14136,6 +14135,19 @@ tilesets:
   - type: BEASTMANALTAR01
     terrains:
       - RITUALS
+      - MUJUNGLE
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR02
+    terrains:
+      - RITUALS
+      - MUJUNGLE
+    category: Dark Rituals
+    group: UFO - Buildings
+  - type: BEASTMANALTAR03
+    terrains:
+      - RITUALS
+      - MUJUNGLE
     category: Dark Rituals
     group: UFO - Buildings
   - type: CANNIBALCAMP00
@@ -16625,11 +16637,6 @@ tilesets:
       - LODY
     category: XCom
     group: UFO - Ships
-  - type: WRECK_CARS
-    terrains:
-      - WRECK_CARS
-    category: Misc Vehicles
-    group: UFO - Ships
   - type: HUMMER
     terrains:
       - HUMMER
@@ -16728,18 +16735,29 @@ tilesets:
 
 #----- Misc Vehicles ----------------------------------------------------------#
   - type: XARMY
-    terrains:
+    terrains: &XARMY
       - XARMY
     category: Misc Vehicles
     group: UFO - Ships
   - type: PICKUP
-    terrains:
-      - XARMY
+    terrains: *XARMY
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: BIKE_CONVOY
+    terrains: *XARMY
     category: Misc Vehicles
     group: UFO - Ships
   - type: SUV
+    terrains: *XARMY
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: STRYKER
+    terrains: *XARMY
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: WRECK_CARS
     terrains:
-      - XARMY
+      - WRECK_CARS
     category: Misc Vehicles
     group: UFO - Ships
   - type: LITTLE_BIRD
@@ -16799,6 +16817,11 @@ tilesets:
       - ROADS
     category: Misc Vehicles
     group: UFO - Ships
+  - type: XCAR_UFO_1
+    terrains:
+      - XCARS_BLACK
+    category: Misc Vehicles
+    group: UFO - Ships
 
 #----- Syndicate --------------------------------------------------------------#
   - type: SCARAB
@@ -16814,7 +16837,7 @@ tilesets:
 
 #----- Battleship 2 -----------------------------------------------------------#
   - type: UFO_162
-    terrains:
+    terrains: &UFOBattleship2
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -16824,29 +16847,17 @@ tilesets:
     category: Battleship 2
     group: UFO - Ships
   - type: UFO_163
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - UFOL83
+    terrains: *UFOBattleship2
     category: Battleship 2
     group: UFO - Ships
   - type: UFOGIANT
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - UFOL83
+    terrains: *UFOBattleship2
     category: Battleship 2
     group: UFO - Ships
 
 #----- Terror Ship ------------------------------------------------------------#
   - type: TERROR00
-    terrains:
+    terrains: &UFOTerrorShip
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -16857,143 +16868,59 @@ tilesets:
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: TERROR07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
   - type: UFO_150
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Terror Ship
     group: UFO - Ships
 
 #----- Lab Ship ---------------------------------------------------------------#
   - type: LABSHIP1
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Lab Ship
     group: UFO - Ships
   - type: LABSHIP2
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Lab Ship
     group: UFO - Ships
   - type: LABSHIP3
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Lab Ship
     group: UFO - Ships
   - type: LABSHIP4
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-      - UFOL83
+    terrains: *UFOTerrorShip
     category: Lab Ship
     group: UFO - Ships
 
 #----- Battleship -------------------------------------------------------------#
   - type: UFO_160
-    terrains:
+    terrains: &UFOBattleship
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -17002,90 +16929,45 @@ tilesets:
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS0
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS1
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS2
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS3
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS4
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS5
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS6
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS7
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
   - type: UFO_BS8
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - UFOL83
+    terrains: *UFOBattleship
     category: Battleship
     group: UFO - Ships
 
 #----- Supply Ship ------------------------------------------------------------#
   - type: UFO_170
-    terrains:
+    terrains: &UFOHarvester
       - U_EXT02
       - U_WALL02
       - U_DISEC2
@@ -17095,318 +16977,142 @@ tilesets:
     category: Supply Ship
     group: UFO - Ships
   - type: SUPPLY
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Supply Ship
     group: UFO - Ships
   - type: SUPPLY0
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Supply Ship
     group: UFO - Ships
   - type: SUPPLY1
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Supply Ship
     group: UFO - Ships
   - type: SUPPLY2
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Supply Ship
     group: UFO - Ships
 
 #----- Harvester --------------------------------------------------------------#
   - type: UFO_130
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES11
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES12
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES13
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES14
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES15
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES16
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES17
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES18
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES19
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES20
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES21
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES22
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
   - type: HARVES23
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_DISEC2
-      - U_BITS
-      - U_DISEC3
-      - UFOL83
+    terrains: *UFOHarvester
     category: Harvester
     group: UFO - Ships
 
 #----- Small Scout ------------------------------------------------------------#
   - type: UFO1A
-    terrains:
+    terrains: &UFOSmallScout
       - UFO1
     category: Small Scout
     group: UFO - Ships
   - type: UFO1B
-    terrains:
-      - UFO1
+    terrains: *UFOSmallScout
     category: Small Scout
     group: UFO - Ships
   - type: UFO1C
-    terrains:
-      - UFO1
+    terrains: *UFOSmallScout
     category: Small Scout
     group: UFO - Ships
 
 #----- Medium Scout -----------------------------------------------------------#
   - type: MEDSCOUT01
-    terrains:
+    terrains: &UFOScout
       - U_EXT02
       - U_WALL02
       - U_BITS
@@ -17414,487 +17120,251 @@ tilesets:
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
   - type: MEDSCOUT10_UFO_110_A_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Medium Scout
     group: UFO - Ships
 
 #----- Large Scout ------------------------------------------------------------#
   - type: LARGSCOUT00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT11
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT12
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT13
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT14
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT15
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT16
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT17
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT18
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT19
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT20
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT21
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT22
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT23
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT24
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
   - type: LARGSCOUT25_UFO_120_A_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Large Scout
     group: UFO - Ships
 
 #----- Sentry Ship ------------------------------------------------------------#
   - type: SENTRY00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY11
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY12
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
   - type: SENTRY13
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Sentry Ship
     group: UFO - Ships
 
 #----- Fighter Ship -----------------------------------------------------------#
   - type: FIGHTER00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
   - type: FIGHTER09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
 
 #----- Abductor ---------------------------------------------------------------#
   - type: UFO_140
-    terrains:
+    terrains: &UFOAbductor
       - U_EXT02
       - U_WALL02
       - U_OPER2
@@ -17903,183 +17373,89 @@ tilesets:
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
   - type: ABDUCT09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-      - UFOL83
+    terrains: *UFOAbductor
     category: Abductor
     group: UFO - Ships
 
 #----- Excavator --------------------------------------------------------------#
   - type: EXCAVTR00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR02
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR03
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR04
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR05
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR06
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR07
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR08
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR09
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
   - type: EXCAVTR10
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Excavator
     group: UFO - Ships
 
@@ -18127,179 +17503,91 @@ tilesets:
 
 #----- Misc UFOs --------------------------------------------------------------#
   - type: OBSERVER00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: OBSERVER01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: STRIKER00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: TROOPSHIP00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: TROOPSHIP01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_112
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_112A
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_114
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_122
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_124
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_125
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_126
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_127
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_128
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFOSAUC
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFRSAUC
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFOSCOUT
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFRSCOUT
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFRPR
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: CONTACTSHIP00
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: CONTACTSHIP01
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: UFO_120AA_BY_CIVILIAN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
+    terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
   - type: G0000_GUARD_BY_WOLWERIN
@@ -18310,7 +17598,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0001_STEALER_BY_WOLWERIN
-    terrains:
+    terrains: &UFOGunship
       - U_EXT02
       - U_WALL02
       - U_OPER2
@@ -18318,7 +17606,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0002_EXECUTIONER_BY_WOLWERIN
-    terrains:
+    terrains: &UFOInterceptor
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -18326,11 +17614,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0007_BATTLE_HEAVY_SHIP_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
+    terrains: *UFOInterceptor
     category: Misc UFOs
     group: UFO - Ships
   - type: G0008_SANCTUARY_SHIP_BY_WOLWERIN
@@ -18344,7 +17628,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0009_DEFENDER_BY_WOLWERIN
-    terrains:
+    terrains: &UFOBomber
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -18354,19 +17638,11 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0010_INTERCEPTOR_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
+    terrains: *UFOInterceptor
     category: Misc UFOs
     group: UFO - Ships
   - type: G0011_CRAB_SCOUT_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
+    terrains: *UFOInterceptor
     category: Misc UFOs
     group: UFO - Ships
   - type: G0012_CRAB_SABOTEUR_BY_WOLWERIN
@@ -18379,13 +17655,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0013_DREADNOUGHT_INTERCEPTOR_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
+    terrains: *UFOBomber
     category: Misc UFOs
     group: UFO - Ships
   - type: G0014_LANDING_SHIP_BY_WOLWERIN
@@ -18412,11 +17682,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0017_AVERAGE_SPY_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
+    terrains: *UFOGunship
     category: Misc UFOs
     group: UFO - Ships
   - type: BIG_SHIP_BY_BRAIN
@@ -18836,7 +18102,26 @@ tilesets:
     category: Light Vessels
     group: Piratez - Ships
 
-#----- Plastasteel vessels ----------------------------------------------------#
+#----- Base Assault Vessels ---------------------------------------------------#
+  - type: VES_410
+    terrains: &BaseAssaultVessels
+      - U_EXT_G
+      - U_WALL_G
+      - U_PODS_G
+      - U_BITS_G
+      - U_DISEC2
+    category: Base Assault Vessels
+    group: Piratez - Ships
+  - type: VES_420
+    terrains: *BaseAssaultVessels
+    category: Base Assault Vessels
+    group: Piratez - Ships
+  - type: VES_430
+    terrains: *BaseAssaultVessels
+    category: Base Assault Vessels
+    group: Piratez - Ships
+
+#----- Plastasteel Vessels ----------------------------------------------------#
   - type: VES_190
     terrains:
       - U_EXT02
@@ -18845,7 +18130,7 @@ tilesets:
       - U_BITS
       - FRNITURE
       - PLANE
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_270
     terrains:
@@ -18857,7 +18142,7 @@ tilesets:
       - UFODIO
       - XB2BR
       - U_DISEC2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_180
     terrains:
@@ -18865,34 +18150,7 @@ tilesets:
       - U_WALL_G
       - U_DISEC2
       - U_BITS_G
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_410
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_420
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
-    group: Piratez - Ships
-  - type: VES_430
-    terrains:
-      - U_EXT_G
-      - U_WALL_G
-      - U_PODS_G
-      - U_BITS_G
-      - U_DISEC2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_220
     terrains:
@@ -18900,55 +18158,31 @@ tilesets:
       - U_WALL02
       - U_BITS
       - U_DISEC2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_230
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
+    terrains: *UFOScout
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_140
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
+    terrains: *UFOScout
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_150
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_BITS
-      - UFOL83
-    category: Plastasteel vessels
+    terrains: *UFOScout
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_110
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
+    terrains: *UFOGunship
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_120
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
+    terrains: *UFOGunship
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_160
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_OPER2
-      - U_BITS
-    category: Plastasteel vessels
+    terrains: *UFOGunship
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_170
     terrains:
@@ -18956,37 +18190,25 @@ tilesets:
       - U_WALL_G
       - U_OPER_G
       - U_BITS_G
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_210
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_DISEC2
-      - U_OPER2
-    category: Plastasteel vessels
+    terrains: *UFOBomber
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_130
-    terrains:
+    terrains: &UFOFreighter
       - U_EXT02
       - U_WALL02
       - U_PODS
       - U_BITS
       - FRNITURE
       - BATHBITZ
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_130_C
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - FRNITURE
-      - BATHBITZ
-    category: Plastasteel vessels
+    terrains: *UFOFreighter
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_300
     terrains:
@@ -18995,7 +18217,7 @@ tilesets:
       - U_PODS
       - U_BITS
       - U_DISEC2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_320
     terrains:
@@ -19003,7 +18225,7 @@ tilesets:
       - U_WALL_G
       - U_BITS_G
       - UFOL83DIO_B
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_500
     terrains:
@@ -19011,7 +18233,7 @@ tilesets:
       - U_WALL_B
       - U_BITS_B
       - UFOL83DIO_B
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_EXCV
     terrains:
@@ -19019,7 +18241,7 @@ tilesets:
       - U_WALL_G
       - U_BITS_G
       - UFOL83DIO_B
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_PINK
     terrains:
@@ -19029,7 +18251,7 @@ tilesets:
       - UFOL83_P
       - FRNTURE_GOLD
       - STATIONDECOR
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_SNAKEBOAT
     terrains:
@@ -19040,7 +18262,7 @@ tilesets:
       - UFOL83
       - U_DISEC2
       - U_OPER2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
     group: Piratez - Ships
   - type: VES_260
     terrains:
@@ -19050,12 +18272,132 @@ tilesets:
       - U_BITS
       - UFOL83
       - U_OPER2
-    category: Plastasteel vessels
+    category: Plastasteel Vessels
+    group: Piratez - Ships
+
+#----- Megapol Vessels --------------------------------------------------------#
+  - type: VES_POL_1
+    terrains: &MegapolVessels
+      - C_EXT_WALL_DBLUE
+      - C_EXT_ROOF_DBLUE
+      - C_EXT_NOSE_DBLUE
+      - C_INT
+      - LIFTER
+      - C_INT_ENGINE_E
+      - DOORSSEC
+      - C_INT_ENGINE_S
+      - C_EXT_WALL_POLICE
+    category: Megapol Vessels
+    group: Piratez - Ships
+  - type: VES_POL_2
+    terrains: *MegapolVessels
+    category: Megapol Vessels
+    group: Piratez - Ships
+  - type: VES_POL_3
+    terrains: *MegapolVessels
+    category: Megapol Vessels
+    group: Piratez - Ships
+  - type: VES_POL_4
+    terrains: *MegapolVessels
+    category: Megapol Vessels
+    group: Piratez - Ships
+  - type: VES_POL_5
+    terrains: *MegapolVessels
+    category: Megapol Vessels
+    group: Piratez - Ships
+    
+#----- Civilian Vessels [Green] -----------------------------------------------#
+  - type: VESSEL_CC1
+    terrains: &CivilianVesselsGreen
+      - C_EXT_WALL
+      - C_EXT_ROOF
+      - C_EXT_ENGINE_E
+      - C_EXT_ENGINE_S
+      - C_EXT_NOSE
+      - C_EXT_NOSE_BUMPER
+      - C_EXT_NOSE_BUMPLESS
+      - C_EXT_NOSE_SIDE
+      - C_BITS2
+      - C_INT
+      - DOORSSEC
+      - DOORS2
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - C_INT_ENGINE_E
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CC2
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CC3
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CC4
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CC5
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CI1
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CI3
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CE1
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_CE4
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_C10
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+  - type: VESSEL_C11
+    terrains: *CivilianVesselsGreen
+    category: Civilian Vessels [Green]
+    group: Piratez - Ships
+
+#----- Bandit Vessels [Red] ---------------------------------------------------#
+  - type: VESSEL_BA1
+    terrains: &BanditVesselsRed
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_ENGINE_S_RED
+      - C_EXT_XCOM
+      - LIFTER
+      - C_INT_HALF
+      - DOORSSEC
+      - C_EXT_NOSE_SIDE_RED
+      - C_INT_ENGINE_E
+    category: Bandit Vessels [Red]
+    group: Piratez - Ships
+  - type: VESSEL_BA2
+    terrains: *BanditVesselsRed
+    category: Bandit Vessels [Red]
+    group: Piratez - Ships
+  - type: VESSEL_BA3
+    terrains: *BanditVesselsRed
+    category: Bandit Vessels [Red]
+    group: Piratez - Ships
+  - type: VESSEL_BA4
+    terrains: *BanditVesselsRed
+    category: Bandit Vessels [Red]
     group: Piratez - Ships
 
 #----- MARSEC Vessels ---------------------------------------------------------#
   - type: VES_MAR_01
-    terrains:
+    terrains: &MarsecVessels
       - MARSEC_EXT_2
       - MARSEC_COMPUTERS
       - MARSEC_FRN
@@ -19066,25 +18408,11 @@ tilesets:
     category: MARSEC Vessels
     group: Piratez - Ships
   - type: VES_MAR_02
-    terrains:
-      - MARSEC_EXT_2
-      - MARSEC_COMPUTERS
-      - MARSEC_FRN
-      - MARSEC_NAVIGATION
-      - MARSEC_PODS
-      - MARSEC_OPER
-      - MARSEC_INT_2
+    terrains: *MarsecVessels
     category: MARSEC Vessels
     group: Piratez - Ships
   - type: VES_MAR_03
-    terrains:
-      - MARSEC_EXT_2
-      - MARSEC_COMPUTERS
-      - MARSEC_FRN
-      - MARSEC_NAVIGATION
-      - MARSEC_PODS
-      - MARSEC_OPER
-      - MARSEC_INT_2
+    terrains: *MarsecVessels
     category: MARSEC Vessels
     group: Piratez - Ships
 
@@ -19156,8 +18484,45 @@ tilesets:
     group: Piratez - Ships
 
 #----- Piratez - Buildings ----------------------------------------------------#
+
+#----- Guild Outposts ---------------------------------------------------------#
+  - type: GUHOUSE_01
+    terrains: &GuildBuildings
+      - C_EXT_WALL_DBLUE
+      - C_EXT_ROOF_DBLUE
+      - C_BITS2
+      - C_INT_HALF
+      - BATHBITZ_HT
+      - XBASEN_BEDS
+      - WAREBITS
+      - RET_BITS
+      - DOORSSEC
+      - DOORS2
+    category: Guild Outposts
+    group: Piratez - Buildings
+  - type: GUHOUSE_02
+    terrains: *GuildBuildings
+    category: Guild Outposts
+    group: Piratez - Buildings
+  - type: GUHOUSE_03
+    terrains: *GuildBuildings
+    category: Guild Outposts
+    group: Piratez - Buildings
+  - type: GUHOUSE_04
+    terrains: *GuildBuildings
+    category: Guild Outposts
+    group: Piratez - Buildings
+  - type: GUHOUSE_05
+    terrains: *GuildBuildings
+    category: Guild Outposts
+    group: Piratez - Buildings
+
 #----- Academy Outposts -------------------------------------------------------#
   - type: HTHOUSE_00
+    terrains: *AcademyBuildings
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_00B
     terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
@@ -19217,6 +18582,14 @@ tilesets:
     terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
+  - type: HTHOUSE_15
+    terrains: *AcademyBuildings
+    category: Academy Outposts
+    group: Piratez - Buildings
+  - type: HTHOUSE_16
+    terrains: *AcademyBuildings
+    category: Academy Outposts
+    group: Piratez - Buildings
   - type: HTHOUSE_01G
     terrains: *AcademyBuildings
     category: Academy Outposts
@@ -19271,6 +18644,10 @@ tilesets:
     terrains: *ChurchBuildings
     category: Church Outposts
     group: Piratez - Buildings
+  - type: CSENTRY_01
+    terrains: *ChurchBuildings
+    category: Church Outposts
+    group: Piratez - Buildings
 
 #----- Stone Age --------------------------------------------------------------#
   - type: MUTANTCAMPSMALL
@@ -19312,6 +18689,10 @@ tilesets:
     terrains: *Bunkers
     category: Bunkers
     group: Piratez - Buildings
+  - type: LAREGBUNKER_00
+    terrains: *Bunkers
+    category: Bunkers
+    group: Piratez - Buildings
 
 #----- Lokk'Naar Altars ---------------------------------------------------------#
   - type: LOKNARALTAR_0x
@@ -19340,6 +18721,76 @@ tilesets:
     category: Lokk'Naar Altars
     group: Piratez - Buildings
 
+#----- Lo-Tec Houses ---------------------------------------------------------#
+  - type: LT_HOUSE_01
+    terrains: &LoTecHouses
+      - DAWNURBAN
+      - DAWNURBITS
+      - CRIBDECOR
+      - MANSIONBITS
+      - CITYFRNITURE
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+  - type: LT_HOUSE_01G
+    terrains: *LoTecHouses
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+  - type: LT_HOUSE_02G
+    terrains: *LoTecHouses
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+  - type: LT_HOUSE_03G
+    terrains: *LoTecHouses
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+  - type: LT_HOUSE_04G
+    terrains: *LoTecHouses
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+
+#----- Bandit Camp ------------------------------------------------------------#
+  - type: BANDIT_BONFIRE
+    terrains: &BanditCamp
+      - RITUALS
+      - CONTAINERS
+      - IDT_ROOF
+      - NUKE3
+      - IDT_FARM
+      - IDT_BARNFLOOR
+      - SLUM_FURNITURE
+      - NUKE_CITY_2
+      - NUKE2
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_WATCHTOWER
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_BUNKER
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_CAMP_01
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_CAMP_02
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_CAMP_03
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_CAMP_04
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+  - type: BANDIT_CAMP_05
+    terrains: *BanditCamp
+    category: Bandit Camp
+    group: Piratez - Buildings
+
 #----- Misc Buildings ---------------------------------------------------------#
   - type: CATACOMBS_NEXUS
     terrains:
@@ -19358,6 +18809,10 @@ tilesets:
     terrains: *IndustrialSlum
     category: Misc Buildings
     group: Piratez - Buildings
+  - type: CRYPTEK_00
+    terrains: *CryptTekLabyrinths
+    category: Misc Buildings
+    group: Piratez - Buildings
   - type: HANGAR_PREVIEW_00
     terrains:
       - XBR1NEUTRAL
@@ -19366,6 +18821,11 @@ tilesets:
   - type: DUEL_00
     terrains:
       - ARENA
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: BUREAU_01
+    terrains:
+      - CORPLAB
     category: Misc Buildings
     group: Piratez - Buildings
 
