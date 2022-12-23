@@ -16632,6 +16632,18 @@ tilesets:
       - XCARS
     category: XCom
     group: UFO - Ships
+  - type: XSWAT_VAN
+    terrains:
+      - POLICECAR
+      - XCOMENTRY
+    category: XCom
+    group: UFO - Ships
+  - type: XSWAT_VANS
+    terrains:
+      - POLICECAR
+      - XCOMENTRY
+    category: XCom
+    group: UFO - Ships
   - type: XICE
     terrains:
       - LODY
