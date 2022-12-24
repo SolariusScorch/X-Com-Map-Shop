@@ -14195,7 +14195,7 @@ tilesets:
     group: UFO - Buildings
 
 #----- Piratez - Terrain ------------------------------------------------------#
-#----- Urban Waste --------------------------------------------------------------#
+#----- Urban Waste ------------------------------------------------------------#
   - type: URBANWASTE00
     terrains: &UrbanWaste
       - ROADS_WASTE
