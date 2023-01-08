@@ -1473,6 +1473,14 @@ tilesets:
     terrains: *Jungle
     category: Jungle
     group: UFO - Terrain
+  - type: JUNGLEDIO06
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
+  - type: JUNGLEDIO07
+    terrains: *Jungle
+    category: Jungle
+    group: UFO - Terrain
   - type: JUNGLESOL01
     terrains: *Jungle
     category: Jungle
@@ -3622,6 +3630,10 @@ tilesets:
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO09
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO10
     terrains: *IndustrialSlum
     category: Industrial Slum
@@ -3675,6 +3687,10 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO23
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO24
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
@@ -3882,6 +3898,10 @@ tilesets:
     category: Urban
     group: UFO - Terrain
   - type: SOLBAN40
+    terrains: *Urban
+    category: Urban
+    group: UFO - Terrain
+  - type: URBANDIO00
     terrains: *Urban
     category: Urban
     group: UFO - Terrain
@@ -13664,6 +13684,10 @@ tilesets:
       - MANSIONGARDEN
     category: Misc Buildings
     group: UFO - Buildings
+  - type: STRAGAN1
+    terrains: *Commercial
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: SNEED_SHACK
     terrains:
       - FARM_SHOP_DECO
@@ -13953,6 +13977,14 @@ tilesets:
     terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
+  - type: CULTHOUSE13
+    terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHOUSE14
+    terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
   - type: CULTHIDEOUT00
     terrains: *Culthouses
     category: Cult
@@ -13970,6 +14002,14 @@ tilesets:
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT04
+    terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT05
+    terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT06
     terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
@@ -18098,6 +18138,72 @@ tilesets:
       - DOORS2
     category: Light Vessels
     group: Piratez - Ships
+
+#----- Raider Vessels ---------------------------------------------------------#
+  - type: VES_310
+    terrains: &RaiderVessels
+      - C_EXT02
+      - XBASE1
+      - FRNITURE
+      - C_BITS_X1
+    category: Raider Vessels
+    group: Piratez - Ships
+  - type: VES_310A
+    terrains: *RaiderVessels
+    category: Raider Vessels
+    group: Piratez - Ships
+  - type: VES_310B
+    terrains: *RaiderVessels
+    category: Raider Vessels
+    group: Piratez - Ships
+  - type: VES_310C
+    terrains: *RaiderVessels
+    category: Raider Vessels
+    group: Piratez - Ships
+  - type: VES_310Z
+    terrains: *RaiderVessels
+    category: Raider Vessels
+    group: Piratez - Ships
+    
+#----- Ninja Standard Vessels -------------------------------------------------#
+  - type: VES_NIN_APC
+    terrains: &NinjaStandardVessels
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPER_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - LIFTER
+      - C_INT_THIRD
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - NINJATECH
+    category: Ninja Standard Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_CRAWLER
+    terrains: *NinjaStandardVessels
+    category: Ninja Standard Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_LANDCRUISER
+    terrains: *NinjaStandardVessels
+    category: Ninja Standard Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_PRISONTRUCK
+    terrains: *NinjaStandardVessels
+    category: Ninja Standard Vessels
+    group: Piratez - Ships
+
+#----- Ninja Unique Vessels ---------------------------------------------------#
+  - type: VES_EVIL_1
+    terrains:
+      - NINJATRANSPORT2
+      - NINJATRANSPORT3
+      - C_EXT_ROOF_BLACK2
+      - C_INT_CHAIRS
+      - NINJASPECIALS
+      - NINJATECH
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
   - type: VES_NIN_1
     terrains:
       - C_EXT_WALL_BLACK
@@ -18111,7 +18217,54 @@ tilesets:
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
       - NINJASPECIALS
-    category: Light Vessels
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_2
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - LIFTER
+      - C_INT_THIRD
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - NINJATECH
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_INTERCEPTOR
+    terrains: &NinjaInterceptor
+      - C_EXT_XCOM_DARK
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_INT_THIRD
+      - NINJASPECIALS
+      - NINJATECH
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_BOMBER
+    terrains: *NinjaInterceptor
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_MIG
+    terrains:
+      - ORKP_BLACK
+    category: Ninja Unique Vessels
+    group: Piratez - Ships
+  - type: VES_NIN_CASTLE
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPER_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - LIFTER
+      - C_INT_HALF
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - NINJATECH
+    category: Ninja Unique Vessels
     group: Piratez - Ships
 
 #----- Base Assault Vessels ---------------------------------------------------#
@@ -18477,6 +18630,11 @@ tilesets:
     group: Piratez - Ships
 
 #----- Pirate Vessels ---------------------------------------------------------#
+  - type: EXPEDITION
+    terrains:
+      - EXPEDITION
+    category: Pirate Vessels
+    group: Piratez - Ships
   - type: CHARIOT
     terrains:
       - AVENGER
