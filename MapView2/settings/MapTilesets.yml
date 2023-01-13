@@ -14235,6 +14235,103 @@ tilesets:
     group: UFO - Buildings
 
 #----- Piratez - Terrain ------------------------------------------------------#
+#----- Thule Base -------------------------------------------------------------#
+  - type: THULEBASE_00
+    terrains: &ThuleBase
+      - THULBASES01
+      - THULBASES02
+      - THULBASES03
+      - THULBASES04
+      - THULBASES05
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_01
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_02
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_03
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_04
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_05
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_06
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_07
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_08
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_09
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_10
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_11
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_12
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_13
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_14
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_15
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_16
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_16LZ
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_17
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_18
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_20
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+  - type: THULEBASE_00EZ
+    terrains: *ThuleBase
+    category: Thule Base
+    group: Piratez - Terrain
+
+
+    
 #----- Urban Waste ------------------------------------------------------------#
   - type: URBANWASTE00
     terrains: &UrbanWaste
@@ -15565,6 +15662,10 @@ tilesets:
     category: Moonberia
     group: Piratez - Terrain
   - type: MOONBERIA_CARS
+    terrains: *Moonberia
+    category: Moonberia
+    group: Piratez - Terrain
+  - type: MOONBERIA_EXIT
     terrains: *Moonberia
     category: Moonberia
     group: Piratez - Terrain
