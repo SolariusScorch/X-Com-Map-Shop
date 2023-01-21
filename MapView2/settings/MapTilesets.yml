@@ -3313,6 +3313,14 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_ENORMOUS_SOL_11
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: UBASE_ENORMOUS_TALL_SOL_00
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_CIV_00
     terrains: *AlienBase
     category: Alien Base
@@ -15557,8 +15565,10 @@ tilesets:
   - type: MOONBERIA0X0X
     terrains: &Moonberia
       - MOUNTMOON
-      - URBAN40K2MOON
-      - COMPLEXBITSMOON
+#      - URBAN40K2MOON
+#      - COMPLEXBITSMOON
+      - URBAN40KMIBMOON
+      - COMPLEXBITSMIBMOON
     category: Moonberia
     group: Piratez - Terrain
   - type: MOONBERIA01
