@@ -17664,24 +17664,28 @@ tilesets:
     category: Convoy
     group: UFO - Ships
 
-#----- Misc UFOs --------------------------------------------------------------#
+#----- Troop Ship -------------------------------------------------------------#
+  - type: TROOPSHIP00
+    terrains: *UFOScout
+    category: Troop Ship
+    group: UFO - Ships
+  - type: TROOPSHIP01
+    terrains: *UFOScout
+    category: Troop Ship
+    group: UFO - Ships
+
+#----- Observer ---------------------------------------------------------------#
   - type: OBSERVER00
     terrains: *UFOScout
-    category: Misc UFOs
+    category: Observer
     group: UFO - Ships
   - type: OBSERVER01
     terrains: *UFOScout
-    category: Misc UFOs
+    category: Observer
     group: UFO - Ships
+
+#----- Misc UFOs --------------------------------------------------------------#
   - type: STRIKER00
-    terrains: *UFOScout
-    category: Misc UFOs
-    group: UFO - Ships
-  - type: TROOPSHIP00
-    terrains: *UFOScout
-    category: Misc UFOs
-    group: UFO - Ships
-  - type: TROOPSHIP01
     terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
@@ -17846,6 +17850,16 @@ tilesets:
     group: UFO - Ships
   - type: G0017_AVERAGE_SPY_BY_WOLWERIN
     terrains: *UFOGunship
+    category: Misc UFOs
+    group: UFO - Ships
+  - type: ARBITER
+    terrains:
+      - U_EXT02
+      - U_WALL02
+      - U_PODS
+      - U_BITS
+      - U_OPER2
+      - UFOL83
     category: Misc UFOs
     group: UFO - Ships
   - type: BIG_SHIP_BY_BRAIN
