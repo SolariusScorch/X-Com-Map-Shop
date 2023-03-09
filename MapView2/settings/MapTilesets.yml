@@ -6191,6 +6191,47 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+### add more here ###
+  - type: XBASS_51
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_52
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_53
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_54
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_55
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_56
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_57
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_58
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_59
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_MEGAWAREHOSE
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
 
 #----- Chem Town --------------------------------------------------------------#
   - type: CHEMTOWN00
@@ -19121,6 +19162,15 @@ tilesets:
   - type: BUREAU_01
     terrains:
       - CORPLAB
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: PRECINT
+    terrains:
+      - ROADS
+      - URBAN40K
+      - INDUSLUM
+      - XCARS_BLACK_CUT
+      - JAILBITES
     category: Misc Buildings
     group: Piratez - Buildings
 
