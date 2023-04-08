@@ -2,8 +2,8 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename A_WALL02
-SelectMCD 38
+selectedfilename XOPSUFOWALLS
+SelectMCD 1
 SelectPCK 0
 Animate False
 t_checkered False
@@ -33,7 +33,7 @@ t_form6_set_versp 0
 t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
-t_form1_scroll 957
-t_form6_scroll 2261
-t_form1_t 175
-t_form1_l 225
+t_form1_scroll 0
+t_form6_scroll 891
+t_form1_t 178
+t_form1_l 948

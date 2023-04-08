@@ -9233,6 +9233,11 @@ tilesets:
     terrains: *UrbanLowRoads
     category: Urban Roads (Child)
     group: UFO - Terrain
+  - type: URBANROAD_ENTRY_WE
+    terrains: *UrbanLowRoads
+    category: Urban Roads (Child)
+    group: UFO - Terrain
+    bypassRecordsExceeded: True
 
 #----- Tasoth Factory ---------------------------------------------------------#
   - type: GRUNGE00
@@ -14101,6 +14106,15 @@ tilesets:
       - OCEANTEMPLE1_HALF
     category: Cult
     group: UFO - Buildings
+  - type: RECLAMATION_OF_AETHER_LAB01
+    terrains:
+      - URBAN
+      - URBITS
+      - URBAN_FLOOR
+      - XBASE2
+      - XCOMBITS
+    category: Cult
+    group: UFO - Buildings
 
 #----- Underwater Structures --------------------------------------------------#
   - type: USOLANDINGPAD
@@ -14580,6 +14594,14 @@ tilesets:
     category: Urban Waste
     group: Piratez - Terrain
   - type: URBANWASTE48
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE49
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE50
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
@@ -19125,6 +19147,105 @@ tilesets:
   - type: BANDIT_CAMP_05
     terrains: *BanditCamp
     category: Bandit Camp
+    group: Piratez - Buildings
+
+#----- Waste Factory ----------------------------------------------------------#
+  - type: WASTEFACTORY_1
+    terrains: &WasteFactory
+      - WASTEFACTORY
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_2
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_3
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_4
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_5
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_6
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_7
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_8
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_1
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_2
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_3
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_4
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_5
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEFACTORY_BIG_6
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_1
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_2
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_3
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_4
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_5
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_6
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_7
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_8
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_9
+    terrains: *WasteFactory
+    category: Waste Factory
+    group: Piratez - Buildings
+  - type: WASTEOUTPOST_10
+    terrains: *WasteFactory
+    category: Waste Factory
     group: Piratez - Buildings
 
 #----- Misc Buildings ---------------------------------------------------------#
