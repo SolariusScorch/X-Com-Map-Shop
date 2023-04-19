@@ -1370,6 +1370,10 @@ tilesets:
     terrains: *USOTFTD
     category: TFTD - Misc UFOs
     group: TFTD - USOs
+  - type: USO_GT0006_SHIP_DESTROYER_BY_WOLWERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
 
 #----- XCom -------------------------------------------------------------------#
   - type: HAMMER
@@ -10956,6 +10960,17 @@ tilesets:
     category: Beach
     group: UFO - Terrain
 
+#----- Cargo Ship -------------------------------------------------------------#
+  - type: CARGO00
+    terrains: &CargoShip
+      - SEAURBAN
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+    category: Cargo Ship
+    group: UFO - Terrain
+    
 #----- Luxury Liner -----------------------------------------------------------#
   - type: LINERT00
     terrains: &LuxuryLiner
@@ -13505,6 +13520,28 @@ tilesets:
     group: UFO - Terrain
 
 #----- UFO - Buildings --------------------------------------------------------#
+#----- Club Malibu ------------------------------------------------------------#
+  - type: CLUBMALIBU_PB1
+    terrains: &ClubMalibu
+      - XCOMENTRY
+      - XCOMEXIT
+      - CLUBMALIBU1
+      - CLUBMALIBU2
+    category: Club Malibu
+    group: UFO - Buildings
+  - type: CLUBMALIBU_PB2
+    terrains: *ClubMalibu
+    category: Club Malibu
+    group: UFO - Buildings
+  - type: CLUBMALIBU_PB3
+    terrains: *ClubMalibu
+    category: Club Malibu
+    group: UFO - Buildings
+  - type: CLUBMALIBU_PB4
+    terrains: *ClubMalibu
+    category: Club Malibu
+    group: UFO - Buildings
+
 #----- Misc Buildings ---------------------------------------------------------#
   - type: NOOBERIA_CHRYSSALID_CAPSULES
     terrains:

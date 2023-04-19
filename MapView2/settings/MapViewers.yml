@@ -29,9 +29,9 @@ TopRouteView:
   width: 1348
   height: 798
 Options:
-  left: 647
-  top: 113
-  width: 600
+  left: 691
+  top: 135
+  width: 646
   height: 858
 TilesetEditor:
   left: 170
