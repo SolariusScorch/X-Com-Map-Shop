@@ -1366,11 +1366,35 @@ tilesets:
     group: TFTD - USOs
 
 #----- TFTD - Misc UFOs -------------------------------------------------------#
-  - type: USO_GT0004_SHIP_DESTROYER_BY_WOLWERIN
+  - type: USO_GT0000-2_BY_WOLVERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0001-1_BY_WOLVERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0002-4_BY_WOLVERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0003-1_BY_WOLVERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0005-5_BY_WOLVERIN
     terrains: *USOTFTD
     category: TFTD - Misc UFOs
     group: TFTD - USOs
   - type: USO_GT0006_SHIP_DESTROYER_BY_WOLWERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0007-4_INTIMIDATOR_BY_WOLVERIN
+    terrains: *USOTFTD
+    category: TFTD - Misc UFOs
+    group: TFTD - USOs
+  - type: USO_GT0008_BY_WOLVERIN
     terrains: *USOTFTD
     category: TFTD - Misc UFOs
     group: TFTD - USOs
@@ -10578,7 +10602,27 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFO21
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTUFO22
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO23
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO24
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO25
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO26
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -10607,6 +10651,10 @@ tilesets:
     category: Port
     group: UFO - Terrain
   - type: PORTUFO31B
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO32
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -17853,10 +17901,6 @@ tilesets:
     terrains: *UFOScout
     category: Misc UFOs
     group: UFO - Ships
-  - type: UFO_120AA_BY_CIVILIAN
-    terrains: *UFOScout
-    category: Misc UFOs
-    group: UFO - Ships
   - type: G0000_GUARD_BY_WOLWERIN
     terrains:
       - U_EXT02
@@ -18235,6 +18279,10 @@ tilesets:
       - MIB_PODS
       - MIB_FRN
       - MIB_CRAFTBITS
+    category: Men in Black
+    group: UFO - Ships
+  - type: UFO_120AA_BY_CIVILIAN
+    terrains: *UFOScout
     category: Men in Black
     group: UFO - Ships
   - type: SCI_HOUSE
