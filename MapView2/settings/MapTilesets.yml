@@ -17957,7 +17957,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0012_CRAB_SABOTEUR_BY_WOLWERIN
-    terrains:
+    terrains: &UFOCrab
       - U_EXT02
       - U_WALL02
       - U_PODS
@@ -17970,12 +17970,7 @@ tilesets:
     category: Misc UFOs
     group: UFO - Ships
   - type: G0014_LANDING_SHIP_BY_WOLWERIN
-    terrains:
-      - U_EXT02
-      - U_WALL02
-      - U_PODS
-      - U_BITS
-      - U_OPER2
+    terrains: *UFOCrab
     category: Misc UFOs
     group: UFO - Ships
   - type: G0015_AVERAGE_SCOUT_BY_WOLWERIN
@@ -18282,7 +18277,20 @@ tilesets:
     category: Men in Black
     group: UFO - Ships
   - type: UFO_120AA_BY_CIVILIAN
-    terrains: *UFOScout
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+      - MIB_L83
+    category: Men in Black
+    group: UFO - Ships
+  - type: G0014_LANDING_SHIP_BY_WOLWERIN_SOLAR_MIX
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_PODS
+      - MIB_BITS
+      - MIB_OPER2
     category: Men in Black
     group: UFO - Ships
   - type: SCI_HOUSE
