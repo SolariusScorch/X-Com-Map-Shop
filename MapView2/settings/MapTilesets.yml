@@ -4876,37 +4876,37 @@ tilesets:
     category: Moon
     group: UFO - Terrain
 
-#----- Nazi Moonbase Surface ----------------------------------------------------------------#
+#----- Black Sun Moonbase Surface ----------------------------------------------------------------#
   - type: MARS00
-    terrains: &NaziMoonbaseSurface
+    terrains: &BlackSunMoonbaseSurface
       - MOONGRAY
       - URBAN40K
       - STATION
-    category: Nazi Moonbase Surface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MARS01
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MARS02
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MARS03
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MARS04
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MARS05
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
   - type: MOONBUNKER00
-    terrains: *NaziMoonbaseSurface
-    category: Nazi Moonbase Surface
+    terrains: *BlackSunMoonbaseSurface
+    category: Black Sun Moonbase Surface
     group: UFO - Terrain
 
 #----- Cydonia ----------------------------------------------------------------#
@@ -14232,6 +14232,19 @@ tilesets:
       - SEANOM
     category: Underwater Structures
     group: UFO - Buildings
+  - type: MOLECULAREMITTER
+    terrains:
+      - USOEXT2
+      - USOEXT3
+      - SEAORGANIC1
+      - SEAORGANIC2
+      - SEAORGANIC3
+      - USOINT1
+      - USOINT2
+      - USOINT3
+      - SEANOM
+    category: Underwater Structures
+    group: UFO - Buildings
 
 #----- Crop Circles -----------------------------------------------------------#
   - type: CROPCIRCLE00
@@ -14690,6 +14703,62 @@ tilesets:
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
+  - type: URBANWASTE51
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE52
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE53
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE54
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE55
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE56
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE57
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE58
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE59
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE60
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE61
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE62
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE63
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTE64
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
   - type: URBANWASTEROAD_CROSS01
     terrains: *UrbanWaste
     category: Urban Waste
@@ -14699,6 +14768,18 @@ tilesets:
     category: Urban Waste
     group: Piratez - Terrain
   - type: URBANWASTEROAD_CROSS03
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS04
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS05
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_CROSS06
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
@@ -14726,6 +14807,22 @@ tilesets:
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS07
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS08
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS09
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_NS10
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
   - type: URBANWASTEROAD_WE01
     terrains: *UrbanWaste
     category: Urban Waste
@@ -14747,6 +14844,22 @@ tilesets:
     category: Urban Waste
     group: Piratez - Terrain
   - type: URBANWASTEROAD_WE06
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE07
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE08
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE09
+    terrains: *UrbanWaste
+    category: Urban Waste
+    group: Piratez - Terrain
+  - type: URBANWASTEROAD_WE10
     terrains: *UrbanWaste
     category: Urban Waste
     group: Piratez - Terrain
@@ -17948,10 +18061,6 @@ tilesets:
       - U_OPER2
     category: Misc UFOs
     group: UFO - Ships
-  - type: G0010_INTERCEPTOR_BY_WOLWERIN
-    terrains: *UFOInterceptor
-    category: Misc UFOs
-    group: UFO - Ships
   - type: G0011_CRAB_SCOUT_BY_WOLWERIN
     terrains: *UFOInterceptor
     category: Misc UFOs
@@ -18291,6 +18400,14 @@ tilesets:
       - MIB_PODS
       - MIB_BITS
       - MIB_OPER2
+    category: Men in Black
+    group: UFO - Ships
+  - type: G0010_INTERCEPTOR_BY_WOLWERIN
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_PODS
+      - MIB_BITS
     category: Men in Black
     group: UFO - Ships
   - type: SCI_HOUSE

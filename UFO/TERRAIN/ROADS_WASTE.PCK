@@ -1,61 +1,24 @@
-‏ZUUZ‏WUWW
-WWZ‏UX
-	WXWWZWWU‏UWZU
+‏XWYX‏_]ZYX‏][
+Y\]YX‏ZXZ^
+[WYZX‏[ZWXWZ^[]\[Y][XW‏
+][][ZW[^[_^W[]ZY‏][ZW][ZWZX	[	[
+ZX‏[
+Y[WWX[^]YYZX‏[
+
+[
+	[XXXY
+Z[‏[
+Z[
 
-
-X
-	[[WYZ‏VUW[WU	
-
-XY
-
-Y[ZWWWZ‏
-
-WZVWZ
-W
-YZX
-Z
-XZUZU‏
-ZV
-	VYWXYZX
-
-
-XYYUUZYW‏WZZV
-WXV
-V
-XXW
-ZXX
-	
-XWU
-XVZZW‏WZZUUX
-VVW
-XXZ
-
-
-YY
-UWXYZY‏UZ
-ZW
-W
-X	Y
 Y
+YWZZY[‏
+	
+	]\
+WZ[Z‏	\[\
+[Y‏^X\^[
+‏[Z^‏
 
-
-
-
-
-	WXZY‏
-ZXZ	WV
-X
-	
-X	X	
-VVV‏
-
-W[X	
-
-X
-XUVU‏UWW[U
-
-WXXU‏ZW
-WWUW‏ZUUZÿ‏ZUUZ‏WUWWWWWZ‏UXXWUXUX[WWU‏UWZUXUXWWXZU[WZZ‏VUW[WVZXZZZXררררפWWû‏
+ÿ‏ZUUZ‏WUWWWWWZ‏UXXWUXUX[WWU‏UWZUXUXWWXZU[WZZ‏VUW[WVZXZZZXררררפWWû‏
 ZZWZZZXרררWUWZצרררררZרûû‏ZZZZVWUWWרתרקרZWZררצרררצרתרת‏WZZVZWUWWZVUררררררXWZתררררררררתצ‏WZZUWUZXVXZZץרקררתZWרצרûרתרר‏UZUZWXWXZZרררררררקררûרתר‏
 רתרWZ[Z[Xץרררץרררררר‏ץררשXUXררתררררצר‏רררצרXררץררר‏רררררררר‏תרץרÿ‏
 ZUUZ‏
