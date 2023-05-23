@@ -1326,6 +1326,19 @@ tilesets:
     group: TFTD - Terrain
 
 #----- TFTD - USOs ------------------------------------------------------------#
+  - type: OFFSHORE_46
+    terrains:
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - GRUNGE4_PIPES_NO_REC_ARMORED
+      - MOSTLY_PIPES_ARMORED
+    category: Misc Buildings
+    group: TFTD - Buildings
+
+#----- TFTD - USOs ------------------------------------------------------------#
 #----- Alien ------------------------------------------------------------------#
   - type: UFO01
     terrains: &USOTFTD
@@ -16926,6 +16939,14 @@ tilesets:
     category: Space Freighter Base
     group: Piratez - Terrain
   - type: FREIGHTER_ROOF_W00
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: SPACE_TRAIN_CORRIDOR_00
+    terrains: *SpaceFreighterBase
+    category: Space Freighter Base
+    group: Piratez - Terrain
+  - type: SPACE_TRAIN_ROOF_00
     terrains: *SpaceFreighterBase
     category: Space Freighter Base
     group: Piratez - Terrain
