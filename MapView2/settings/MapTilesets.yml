@@ -6269,6 +6269,10 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_60
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
   - type: XBASS_MEGAWAREHOSE
     terrains: *XBase
     category: X-Com Base

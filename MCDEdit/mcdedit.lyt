@@ -2,8 +2,8 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename AVENGER
-SelectMCD 34
+selectedfilename CULTIVAT
+SelectMCD 4
 SelectPCK 0
 Animate False
 t_checkered False
@@ -33,7 +33,7 @@ t_form6_set_versp 0
 t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
-t_form1_scroll 1054
+t_form1_scroll 0
 t_form6_scroll 1452
-t_form1_t 211
-t_form1_l 1173
+t_form1_t 131
+t_form1_l 1061
