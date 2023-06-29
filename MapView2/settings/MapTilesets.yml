@@ -13583,6 +13583,10 @@ tilesets:
     terrains: *DesertPlane
     category: Desert Plane
     group: UFO - Terrain
+  - type: CRASHEDPLANEDIO_00
+    terrains: *DesertPlane
+    category: Desert Plane
+    group: UFO - Terrain
 
 #----- UFO - Buildings --------------------------------------------------------#
 #----- Club Malibu ------------------------------------------------------------#
