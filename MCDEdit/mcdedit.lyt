@@ -2,8 +2,8 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename MILWARE
-SelectMCD 28
+selectedfilename CORP
+SelectMCD 30
 SelectPCK 0
 Animate False
 t_checkered False
@@ -33,7 +33,7 @@ t_form6_set_versp 0
 t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
-t_form1_scroll 1569
+t_form1_scroll 768
 t_form6_scroll 1452
-t_form1_t 136
-t_form1_l 1003
+t_form1_t 137
+t_form1_l 250
