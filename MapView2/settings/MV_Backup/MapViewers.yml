@@ -7,7 +7,7 @@ MainView:
   left: 0
   top: 0
   width: 1521
-  height: 998
+  height: 1001
 TopView:
   left: 100
   top: 50
@@ -24,9 +24,9 @@ TileView:
   width: 390
   height: 1002
 TopRouteView:
-  left: 2096
-  top: 198
-  width: 1080
+  left: 2538
+  top: 194
+  width: 812
   height: 835
 Options:
   left: 691

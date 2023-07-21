@@ -9660,6 +9660,10 @@ tilesets:
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
+  - type: CAVESDIO_06
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
   - type: CAVES_FRAGMENT
     terrains: *Caves
     category: Caves
@@ -9731,6 +9735,10 @@ tilesets:
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_05
+    terrains: *Caves
+    category: Caves - Lab
+    group: UFO - Terrain
+  - type: CAVESLABDIO_06
     terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
@@ -11030,8 +11038,8 @@ tilesets:
     terrains: &CargoShip
       - SEAURBAN
       - CARGO1
-      - CARGO2
-      - XBITS
+      - CARGO2_IND
+      - XBITSUFO
       - CARGO3
     category: Cargo Ship
     group: UFO - Terrain

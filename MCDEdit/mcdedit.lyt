@@ -2,9 +2,9 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename CORP
-SelectMCD 30
-SelectPCK 0
+selectedfilename GRAVES
+SelectMCD 14
+SelectPCK 12
 Animate False
 t_checkered False
 Form3_w 473
@@ -13,8 +13,8 @@ Form4_w 415
 Form4_h 450
 Form5_w 715
 Form5_h 569
-t_form6_l 665
-t_form6_t 283
+t_form6_l 1101
+t_form6_t 309
 t_form6_1 False
 t_form6_2 True
 t_form6_3 True
@@ -33,7 +33,7 @@ t_form6_set_versp 0
 t_form6_set_margleft 0
 t_form6_set_margtop 0
 t_form6_set_pckrow 10
-t_form1_scroll 768
-t_form6_scroll 1452
-t_form1_t 137
-t_form1_l 250
+t_form1_scroll 0
+t_form6_scroll 0
+t_form1_t 167
+t_form1_l 966
