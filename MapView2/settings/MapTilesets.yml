@@ -9664,6 +9664,10 @@ tilesets:
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
+  - type: CAVESDIO_07
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
   - type: CAVES_FRAGMENT
     terrains: *Caves
     category: Caves
@@ -9739,6 +9743,10 @@ tilesets:
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLABDIO_06
+    terrains: *Caves
+    category: Caves - Lab
+    group: UFO - Terrain
+  - type: CAVESLABDIO_07
     terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
