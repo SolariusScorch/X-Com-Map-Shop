@@ -9640,6 +9640,10 @@ tilesets:
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
+  - type: CAVES_07
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
   - type: CAVESDIO_01
     terrains: *Caves
     category: Caves
@@ -9719,6 +9723,10 @@ tilesets:
     category: Caves - Lab
     group: UFO - Terrain
   - type: CAVESLAB_06
+    terrains: *Caves
+    category: Caves - Lab
+    group: UFO - Terrain
+  - type: CAVESLAB_07
     terrains: *Caves
     category: Caves - Lab
     group: UFO - Terrain
@@ -14191,6 +14199,14 @@ tilesets:
     group: UFO - Buildings
   - type: LO_WO_HOUSE
     terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
+  - type: BORGARFACTORY00
+    terrains:
+      - MILEXT
+      - MAGMAWAREAN
+      - MILTECH
+      - MEAT
     category: Cult
     group: UFO - Buildings
   - type: DURFACTORY
