@@ -19088,6 +19088,23 @@ tilesets:
     category: Capsules
     group: Piratez - Ships
 
+#----- Space Stations ---------------------------------------------------------------#
+  - type: SPACEPRISON_01
+    terrains: &SpaceStations
+      - SPACESTATION_EXTRA
+      - SPACESTATION_INT
+      - LIFTER
+    category: Space Stations
+    group: Piratez - Ships
+  - type: SPACEPRISON_02
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Ships
+  - type: SPACESTATION_01
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Ships
+
 #----- Pirate Vessels ---------------------------------------------------------#
   - type: EXPEDITION
     terrains:
