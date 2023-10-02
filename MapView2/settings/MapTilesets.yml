@@ -17043,7 +17043,7 @@ tilesets:
       - AVENGER
     category: XCom
     group: UFO - Ships
-  - type: DROPSHIP
+  - type: IRONFIST
     terrains:
       - DROPSHIP
       - DROPSHIP2
@@ -17137,6 +17137,12 @@ tilesets:
       - UH_1B_HUEY
     category: XCom
     group: UFO - Ships
+  - type: MI8
+    terrains:
+      - MI8
+      - C_INT_XCOM_GOLD
+    category: XCom
+    group: UFO - Ships
   - type: MI_24_HIND
     terrains:
       - MI_24_HIND
@@ -17184,6 +17190,7 @@ tilesets:
       - C_EXT_NOSE_SIDE_GOLD
       - C_INT_XCOM
       - SUBBITS
+      - C_INT_ENGINE_S
     category: XCom
     group: UFO - Ships
   - type: KITSUNE
@@ -17205,6 +17212,11 @@ tilesets:
       - AVENGER
       - LIGHTNIN
       - XBASE1
+    category: XCom
+    group: UFO - Ships
+  - type: BLACKBIRD
+    terrains:
+      - BLKBRD
     category: XCom
     group: UFO - Ships
   - type: 8ENTRY
@@ -19113,8 +19125,8 @@ tilesets:
     group: Piratez - Ships
   - type: CHARIOT
     terrains:
-      - AVENGER
-      - LIGHTNIN
+      - AVENGER_R
+      - LIGHTNIN_R
       - XBASE1
       - LIFTER
     category: Pirate Vessels
@@ -19126,6 +19138,488 @@ tilesets:
     group: Piratez - Ships
   - type: SHUTTLE_ORBITAL
     terrains: *Shuttle
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: BRIG
+    terrains:
+      - AVENGER_EDIT
+      - U_WALL_G_X
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: BLAZER
+    terrains:
+      - AVENGER_G3
+      - LIGHTNIN_G2
+      - XBASE1
+      - U_WALL_G_X
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: MINER
+    terrains:
+      - AVENGER_G3
+      - LIGHTNIN_G2
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: HYDRA
+    terrains:
+      - AVENGER_G3
+      - LIGHTNIN_G2
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: DRAKKAR
+    terrains:
+      - AVENGER_G3
+      - C_EXT_ROOF_BLACK2
+      - C_INT_XCOM
+      - XOPSTRANSPORT2_RED
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: DROPSHIP
+    terrains:
+      - LIGHTNIN
+      - AVENGER_EDIT
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: FIGHTER1
+    terrains:
+      - TRITON_U
+      - PLANE
+      - LIGHTNIN
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: FIGHTER2
+    terrains:
+      - PLANE
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: TRITON_U1
+    terrains:
+      - TRITON_U
+      - LIGHTNIN
+      - C_INT_ENGINE_E
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SHARKBIKE
+    terrains:
+      - PLANE2R
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: JETBIKE
+    terrains:
+      - AVENGER
+      - LIGHTNIN
+      - U_WALL_G
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: KRAKEN
+    terrains:
+      - AVENGER_EDIT
+      - LIGHTNIN
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: MARSHIP
+    terrains:
+      - AVENGER_R
+      - LIGHTNIN_R
+      - XBASE1
+      - U_WALL_G_X
+      - BATHBITZ
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: NKF_CONVOY
+    terrains:
+      - NKF_APC_PIR_BROWN
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PIGEON
+    terrains:
+      - PLANE
+      - XBASE2
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: GDXCAR
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - C_INT_XCOM
+      - C_EXT_XCOM_DARK
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SNAILORD
+    terrains:
+      - U_EXT_XORG
+      - U_WALL_XORG
+      - U_BITSN_XORG
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE2
+    terrains:
+      - PLANE
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE2BD
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE3BD
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE4BD
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE5BD
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PLANE6
+    terrains:
+      - PLANE2
+      - LIFTER
+      - XCOMENTRY
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: HIGHSTAR
+    terrains:
+      - HIGHSTAR
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: HUNTERKILLER
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: NIGHTMARE
+    terrains:
+      - PLANE2
+      - XOPSTRANSPORT2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SABRE
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: WHALER
+    terrains:
+      - PLANE2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: VENTURA
+    terrains:
+      - AVENGER_GR
+      - LIGHTNIN_GR
+      - XBASE1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRBUS
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - C_BITS2
+      - C_BITS_02
+      - DOORSSEC
+      - C_INT_ENGINE_S
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRBUS2
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_BITS2
+      - C_BITS_02
+      - DOORSSEC
+      - C_INT_ENGINE_S
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRCAR
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_EXT_XCOM
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRLINER
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - C_BITS2
+      - C_BITS_02
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRTRUCK
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPER_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_EXT_XCOM
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRSPEEDER
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_EXT_XCOM
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: AIRBIKE
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_EXT_XCOM
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: WORM
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVERGREEN
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_E_SILVER
+      - C_INT_XCOM_GOLD
+      - C_BITS_02
+      - C_INT_ENGINE_E
+      - DOORSSEC
+      - GLASSDECOR
+      - RET_LADDERS
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: GOLDHAWK
+    terrains:
+      - C_EXT_WALL_GOLD
+      - C_EXT_ROOF_GOLD
+      - C_EXT_NOSE_BUMPLESS_GOLD
+      - C_EXT_NOSE_SIDE_GOLD
+      - C_INT_XCOM
+      - SUBBITS
+      - PLANE2
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SCARAB
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_BLACK
+      - C_INT_XCOM
+      - C_EXT_XCOM_DARK
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SAKURABUS
+    terrains:
+      - C_INT_XCOM_GOLD
+      - C_EXT_WALL_PRPL
+      - C_EXT_ROOF_PRPL
+      - C_EXT_ENG_E_PRPL
+      - C_EXT_NOSE_SIDE_PRPL
+      - C_EXT_NOSE_PRPL
+      - C_EXT_NOSE_BUMPER_PRPL
+      - DOORS2
+      - C_INT_ENGINE_E
+      - XBASEN_BEDS
+      - MANSIONBITS
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: VSNAKE
+    terrains:
+      - C_INT_XCOM
+      - C_EXT_WALL
+      - C_EXT_ROOF
+      - C_EXT_ENGINE_E
+      - C_EXT_ENGINE_S
+      - C_EXT_NOSE
+      - C_EXT_NOSE_BUMPER
+      - C_EXT_NOSE_BUMPLESS
+      - C_EXT_NOSE_SIDE
+      - DOORSSEC
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - C_INT_ENGINE_E
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SHADOWBAT
+    terrains:
+      - C_INT_XCOM
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_ENG_E_BLACK
+      - RET_SHIPS_XCOM
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_NOSE_BLACK
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: JELLYFISH
+    terrains:
+      - C_EXT_WALL_DBLUE
+      - C_EXT_ROOF_DBLUE
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - LIFTER
+      - C_EXT_TURRET_DBLUE
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: MI2400
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM
+      - C_EXT_XCOM
+      - LIFTER
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: ZEPPELIN
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - C_BITS2
+      - LIFTER
+      - BATHBITZ_HT
+      - COMPUTERS
+      - DOORSSEC
+      - XBASEN_BITS
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SWORDFISH
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_BLACK
+      - C_INT_XCOM
+      - C_EXT_XCOM_BLACK
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: FAUST
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - C_INT_XCOM_GOLD
+      - DOORS2
+      - C_EXT_XCOM
+      - LIFTER
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SCHOOLBUS_X
+    terrains:
+      - C_EXT_WALL_GOLD
+      - C_EXT_ROOF_GOLD
+      - C_EXT_NOSE_BUMPLESS_GOLD
+      - C_EXT_NOSE_SIDE_GOLD
+      - C_INT_XCOM
+      - DOORS2
+      - LIFTER
+      - C_INT_ENGINE_E
+      - C_EXT_WALL_DBLUE
+      - C_EXT_NOSE_DBLUE
+      - C_EXT_ROOF_DBLUE
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: DEVASTATOR
+    terrains:
+      - XOPSTRANSPORT2
+      - XOPSTRANSPORT3
+      - COMPUTERS
+      - C_INT_XCOM_GOLD
+      - C_EXT_ROOF_BLACK2
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: RAILPOD
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - LIFTER
+      - XBASEN_BITS
+      - COMPUTERS
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: POD3X5
+    terrains:
+      - C_EXT_WALL_SILVER
+      - C_EXT_ROOF_SILVER
+      - C_EXT_NOSE_SILVER
+      - C_EXT_NOSE_SIDE_SILVER
+      - C_EXT_ENGINE_S_SILVER
+      - C_INT_XCOM
+      - LIFTER
+      - XBASEN_BITS
+      - COMPUTERS
+      - DOORSSEC
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: PIR_TANK
+    terrains:
+      - PREDATOR_PIR
+      - XCOMENTRY
     category: Pirate Vessels
     group: Piratez - Ships
 
@@ -20046,3 +20540,12 @@ tilesets:
     terrains: *Industrial40k
     category: Industrial 40k
     group: 40k - Terrain
+
+#----- 40k - Ships ------------------------------------------------------------#
+
+  - type: TAUROX
+    terrains:
+      - TAUROX
+      - C_INT_XCOM
+    category: Imperial Guard
+    group: 40k - Ships
