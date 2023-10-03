@@ -17219,6 +17219,17 @@ tilesets:
       - BLKBRD
     category: XCom
     group: UFO - Ships
+  - type: XOPSNEWSKYWARDEN
+    terrains:
+      - XOPSTRANSPORT2
+      - XOPSTRANSPORT3
+    category: XCom
+    group: UFO - Ships
+  - type: XOPSARCANGEL
+    terrains:
+      - XOPSTRANSPORT3
+    category: XCom
+    group: UFO - Ships
   - type: 8ENTRY
     terrains:
       - XCOMENTRY
@@ -19579,6 +19590,24 @@ tilesets:
       - C_EXT_ROOF_DBLUE
     category: Pirate Vessels
     group: Piratez - Ships
+  - type: WAR_HARVESTER
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_ENGINE_S_RED
+      - C_EXT_NOSE_BUMPER_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_BITS2
+      - C_INT_XCOM
+      - DOORSSEC
+      - DOORS2
+      - C_EXT_GLASSWALL
+      - LIFTER
+      - C_INT_ENGINE_E
+      - FLOORHOLE
+    category: Pirate Vessels
+    group: Piratez - Ships
   - type: DEVASTATOR
     terrains:
       - XOPSTRANSPORT2
@@ -20543,6 +20572,11 @@ tilesets:
 
 #----- 40k - Ships ------------------------------------------------------------#
 
+  - type: DROP
+    terrains:
+      - DROP
+    category: Space Marines
+    group: 40k - Ships
   - type: TAUROX
     terrains:
       - TAUROX
