@@ -19654,6 +19654,30 @@ tilesets:
 
 #----- Piratez - Buildings ----------------------------------------------------#
 
+#----- Assorted Structures ----------------------------------------------------#
+  - type: CORALEXIT
+    terrains:
+      - SEASAND6
+      - SEAWEEDS
+      - SEACORAL
+      - SEAROCKS
+      - USOBITS
+      - XCOMEXIT
+      - C_INT_XCOM
+    category: Assorted Structures
+    group: Piratez - Buildings
+  - type: CORALEXIT2
+    terrains:
+      - SEASAND6
+      - SEAWEEDS
+      - SEACORAL
+      - SEAROCKS
+      - USOBITS
+      - XCOMEXIT
+      - JUNGLE
+    category: Assorted Structures
+    group: Piratez - Buildings
+
 #----- Guild Outposts ---------------------------------------------------------#
   - type: GUHOUSE_01
     terrains: &GuildBuildings
@@ -20103,6 +20127,13 @@ tilesets:
       - INDUSLUM
       - XCARS_BLACK_CUT
       - JAILBITES
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: TOTEM
+    terrains:
+      - RITUALS
+      - MUJUNGLE
+      - STATUES_NORD
     category: Misc Buildings
     group: Piratez - Buildings
 
