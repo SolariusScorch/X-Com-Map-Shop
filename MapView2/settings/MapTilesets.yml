@@ -8598,6 +8598,10 @@ tilesets:
     terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
+  - type: URBANJUNKDIO_06
+    terrains: *JunkUrban
+    category: Junk Urban
+    group: UFO - Terrain
   - type: URBANJUNK46LZ
     terrains: *JunkUrban
     category: Junk Urban
@@ -13214,6 +13218,24 @@ tilesets:
       - COMBITS
       - COMMERCE
       - COMFRN2
+      - CAFEENTRY
+    category: X-Com Entries
+    group: UFO - Terrain
+  - type: CAFE00DIO
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN
+      - CAFEENTRY
+    category: X-Com Entries
+    group: UFO - Terrain
+  - type: CAFE01DIO
+    terrains:
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN
       - CAFEENTRY
     category: X-Com Entries
     group: UFO - Terrain
