@@ -2,9 +2,9 @@ game_type 1
 pal_idx 0
 custom_mcd True
 mcd_pref D:\ufa_zapasowa\UFO\TERRAIN\
-selectedfilename XBITSUFO
-SelectMCD 0
-SelectPCK 5
+selectedfilename CONTAINERS
+SelectMCD 8
+SelectPCK 0
 Animate False
 t_checkered False
 Form3_w 473

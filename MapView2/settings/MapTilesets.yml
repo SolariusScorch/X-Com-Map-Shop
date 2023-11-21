@@ -13197,20 +13197,20 @@ tilesets:
     category: Mount BD
     group: UFO - Terrain
 
-#----- X-Com Entries ----------------------------------------------------------#
+#----- X-Com Entries and Exits ------------------------------------------------#
   - type: PINKDESERT_EXIT
     terrains:
       - DESERT_PINK
       - DESERTBITS_PINK
       - XCOMENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: PINKDESERT_SPAWN
     terrains:
       - DESERT_PINK
       - DESERTBITS_PINK
       - XCOMENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CAFE00
     terrains:
@@ -13219,7 +13219,7 @@ tilesets:
       - COMMERCE
       - COMFRN2
       - CAFEENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CAFE00DIO
     terrains:
@@ -13228,7 +13228,7 @@ tilesets:
       - COMMERCE
       - COMFRN
       - CAFEENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CAFE01DIO
     terrains:
@@ -13237,7 +13237,7 @@ tilesets:
       - COMMERCE
       - COMFRN
       - CAFEENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CAFE01
     terrains:
@@ -13246,7 +13246,7 @@ tilesets:
       - COMMERCE
       - COMFRN2
       - CAFEENTRY
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CATACPORTAL_00
     terrains: &CatacombsPortal
@@ -13258,20 +13258,35 @@ tilesets:
       - XCOMEXIT
       - TDPORTAL
       - XOPSMUJUNGLEADDON
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CATACPORTAL_CRUCIBLE
     terrains: *CatacombsPortal
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: CATACPORTAL_CRUCIBLE3
     terrains: *CatacombsPortal
-    category: X-Com Entries
+    category: X-Com Entries and Exits
     group: UFO - Terrain
   - type: PENTA_DREAM
     terrains:
       - PENTA_XCOM
-    category: X-Com Entries
+    category: X-Com Entries and Exits
+    group: UFO - Terrain
+  - type: EXIT1X1
+    terrains:
+      - XCOMEXIT
+    category: X-Com Entries and Exits
+    group: UFO - Terrain
+  - type: 8ENTRY
+    terrains:
+      - XCOMENTRY
+    category: X-Com Entries and Exits
+    group: UFO - Terrain
+  - type: 12ENTRY
+    terrains:
+      - XCOMENTRY
+    category: X-Com Entries and Exits
     group: UFO - Terrain
 
 #----- Endless Mansion --------------------------------------------------------#
@@ -16741,57 +16756,6 @@ tilesets:
     category: Pirate Base
     group: Piratez - Terrain
 
-#----- Space ------------------------------------------------------------------#
-  - type: ORBIT_00
-    terrains: &Orbit
-      - STATIONWALLS
-      - STATIONDECOR
-      - STATION
-      - LIFTER
-      - STATIONBITS
-    category: Space
-    group: Piratez - Terrain
-  - type: ORBIT_01
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_01
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_02
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_03
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_04
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_05
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: STATION_06
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: SAT_01
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: SAT_02
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-  - type: SAT_03
-    terrains: *Orbit
-    category: Space
-    group: Piratez - Terrain
-
 #----- Space Freighter Command ------------------------------------------------#
   - type: FREIGHTERBASE_CENTER_TEMPLATE
     terrains: &SpaceFreighterCommand
@@ -17252,16 +17216,6 @@ tilesets:
       - XOPSTRANSPORT3
     category: XCom
     group: UFO - Ships
-  - type: 8ENTRY
-    terrains:
-      - XCOMENTRY
-    category: X-Com Entries
-    group: UFO - Terrain
-  - type: 12ENTRY
-    terrains:
-      - XCOMENTRY
-    category: X-Com Entries
-    group: UFO - Terrain
 
 #----- Misc Vehicles ----------------------------------------------------------#
   - type: XARMY
@@ -19133,23 +19087,6 @@ tilesets:
     category: Capsules
     group: Piratez - Ships
 
-#----- Space Stations ---------------------------------------------------------------#
-  - type: SPACEPRISON_01
-    terrains: &SpaceStations
-      - SPACESTATION_EXTRA
-      - SPACESTATION_INT
-      - LIFTER
-    category: Space Stations
-    group: Piratez - Ships
-  - type: SPACEPRISON_02
-    terrains: *SpaceStations
-    category: Space Stations
-    group: Piratez - Ships
-  - type: SPACESTATION_01
-    terrains: *SpaceStations
-    category: Space Stations
-    group: Piratez - Ships
-
 #----- Pirate Vessels ---------------------------------------------------------#
   - type: EXPEDITION
     terrains:
@@ -20105,6 +20042,87 @@ tilesets:
     category: Waste Factory
     group: Piratez - Buildings
 
+#----- Space ------------------------------------------------------------------#
+  - type: ORBIT_00
+    terrains: &Orbit
+      - STATIONWALLS
+      - STATIONDECOR
+      - STATION
+      - LIFTER
+      - STATIONBITS
+    category: Space
+    group: Piratez - Buildings
+  - type: ORBIT_01
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_01
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_02
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_03
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_04
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_05
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: STATION_06
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: SAT_01
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: SAT_02
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+  - type: SAT_03
+    terrains: *Orbit
+    category: Space
+    group: Piratez - Buildings
+
+#----- Space Stations ---------------------------------------------------------------#
+  - type: SPACEPRISON_01
+    terrains: &SpaceStations
+      - SPACESTATION_EXTRA
+      - SPACESTATION_INT
+      - LIFTER
+      - SPACEVOID
+    category: Space Stations
+    group: Piratez - Buildings
+  - type: SPACEPRISON_02
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Buildings
+  - type: SPACESTATION_01
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Buildings
+  - type: SPACESTATION_02
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Buildings
+  - type: SPACESTATION_03
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Buildings
+  - type: SPACESTATION_04
+    terrains: *SpaceStations
+    category: Space Stations
+    group: Piratez - Buildings
+
 #----- Misc Buildings ---------------------------------------------------------#
   - type: CATACOMBS_NEXUS
     terrains:
@@ -20117,6 +20135,21 @@ tilesets:
       - PENTA_X
       - DUNGEON
       - EARTHTEMPLE1
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: ESCAPE_TOWER
+    terrains:
+      - PORTROADS
+      - XCOMENTRY
+      - C_EXT_WALL
+      - C_EXT_ROOF
+      - C_EXT_ENGINE_S
+      - C_EXT_NOSE
+      - C_EXT_NOSE_BUMPER
+      - C_EXT_NOSE_SIDE
+      - C_EXT_LANDGEAR
+      - C_INT_SMALL
+      - C_INT_ENGINE_E
     category: Misc Buildings
     group: Piratez - Buildings
   - type: INDUSTRIALSLUM_RAGNAROCK
