@@ -9648,6 +9648,10 @@ tilesets:
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
+  - type: CAVES_08
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
   - type: CAVESDIO_01
     terrains: *Caves
     category: Caves
@@ -9676,11 +9680,27 @@ tilesets:
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
+  - type: CAVESDIO_08
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
+  - type: CAVESDIO_09
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
+  - type: CAVESDIO_10
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
   - type: CAVES_FRAGMENT
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
   - type: CAVESEXIT
+    terrains: *Caves
+    category: Caves
+    group: UFO - Terrain
+  - type: CAVES_ENTRY1_00
     terrains: *Caves
     category: Caves
     group: UFO - Terrain
@@ -13649,6 +13669,16 @@ tilesets:
     category: Desert Plane
     group: UFO - Terrain
 
+#----- Abandoned Base -----------------------------------------------------------#
+  - type: ABANDONED_BASE_03
+    terrains: &AbandonedBase
+      - XCOMENTRY
+      - ABAMILBASE_WALLS
+      - ABAMILBASE_INTER
+      - ABAMILBASE_EXTRA
+    category: Abandoned Base
+    group: UFO - Terrain
+
 #----- UFO - Buildings --------------------------------------------------------#
 #----- Club Malibu ------------------------------------------------------------#
   - type: CLUBMALIBU_PB1
@@ -14581,8 +14611,6 @@ tilesets:
     category: Thule Base
     group: Piratez - Terrain
 
-
-    
 #----- Urban Waste ------------------------------------------------------------#
   - type: URBANWASTE00
     terrains: &UrbanWaste
@@ -16172,6 +16200,230 @@ tilesets:
   - type: WINTERWALL03
     terrains: *WinterWall
     category: Winter Wall
+    group: Piratez - Terrain
+
+#----- Cyber Slum High-Rise ---------------------------------------------------#
+  - type: CYBERSLUM_HRHOUSE_01
+    terrains: &CyberSlumHighRise
+      - XCOMENTRY
+      - CYBERSLUMS
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    category: Cyber Slum High-Rise
+    group: Piratez - Terrain
+    
+#----- Cyber Slum -------------------------------------------------------------#
+  - type: CYBERSLUMS01
+    terrains: &CyberSlum
+      - CYBERSLUMS
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS02
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS03
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS04
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS05
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS06
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS07
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS08
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS09
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS10
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS11
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS12
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS13
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS14
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS15
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS16
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS17
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS18
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS19
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS20
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS21
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS22
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS23
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS24
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS25
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+
+#----- Cyber Slum Roads -------------------------------------------------------------#
+  - type: CYBERSLUMS_CANAL_01
+    terrains: &CyberSlumRoads
+      - CYBERSLUMS_CANAL
+      - CYBERSLUMS_CARS
+      - CYBERSLUMS_ROAD
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CANAL_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CANAL_03
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CANAL_04
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CANAL_05
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CANAL_06
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_B_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_B_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_CANAL_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_CANAL_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_03
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_04
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_05
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_06
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_07
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_ROAD_08
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_02
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_03
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_04
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_05
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_06
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
     group: Piratez - Terrain
 
 #----- Communications Tower ---------------------------------------------------#

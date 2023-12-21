@@ -24,10 +24,10 @@ TileView:
   width: 390
   height: 1002
 TopRouteView:
-  left: 2248
-  top: 203
+  left: 2247
+  top: 0
   width: 812
-  height: 836
+  height: 686
 Options:
   left: 691
   top: 135
