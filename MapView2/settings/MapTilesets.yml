@@ -16316,6 +16316,30 @@ tilesets:
     terrains: *CyberSlum
     category: Cyber Slum
     group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_01
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_02
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_03
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_04
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_05
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
+  - type: CYBERSLUMS_WALL_06
+    terrains: *CyberSlum
+    category: Cyber Slum
+    group: Piratez - Terrain
 
 #----- Cyber Slum Roads -------------------------------------------------------------#
   - type: CYBERSLUMS_CANAL_01
@@ -16361,6 +16385,10 @@ tilesets:
     terrains: *CyberSlumRoads
     category: Cyber Slum Roads
     group: Piratez - Terrain
+  - type: CYBERSLUMS_CROSSROAD_C_01
+    terrains: *CyberSlumRoads
+    category: Cyber Slum Roads
+    group: Piratez - Terrain
   - type: CYBERSLUMS_CROSSROAD_CANAL_01
     terrains: *CyberSlumRoads
     category: Cyber Slum Roads
@@ -16401,30 +16429,7 @@ tilesets:
     terrains: *CyberSlumRoads
     category: Cyber Slum Roads
     group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_01
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_02
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_03
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_04
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_05
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
-  - type: CYBERSLUMS_WALL_06
-    terrains: *CyberSlumRoads
-    category: Cyber Slum Roads
-    group: Piratez - Terrain
+
 
 #----- Communications Tower ---------------------------------------------------#
   - type: COMMS_TOWER_GROUND
