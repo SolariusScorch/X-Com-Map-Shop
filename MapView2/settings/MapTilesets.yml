@@ -19085,6 +19085,10 @@ tilesets:
     terrains: *UFOFreighter
     category: Plastasteel Vessels
     group: Piratez - Ships
+  - type: VES_130_A
+    terrains: *UFOFreighter
+    category: Plastasteel Vessels
+    group: Piratez - Ships
   - type: VES_300
     terrains:
       - U_EXT02
