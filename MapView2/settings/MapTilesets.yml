@@ -16062,10 +16062,11 @@ tilesets:
 #----- Polis Urban -------------------------------------------------------------#
   - type: POLISURBAN02
     terrains: &PolisUrban
-      - U_DISEC2
-      - U_BASE_RET
-      - RET_SHIPS
-      - XB3BITZ3
+      - ROADSLUX
+      - URBITSLUX
+      - URBANLUX
+      - FRNITURELUX
+      - DECORLUX
     category: Polis Urban
     group: Piratez - Terrain
   - type: POLISURBAN04
@@ -17009,6 +17010,10 @@ tilesets:
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_WIP20
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_S_HANGAR
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
