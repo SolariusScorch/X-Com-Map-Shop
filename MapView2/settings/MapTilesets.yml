@@ -13786,6 +13786,10 @@ tilesets:
       - GOVTFRN
     category: Misc Buildings
     group: UFO - Buildings
+  - type: DINO_MUSEUM
+    terrains: *Commercial
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: FOREST_CABIN
     terrains:
       - FOREST
@@ -14434,6 +14438,15 @@ tilesets:
       - BRAIN
       - A_BASE2
       - HYBRCONTR
+    category: Hybrids
+    group: UFO - Buildings
+  - type: INDUSTRIALSLUMHYBRIDWORKS
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - MILTECH
+      - HYBRID_INDUSLUM
     category: Hybrids
     group: UFO - Buildings
 
