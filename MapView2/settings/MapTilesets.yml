@@ -6627,6 +6627,10 @@ tilesets:
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
+  - type: COMRCURBAN52
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
   - type: COMRCURBAN_HOBBZ06
     terrains: *Commercial
     category: Commercial
