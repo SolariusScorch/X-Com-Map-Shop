@@ -15156,6 +15156,150 @@ tilesets:
     category: Nuke City
     group: Piratez - Terrain
 
+#----- Nuke Farm --------------------------------------------------------------#
+  - type: NUKEFARM01
+    terrains: &NukeFarm
+      - NUKEFARM1
+      - NUKEFARM2
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM02
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM03
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM04
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM05
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM06
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM07
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM08
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM09
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM10
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM11
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM12
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM13
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM14
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM15
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM16
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM17
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM18
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM19
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM20
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM21
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM22
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM23
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM24
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM25
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM26
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM27
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM28
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM29
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM30
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM31
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM32
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM33
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM34
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM35
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+
 #----- Govt Base Defense ------------------------------------------------------#
   - type: GOVBASE_D_00
     terrains: &GovtBase
