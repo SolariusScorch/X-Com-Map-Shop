@@ -14453,6 +14453,15 @@ tilesets:
       - HYBRID_INDUSLUM
     category: Hybrids
     group: UFO - Buildings
+  - type: INDUSTRIALSLUMHYBRIDDRONE
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - ROADS
+      - MILTECH
+      - HYBRID_INDUSLUM
+    category: Hybrids
+    group: UFO - Buildings
 
 #----- Dark Rituals -----------------------------------------------------------#
   - type: DEEPONERITUALS00
@@ -15296,6 +15305,26 @@ tilesets:
     category: Nuke Farm
     group: Piratez - Terrain
   - type: NUKEFARM35
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM36
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM37
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM38
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM39
+    terrains: *NukeFarm
+    category: Nuke Farm
+    group: Piratez - Terrain
+  - type: NUKEFARM40
     terrains: *NukeFarm
     category: Nuke Farm
     group: Piratez - Terrain
@@ -17637,6 +17666,11 @@ tilesets:
   - type: XOPSARCANGEL
     terrains:
       - XOPSTRANSPORT3
+    category: XCom
+    group: UFO - Ships
+  - type: FUTUREHUMVEE
+    terrains:
+      - FUTUREHUMVEE
     category: XCom
     group: UFO - Ships
 
