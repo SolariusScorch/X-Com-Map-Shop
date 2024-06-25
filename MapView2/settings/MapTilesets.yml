@@ -4110,10 +4110,6 @@ tilesets:
     terrains: *Urban
     category: Urban
     group: UFO - Terrain
-  - type: EXPANDEDTERROR22_1
-    terrains: *Urban
-    category: Urban
-    group: UFO - Terrain
   - type: EXPANDEDTERROR23
     terrains: *Urban
     category: Urban
@@ -13801,6 +13797,14 @@ tilesets:
       - BARN
     category: Misc Buildings
     group: UFO - Buildings
+  - type: SCI_HOUSE
+    terrains:
+      - SCI_HOUSE
+      - SCI_HOUSE2
+      - FRNITURE
+      - LAMP_WALL
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: HILL_BUNKER
     terrains:
       - FOREST
@@ -15006,6 +15010,226 @@ tilesets:
   - type: URBANWASTEROAD_WE10
     terrains: *UrbanWaste
     category: Urban Waste
+    group: Piratez - Terrain
+
+#---- Urban Cyber -------------------------------------------------------------#
+  - type: URBANCYBER00
+    terrains: &UrbanCyber
+      - CYBERSLUMS
+      - CYBERSLUMS_ROAD
+      - CYBERSLUMS_FURNITURE
+      - CYBERSLUMS_MEDDICORE
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER01
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER02
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER03
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER04
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER05
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER06
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER07
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER08
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER09
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER10
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER11
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER12
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER13
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER14
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER15
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER16
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER17
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER18
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER19
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER20
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER21
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER22
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER23
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER24
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER25
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER26
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER27
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER28
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER29
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+  - type: URBANCYBER30
+    terrains: *UrbanCyber
+    category: Urban Cyber
+    group: Piratez - Terrain
+
+#---- Urban Cyber Road --------------------------------------------------------#
+
+  - type: URBANCYBER_ROAD_NS01
+    terrains: &UrbanCyberRoad
+      - CYBERSLUMS_CANAL
+      - CYBERSLUMS_CARS
+      - CYBERSLUMS_ROAD
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS02
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS03
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS04
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS05
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS06
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS07
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_NS08
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE01
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE02
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE03
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE04
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE05
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE06
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE07
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_WE08
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_CROSS01
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_CROSS02
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_CROSS03
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_CROSS04
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
+    group: Piratez - Terrain
+  - type: URBANCYBER_ROAD_CROSS05
+    terrains: *UrbanCyberRoad
+    category: Urban Cyber Road
     group: Piratez - Terrain
 
 #----- Nuke City --------------------------------------------------------------#
@@ -18885,6 +19109,14 @@ tilesets:
       - MIB_CRAFTBITS
     category: Men in Black
     group: UFO - Ships
+  - type: MIB_SCOUT_SHIP
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_BITS
+      - MIB_CRAFTBITS
+    category: Men in Black
+    group: UFO - Ships
   - type: MIB_STEALTH_BOMBER
     terrains:
       - MIB_EXT02
@@ -18925,14 +19157,6 @@ tilesets:
       - MIB_WALL02
       - MIB_PODS
       - MIB_BITS
-    category: Men in Black
-    group: UFO - Ships
-  - type: SCI_HOUSE
-    terrains:
-      - SCI_HOUSE
-      - SCI_HOUSE2
-      - FRNITURE
-      - LAMP_WALL
     category: Men in Black
     group: UFO - Ships
   - type: NKF_APC_DARK

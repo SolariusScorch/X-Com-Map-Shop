@@ -1,5 +1,5 @@
 ConfigConverter
-2023 May 22 - 2.2.2.1
+2024 May 11 - 2.2.2.2
 
 
 ConfigConverter is a standalone utility that converts MapEdit.dat files to a

@@ -1,5 +1,5 @@
 RulesetConverter
-2023 May 22 - 1.3.0.1
+2024 May 11 - 1.3.0.2
 
 
 RulesetConverter is a utility that converts data from an OxC/e ruleset file to a

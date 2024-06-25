@@ -1,16 +1,16 @@
 MapView ii
 
-2023 may 22
+2024 may 30
 
-MapView   .exe 4.4.6.0
-McdView   .exe 4.1.2.1
-PckView   .exe 4.3.0.1
-XCom      .dll 4.2.0.0
-DSShared  .dll 4.2.1.1
+MapView   .exe 4.5.0.0
+McdView   .exe 4.2.0.0
+PckView   .exe 4.3.1.0
+XCom      .dll 4.3.0.0
+DSShared  .dll 4.2.2.0
 YamlDotNet.dll 0.0.1.0 (c) Antoine Aubry and contributors
 
-ConfigConverter .exe 2.2.2.1
-RulesetConverter.exe 1.3.0.1
+ConfigConverter .exe 2.2.2.2
+RulesetConverter.exe 1.3.0.2
 
 
 major rewrite of the original MapView by Ben Ratzlaff aka Daishiva (and others)
