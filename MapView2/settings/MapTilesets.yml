@@ -13951,6 +13951,16 @@ tilesets:
     terrains: *Commercial
     category: Misc Buildings
     group: UFO - Buildings
+  - type: WIZKIDSERVER
+    terrains:
+      - URBAN
+      - COMPUTERS
+      - COMFRN2
+      - BATHBITZ_HT
+      - DAWNFRNITURE
+      - COMDECOR
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: SNEED_SHACK
     terrains:
       - FARM_SHOP_DECO
