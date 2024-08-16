@@ -78,11 +78,12 @@ Ctrl+F1 - toggles floor visibility
 Ctrl+F2 - toggles westwall visibility
 Ctrl+F3 - toggles northwall visibility
 Ctrl+F4 - toggles content visibility
+Ctrl+F9 - enable all visibility
 
 Note: Visibility affects Cut/Paste/Delete operations.
 
 F9 - cycle through selection border options
-Ctrl+F9 - toggle show selection border when only 1 tile is selected
+Shift+F9 - toggle show selection border when only 1 tile is selected
 F10 - cycle to the next colortone for selected tile(s) [Shift] backwards
 
 RMB on the Map panel enables drag-panning when zoomed in on the Map.
@@ -150,6 +151,7 @@ F1 - toggle floor visibility
 F2 - toggle westwall visibility
 F3 - toggle northwall visibility
 F4 - toggle content visibility
+F9 - enable all visibility
 
 Note: Visibility affects Cut/Paste/Delete operations.
 
@@ -171,6 +173,10 @@ Del    - delete selected node
 
 Escape - deselect selected node
 Enter  - select node on selected tile if one exists else create a node there
+
+Ctrl+h - highlight spawn nodes if the panel has focus
+0..8   - highlight respective node rank if the panel has focus
+         Ctrl adds or subtracts the rank
 
 Ctrl+s - save the Routes if the panel has focus
 
