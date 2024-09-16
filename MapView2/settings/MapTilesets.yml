@@ -13232,6 +13232,15 @@ tilesets:
       - XCOMENTRY
     category: X-Com Entries and Exits
     group: UFO - Terrain
+  - type: SKI_XCOM
+    terrains:
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - CAFEENTRY
+    category: X-Com Entries and Exits
+    group: UFO - Terrain
   - type: CAFE00
     terrains:
       - COMROADS
@@ -13680,6 +13689,28 @@ tilesets:
     group: UFO - Terrain
 
 #----- UFO - Buildings --------------------------------------------------------#
+#----- Butchery House ---------------------------------------------------------#
+  - type: BUTCHERY_HOUSE_1
+    terrains: &ButcheryHouse
+      - PORTROADS
+      - INDUSLUM
+      - BUTCHERY
+      - SLUM_FURNITURE
+    category: Butchery House
+    group: UFO - Buildings
+  - type: BUTCHERY_HOUSE_2
+    terrains: *ButcheryHouse
+    category: Butchery House
+    group: UFO - Buildings
+  - type: BUTCHERY_HOUSE_3
+    terrains: *ButcheryHouse
+    category: Butchery House
+    group: UFO - Buildings
+  - type: BUTCHERY_HOUSE_4
+    terrains: *ButcheryHouse
+    category: Butchery House
+    group: UFO - Buildings
+
 #----- Club Malibu ------------------------------------------------------------#
   - type: CLUBMALIBU_PB1
     terrains: &ClubMalibu
@@ -14283,6 +14314,10 @@ tilesets:
     category: Cult
     group: UFO - Buildings
   - type: CULTHIDEOUT06
+    terrains: *Culthouses
+    category: Cult
+    group: UFO - Buildings
+  - type: CULTHIDEOUT07
     terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
@@ -18675,6 +18710,26 @@ tilesets:
       - CONVOY
     category: Convoy
     group: UFO - Ships
+  - type: FOREST_HIGHWAY_CARS
+    terrains:
+      - CONVOY
+    category: Convoy
+    group: UFO - Ships
+  - type: FOREST_HIGHWAY_RD00
+    terrains:
+      - CONVOY
+    category: Convoy
+    group: UFO - Ships
+  - type: FOREST_HIGHWAY_RD01
+    terrains:
+      - CONVOY
+    category: Convoy
+    group: UFO - Ships
+  - type: FOREST_HIGHWAY_RD02
+    terrains:
+      - CONVOY
+    category: Convoy
+    group: UFO - Ships
 
 #----- Troop Ship -------------------------------------------------------------#
   - type: TROOPSHIP00
@@ -20202,6 +20257,19 @@ tilesets:
       - COMPUTERS
       - DOORSSEC
       - XBASEN_BITS
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: SAVAGE_CRAFT2
+    terrains:
+      - C_INT_ENGINE_S
+      - C_INT
+      - C_EXT_XCOM
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_ENGINE_S_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_LANDGEAR
+      - C_INT_XCOM
     category: Pirate Vessels
     group: Piratez - Ships
   - type: SWORDFISH
