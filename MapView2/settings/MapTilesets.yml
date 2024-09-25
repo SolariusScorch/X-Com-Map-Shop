@@ -3446,6 +3446,26 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: CONNECTING_CHAMBER_00
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: CONNECTING_CHAMBER_01
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: CONNECTING_CHAMBER_02
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: CONNECTING_CHAMBER_03
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
+  - type: CONNECTING_CHAMBER_04
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: CEREBRAL_CHAMBER
     terrains: *AlienBase
     category: Alien Base
@@ -20371,6 +20391,16 @@ tilesets:
     terrains:
       - PREDATOR_PIR
       - XCOMENTRY
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: VES_R_020_XCOM
+    terrains:
+      - RET_SHIPS_XCOM
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: VES_R_030_XCOM
+    terrains:
+      - RET_SHIPS_XCOM
     category: Pirate Vessels
     group: Piratez - Ships
 
