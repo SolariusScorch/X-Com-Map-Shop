@@ -3699,6 +3699,14 @@ tilesets:
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO05
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO06
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
   - type: INDUSTRIALSLUMDIO07
     terrains: *IndustrialSlum
     category: Industrial Slum
@@ -3772,6 +3780,10 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUM19XCOM
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMHUGE01
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
@@ -3979,6 +3991,10 @@ tilesets:
     category: Urban
     group: UFO - Terrain
   - type: URBANDIO00
+    terrains: *Urban
+    category: Urban
+    group: UFO - Terrain
+  - type: URBANDIO01
     terrains: *Urban
     category: Urban
     group: UFO - Terrain
@@ -8627,6 +8643,14 @@ tilesets:
     category: Junk Urban
     group: UFO - Terrain
   - type: URBANJUNKDIO_06
+    terrains: *JunkUrban
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_07
+    terrains: *JunkUrban
+    category: Junk Urban
+    group: UFO - Terrain
+  - type: URBANJUNKDIO_08
     terrains: *JunkUrban
     category: Junk Urban
     group: UFO - Terrain
@@ -20466,6 +20490,10 @@ tilesets:
     category: Guild Outposts
     group: Piratez - Buildings
   - type: GUHOUSE_05
+    terrains: *GuildBuildings
+    category: Guild Outposts
+    group: Piratez - Buildings
+  - type: GUHOUSE_06
     terrains: *GuildBuildings
     category: Guild Outposts
     group: Piratez - Buildings
