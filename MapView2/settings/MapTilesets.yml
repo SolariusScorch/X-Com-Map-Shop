@@ -8183,6 +8183,14 @@ tilesets:
     terrains: *UnderseaCity
     category: Underwater City
     group: UFO - Terrain
+  - type: UCITY01_DIO
+    terrains: *UnderseaCity
+    category: Underwater City
+    group: UFO - Terrain
+  - type: UCITY02_DIO
+    terrains: *UnderseaCity
+    category: Underwater City
+    group: UFO - Terrain
 
 #----- Native Urban -----------------------------------------------------------#
   - type: NATIVEURBAN00
@@ -9648,6 +9656,14 @@ tilesets:
     terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
+  - type: CYBERWEB_37
+    terrains: *Sewers
+    category: Sewers
+    group: UFO - Terrain
+  - type: CYBERWEB_38
+    terrains: *Sewers
+    category: Sewers
+    group: UFO - Terrain
   - type: CYBERWEBDIO_00
     terrains: *Sewers
     category: Sewers
@@ -10059,6 +10075,10 @@ tilesets:
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_23
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
   - type: CATACOMBS_31
     terrains: *Catacombs
     category: Catacombs
@@ -10124,6 +10144,10 @@ tilesets:
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_DIABLO_11
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_DIABLO_12
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
@@ -11133,6 +11157,20 @@ tilesets:
       - CARGO2_IND
       - XBITSUFO
       - CARGO3
+    category: Cargo Ship
+    group: UFO - Terrain
+    
+#----- Cargo Boat -------------------------------------------------------------#
+  - type: CARGO_BOAT_00
+    terrains: *CargoShip
+    category: Cargo Ship
+    group: UFO - Terrain
+  - type: CARGO_BOAT_TEMPLATE
+    terrains: *CargoShip
+    category: Cargo Ship
+    group: UFO - Terrain
+  - type: CARGO_LONG_BOAT_TEMPLATE
+    terrains: *CargoShip
     category: Cargo Ship
     group: UFO - Terrain
     
@@ -13391,6 +13429,10 @@ tilesets:
     terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
+  - type: EMANS00C
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
   - type: EMANS01
     terrains: *EndlessMansion
     category: Endless Mansion
@@ -14400,6 +14442,16 @@ tilesets:
       - JUNGLE
     category: Cult
     group: UFO - Buildings
+  - type: JARHEADPLANT00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - CLONING
+    category: Cult
+    group: UFO - Buildings
   - type: MUJUN_C
     terrains:
       - SANDS
@@ -14513,16 +14565,6 @@ tilesets:
   - type: CLONEBARN00
     terrains:
       - BARN
-      - CLONING
-    category: Hybrids
-    group: UFO - Buildings
-  - type: JARHEADPLANT00
-    terrains:
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - DECKSHIPC
       - CLONING
     category: Hybrids
     group: UFO - Buildings
@@ -17992,6 +18034,36 @@ tilesets:
   - type: FUTUREHUMVEE
     terrains:
       - FUTUREHUMVEE
+    category: XCom
+    group: UFO - Ships
+  - type: HYBRID_AIRCAR_XCOM
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - LIFTER
+      - C_EXT_XCOM_DARK
+      - C_INT_HALF_XCOM
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - HYBRID_CRAFT
+    category: XCom
+    group: UFO - Ships
+  - type: HYBRID_LANDER_XCOM
+    terrains:
+      - C_EXT_WALL_RED
+      - C_EXT_ROOF_RED
+      - C_EXT_NOSE_BUMPLESS_RED
+      - C_EXT_NOSE_SIDE_RED
+      - C_EXT_ENGINE_S_RED
+      - LIFTER
+      - C_EXT_XCOM_DARK
+      - C_INT_HALF_XCOM
+      - XBASEN_BEDS
+      - C_EXT_GLASSWALL
+      - HYBRID_CRAFT
     category: XCom
     group: UFO - Ships
 
