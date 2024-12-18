@@ -2595,6 +2595,10 @@ tilesets:
     terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
+  - type: NOOBERIA_OSIRON_BOXES
+    terrains: *Nooberia
+    category: Nooberia
+    group: UFO - Terrain
   - type: NOOBERIA_CARS
     terrains: *Nooberia
     category: Nooberia
@@ -6272,6 +6276,14 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_46
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_47
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
 ### add more here ###
   - type: XBASS_51
     terrains: *XBase
@@ -6306,10 +6318,6 @@ tilesets:
     category: X-Com Base
     group: UFO - Terrain
   - type: XBASS_59
-    terrains: *XBase
-    category: X-Com Base
-    group: UFO - Terrain
-  - type: XBASS_60
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
@@ -6453,6 +6461,10 @@ tilesets:
     category: Chem Town
     group: UFO - Terrain
   - type: MILIND00
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
+  - type: CHEMTOWN_EXIT
     terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
@@ -14220,6 +14232,16 @@ tilesets:
       - CYBERWAREEXTRA
     category: Cyberweb
     group: UFO - Buildings
+  - type: CYBERWEB_REACTOR
+    terrains:
+      - CYBERWAREAN
+      - CYBERWAREBITS
+      - XOPSUFOWALLS
+      - XOPSUFOFLOOR
+      - XOPSUFOITEMS2SM
+      - CYBERWAREEXTRA
+    category: Cyberweb
+    group: UFO - Buildings
   - type: CYBERWEBFORTRESS
     terrains:
       - CYBER_DISEC2
@@ -18127,6 +18149,21 @@ tilesets:
   - type: HOVER_SCOOTER
     terrains:
       - SCI_FI_CARS_TILESET
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: PLANE_DODO
+    terrains:
+      - PLANE_DODO
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: PLANE_DODO_SMALL
+    terrains:
+      - PLANE_DODO
+    category: Misc Vehicles
+    group: UFO - Ships
+  - type: PLANE_DODO_BIG
+    terrains:
+      - PLANE_DODO
     category: Misc Vehicles
     group: UFO - Ships
   - type: TRUCKS
