@@ -14117,6 +14117,14 @@ tilesets:
     terrains: *Urban
     category: Misc Buildings
     group: UFO - Buildings
+  - type: FOREST_LODGE
+    terrains:
+      - VILROADS
+      - VILBITS
+      - VILBAN_XCOM
+      - VILFRNITURE
+    category: Misc Buildings
+    group: UFO - Buildings
 
 #----- Osiron -----------------------------------------------------------------#
   - type: OSIRON_NEST_00
@@ -19004,10 +19012,6 @@ tilesets:
       - U_BITS
     category: Misc UFOs
     group: UFO - Ships
-  - type: G0007_BATTLE_HEAVY_SHIP_BY_WOLWERIN
-    terrains: *UFOInterceptor
-    category: Misc UFOs
-    group: UFO - Ships
   - type: G0008_SANCTUARY_SHIP_BY_WOLWERIN
     terrains:
       - U_EXT02
@@ -19366,6 +19370,14 @@ tilesets:
       - MIB_WALL02
       - MIB_BITS
       - MIB_L83
+    category: Men in Black
+    group: UFO - Ships
+  - type: G0007_BATTLE_HEAVY_SHIP_BY_WOLWERIN
+    terrains:
+      - MIB_EXT02
+      - MIB_WALL02
+      - MIB_PODS
+      - MIB_BITS
     category: Men in Black
     group: UFO - Ships
   - type: G0014_LANDING_SHIP_BY_WOLWERIN_SOLAR_MIX
