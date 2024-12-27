@@ -6,7 +6,7 @@
 MainView:
   left: 0
   top: 0
-  width: 1526
+  width: 1522
   height: 1001
 TopView:
   left: 100
@@ -20,9 +20,9 @@ RouteView:
   height: 480
 TileView:
   left: 1521
-  top: 1
+  top: 0
   width: 390
-  height: 1002
+  height: 1003
 TopRouteView:
   left: 2247
   top: 0
@@ -68,3 +68,8 @@ SpriteEditor:
   top: 174
   width: 321
   height: 101
+ScanG:
+  left: 200
+  top: 100
+  width: 322
+  height: 322
