@@ -6284,6 +6284,10 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+  - type: XBASS_48
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
 ### add more here ###
   - type: XBASS_51
     terrains: *XBase
@@ -13550,6 +13554,10 @@ tilesets:
     terrains: *Corporation
     category: Corporation Tower
     group: UFO - Terrain
+  - type: CORPHQ_A05
+    terrains: *Corporation
+    category: Corporation Tower
+    group: UFO - Terrain
   - type: CORPHQ_B01
     terrains: *Corporation
     category: Corporation Tower
@@ -16521,6 +16529,33 @@ tilesets:
   - type: UACVAULT_W05
     terrains: *UACVaults
     category: UAC Vaults
+    group: Piratez - Terrain
+
+#----- Technocracy Base ---------------------------------------------------------------#
+  - type: TECBASE01NW
+    terrains: &TechnocracyBase
+      - XOPSUFOEXT
+      - XOPSUFOSMFLOOR
+      - XOPSUFOITEMS1
+      - XOPSUFOITEMS2SM
+      - XOPSUFOSUPPLYALT
+      - XCOMENTRY
+      - XCOMEXIT
+      - WAREAN_TEC
+      - XOPSUFOWALLSSM
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE01NE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE01SE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE01SW
+    terrains: *TechnocracyBase
+    category: Technocracy Base
     group: Piratez - Terrain
 
 #----- Moonberia ---------------------------------------------------------------#
