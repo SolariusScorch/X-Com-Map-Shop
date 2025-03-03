@@ -4850,6 +4850,11 @@ tilesets:
       - POLAR
     category: Arctic
     group: UFO - Terrain
+  - type: POLARHUGE01
+    terrains:
+      - POLAR
+    category: Arctic
+    group: UFO - Terrain
 
 #----- Moon -------------------------------------------------------------------#
   - type: MARS00
@@ -10346,6 +10351,14 @@ tilesets:
     terrains: *VampireCastle
     category: Vampire Castle
     group: UFO - Terrain
+  - type: KNIGHTCAVE_00
+    terrains: *VampireCastle
+    category: Vampire Castle
+    group: UFO - Terrain
+  - type: GIANTCAVE_TEMPLATE
+    terrains: *VampireCastle
+    category: Vampire Castle
+    group: UFO - Terrain
   - type: CAVES_0X
     terrains: *VampireCastle
     category: Vampire Castle
@@ -10812,6 +10825,22 @@ tilesets:
     category: Port
     group: UFO - Terrain
   - type: PORTUFO32
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO33
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO34
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO35
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO36
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -13885,24 +13914,6 @@ tilesets:
       - CITYFRNITURE
     category: Misc Buildings
     group: UFO - Buildings
-  - type: LT_HOUSE_02G
-    terrains:
-      - CRIBURBAN
-      - CRIBURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-    category: Misc Buildings
-    group: UFO - Buildings
-  - type: LT_HOUSE_04G
-    terrains:
-      - CRIBURBAN
-      - CRIBURBITS
-      - CRIBDECOR
-      - MANSIONBITS
-      - CITYFRNITURE
-    category: Misc Buildings
-    group: UFO - Buildings
   - type: PRISON
     terrains:
       - PRISONROADS
@@ -16557,6 +16568,78 @@ tilesets:
     terrains: *TechnocracyBase
     category: Technocracy Base
     group: Piratez - Terrain
+  - type: TECBASE02E
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02M
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02N
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02NE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02NW
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02S
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02SE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02SW
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE02W
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04E
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04N
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04NE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04NW
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04S
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04SE
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04SW
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
+  - type: TECBASE04W
+    terrains: *TechnocracyBase
+    category: Technocracy Base
+    group: Piratez - Terrain
 
 #----- Moonberia ---------------------------------------------------------------#
   - type: MOONBERIA0X0X
@@ -17612,6 +17695,22 @@ tilesets:
     category: Pirate Base
     group: Piratez - Terrain
   - type: XBR_139
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_148
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_149
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_150
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: XBR_151
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
@@ -20881,6 +20980,10 @@ tilesets:
     category: Lo-Tec Houses
     group: Piratez - Buildings
   - type: LT_HOUSE_04G
+    terrains: *LoTecHouses
+    category: Lo-Tec Houses
+    group: Piratez - Buildings
+  - type: LT_HOUSE_05G
     terrains: *LoTecHouses
     category: Lo-Tec Houses
     group: Piratez - Buildings
