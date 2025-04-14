@@ -6692,6 +6692,14 @@ tilesets:
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
+  - type: COMRCURBAN53
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN54
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
   - type: COMRCURBAN_HOBBZ06
     terrains: *Commercial
     category: Commercial
@@ -20884,6 +20892,10 @@ tilesets:
     terrains: *ChurchBuildings
     category: Church Outposts
     group: Piratez - Buildings
+  - type: CSHOUSE_03
+    terrains: *ChurchBuildings
+    category: Church Outposts
+    group: Piratez - Buildings
 
 #----- Stone Age --------------------------------------------------------------#
   - type: MUTANTCAMPSMALL
@@ -20934,7 +20946,7 @@ tilesets:
   - type: LOKNARALTAR_0x
     terrains: &LokkNaarAltars
       - CAVEBLACK
-      - SIETCH
+      - SIETCHDOOM
       - CATACDECOR
       - LAVA
       - DUNGEON
