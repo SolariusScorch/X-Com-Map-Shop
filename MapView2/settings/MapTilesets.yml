@@ -3783,6 +3783,14 @@ tilesets:
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO25
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO26
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
   - type: INDUSTRIALSLUM19XCOM
     terrains: *IndustrialSlum
     category: Industrial Slum
