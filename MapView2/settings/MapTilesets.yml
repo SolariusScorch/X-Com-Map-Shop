@@ -10136,6 +10136,10 @@ tilesets:
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_36
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
   - type: CATACOMBS_DIABLO_00
     terrains: *Catacombs
     category: Catacombs
@@ -14317,6 +14321,10 @@ tilesets:
     category: Mansion
     group: UFO - Buildings
   - type: D_TAVERN
+    terrains: *Atrium
+    category: Mansion
+    group: UFO - Buildings
+  - type: D_HILHOTEL
     terrains: *Atrium
     category: Mansion
     group: UFO - Buildings
@@ -19999,6 +20007,18 @@ tilesets:
     group: Piratez - Ships
   - type: VES_POL_5
     terrains: *MegapolVessels
+    category: Megapol Vessels
+    group: Piratez - Ships
+  - type: LUX_AEROCAR_VIP
+    terrains:
+      - C_EXT_ENGINE_S_BLACK
+      - C_EXT_NOSE_BLACK
+      - C_EXT_NOSE_BUMPLESS_BLACK
+      - C_EXT_NOSE_SIDE_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_WALL_BLACK
+      - C_EXT_XCOM_BLACK
+      - C_INT_HALF
     category: Megapol Vessels
     group: Piratez - Ships
     
