@@ -4202,6 +4202,10 @@ tilesets:
     terrains: *Urban
     category: Urban
     group: UFO - Terrain
+  - type: URBANDIOHUGE00
+    terrains: *Urban
+    category: Urban
+    group: UFO - Terrain
 
 #----- Village ----------------------------------------------------------------#
   - type: VILBAN00
