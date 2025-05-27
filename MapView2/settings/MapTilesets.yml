@@ -6712,6 +6712,18 @@ tilesets:
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
+  - type: COMRCURBAN55
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBANHUGE01
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBANHUGE02
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
   - type: COMRCURBAN_HOBBZ06
     terrains: *Commercial
     category: Commercial
@@ -10868,6 +10880,10 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFOHUGEDIO37
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTROAD_WE
     terrains: *Port
     category: Port
@@ -13372,6 +13388,10 @@ tilesets:
     category: Mount BD
     group: UFO - Terrain
   - type: MOUNTBDSOLHUGE00
+    terrains: *MountBD
+    category: Mount BD
+    group: UFO - Terrain
+  - type: MOUNTBDDIO01
     terrains: *MountBD
     category: Mount BD
     group: UFO - Terrain
@@ -16116,6 +16136,10 @@ tilesets:
     category: Western Town
     group: Piratez - Terrain
   - type: WESTOWN_22
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_SALOON
     terrains: *WesternTown
     category: Western Town
     group: Piratez - Terrain
