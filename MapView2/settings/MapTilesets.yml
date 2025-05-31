@@ -14044,6 +14044,14 @@ tilesets:
       - BARN
     category: Misc Buildings
     group: UFO - Buildings
+  - type: MEYS_FARM_HOUSE_
+    terrains:
+      - FRNITURE
+      - URBAN
+      - CULTIVAT
+      - BARN
+    category: Misc Buildings
+    group: UFO - Buildings
   - type: PENTAGRAM_MEDIUM
     terrains:
       - PENTA
@@ -16172,6 +16180,10 @@ tilesets:
     category: Western Town
     group: Piratez - Terrain
   - type: WESTOWN_SALOON
+    terrains: *WesternTown
+    category: Western Town
+    group: Piratez - Terrain
+  - type: WESTOWN_JEFFERSON
     terrains: *WesternTown
     category: Western Town
     group: Piratez - Terrain
@@ -21025,6 +21037,10 @@ tilesets:
     terrains: *Bunkers
     category: Bunkers
     group: Piratez - Buildings
+  - type: ENEMYBUNKER_02
+    terrains: *Bunkers
+    category: Bunkers
+    group: Piratez - Buildings
   - type: LAREGBUNKER_00
     terrains: *Bunkers
     category: Bunkers
@@ -21228,6 +21244,25 @@ tilesets:
   - type: WASTEOUTPOST_10
     terrains: *WasteFactory
     category: Waste Factory
+    group: Piratez - Buildings
+
+#----- Sunken UFOs ------------------------------------------------------------#
+  - type: UFO_110SUNK0
+    terrains: &SunkenUFOs
+      - U_EXT02
+      - U_WALL02
+      - U_BITS
+      - UFOL83
+      - SEASAND6
+      - SEAWEEDS
+      - SEAROCKS
+      - SEADEBRIS6
+      - SEADEBRIS6EXT
+    category: Sunken UFOs
+    group: Piratez - Buildings
+  - type: UFO_120SUNK0
+    terrains: *SunkenUFOs
+    category: Sunken UFOs
     group: Piratez - Buildings
 
 #----- Space ------------------------------------------------------------------#
