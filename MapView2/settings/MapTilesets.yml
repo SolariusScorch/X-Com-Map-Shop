@@ -14917,6 +14917,81 @@ tilesets:
     category: Thule Base
     group: Piratez - Terrain
 
+#----- Desert Refinery --------------------------------------------------------#
+  - type: DSRTREFI_WE01
+    terrains: &DesertRefinery
+      - XOPSDESERT
+      - DESERTBITS
+      - XOPSDESERTRUINS
+      - RUSTSHACKS
+      - RUSTSHACKS2
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_NS01
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_XX01
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_01
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_02
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_03
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_04
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_05
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_06
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_07
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_08
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_09
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_10
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_11
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_12
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_13
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+  - type: DSRTREFI_14
+    terrains: *DesertRefinery
+    category: Desert Refinery
+    group: Piratez - Terrain
+
 #----- Urban Waste ------------------------------------------------------------#
   - type: URBANWASTE00
     terrains: &UrbanWaste
