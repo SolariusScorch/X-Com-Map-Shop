@@ -15739,6 +15739,14 @@ tilesets:
     terrains: *NukeCity
     category: Nuke City
     group: Piratez - Terrain
+  - type: NUKE20
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
+  - type: NUKE00HUGE
+    terrains: *NukeCity
+    category: Nuke City
+    group: Piratez - Terrain
 
 #----- Nuke Farm --------------------------------------------------------------#
   - type: NUKEFARM01
