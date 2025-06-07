@@ -10068,6 +10068,14 @@ tilesets:
       - DUNGEONEXTRA
     category: Catacombs
     group: UFO - Terrain
+  - type: CATACOMBS_00B
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_00C
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
   - type: CATACOMBS_01
     terrains: *Catacombs
     category: Catacombs
@@ -10181,6 +10189,10 @@ tilesets:
     category: Catacombs
     group: UFO - Terrain
   - type: CATACOMBS_36
+    terrains: *Catacombs
+    category: Catacombs
+    group: UFO - Terrain
+  - type: CATACOMBS_37
     terrains: *Catacombs
     category: Catacombs
     group: UFO - Terrain
