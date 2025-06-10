@@ -10635,6 +10635,10 @@ tilesets:
     terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
+  - type: ISLANDURBAN14
+    terrains: *IslandUrban
+    category: Island Urban
+    group: UFO - Terrain
   - type: ISLANDURBANDIO01
     terrains: *IslandUrban
     category: Island Urban
@@ -10643,7 +10647,11 @@ tilesets:
     terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
-  - type: ISLANDURBAN14
+  - type: ISLANDURBANDIO03
+    terrains: *IslandUrban
+    category: Island Urban
+    group: UFO - Terrain
+  - type: ISLANDURBANDIOHUGE00
     terrains: *IslandUrban
     category: Island Urban
     group: UFO - Terrain
