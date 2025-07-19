@@ -6497,6 +6497,10 @@ tilesets:
     terrains: *ChemTown
     category: Chem Town
     group: UFO - Terrain
+  - type: CHEMTOWNHUGE00
+    terrains: *ChemTown
+    category: Chem Town
+    group: UFO - Terrain
   - type: CHEMTOWNHUGE01
     terrains: *ChemTown
     category: Chem Town
@@ -6744,11 +6748,27 @@ tilesets:
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
+  - type: COMRCURBAN_MEY_04
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN_MEY_05
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
   - type: COMRCURBANHUGE01
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBANHUGE02
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBANHUGE03
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBANHUGE04
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
@@ -18164,8 +18184,7 @@ tilesets:
     group: UFO - Ships
   - type: LIGHTNI2
     terrains:
-      - LIGHTNIN
-      - U_WALL02
+      - LIGHTNI2
     category: XCom
     group: UFO - Ships
   - type: AVENGER
@@ -18426,7 +18445,7 @@ tilesets:
       - C_INT_HALF_XCOM
       - XBASEN_BEDS
       - C_EXT_GLASSWALL
-      - HYBRID_CRAFT
+      - HYBRID_CRAFT_XCOM
     category: XCom
     group: UFO - Ships
 
@@ -19069,7 +19088,7 @@ tilesets:
     terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
-  - type: FIGHTER09
+  - type: HEAVY_FIGHTER
     terrains: *UFOScout
     category: Fighter Ship
     group: UFO - Ships
@@ -19661,6 +19680,7 @@ tilesets:
       - MIB_WALL02
       - MIB_BITS
       - MIB_CRAFTBITS
+      - MIB_CRATE
       - MILTECH
     category: Men in Black
     group: UFO - Ships
@@ -20748,6 +20768,18 @@ tilesets:
       - DOORSSEC
     category: Pirate Vessels
     group: Piratez - Ships
+  - type: CHOPLIFTER
+    terrains:
+      - C_EXT_WALL_BLACK
+      - C_EXT_ROOF_BLACK
+      - C_EXT_ENGINE_S_BLACK
+      - C_INT_XCOM
+      - LIFTER
+      - C_EXT_TURRET_BLACK
+      - DOORSSEC
+      - UH_1B_HUEY
+    category: Pirate Vessels
+    group: Piratez - Ships
   - type: MI2400
     terrains:
       - C_EXT_WALL_RED
@@ -20899,6 +20931,51 @@ tilesets:
   - type: VES_R_030_XCOM
     terrains:
       - RET_SHIPS_XCOM
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: LOVEKEEPER
+    terrains: &LoveShips1
+      - C_INT_XCOM_GOLD
+      - C_EXT_WALL_PRPL
+      - C_EXT_ROOF_PRPL
+      - C_EXT_ENG_E_PRPL
+      - C_EXT_NOSE_SIDE_PRPL
+      - C_EXT_NOSE_PRPL
+      - C_EXT_NOSE_BUMPER_PRPL
+      - DOORS2
+      - DOORSSEC
+      - C_INT_ENGINE_E
+      - XBASEN_BEDS
+      - RET_BITS
+      - C_INT_HALF
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: LOVEDELIVERER
+    terrains: *LoveShips1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: LOVESEEKER
+    terrains: *LoveShips1
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: LOVEKICKER
+    terrains: &LoveShips2
+      - C_INT_XCOM_GOLD
+      - C_EXT_WALL_PRPL
+      - C_EXT_ROOF_PRPL
+      - C_EXT_ENG_E_PRPL
+      - C_EXT_NOSE_SIDE_PRPL
+      - C_EXT_NOSE_PRPL
+      - C_EXT_NOSE_BUMPER_PRPL
+      - DOORS2
+      - C_INT_ENGINE_E
+      - XBASEN_BEDS
+      - RET_BITS
+      - NINJATECH
+    category: Pirate Vessels
+    group: Piratez - Ships
+  - type: LOVEBITTER
+    terrains: *LoveShips2
     category: Pirate Vessels
     group: Piratez - Ships
 
