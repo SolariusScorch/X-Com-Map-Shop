@@ -528,6 +528,18 @@ tilesets:
       - VOLC
     category: Volcano
     group: TFTD - Terrain
+  - type: VOLC01
+    terrains: *VolcanicTFTD
+    category: Volcano
+    group: TFTD - Terrain
+  - type: VOLC02
+    terrains: *VolcanicTFTD
+    category: Volcano
+    group: TFTD - Terrain
+  - type: VOLC03
+    terrains: *VolcanicTFTD
+    category: Volcano
+    group: TFTD - Terrain
   - type: VOLC04
     terrains: *VolcanicTFTD
     category: Volcano
@@ -544,15 +556,11 @@ tilesets:
     terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
-  - type: VOLC01
+  - type: VOLC08
     terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
-  - type: VOLC02
-    terrains: *VolcanicTFTD
-    category: Volcano
-    group: TFTD - Terrain
-  - type: VOLC03
+  - type: VOLC09
     terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
@@ -561,14 +569,6 @@ tilesets:
     category: Volcano
     group: TFTD - Terrain
   - type: VOLC11
-    terrains: *VolcanicTFTD
-    category: Volcano
-    group: TFTD - Terrain
-  - type: VOLC08
-    terrains: *VolcanicTFTD
-    category: Volcano
-    group: TFTD - Terrain
-  - type: VOLC09
     terrains: *VolcanicTFTD
     category: Volcano
     group: TFTD - Terrain
@@ -8214,6 +8214,58 @@ tilesets:
     category: Coral
     group: UFO - Terrain
 
+#----- Sea Volcano ------------------------------------------------------------#
+  - type: VOLC00
+    terrains: &UnderseaVolcano
+      - SEASAND
+      - SEAVOLC
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC01
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC02
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC03
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC04
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC05
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC06
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC07
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC08
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC09
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC10
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+  - type: VOLC11
+    terrains: *UnderseaVolcano
+    category: Undersea Volcano
+    group: UFO - Terrain
+
 #----- Underwater City --------------------------------------------------------#
   - type: UCITY00
     terrains: &UnderseaCity
@@ -14661,7 +14713,7 @@ tilesets:
 
 #----- Underwater Structures --------------------------------------------------#
   - type: USOLANDINGPAD
-    terrains:
+    terrains: &AquatoidBuildings
       - USOEXT2
       - USOEXT3
       - SEAORGANIC1
@@ -14671,23 +14723,15 @@ tilesets:
     category: Underwater Structures
     group: UFO - Buildings
   - type: AQUATOIDOFFICE
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
+    terrains: *AquatoidBuildings
     category: Underwater Structures
     group: UFO - Buildings
   - type: TLETHEMBASSY
-    terrains:
-      - USOEXT2
-      - USOEXT3
-      - SEAORGANIC1
-      - SEAORGANIC2
-      - SEAORGANIC3
-      - SEANOM
+    terrains: *AquatoidBuildings
+    category: Underwater Structures
+    group: UFO - Buildings
+  - type: VOLCANOFARM
+    terrains: *AquatoidBuildings
     category: Underwater Structures
     group: UFO - Buildings
   - type: MOLECULAREMITTER
@@ -21050,6 +21094,10 @@ tilesets:
     terrains: *AcademyBuildings
     category: Academy Outposts
     group: Piratez - Buildings
+  - type: HTHOUSE_00C
+    terrains: *AcademyBuildings
+    category: Academy Outposts
+    group: Piratez - Buildings
   - type: HTHOUSE_01
     terrains: *AcademyBuildings
     category: Academy Outposts
@@ -21579,12 +21627,16 @@ tilesets:
     category: Misc Buildings
     group: Piratez - Buildings
   - type: PRECINT
-    terrains:
+    terrains: &Precinct
       - ROADS
       - URBAN40K
       - INDUSLUM
       - XCARS_BLACK_CUT
       - JAILBITES
+    category: Misc Buildings
+    group: Piratez - Buildings
+  - type: PRECINT_MEY_01
+    terrains: *Precinct
     category: Misc Buildings
     group: Piratez - Buildings
   - type: TOTEM
