@@ -9589,7 +9589,6 @@ tilesets:
       - CYBERPIPES
       - SPECIALTYPE
       - COMPUTERS
-      - ALIEN_EGGS
     category: Warehouse
     group: UFO - Terrain
   - type: WARE_01
@@ -14121,14 +14120,6 @@ tilesets:
       - BARN
     category: Misc Buildings
     group: UFO - Buildings
-  - type: SCI_HOUSE
-    terrains:
-      - SCI_HOUSE
-      - SCI_HOUSE2
-      - FRNITURE
-      - LAMP_WALL
-    category: Misc Buildings
-    group: UFO - Buildings
   - type: HILL_BUNKER
     terrains:
       - FOREST
@@ -14705,7 +14696,7 @@ tilesets:
     terrains:
       - URBAN
       - URBITS
-      - URBAN_FLOOR
+      - URBAN_FLOOR_AETHER
       - XBASE2
       - XCOMBITS
     category: Cult
@@ -21648,6 +21639,104 @@ tilesets:
     group: Piratez - Buildings
 
 #----- Apocalypse - Terrain ---------------------------------------------------#
+#----- Alien Lair -------------------------------------------------------------#
+  - type: ULAIR_00
+    terrains: &AlienLair
+      - LIFTER_U
+      - U_NAV
+      - U_COLUMN
+      - U_COMPUTERS
+      - U_DOOR
+      - U_FOOD
+      - U_OPER2N
+      - U_POD
+      - U_VEINS
+      - ALIEN_EGGS
+      - U_WALL
+      - U_GRASS_PINK
+      - U_GRASS_PURP
+      - U_BITSN
+      - U_BITSN_2
+      - U_BASEN
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_01
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_02
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_03
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_04
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_05
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_06
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_07
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_08
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_09
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_10
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_11
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_12
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_13
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_14
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_15
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_16
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_17
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_18
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+  - type: ULAIR_19
+    terrains: *AlienLair
+    category: Alien Lair
+    group: Apocalypse - Terrain
+
 #----- Temple of Sirius -------------------------------------------------------#
   - type: CBASE_00
     terrains: &TempleOfSirius
@@ -21717,6 +21806,935 @@ tilesets:
   - type: CBASE_15
     terrains: *TempleOfSirius
     category: Temple of Sirius
+    group: Apocalypse - Terrain
+
+#----- Apartment --------------------------------------------------------------#
+  - type: APRT00
+    terrains: &Apartment
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - DOORS_APRT3
+      - DOORS_APRT1
+      - DOORS_APRT2
+      - FLOOR_CARPET_BY
+      - FLOOR_CARPET_DARKB
+      - LAMP_WALL
+      - TOILET
+      - URBAN_FLOOR
+      - APARTMENT_WALL
+      - APARTMENT
+      - FRN_MISC
+      - FRN_APRT
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT01
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT02
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT03
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT04
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT05
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT06
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT07
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT08
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT09
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT10
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT11
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT12
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT13
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT14
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT15
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT16
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT17
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT18
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT19
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT20
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT21
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT22
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+  - type: APRT23
+    terrains: *Apartment
+    category: Apartment
+    group: Apocalypse - Terrain
+
+#----- Luxury Apartment -----------------------------------------------------#
+  - type: LUXAPRT00
+    terrains: &LuxuryApartment
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - DOORS_LUX
+      - URBAN_WALL_BLUE
+      - TOILET
+      - URBAN_FLOOR
+      - URBAN_FLOOR_LUX
+      - URBAN_WALL
+      - STAIR_RED
+      - APARTMENT_LUX_WALL
+      - APARTMENT_LUXURY
+      - FRN_MISC
+      - FRN_PUB
+      - GARDEN_FLOOR
+      - FRN_APRT
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT01
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT02
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT03
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT04
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT05
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT06
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT07
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT08
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT09
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT10
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT11
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT12
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT13
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT14
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT15
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+  - type: LUXAPRT16
+    terrains: *LuxuryApartment
+    category: Luxury Apartment
+    group: Apocalypse - Terrain
+
+#----- Apocalypse Slum ------------------------------------------------------#
+  - type: SLUM_00
+    terrains: &ApocalypseSlum
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - TOILET_SLUM
+      - STAIR_METAL
+      - ROADSN
+      - WASTELAND_BITS
+      - DOORS_SLUM2
+      - SLUM_SHACK
+      - SLUM_WALL
+      - FRN_SLUM
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_01
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_02
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_03
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_04
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_05
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_06
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_07
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+  - type: SLUM_08
+    terrains: *ApocalypseSlum
+    category: Apocalypse Slum
+    group: Apocalypse - Terrain
+
+#----- Apocalypse Slumpark --------------------------------------------------#
+  - type: SLUMPARK_00_EW
+    terrains: &ApocalypseSlumpark
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - TOILET_SLUM
+      - STAIR_METAL
+      - ROADSN
+      - WASTELAND_BITS
+      - GARDEN_FLOOR
+      - GARDEN_VEG
+      - SLUM_SHACK
+      - SLUM_WALL
+      - SKIP
+      - CAR_DECREPIT
+      - FRN_SLUMPARK
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_01_SN
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_02_X
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_03
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_04
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_05
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_06
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_07
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_08
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_09
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_10
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_11
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_12
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_13
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_14
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_15
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_16
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_17
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_18
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+  - type: SLUMPARK_19
+    terrains: *ApocalypseSlumpark
+    category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+
+#----- Solar Plant ------------------------------------------------------------#
+  - type: SOLAR00
+    terrains: &SolarPlant
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - METAL_WALL
+      - STAIR_METAL
+      - DOORSSEC
+      - WASTELAND
+      - WASTELAND_SLOPE
+      - ROADSN
+      - SOLAR
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR01
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR02
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR03
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR04
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR05
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR06
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR07
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR08
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR09
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR10
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR11
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR12
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR13
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR14
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+  - type: SOLAR15
+    terrains: *SolarPlant
+    category: Solar Plant
+    group: Apocalypse - Terrain
+
+#----- Police Station ---------------------------------------------------------#
+  - type: POLICE00
+    terrains: &PoliceStation
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - LAMP_WALL
+      - DOORS1
+      - DOORSSEC
+      - DOORS_OFFICE
+      - METAL_WALL
+      - URBAN_FLOOR
+      - TOILET_ALT
+      - COMPUTERS2
+      - FRN_MISC
+      - OFFICE_POLICE
+      - FRN_BIG_TABLE
+      - FRN_OFFICE
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE01
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE02
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE03
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE04
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE05
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE06
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE07
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE08
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE09
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE10
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE11
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE12
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE13
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE14
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE15
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE16
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE17
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE18
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE19
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE20
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+  - type: POLICE21
+    terrains: *PoliceStation
+    category: Police Station
+    group: Apocalypse - Terrain
+
+#----- Corporation HQ ---------------------------------------------------------#
+  - type: HQ00
+    terrains: &CorporationHQ
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - DOORS_LUX
+      - STAIR_GOLD
+      - URBAN_FLOOR
+      - URBAN_FLOOR_LUX
+      - URBAN_WALL
+      - URBAN_WALL_BLUE
+      - URBAN_WALL_EXT
+      - TOILET_PUB
+      - FRN_MISC
+      - GARDEN_FLOOR
+      - STAIR_GOLD_NW
+      - GARDEN_SLOPE
+      - FRN_OFFICE
+      - OFFICE_LUX
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ01
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ02
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ03
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ04
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ05
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ06
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ07
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ08
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ09
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ10
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ11
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ12
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ13
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ14
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ15
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ16
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ17
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ18
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+  - type: HQ19
+    terrains: *CorporationHQ
+    category: Corporation HQ
+    group: Apocalypse - Terrain
+
+#----- Farm N -----------------------------------------------------------------#
+  - type: FARMN_00
+    terrains: &FarmN
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - STAIR_METAL
+      - TRACTOR
+      - CHANNEL
+      - FARMN_BITS
+      - FARMN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_01
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_02
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_03
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_04
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_05
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_06
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_07
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_08
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_09
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_10
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_11
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_12
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_13
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_14
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_15
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_16
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_17
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_18
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_19
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_20
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_21
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_22
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_23
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_24
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_25
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_26
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_27
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_28
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_29
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_30
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_31
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_32
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_33
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_34
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+  - type: FARMN_35
+    terrains: *FarmN
+    category: Farm N
+    group: Apocalypse - Terrain
+
+#----- Farm U -----------------------------------------------------------------#
+  - type: FARMU_00
+    terrains: &FarmU
+      - EXIT
+      - LIFTER_U
+      - ALIEN_EGGS
+      - FARMN_BITS
+      - U_POD
+      - U_VEINS
+      - U_WALL
+      - U_GRASS_PINK
+      - U_GRASS_PURP
+      - U_BITSN_2
+      - FARMU_BITS
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_01
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_02
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_03
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_04
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_05
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_06
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_07
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_08
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_09
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+  - type: FARMU_10
+    terrains: *FarmU
+    category: Farm U
+    group: Apocalypse - Terrain
+
+#----- Forest N ---------------------------------------------------------------#
+  - type: FORESTN00
+    terrains: &ForestN
+      - GARDEN_VEG
+      - FORESTN_SLOPE
+      - FORESTN
+      - FORESTN_BITS
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN01
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN02
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN03
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN04
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN05
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN06
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN07
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN08
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN09
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN10
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN11
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN12
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN13
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN14
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN15
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN16
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN17
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN18
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN19
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN20
+    terrains: *ForestN
+    category: Forest N
+    group: Apocalypse - Terrain
+  - type: FORESTN21
+    terrains: *ForestN
+    category: Forest N
     group: Apocalypse - Terrain
 
 #----- From The Ashes - Buildings ---------------------------------------------#
