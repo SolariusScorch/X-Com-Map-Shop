@@ -14443,6 +14443,20 @@ tilesets:
       - RET_SHIPS
     category: Cyberweb
     group: UFO - Buildings
+  - type: CYBERWEBFORTRESS_INFESTED
+    terrains:
+      - CYBER_DISEC2
+      - CYBER_BASE
+      - RET_SHIPS
+      - U_COLUMN
+      - U_COMPUTERS
+      - U_FOOD
+      - U_POD
+      - U_VEINS
+      - U_GRASS_PURP
+      - U_BASEN
+    category: Cyberweb
+    group: UFO - Buildings
 
 #----- Mansion ----------------------------------------------------------------#
   - type: D_ATRIUM
@@ -21737,6 +21751,118 @@ tilesets:
     category: Alien Lair
     group: Apocalypse - Terrain
 
+#----- Apocalypse Wasteland ---------------------------------------------------#
+  - type: WLAND_00
+    terrains: &ApocalypseWasteland
+      - EXIT
+      - LIFTER
+      - ALIEN_EGGS
+      - GARDEN_VEG
+      - CAR_DECREPIT
+      - WASTELAND
+      - WASTELAND_SLOPE
+      - ROADSN
+      - WASTELAND_BITS
+      - SLUM_SHACK
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_01
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_02
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_03
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_04
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_05
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_06
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_07
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_08
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_09
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_10
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_11
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_12
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_13
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_14
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_15
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_16
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_17
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_18
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_19
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_20
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_21
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_22
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_23
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+  - type: WLAND_24
+    terrains: *ApocalypseWasteland
+    category: Apocalypse Wasteland
+    group: Apocalypse - Terrain
+
 #----- Temple of Sirius -------------------------------------------------------#
   - type: CBASE_00
     terrains: &TempleOfSirius
@@ -22150,6 +22276,216 @@ tilesets:
   - type: SLUMPARK_19
     terrains: *ApocalypseSlumpark
     category: Apocalypse Slumpark
+    group: Apocalypse - Terrain
+
+#----- Warehouse -------------------------------------------------------------#
+  - type: WARE_00
+    terrains: &ApocalypseWarehouse
+      - WAREAN
+      - WAREBITS
+      - CRATES
+      - LIFTER
+      - DOORS1
+      - DOORSSEC
+      - PIPES
+      - SPECIALTYPE
+      - COMPUTERS
+      - ALIEN_EGGS
+      - EXIT
+      - STAIR_METAL
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_01
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_02
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_03
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_04
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_05
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_06
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_07
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_08
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_09
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_10
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_11
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_12
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_13
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_14
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+  - type: WARE_15
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse
+    group: Apocalypse - Terrain
+
+#----- Warefactory -----------------------------------------------------------#
+  - type: WFACTORY_00
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_01
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_02
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_03
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_04
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_05
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_06
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_07
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_08
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_09
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_10
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_11
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_12
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_13
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_14
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+  - type: WFACTORY_15
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warefactory
+    group: Apocalypse - Terrain
+
+#----- Warehouse Plant -------------------------------------------------------#
+  - type: WAREMTL_00
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_01
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_02
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_03
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_04
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_05
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_06
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_07
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_08
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_09
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_10
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_11
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_12
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_13
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_14
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
+    group: Apocalypse - Terrain
+  - type: WAREMTL_15
+    terrains: *ApocalypseWarehouse
+    category: Apocalypse Warehouse Plant
     group: Apocalypse - Terrain
 
 #----- Solar Plant ------------------------------------------------------------#
@@ -22735,6 +23071,134 @@ tilesets:
   - type: FORESTN21
     terrains: *ForestN
     category: Forest N
+    group: Apocalypse - Terrain
+
+#----- X-Com Base N -----------------------------------------------------------#
+  - type: XBASEN_00 # access lift
+    terrains: &XBaseN
+      - XBASEN1
+      - XBASEN2
+      - DOORSSEC
+      - LIFTER
+      - XMEDBAY
+      - XBASEN3
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_01
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_01
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_02
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_03 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_04 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_05 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_06 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_07 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_08 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_09 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_10 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_11 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_12 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_13 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_14 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_15 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_16 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_17 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_18 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_19 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_20 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_21 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_22 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_23 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_24 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_25 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_26 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_27 
+    terrains: *XBaseN
+    category: X-Com Base
+    group: Apocalypse - Terrain
+  - type: XBASEN_28 
+    terrains: *XBaseN
+    category: X-Com Base
     group: Apocalypse - Terrain
 
 #----- From The Ashes - Buildings ---------------------------------------------#
