@@ -14716,6 +14716,19 @@ tilesets:
     category: Cult
     group: UFO - Buildings
 
+#----- Underground Structures -------------------------------------------------#
+  - type: ALIEN_CAVE_01
+    terrains: &DimensionXCave
+      - CAVEBLACK
+      - XCOMEXIT
+      - ALIEN_EGGS_OLD
+      - U_GRASS_PURP
+      - U_GRASS_PINK
+      - U_FOOD
+      - U_PLANET
+    category: Underground Structures
+    group: UFO - Buildings
+
 #----- Underwater Structures --------------------------------------------------#
   - type: USOLANDINGPAD
     terrains: &AquatoidBuildings
