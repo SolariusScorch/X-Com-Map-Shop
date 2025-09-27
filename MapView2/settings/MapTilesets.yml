@@ -18239,6 +18239,11 @@ tilesets:
 
 #----- UFO - Ships ------------------------------------------------------------#
 #----- XCom -------------------------------------------------------------------#
+  - type: FIRESTORM
+    terrains:
+      - LIGHTNIN
+    category: XCom
+    group: UFO - Ships
   - type: LIGHTNIN
     terrains:
       - LIGHTNIN
@@ -18280,6 +18285,7 @@ tilesets:
       - PLANE_ALLOY
       - CRAFTBIT_ALLOY
       - AVENGER_NEW
+      - NOTHING
     category: XCom
     group: UFO - Ships
   - type: LANDER
