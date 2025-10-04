@@ -11407,6 +11407,19 @@ tilesets:
     terrains: *LuxuryLiner
     category: Luxury Liner
     group: UFO - Terrain
+  - type: LINERT00_MIB
+    terrains:
+      - SEAURBAN
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+      - DECKSHIPC
+      - LIFTER
+      - BATHBITZ_HT
+      - MIB_SEA
+    category: Luxury Liner
+    group: UFO - Terrain
 
 #----- Luxury Liner (small) ---------------------------------------------------#
   - type: LINERTS00
