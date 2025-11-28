@@ -2861,6 +2861,10 @@ tilesets:
     terrains: *AsylumWall
     category: Asylum Fence
     group: UFO - Terrain
+  - type: ASYLUM_FENCE_S03
+    terrains: *AsylumWall
+    category: Asylum Fence
+    group: UFO - Terrain
   - type: ASYLUM_FENCE_SE00
     terrains: *AsylumWall
     category: Asylum Fence
@@ -2955,6 +2959,10 @@ tilesets:
     terrains: *AsylumWall
     category: Mansion Wall
     group: UFO - Terrain
+  - type: MANSION_FENCE_S03
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
   - type: MANSION_FENCE_SE00
     terrains: *AsylumWall
     category: Mansion Wall
@@ -2976,6 +2984,18 @@ tilesets:
     category: Mansion Wall
     group: UFO - Terrain
   - type: MANSION_FENCE_S_GATE00
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S_GATE00_NOSPAWN
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S_GATE00_WIDE_NOSPAWN_LEFT
+    terrains: *AsylumWall
+    category: Mansion Wall
+    group: UFO - Terrain
+  - type: MANSION_FENCE_S_GATE00_WIDE_NOSPAWN_RIGHT
     terrains: *AsylumWall
     category: Mansion Wall
     group: UFO - Terrain
@@ -6041,7 +6061,7 @@ tilesets:
     group: UFO - Terrain
 
 #----- X-Com Base -------------------------------------------------------------#
-  - type: XBASE_00
+  - type: XBASE_00 # Access Lift
     terrains: &XBase
       - XBASE1
       - XBASE2
@@ -6049,283 +6069,275 @@ tilesets:
       - XCOMBITS
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_01
+  - type: XBASE_01 # Living Quarters
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_02
+  - type: XBASE_02 # Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_03
+  - type: XBASE_03 # Workshop
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_04
+  - type: XBASE_04 # Small Radar
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_05
+  - type: XBASE_05 # Large Radar
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_06
+  - type: XBASE_06 # Missile Defenses
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_07
+  - type: XBASE_07 # General Stores
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_08
+  - type: XBASE_08 # Alien Containment
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_09
+  - type: XBASE_09 # Laser Defenses
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_10
+  - type: XBASE_10 # Plasma Defenses
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_11
+  - type: XBASE_11 # Fusion Defenses
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_12
+  - type: XBASE_12 # Grav Shield
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_13
+  - type: XBASE_13 # Mind Shield
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_14
+  - type: XBASE_14 # Psi Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_15
+  - type: XBASE_15 # Hyper Wave Decoder
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_16
+  - type: XBASE_16 # Hangar 1
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_17
+  - type: XBASE_17 # Hangar 2
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_18
+  - type: XBASE_18 # Hangar 3
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_19
+  - type: XBASE_19 # Hangar 4
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_20
+  - type: XBASE_20 # Dirt
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASE_GOLLOB
+  - type: XBASS_01 # Living Quarters with Bathrooms
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_00
+  - type: XBASS_02 # Living Quarters 1
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_01
+  - type: XBASS_03 # Living Quarters 2
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_02
+  - type: XBASS_04 # Living Quarters 3
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_03
+  - type: XBASS_05 # Living Quarters 4
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_04
+  - type: XBASS_06 # Large General Stores 1
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_05
+  - type: XBASS_07 # Large General Stores 2
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_06
+  - type: XBASS_08 # Large General Stores 3
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_07
+  - type: XBASS_09 # Large General Stores 4
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_08
+  - type: XBASS_10 # no function
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_09
+  - type: XBASS_11 # Huge Lab 1
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_10
+  - type: XBASS_12 # Huge Lab 2
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_11
+  - type: XBASS_13 # Huge Lab 3
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_12
+  - type: XBASS_14 # Huge Lab 4
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_13
+  - type: XBASS_15 # Huge Lab 5
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_14
+  - type: XBASS_16 # Huge Lab 6
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_15
+  - type: XBASS_17 # Huge Lab 7
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_16
+  - type: XBASS_18 # Huge Lab 8
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_17
+  - type: XBASS_19 # Huge Lab 9
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_18
+  - type: XBASS_20 # no function
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_19
+  - type: XBASS_21 # Mass Driver Defenses
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_20
+  - type: XBASS_22 # HQ
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_21
+  - type: XBASS_23 # Gym
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_22
+  - type: XBASS_24 # Corridor
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_23
+  - type: XBASS_25 # Sick Bay
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_24
+  - type: XBASS_26 # Animal Cages
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_25
+  - type: XBASS_27 # Prison Cells
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_26
+  - type: XBASS_28 # Bio Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_27
+  - type: XBASS_29 # Intel Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_28
+  - type: XBASS_30 # Improved Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_29
+  - type: XBASS_31 # Advanced Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_30
+  - type: XBASS_32 # Ghost Tank
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_31
+  - type: XBASS_33 # Cyber HQ
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_32
+  - type: XBASS_34 # Minigun Drone Bay
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_33
+  - type: XBASS_35 # Laser Drone Bay
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_34
+  - type: XBASS_36 # Large Workshop 1
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_35
+  - type: XBASS_37 # Large Workshop 2
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_36
+  - type: XBASS_38 # Large Workshop 3
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_37
+  - type: XBASS_39 # Large Workshop 4
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_38
+  - type: XBASS_40 # Advanced Intel Lab
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_39
+  - type: XBASS_41 # Lunar Control
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_40
+  - type: XBASS_42 # Rat Farm
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_41
+  - type: XBASS_43 # Sensorium
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_42
+  - type: XBASS_44 # Plasma Drone Bay
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_43
+  - type: XBASS_45 # Tritanium Matrix
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_44
+  - type: XBASS_46 # Advanced Sick Bay
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_45
+  - type: XBASS_47 # Transdimensional Receiver
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
-  - type: XBASS_46
-    terrains: *XBase
-    category: X-Com Base
-    group: UFO - Terrain
-  - type: XBASS_47
-    terrains: *XBase
-    category: X-Com Base
-    group: UFO - Terrain
-  - type: XBASS_48
+  - type: XBASS_48 # Small Hangar
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
@@ -13800,6 +13812,19 @@ tilesets:
     category: Corporation Tower
     group: UFO - Terrain
 
+#----- Corporation Tower ------------------------------------------------------#
+  - type: CORPHQ_GROUND_AETHER
+    terrains: &CorporationAether
+      - CORP
+      - URBAN_FLOOR_AETHER
+      - XBASE2
+    category: Corporation Tower - Aether
+    group: UFO - Terrain
+  - type: CORPHQ_ROOF_AETHER
+    terrains: *CorporationAether
+    category: Corporation Tower - Aether
+    group: UFO - Terrain
+
 #----- Academy Tower ----------------------------------------------------------#
   - type: ACADEMY_BASE00
     terrains: *LotusBase
@@ -18028,6 +18053,22 @@ tilesets:
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
+  - type: YBR_WE_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
 
 #----- Space Freighter Command ------------------------------------------------#
   - type: FREIGHTERBASE_CENTER_TEMPLATE
@@ -18316,6 +18357,11 @@ tilesets:
   - type: DRAGONFLY
     terrains:
       - DRAGONFLY
+    category: XCom
+    group: UFO - Ships
+  - type: SCARAB_MIN
+    terrains:
+      - RAPIER
     category: XCom
     group: UFO - Ships
   - type: RAPIER
