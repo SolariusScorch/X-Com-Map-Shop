@@ -14930,6 +14930,14 @@ tilesets:
       - RITUALS
     category: Dark Rituals
     group: UFO - Buildings
+  - type: CRONE_STONES
+    terrains:
+      - FORESTMOUNT
+      - FOREST
+      - FORESTMOUNTBITS
+      - RITUALS
+    category: Dark Rituals
+    group: UFO - Buildings
   - type: RITUALCAVE_00
     terrains:
       - CAVEBLACK
