@@ -4810,106 +4810,106 @@ tilesets:
     category: Jungle Marsh
     group: UFO - Terrain
 
-#----- Arctic -----------------------------------------------------------------#
+#----- Polar -----------------------------------------------------------------#
   - type: POLAR00
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR01
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR02
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR03
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR04
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR05
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR06
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR07
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR08
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR09
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR10
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR11
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR12
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR13
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR14
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR15
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR16
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLAR17
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLARHUGE00
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
   - type: POLARHUGE01
     terrains:
       - POLAR
-    category: Arctic
+    category: Polar
     group: UFO - Terrain
 
 #----- Moon -------------------------------------------------------------------#
@@ -13722,6 +13722,10 @@ tilesets:
     terrains: *EndlessMansion
     category: Endless Mansion
     group: UFO - Terrain
+  - type: EMANS12
+    terrains: *EndlessMansion
+    category: Endless Mansion
+    group: UFO - Terrain
 
 #----- Corporation MiniTower --------------------------------------------------#
   - type: MINITOWER00
@@ -14880,6 +14884,15 @@ tilesets:
       - ROADS
       - MILTECH
       - HYBRID_INDUSLUM
+    category: Hybrids
+    group: UFO - Buildings
+  - type: HYBRIDSCHOOL
+    terrains:
+      - COLDISLE
+      - SEAURBAN
+      - COLDISLEB1
+      - COLDISLEB2
+      - MILBARR
     category: Hybrids
     group: UFO - Buildings
 
