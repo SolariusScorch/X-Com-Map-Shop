@@ -2603,6 +2603,10 @@ tilesets:
     terrains: *Nooberia
     category: Nooberia
     group: UFO - Terrain
+  - type: NOOBERIA_TANAKA
+    terrains: *Nooberia
+    category: Nooberia
+    group: UFO - Terrain
 
 #----- White Base -------------------------------------------------------------#
   - type: WHITEBASE_00
@@ -23299,6 +23303,20 @@ tilesets:
     terrains: *XBaseN
     category: X-Com Base
     group: Apocalypse - Terrain
+
+#----- X-Inc - Buildings ------------------------------------------------------#
+#----- Police -----------------------------------------------------------------#
+  - type: CYBERPUNK_PD01
+    terrains: &CyberpunkPolice
+      - XCOMENTRY
+      - CYBERPOLICE
+      - FUTUREPOLICECARS
+    category: Police
+    group: X-Inc - Buildings
+  - type: CYBERPUNK_PD02
+    terrains: *CyberpunkPolice
+    category: Police
+    group: X-Inc - Buildings
 
 #----- From The Ashes - Buildings ---------------------------------------------#
 #----- ADVENT -----------------------------------------------------------------#
