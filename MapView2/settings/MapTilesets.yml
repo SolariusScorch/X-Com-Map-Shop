@@ -6382,7 +6382,28 @@ tilesets:
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
+### add more here ###
+  - type: XBASS_61
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_62
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_63
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_64
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
   - type: XBASS_MEGAWAREHOSE
+    terrains: *XBase
+    category: X-Com Base
+    group: UFO - Terrain
+  - type: XBASS_TEMPGYM
     terrains: *XBase
     category: X-Com Base
     group: UFO - Terrain
@@ -18086,11 +18107,119 @@ tilesets:
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
+  - type: YBR_WE3_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE3_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE3_3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
   - type: YBR_NS_1
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
   - type: YBR_NS_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS3_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS3_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS3_3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_4
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_5
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE6_6
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_4
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_5
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_NS6_6
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_1
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_2
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_3
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_4
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_5
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_6
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_7
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_8
+    terrains: *PirateBase
+    category: Pirate Base
+    group: Piratez - Terrain
+  - type: YBR_WE9_9
     terrains: *PirateBase
     category: Pirate Base
     group: Piratez - Terrain
