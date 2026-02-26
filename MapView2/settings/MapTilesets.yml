@@ -5171,7 +5171,7 @@ tilesets:
 
 #----- Railyard ---------------------------------------------------------------#
   - type: RAILYARDURBAN00
-    terrains:
+    terrains: &Railyard
       - PORTROADS
       - PORTURBITS
       - ROADS
@@ -5180,255 +5180,115 @@ tilesets:
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN01
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN02
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN03
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN04
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN05
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN06
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN07
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN08
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN09
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN10
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN11
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN12
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN13
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN14
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN15
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN16
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN17
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN18
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN19
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN20
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN21
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN22
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN23
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN24
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN25
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN26
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN27
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
   - type: RAILYARDURBAN28
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Railyard
     group: UFO - Terrain
 
@@ -14391,12 +14251,7 @@ tilesets:
     category: Osiron
     group: UFO - Buildings
   - type: OSIRONWAREHOUSE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: Osiron
     group: UFO - Buildings
   - type: OSIRONHAVIRA_00
@@ -14416,12 +14271,7 @@ tilesets:
 
 #----- UAC --------------------------------------------------------------------#
   - type: APOCSMALLWAREHOUSE
-    terrains:
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - FRNITURE
+    terrains: *Railyard
     category: UAC
     group: UFO - Buildings
   - type: UACLAB
@@ -15932,6 +15782,163 @@ tilesets:
   - type: NUKE00HUGE
     terrains: *NukeCity
     category: Nuke City
+    group: Piratez - Terrain
+
+#----- Nuke Rural -------------------------------------------------------------#
+  - type: NUKE_RURAL_01
+    terrains: &NukeRural
+      - SHADSANDS
+      - SHADSANDS_BITS
+      - SHADSANDS_DECOR
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_02
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_03
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_04
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_05
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_06
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_07
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_08
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_09
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_10
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_11
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_12
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_13
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_14
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_15
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_16
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_17
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_18
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_01
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_02
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_03
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_04
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_05
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_06
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_07
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_BIG_08
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_01
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_02
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_03
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_04
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_05
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_06
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_07
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_H_08
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_HUGE_01
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_HUGE_02
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_HUGE_03
+    terrains: *NukeRural
+    category: Nuke Rural
+    group: Piratez - Terrain
+  - type: NUKE_RURAL_HUGE_04
+    terrains: *NukeRural
+    category: Nuke Rural
     group: Piratez - Terrain
 
 #----- Nuke Farm --------------------------------------------------------------#
