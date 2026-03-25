@@ -3510,6 +3510,10 @@ tilesets:
     terrains: *AlienBase
     category: Alien Base
     group: UFO - Terrain
+  - type: UBASE_TALL_HQ
+    terrains: *AlienBase
+    category: Alien Base
+    group: UFO - Terrain
   - type: UBASE_FILL_20X20
     terrains: *AlienBase
     category: Alien Base
@@ -3724,6 +3728,10 @@ tilesets:
     category: Industrial Slum
     group: UFO - Terrain
   - type: INDUSTRIALSLUMSOL10
+    terrains: *IndustrialSlum
+    category: Industrial Slum
+    group: UFO - Terrain
+  - type: INDUSTRIALSLUMDIO04
     terrains: *IndustrialSlum
     category: Industrial Slum
     group: UFO - Terrain
