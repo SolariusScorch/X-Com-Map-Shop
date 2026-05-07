@@ -1985,6 +1985,10 @@ tilesets:
     terrains: *Forest
     category: Forest
     group: UFO - Terrain
+  - type: SOLFOREST18
+    terrains: *Forest
+    category: Forest
+    group: UFO - Terrain
   - type: SOLFORESTHUGE00
     terrains: *Forest
     category: Forest
@@ -6650,6 +6654,18 @@ tilesets:
     category: Commercial
     group: UFO - Terrain
   - type: COMRCURBAN55
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN58
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN_MEY_01
+    terrains: *Commercial
+    category: Commercial
+    group: UFO - Terrain
+  - type: COMRCURBAN_MEY_02
     terrains: *Commercial
     category: Commercial
     group: UFO - Terrain
