@@ -10920,6 +10920,10 @@ tilesets:
     terrains: *Port
     category: Port
     group: UFO - Terrain
+  - type: PORTUFO37
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
   - type: PORTUFOHUGEDIO37
     terrains: *Port
     category: Port
