@@ -9737,6 +9737,10 @@ tilesets:
     terrains: *Sewers
     category: Sewers
     group: UFO - Terrain
+  - type: CYBERWEB_39
+    terrains: *Sewers
+    category: Sewers
+    group: UFO - Terrain
   - type: CYBERWEBDIO_00
     terrains: *Sewers
     category: Sewers
@@ -10921,6 +10925,22 @@ tilesets:
     category: Port
     group: UFO - Terrain
   - type: PORTUFO37
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFO38
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFOHUGE00
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFOHUGE01
+    terrains: *Port
+    category: Port
+    group: UFO - Terrain
+  - type: PORTUFOHUGE02
     terrains: *Port
     category: Port
     group: UFO - Terrain
@@ -12126,6 +12146,10 @@ tilesets:
     category: IDT Rice Farm
     group: UFO - Terrain
   - type: ALT_BARN_HUGE_00
+    terrains: *RiceFarmIDT
+    category: IDT Rice Farm
+    group: UFO - Terrain
+  - type: ALT_BARN_HUGE_01
     terrains: *RiceFarmIDT
     category: IDT Rice Farm
     group: UFO - Terrain
@@ -14658,6 +14682,13 @@ tilesets:
       - URBAN_FLOOR_AETHER
       - XBASE2
       - XCOMBITS
+    category: Cult
+    group: UFO - Buildings
+  - type: STORMLAB00
+    terrains:
+      - PORTROADS
+      - INDUSLUM
+      - MILINDUSTRIAL
     category: Cult
     group: UFO - Buildings
 
