@@ -14290,6 +14290,23 @@ tilesets:
       - VILFRNITURE
     category: Misc Buildings
     group: UFO - Buildings
+  - type: CULTHOUSE01_AGENT
+    terrains: &Culthouses
+      - CULTMIL
+      - CULTDECOR
+      - CULTEXTRA
+    category: Misc Buildings
+    group: UFO - Buildings
+  - type: WAREHOUSE_DEF_00
+    terrains:
+      - ROADS
+      - URBITS
+      - URBAN
+      - CRATES
+      - DOORSSEC
+      - OSIRON_FINNIK
+    category: Misc Buildings
+    group: UFO - Buildings
 
 #----- Osiron -----------------------------------------------------------------#
   - type: OSIRON_NEST_00
@@ -14524,10 +14541,7 @@ tilesets:
 
 #----- Cult -------------------------------------------------------------------#
   - type: CULTHOUSE00
-    terrains: &Culthouses
-      - CULTMIL
-      - CULTDECOR
-      - CULTEXTRA
+    terrains: *Culthouses
     category: Cult
     group: UFO - Buildings
   - type: CULTHOUSE01
